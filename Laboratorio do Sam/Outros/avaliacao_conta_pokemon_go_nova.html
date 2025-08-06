@@ -1,0 +1,168 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação Conta Pokémon GO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 20px;
+      max-width: 700px;
+    }
+    form label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    form label span {
+      flex: 1;
+      text-align: left;
+    }
+    input[type="text"],
+    input[type="number"] {
+      flex: 1;
+      margin-left: 20px;
+    }
+    .com-contorno {
+      color: black;
+      text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+    }
+  </style>
+  <script type="text/javascript">
+    function avaliar(){
+      var f = document.getElementById("formulario");
+
+      var xp = +f.xp.value;
+      var stardust = +f.stardust.value;
+      var pokecoin = +f.pokecoin.value;
+      var insignia = +f.insignia.value;
+      var espaco_pokemon = +f.espaco_pokemon.value;
+      var espaco_itens = +f.espaco_itens.value;
+      var masterball = +f.masterball.value;
+      var criada2016 = f.criada2016.checked ? 1 : 0;
+
+      var iv100 = +f.iv100.value;
+      var traje = +f.traje.value;
+      var regionais = +f.regionais.value;
+      var aves = +f.aves.value;
+      var gigantamax = +f.gigantamax.value;
+      var lendarios = +f.lendarios.value;
+      var ultra = +f.ultra.value;
+      var shiny = +f.shiny.value;
+      var mitico = +f.mitico.value;
+      var fundo = +f.fundo.value;
+      var efeito = +f.efeito.value;
+
+      var valor = (
+        xp * 0.00002 +
+        stardust * 0.0001 +
+        pokecoin * 0.02 +
+        insignia * 1 +
+        espaco_pokemon * 0.075 +
+        espaco_itens * 0.075 +
+        masterball * 15 +
+        criada2016 * 1 +
+
+        iv100 * 1.5 +
+        traje * 1 +
+        regionais * 1 +
+        aves * 2 +
+        gigantamax * 2 +
+        lendarios * 1.5 +
+        ultra * 1.5 +
+        shiny * 2 +
+        mitico * 1.25 +
+        fundo * 2 +
+        efeito * 2
+      );
+
+      f.valor_total.value = "R$ " + valor.toFixed(2);
+      f.valor_venda.value = "R$ " + (valor * 0.35).toFixed(2);
+    }
+  </script>
+</head>
+<body>
+  <form id="formulario">
+    <fieldset>
+      <legend><span class="com-contorno">Avaliação Conta Pokémon GO</span></legend>
+
+      <label><span class="com-contorno">Pontos de Experiência (XP):</span>
+        <input type="number" name="xp"></label>
+
+      <label><span class="com-contorno">Stardust:</span>
+        <input type="number" name="stardust"></label>
+
+      <label><span class="com-contorno">Pokecoin:</span>
+        <input type="number" name="pokecoin"></label>
+
+      <label><span class="com-contorno">Insígnias de evento:</span>
+        <input type="number" name="insignia"></label>
+
+      <label><span class="com-contorno">Espaço de Pokémon:</span>
+        <input type="number" name="espaco_pokemon" value="300"></label>
+
+      <label><span class="com-contorno">Espaço de Itens:</span>
+        <input type="number" name="espaco_itens" value="350"></label>
+
+      <label><span class="com-contorno">Masterball:</span>
+        <input type="number" name="masterball"></label>
+
+      <label><span class="com-contorno">Conta criada em 2016:</span>
+        <input type="checkbox" name="criada2016"></label>
+
+      <hr>
+
+      <label><span class="com-contorno">100% IV:</span>
+        <input type="number" name="iv100"></label>
+
+      <label><span class="com-contorno">Traje:</span>
+        <input type="number" name="traje"></label>
+
+      <label><span class="com-contorno">Regionais:</span>
+        <input type="number" name="regionais"></label>
+
+      <label><span class="com-contorno">Aves de Galar:</span>
+        <input type="number" name="aves"></label>
+
+      <label><span class="com-contorno">Gigantamax:</span>
+        <input type="number" name="gigantamax"></label>
+
+      <label><span class="com-contorno">Lendários:</span>
+        <input type="number" name="lendarios"></label>
+
+      <label><span class="com-contorno">Ultracriaturas:</span>
+        <input type="number" name="ultra"></label>
+
+      <label><span class="com-contorno">Shiny:</span>
+        <input type="number" name="shiny"></label>
+
+      <label><span class="com-contorno">Mítico:</span>
+        <input type="number" name="mitico"></label>
+
+      <label><span class="com-contorno">Fundo Especial:</span>
+        <input type="number" name="fundo"></label>
+
+      <label><span class="com-contorno">Efeito de aventura:</span>
+        <input type="number" name="efeito"></label>
+
+      <label><span class="com-contorno">Valor total estimado:</span>
+        <input type="text" name="valor_total" disabled></label>
+
+      <label><span class="com-contorno">Valor de venda estimado:</span>
+        <input type="text" name="valor_venda" disabled></label>
+
+      <br><br>
+      <a href="#" onclick="avaliar();"><span class="com-contorno">Avaliar</span></a>
+    </fieldset>
+  </form>
+</body>
+</html>
