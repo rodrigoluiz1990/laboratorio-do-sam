@@ -1,0 +1,2075 @@
+{
+  "2025": {
+    "temporadas": [
+      {"titulo": "Dias Deslumbrantes",        "inicio": "2025-06-03T10:00:00",        "fim": "2025-09-02T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2025/05/delightful-days-season.jpg",        "link": "https://pokemongohub.net/post/guide/delightful-days/"},
+      {"titulo": "Poder e Proeza",        "inicio": "2025-03-04T10:00:00",        "fim": "2025-06-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2025/02/mighty-and-mastery-1068x636.jpg",        "link": "https://pokemongohub.net/post/guide/might-and-mastery-season/"},
+      {"titulo": "Destinos Entrelaçados",        "inicio": "2024-12-03T10:00:00",        "fim": "2025-03-04T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/11/season-of-dual-destiny.jpg",        "link": "https://pokemongohub.net/post/guide/dual-destiny-special-research-full-tasks-and-rewards-guide/"}
+    ],
+    "meses": {
+      "12": {
+        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },      
+      "11": {
+        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "ticket_Mes": { "titulo": "Passe Go: Agosto",  "inicio": "2025-08-05T10:00:00",  "fim": "2025-09-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/07/moltres-august-2025-go-pass-1068x600.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-august-2025-eggs-pedition-access/" },
+        "eventos": [
+          { "titulo": "Doce Enxame",  "data_inicio": "2025-08-03",  "hora_inicio": "12:00",  "data_fim": "2025-08-06",  "hora_fim": "12:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/pokemon-go-sweet-swarm-event-boosted-shiny-combee-and-shiny-swirlix/" },
+          { "titulo": "Companhias Aconchegantes",  "data_inicio": "2025-08-06",  "hora_inicio": "10:00",  "data_fim": "2025-08-12",  "hora_fim": "20:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/cozy-companions/" },
+          { "titulo": "Dias Deslumbrantes: A Invasão",  "data_inicio": "2025-08-11",  "hora_inicio": "12:00",  "data_fim": "2025-08-17",  "hora_fim": "24:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/delightful-days-taken-over-shadow-giratina-debut-shadow-kyogre-raids-and-more/" },
+          { "titulo": "Campeonato Mundial 2025 - Semana de Batalha GO",  "data_inicio": "2025-08-15",  "hora_inicio": "10:00",  "data_fim": "2025-08-17",  "hora_fim": "20:00",  "img": "https://upload.wikimedia.org/wikipedia/en/e/e8/Pok%C3%A9mon_World_Championships_logo.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-world-championships-2025-event-varsity-jacket-pikachu-and-special-moves/" },
+          { "titulo": "Céus Escuros",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-23",  "hora_fim": "24:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/pokemon-go-dark-skies/" },
+          { "titulo": "GO Fest 2025: Max Finale",  "data_inicio": "2025-08-23",  "hora_inicio": "10:00",  "data_fim": "2025-08-24",  "hora_fim": "18:00",  "img": "https://lh3.googleusercontent.com/CHiLerSuoMbkgE3xudtViAGP0O54zvDcewd8pyAEiEy46FW4f8PnFF-QpciXkr705LNgHcg-4fWqMLvFxsjrqvo8sCdG8wdc8wM=s0-e365",  "link": "https://pokemongohub.net/post/event/pokemon-go-fest-2025-max-finale/" },
+          { "titulo": "Litoral Ensolarado",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-08-31",  "hora_fim": "18:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "Dia de Pesquisa de Fóssil",  "data_inicio": "2025-08-02",  "hora_inicio": "14:00",  "data_fim": "2025-08-02",  "hora_fim": "17:00",  "img": "https://pbs.twimg.com/media/DZW453VX4AEyLBp.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-fossil-research-day/" },
+          { "titulo": "Dia de Chocar Ovos: Munchlax",  "data_inicio": "2025-08-09",  "hora_inicio": "11:00",  "data_fim": "2025-08-09",  "hora_fim": "17:00",  "img": "https://img.rankedboost.com/wp-content/uploads/2016/07/Pokemon-Go-Egg1.png",  "link": "https://pokemongohub.net/post/event/munchlax-hatch-day/" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: Rookidee",  "data_inicio": "2025-08-30",  "hora_inicio": "14:00",  "data_fim": "2025-08-30",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "https://pokemongohub.net/post/event/august-2025-rookidee/" }
+        ],
+        "raids": [
+          { "titulo": "Raid: Lugia",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/LUGIA" },
+          { "titulo": "Raid: Ho-Oh",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/HO_OH" },
+          { "titulo": "Raid: Necrozma",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
+          { "titulo": "Mega Raid: Ampharos",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/AMPHAROS_MEGA" },
+          { "titulo": "Mega Raid: Slowbro",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/SLOWBRO_MEGA" },
+          { "titulo": "Mega Raid: Pidgeot",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-25",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/PIDGEOT_MEGA" },
+          { "titulo": "Mega Raid: Salamance",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/SALAMENCE_MEGA" },
+          { "titulo": "Gigantamax: Butterfree",  "data_inicio": "2025-08-03",  "hora_inicio": "14:00",  "data_fim": "2025-08-03",  "hora_fim": "17:00",  "img": "https://static.mana.wiki/entry-icon-ZMKrLpVKxFsKqD8xmR-7Y.png?aspect_ratio=1%3A1&height=128&width=128",  "link": "https://www.pokebattler.com/raids/BUTTERFREE_GIGANTAMAX" },
+          { "titulo": "Raid Origem: Dialga e Palkia",  "data_inicio": "2025-08-10",  "hora_inicio": "14:00",  "data_fim": "2025-08-10",  "hora_fim": "17:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://pokemongohub.net/post/event/origin-dialga-palkia-raid-day-august-2025/" },
+          { "titulo": "Semana de Raid Sombrosa: Kyogre",  "data_inicio": "2025-08-16",  "hora_inicio": "06:00",  "data_fim": "2025-08-17",  "hora_fim": "21:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogShadowRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/KYOGRE_SHADOW_FORM" },
+          { "titulo": "Mega Raid: ?",  "data_inicio": "2025-08-31",  "hora_inicio": "14:00",  "data_fim": "2025-08-31",  "hora_fim": "17:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: Lugia",  "data_inicio": "2025-08-06",  "hora_inicio": "18:00",  "data_fim": "2025-08-06",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/LUGIA" },
+          { "titulo": "Hora Lendária: Ho-Oh",  "data_inicio": "2025-08-13",  "hora_inicio": "18:00",  "data_fim": "2025-08-13",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/HO_OH" },
+          { "titulo": "Hora Lendária: Necrozma",  "data_inicio": "2025-08-27",  "hora_inicio": "18:00",  "data_fim": "2025-08-27",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
+          { "titulo": "Hora Lendária: Zacian Coroado",  "data_inicio": "2025-08-21",  "hora_inicio": "18:00",  "data_fim": "2025-08-21",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/ZACIAN_CROWNED_SWORD_FORM" },
+          { "titulo": "Hora Lendária: Zamazenta Coroado",  "data_inicio": "2025-08-22",  "hora_inicio": "18:00",  "data_fim": "2025-08-22",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/ZAMAZENTA_CROWNED_SHIELD_FORM" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: Omanyte",  "data_inicio": "2025-08-04",  "hora_inicio": "18:00",  "data_fim": "2025-08-04",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "https://www.pokebattler.com/raids/OMANYTE/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Trubbish",  "data_inicio": "2025-08-11",  "hora_inicio": "18:00",  "data_fim": "2025-08-11",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "https://www.pokebattler.com/raids/TRUBBISH/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Chansey",  "data_inicio": "2025-08-25",  "hora_inicio": "18:00",  "data_fim": "2025-08-25",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "https://www.pokebattler.com/raids/CHANSEY/RAID_LEVEL_1_MAX" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: Swirlix",  "data_inicio": "2025-08-05",  "hora_inicio": "18:00",  "data_fim": "2025-08-05",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "https://db.pokemongohub.net/pokemon/684" },
+          { "titulo": "Hora do Holofote: Plusle e Minun",  "data_inicio": "2025-08-12",  "hora_inicio": "18:00",  "data_fim": "2025-08-12",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "https://db.pokemongohub.net/pokemon/311" },
+          { "titulo": "Hora do Holofote: Ralts",  "data_inicio": "2025-08-19",  "hora_inicio": "18:00",  "data_fim": "2025-08-19",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "https://db.pokemongohub.net/pokemon/280" },
+          { "titulo": "Hora do Holofote: Lechonk",  "data_inicio": "2025-08-26",  "hora_inicio": "18:00",  "data_fim": "2025-08-26",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "https://db.pokemongohub.net/pokemon/915" }
+        ]
+      },
+      "07": {
+        "ticket_Mes": { "titulo": "Passe Go: Julho",  "inicio": "2025-07-05T10:00:00",  "fim": "2025-08-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/zapdos-july-go-pass-1068x599.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-july-2025/" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "ticket_Mes": { "titulo": "Passe Go: Junho",  "inicio": "2025-06-05T10:00:00",  "fim": "2025-07-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/go-pass-june-1068x601.jpeg",  "link": "https://pokemongohub.net/post/guide/go-pass-june-2025/" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "ticket_Mes": { "titulo": "Passe Go: Maio",  "inicio": "2025-05-05T10:00:00",  "fim": "2025-06-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/04/gopassmaywall-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-may/" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "ticket_Mes": { "titulo": "Passe Go: Abril",  "inicio": "2025-04-05T10:00:00",  "fim": "2025-05-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/03/unnamed-2-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-april-2025-guide-all-200-rewards-tasks-and-deluxe-bonuses/" },
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2024": {
+    "temporadas": [
+	  {"titulo": "Destinos Entrelaçados",        "inicio": "2024-12-03T10:00:00",        "fim": "2025-03-04T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/11/season-of-dual-destiny.jpg",        "link": "https://pokemongohub.net/post/guide/dual-destiny-special-research-full-tasks-and-rewards-guide/"},
+	  {"titulo": "Força Max",        "inicio": "2024-09-03T10:00:00",        "fim": "2024-12-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/08/max-out-season-logo.webp",        "link": "https://pokemongohub.net/post/event/pokemon-go-max-out-season/"},
+	  {"titulo": "Céus Compartilhados",        "inicio": "2024-06-01T10:00:00",        "fim": "2024-09-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/05/shared-skies.jpg",        "link": "https://pokemongohub.net/post/guide/pokemon-go-shared-skies-season-spawns-events-bonuses/"},
+	  {"titulo": "Céus Compartilhados",        "inicio": "2024-03-01T10:00:00",        "fim": "2024-06-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/02/world-of-wonders-1068x612.webp",        "link": "https://pokemongohub.net/post/guide/world-of-wonders/"}
+    ],
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "max_monday": [
+          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2023": {
+    "temporadas": [
+	  {"titulo": "Viagens Atemporais",        "inicio": "2023-12-01T10:00:00",        "fim": "2024-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/11/season-of-timeless-travels.jpg",        "link": "https://pokemongohub.net/post/event/timeless-travels-season/"},
+	  {"titulo": "Aventuras de Montão",        "inicio": "2023-09-01T10:00:00",        "fim": "2023-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/08/adventures-abound-cover.jpg",        "link": "https://pokemongohub.net/post/guide/adventures-abound-season/"},
+	  {"titulo": "Joias Ocultas",        "inicio": "2023-06-01T10:00:00",        "fim": "2023-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/05/season-of-hidden-gems.jpeg",        "link": "https://pokemongohub.net/post/guide/season-hidden-gems/"},
+	  {"titulo": "Heróis em Ascensão",        "inicio": "2023-03-01T10:00:00",        "fim": "2023-06-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/02/rising-heroes.jpg",        "link": "https://pokemongohub.net/post/news/pokemon-go-season-10-rising-heroes/"}
+    ],
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2022": {
+    "temporadas": [
+	  {"titulo": "Desejos Míticos",        "inicio": "2022-12-01T10:00:00",        "fim": "2023-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/11/season-of-mythical-wishes.jpeg",        "link": "https://pokemongohub.net/post/guide/mythical-wishes-season/"},
+	  {"titulo": "Temporada de Luz",        "inicio": "2022-09-01T10:00:00",        "fim": "2022-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/08/Ooik5ck_6YQ-HD.jpg",        "link": "https://pokemongohub.net/post/event/season-of-light-guide/"},
+	  {"titulo": "Temporada de GO",        "inicio": "2022-06-01T10:00:00",        "fim": "2022-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/05/P_GO-RH4_1920x1080_W1.jpeg",        "link": "https://pokemongohub.net/post/event/season-of-go/"},
+	  {"titulo": "Temporada de Alola",        "inicio": "2022-03-01T10:00:00",        "fim": "2022-06-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/02/alola.png",        "link": "https://pokemongohub.net/post/event/the-season-of-alola-is-coming-to-pokemon-go/"}
+    ],
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2021": {
+    "temporadas": [
+	  {"titulo": "Temporada de Legado",        "inicio": "2021-12-01T10:00:00",        "fim": "2022-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2021/11/Screenshot-2021-11-29-at-22.09.29-1068x595.jpg",        "link": "https://pokemongohub.net/post/news/pokemon-go-season-of-heritage-teased/"},
+	  {"titulo": "Temporada de Travessura",        "inicio": "2021-09-01T10:00:00",        "fim": "2021-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2021/08/unnamed-2.jpg",        "link": "https://pokemongohub.net/post/event/welcome-to-the-season-of-mischief/"},
+	  {"titulo": "Temporada de Descobertas",        "inicio": "2021-06-01T10:00:00",        "fim": "2021-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2020/06/32-bit-android-discontinued-support.jpg",        "link": "https://pokemongohub.net/post/guide/season-of-discovery/"},
+	  {"titulo": "Temporada das Lendas",        "inicio": "2021-03-01T10:00:00",        "fim": "2021-06-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2021/02/season-of-legends.jpg",        "link": "https://pokemongohub.net/post/guide/season-of-legends-guide-raids-spawns-eggs-and-hemisphere-exclusives/"}
+    ],
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2020": {
+    "temporadas": [
+	  {"titulo": "Estação de Celebrações",        "inicio": "2020-12-01T10:00:00",        "fim": "2021-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2020/11/Press_Diving_Deeper_Still_Logo.png",        "link": "https://pokemongohub.net/post/guide/go-beyond-update/"}
+    ],
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2019": {
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ],
+        "spotlights": [
+          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://p337.info/pokemongo/img/custom/encounter.png",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raid_horas": [
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2018": {
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "pesquisas": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "community_day": [
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2017": {
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "09": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "08": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "07": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ],
+        "raids": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "06": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "05": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "04": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "03": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "02": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "01": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      }
+    }
+  },
+  "2016": {
+    "meses": {
+      "12": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "11": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      },
+      "10": {
+        "eventos": [
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8" />
+  <title>Raids Pokémon GO - Dias destacados com labels</title>
+  <style>
+
+    /* Estilo geral da página */
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #121212;
+      color: #121212;
+    }
+
+    /* Menu */
+    .navbar {
+      background-color: #1f1f1f;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 300px;      /* espaço entre logo e menu */
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .navbar .logo {
+      color: #fff;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      white-space: nowrap;      /* evita quebra da logo */
+    }
+
+    .navbar>ul {
+      display: flex;
+      gap: 20px;      /* diminui o espaço entre os links */
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .navbar ul li {
+      margin-left: 0px;      /* remove margem que separava mais ainda */
+    }
+
+    .navbar ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+      display: flex;
+      align-items: center;      /* alinha ícone e texto */
+      gap: 10px;      /* espaço entre ícone e texto */
+    }
+
+    .navbar ul li a:hover {
+      background-color: #333;
+      border-radius: 5px;
+    }
+
+    /* Responsivo: empilha em telas pequenas */
+    @media (max-width: 600px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .navbar ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+
+    /* Estilo base para dropdown */
+    .dropdown {
+      position: relative;
+    }
+
+    .dropdown-menu {
+      display: none;
+      flex-direction: column;      /* força vertical */
+      position: absolute;
+      background-color: #2a2a2a;
+      min-width: 160px;
+      top: 100%;
+      left: 0;
+      border-radius: 5px;
+      z-index: 999;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    }
+
+    /* Força os itens a se comportarem como blocos verticais */
+    .dropdown-menu li {
+      width: 100%;
+    }
+
+    /* Links dentro do submenu */
+    .dropdown-menu li a {
+      display: block;
+      padding: 10px 15px;
+      color: #fff;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    /* Hover no link do submenu */
+    .dropdown-menu li a:hover {
+      background-color: #444;
+    }
+
+    /* Mostrar dropdown ao passar o mouse */
+    .dropdown:hover .dropdown-menu {
+      display: flex;
+    }
+
+    h2 {
+      text-align: center;
+      color: #4CAF50;
+      margin-bottom: 20px;
+    }
+    .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      align-items: start;
+    }
+    .grupo {
+      background: #bee9ec;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    .grupo h3 {
+      margin-top: 0;
+      margin-bottom: 15px;
+      color: #4CAF50;
+      text-align: center;
+      border-bottom: 2px solid #4CAF50;
+      padding-bottom: 8px;
+    }
+    .pkm-item {
+      padding: 8px 10px;
+      border-bottom: 1px solid #ddd;
+      font-size: 0.95em;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .pkm-item:last-child {
+      border-bottom: none;
+    }
+    .pkm-nome {
+      font-weight: bold;
+      margin-right: 10px;
+      flex: 1 1 auto;
+    }
+    .pkm-nome a {
+      text-decoration: none;
+      color: #2a7ae2;
+    }
+    .pkm-nome a:hover {
+      text-decoration: underline;
+    }
+    .pkm-info {
+      font-size: 0.85em;
+      white-space: nowrap;
+      margin-left: 10px;
+      flex-shrink: 0;
+    }
+    /* Destaques dias */
+    .pkm-info.dias {
+      font-weight: bold;
+    }
+    .dias-positivo {
+      color: black;
+    }
+    .dias-zero {
+      color: blue;
+    }
+    .dias-negativo {
+      color: green;
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+</head>
+<body>
+
+  <!-- Espaço para o menu -->
+<div id="menu"></div>
+
+<!-- Script para carregar o menu -->
+<script>
+  fetch('../menu.html')
+    .then(response => response.text())
+    .then(html => {
+      document.getElementById('menu').innerHTML = html;
+    });
+</script>
+
+<!-- Menu carregado dinamicamente -->
+<div id="menu"></div>
+
+  <h2>Raids Pokémon GO</h2>
+  <div id="grupos" class="grid-container">Carregando...</div>
+
+  <script>
+    const excelUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSoZvSv7j6PmVqUq-RweVXOuS5S8RUE8y0aTew8rdxCWRLSxktA17alYPDgQBXHhMYR_VxRhGDHb2XC/pub?output=xlsx";
+
+    const colunasData = [1,5,9,13];
+    const gruposDefinidos = {
+      "Raids 5": [0,1,2],          
+      "Raids Mega": [4,5,6],       
+      "Gigantamax": [8,9,10],      
+      "Dinamax (Lendário)": [12,13,14]
+    };
+
+    function excelDateToJSDate(serial) {
+      if (typeof serial === "number") {
+        const utc_days  = Math.floor(serial - 25569);
+        const utc_value = utc_days * 86400;                                        
+        const date_info = new Date(utc_value * 1000);
+        const day = ("0" + date_info.getUTCDate()).slice(-2);
+        const month = ("0" + (date_info.getUTCMonth() + 1)).slice(-2);
+        const year = date_info.getUTCFullYear();
+        return `${day}/${month}/${year}`;
+      }
+      return serial;
+    }
+
+    function getHyperlink(sheet, cellAddress) {
+      const cell = sheet[cellAddress];
+      if (cell && cell.l && cell.l.Target) {
+        return cell.l.Target;
+      }
+      return null;
+    }
+
+    fetch(excelUrl)
+      .then(res => res.arrayBuffer())
+      .then(data => {
+        const workbook = XLSX.read(data, { type: "array" });
+        const sheetName = workbook.SheetNames[0];
+        const sheet = workbook.Sheets[sheetName];
+        const sheetData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+
+        const grupos = {};
+        for (const grupoNome in gruposDefinidos) {
+          grupos[grupoNome] = [];
+        }
+
+        for (let row = 2; row < sheetData.length; row++) {
+          for (const [grupoNome, colunas] of Object.entries(gruposDefinidos)) {
+            const nomeCol = colunas[0];
+            const ultimaCol = colunas.length > 1 ? colunas[1] : null;
+            const diasCol = colunas.length > 2 ? colunas[2] : null;
+
+            const nome = sheetData[row][nomeCol] || "";
+            if (!nome) continue;
+
+            const cellAddress = XLSX.utils.encode_cell({c: nomeCol, r: row});
+            const link = getHyperlink(sheet, cellAddress);
+
+            let ultimaRaw = ultimaCol !== null ? (sheetData[row][ultimaCol] || "") : "";
+            if (colunasData.includes(ultimaCol)) {
+              ultimaRaw = excelDateToJSDate(ultimaRaw);
+            }
+
+            let diasRaw = diasCol !== null ? (sheetData[row][diasCol] || "") : "";
+            const dias = (diasRaw === 0 || diasRaw === "0") ? "0" : diasRaw || "0";
+
+            grupos[grupoNome].push({ nome, link, ultima: ultimaRaw, dias });
+          }
+        }
+
+        let html = "";
+        for (const tipo in grupos) {
+          html += `<div class="grupo"><h3>${tipo}</h3>`;
+
+          grupos[tipo].forEach(pkm => {
+            const nomeHTML = pkm.link
+              ? `<a href="${pkm.link}" target="_blank" rel="noopener noreferrer">${pkm.nome}</a>`
+              : pkm.nome;
+
+            const diasNum = Number(pkm.dias);
+
+            let labelData = "Última:";
+            if (diasNum === 0) {
+              labelData = "Hoje:";
+            } else if (diasNum < 0) {
+              labelData = "Próxima:";
+            }
+
+            let diasClass = "pkm-info dias";
+            if (diasNum > 0) {
+              diasClass += " dias-positivo";
+            } else if (diasNum === 0) {
+              diasClass += " dias-zero";
+            } else if (diasNum < 0) {
+              diasClass += " dias-negativo";
+            }
+
+            html += `<div class="pkm-item">
+              <div class="pkm-nome">${nomeHTML}</div>
+              <div class="pkm-info">${labelData} ${pkm.ultima}</div>
+              <div class="${diasClass}">Dias: ${pkm.dias}</div>
+            </div>`;
+          });
+
+          html += `</div>`;
+        }
+
+        document.getElementById("grupos").innerHTML = html;
+      })
+      .catch(err => {
+        document.getElementById("grupos").innerText = "Erro ao carregar os dados.";
+        console.error(err);
+      });
+  </script>
+
+</body>
+</html>
