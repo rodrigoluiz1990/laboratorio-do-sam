@@ -1,17 +1,17 @@
 {
   "2025": {
-    "temporadas": [
+    "season": [
       {"titulo": "Dias Deslumbrantes",        "inicio": "2025-06-03T10:00:00",        "fim": "2025-09-02T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2025/05/delightful-days-season.jpg",        "link": "https://pokemongohub.net/post/guide/delightful-days/"},
       {"titulo": "Poder e Proeza",        "inicio": "2025-03-04T10:00:00",        "fim": "2025-06-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2025/02/mighty-and-mastery-1068x636.jpg",        "link": "https://pokemongohub.net/post/guide/might-and-mastery-season/"},
       {"titulo": "Destinos Entrelaçados",        "inicio": "2024-12-03T10:00:00",        "fim": "2025-03-04T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/11/season-of-dual-destiny.jpg",        "link": "https://pokemongohub.net/post/guide/dual-destiny-special-research-full-tasks-and-rewards-guide/"}
     ],
     "meses": {
       "12": {
-        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -21,7 +21,7 @@
           { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -32,21 +32,21 @@
         ]
       },      
       "11": {
-        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "2025-11-30",  "hora_inicio": "14:00",  "data_fim": "2025-11-30",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
         ],
         "raids": [
           { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -57,21 +57,21 @@
         ]
       },
       "10": {
-        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: ",  "data_inicio": "2025-10-12",  "hora_inicio": "14:00",  "data_fim": "2025-10-12",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
         ],
         "raids": [
           { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -82,24 +82,25 @@
         ]
       },
       "09": {
-        "ticket_Mes": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: Flabébé",  "data_inicio": "2025-09-14",  "hora_inicio": "14:00",  "data_fim": "2025-09-14",  "hora_fim": "17:00",  "img": "https://www.pngkey.com/png/full/19-194415_pokemon-go-community-day-logo-pokemon-go-png.png",  "link": "" }
         ],
         "raids": [
           { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" },
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
+          { "titulo": "Segundas Max: Pidove",  "data_inicio": "2025-09-01",  "hora_inicio": "18:00",  "data_fim": "2025-09-01",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" },
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://st.quantrimang.com/photos/image/2024/11/14/power-stop.png",  "link": "" }
         ],
         "spotlights": [
@@ -107,8 +108,8 @@
         ]
       },
       "08": {
-        "ticket_Mes": { "titulo": "Passe Go: Agosto",  "inicio": "2025-08-05T10:00:00",  "fim": "2025-09-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/07/moltres-august-2025-go-pass-1068x600.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-august-2025-eggs-pedition-access/" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: Agosto",  "inicio": "2025-08-05T10:00:00",  "fim": "2025-09-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/07/moltres-august-2025-go-pass-1068x600.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-august-2025-eggs-pedition-access/" },
+        "events": [
           { "titulo": "Doce Enxame",  "data_inicio": "2025-08-03",  "hora_inicio": "12:00",  "data_fim": "2025-08-06",  "hora_fim": "12:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/pokemon-go-sweet-swarm-event-boosted-shiny-combee-and-shiny-swirlix/" },
           { "titulo": "Companhias Aconchegantes",  "data_inicio": "2025-08-06",  "hora_inicio": "10:00",  "data_fim": "2025-08-12",  "hora_fim": "20:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/cozy-companions/" },
           { "titulo": "Dias Deslumbrantes: A Invasão",  "data_inicio": "2025-08-11",  "hora_inicio": "12:00",  "data_fim": "2025-08-17",  "hora_fim": "24:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/delightful-days-taken-over-shadow-giratina-debut-shadow-kyogre-raids-and-more/" },
@@ -117,7 +118,7 @@
           { "titulo": "GO Fest 2025: Max Finale",  "data_inicio": "2025-08-23",  "hora_inicio": "10:00",  "data_fim": "2025-08-24",  "hora_fim": "18:00",  "img": "https://lh3.googleusercontent.com/CHiLerSuoMbkgE3xudtViAGP0O54zvDcewd8pyAEiEy46FW4f8PnFF-QpciXkr705LNgHcg-4fWqMLvFxsjrqvo8sCdG8wdc8wM=s0-e365",  "link": "https://pokemongohub.net/post/event/pokemon-go-fest-2025-max-finale/" },
           { "titulo": "Litoral Ensolarado",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-08-31",  "hora_fim": "18:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "Dia de Pesquisa de Fóssil",  "data_inicio": "2025-08-02",  "hora_inicio": "14:00",  "data_fim": "2025-08-02",  "hora_fim": "17:00",  "img": "https://pbs.twimg.com/media/DZW453VX4AEyLBp.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-fossil-research-day/" },
           { "titulo": "Dia de Chocar Ovos: Munchlax",  "data_inicio": "2025-08-09",  "hora_inicio": "11:00",  "data_fim": "2025-08-09",  "hora_fim": "17:00",  "img": "https://img.rankedboost.com/wp-content/uploads/2016/07/Pokemon-Go-Egg1.png",  "link": "https://pokemongohub.net/post/event/munchlax-hatch-day/" }
         ],
@@ -137,7 +138,7 @@
           { "titulo": "Semana de Raid Sombrosa: Kyogre",  "data_inicio": "2025-08-16",  "hora_inicio": "06:00",  "data_fim": "2025-08-17",  "hora_fim": "21:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogShadowRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/KYOGRE_SHADOW_FORM" },
           { "titulo": "Mega Raid: ?",  "data_inicio": "2025-08-31",  "hora_inicio": "14:00",  "data_fim": "2025-08-31",  "hora_fim": "17:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogMegaRaidLogo.png?raw=true",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: Lugia",  "data_inicio": "2025-08-06",  "hora_inicio": "18:00",  "data_fim": "2025-08-06",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/LUGIA" },
           { "titulo": "Hora Lendária: Ho-Oh",  "data_inicio": "2025-08-13",  "hora_inicio": "18:00",  "data_fim": "2025-08-13",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/HO_OH" },
           { "titulo": "Hora Lendária: Necrozma",  "data_inicio": "2025-08-27",  "hora_inicio": "18:00",  "data_fim": "2025-08-27",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
@@ -157,11 +158,11 @@
         ]
       },
       "07": {
-        "ticket_Mes": { "titulo": "Passe Go: Julho",  "inicio": "2025-07-05T10:00:00",  "fim": "2025-08-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/zapdos-july-go-pass-1068x599.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-july-2025/" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: Julho",  "inicio": "2025-07-05T10:00:00",  "fim": "2025-08-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/zapdos-july-go-pass-1068x599.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-july-2025/" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -170,7 +171,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -181,11 +182,11 @@
         ]
       },
       "06": {
-        "ticket_Mes": { "titulo": "Passe Go: Junho",  "inicio": "2025-06-05T10:00:00",  "fim": "2025-07-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/go-pass-june-1068x601.jpeg",  "link": "https://pokemongohub.net/post/guide/go-pass-june-2025/" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: Junho",  "inicio": "2025-06-05T10:00:00",  "fim": "2025-07-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/go-pass-june-1068x601.jpeg",  "link": "https://pokemongohub.net/post/guide/go-pass-june-2025/" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -194,7 +195,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -205,11 +206,11 @@
         ]
       },
       "05": {
-        "ticket_Mes": { "titulo": "Passe Go: Maio",  "inicio": "2025-05-05T10:00:00",  "fim": "2025-06-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/04/gopassmaywall-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-may/" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: Maio",  "inicio": "2025-05-05T10:00:00",  "fim": "2025-06-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/04/gopassmaywall-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-may/" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -218,7 +219,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -229,11 +230,11 @@
         ]
       },
       "04": {
-        "ticket_Mes": { "titulo": "Passe Go: Abril",  "inicio": "2025-04-05T10:00:00",  "fim": "2025-05-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/03/unnamed-2-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-april-2025-guide-all-200-rewards-tasks-and-deluxe-bonuses/" },
-        "eventos": [
+        "go_pass": { "titulo": "Passe Go: Abril",  "inicio": "2025-04-05T10:00:00",  "fim": "2025-05-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/03/unnamed-2-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-april-2025-guide-all-200-rewards-tasks-and-deluxe-bonuses/" },
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -242,7 +243,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -253,10 +254,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -265,7 +266,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -276,10 +277,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -288,7 +289,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -299,10 +300,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -311,7 +312,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -324,7 +325,7 @@
     }
   },
   "2024": {
-    "temporadas": [
+    "season": [
 	  {"titulo": "Destinos Entrelaçados",        "inicio": "2024-12-03T10:00:00",        "fim": "2025-03-04T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/11/season-of-dual-destiny.jpg",        "link": "https://pokemongohub.net/post/guide/dual-destiny-special-research-full-tasks-and-rewards-guide/"},
 	  {"titulo": "Força Max",        "inicio": "2024-09-03T10:00:00",        "fim": "2024-12-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/08/max-out-season-logo.webp",        "link": "https://pokemongohub.net/post/event/pokemon-go-max-out-season/"},
 	  {"titulo": "Céus Compartilhados",        "inicio": "2024-06-01T10:00:00",        "fim": "2024-09-03T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2024/05/shared-skies.jpg",        "link": "https://pokemongohub.net/post/guide/pokemon-go-shared-skies-season-spawns-events-bonuses/"},
@@ -332,10 +333,10 @@
     ],
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -344,7 +345,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -355,10 +356,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -367,7 +368,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -378,10 +379,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -390,7 +391,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -401,10 +402,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -413,7 +414,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -424,10 +425,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -436,7 +437,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -447,10 +448,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -459,7 +460,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -470,10 +471,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -482,7 +483,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -493,10 +494,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -505,7 +506,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -516,10 +517,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -528,7 +529,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -539,10 +540,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -551,7 +552,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -562,10 +563,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -574,7 +575,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -585,10 +586,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -597,7 +598,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "max_monday": [
@@ -610,7 +611,7 @@
     }
   },
   "2023": {
-    "temporadas": [
+    "season": [
 	  {"titulo": "Viagens Atemporais",        "inicio": "2023-12-01T10:00:00",        "fim": "2024-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/11/season-of-timeless-travels.jpg",        "link": "https://pokemongohub.net/post/event/timeless-travels-season/"},
 	  {"titulo": "Aventuras de Montão",        "inicio": "2023-09-01T10:00:00",        "fim": "2023-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/08/adventures-abound-cover.jpg",        "link": "https://pokemongohub.net/post/guide/adventures-abound-season/"},
 	  {"titulo": "Joias Ocultas",        "inicio": "2023-06-01T10:00:00",        "fim": "2023-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2023/05/season-of-hidden-gems.jpeg",        "link": "https://pokemongohub.net/post/guide/season-hidden-gems/"},
@@ -618,10 +619,10 @@
     ],
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -630,7 +631,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -638,10 +639,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -650,7 +651,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -658,10 +659,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -670,7 +671,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -678,10 +679,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -690,7 +691,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -698,10 +699,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -710,7 +711,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -718,10 +719,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -730,7 +731,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -738,10 +739,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -750,7 +751,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -758,10 +759,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -770,7 +771,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -778,10 +779,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -790,7 +791,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -798,10 +799,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -810,7 +811,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -818,10 +819,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -830,7 +831,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -838,10 +839,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -850,7 +851,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -860,7 +861,7 @@
     }
   },
   "2022": {
-    "temporadas": [
+    "season": [
 	  {"titulo": "Desejos Míticos",        "inicio": "2022-12-01T10:00:00",        "fim": "2023-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/11/season-of-mythical-wishes.jpeg",        "link": "https://pokemongohub.net/post/guide/mythical-wishes-season/"},
 	  {"titulo": "Temporada de Luz",        "inicio": "2022-09-01T10:00:00",        "fim": "2022-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/08/Ooik5ck_6YQ-HD.jpg",        "link": "https://pokemongohub.net/post/event/season-of-light-guide/"},
 	  {"titulo": "Temporada de GO",        "inicio": "2022-06-01T10:00:00",        "fim": "2022-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2022/05/P_GO-RH4_1920x1080_W1.jpeg",        "link": "https://pokemongohub.net/post/event/season-of-go/"},
@@ -868,10 +869,10 @@
     ],
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -880,7 +881,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -888,10 +889,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -900,7 +901,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -908,10 +909,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -920,7 +921,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -928,10 +929,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -940,7 +941,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -948,10 +949,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -960,7 +961,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -968,10 +969,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -980,7 +981,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -988,10 +989,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1000,7 +1001,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1008,10 +1009,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1020,7 +1021,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1028,10 +1029,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1040,7 +1041,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1048,10 +1049,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1060,7 +1061,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1068,10 +1069,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1080,7 +1081,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1088,10 +1089,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1100,7 +1101,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1110,7 +1111,7 @@
     }
   },
   "2021": {
-    "temporadas": [
+    "season": [
 	  {"titulo": "Temporada de Legado",        "inicio": "2021-12-01T10:00:00",        "fim": "2022-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2021/11/Screenshot-2021-11-29-at-22.09.29-1068x595.jpg",        "link": "https://pokemongohub.net/post/news/pokemon-go-season-of-heritage-teased/"},
 	  {"titulo": "Temporada de Travessura",        "inicio": "2021-09-01T10:00:00",        "fim": "2021-12-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2021/08/unnamed-2.jpg",        "link": "https://pokemongohub.net/post/event/welcome-to-the-season-of-mischief/"},
 	  {"titulo": "Temporada de Descobertas",        "inicio": "2021-06-01T10:00:00",        "fim": "2021-09-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2020/06/32-bit-android-discontinued-support.jpg",        "link": "https://pokemongohub.net/post/guide/season-of-discovery/"},
@@ -1118,10 +1119,10 @@
     ],
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1130,7 +1131,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1138,10 +1139,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1150,7 +1151,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1158,10 +1159,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1170,7 +1171,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1178,10 +1179,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1190,7 +1191,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1198,10 +1199,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1210,7 +1211,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1218,10 +1219,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1230,7 +1231,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1238,10 +1239,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1250,7 +1251,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1258,10 +1259,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1270,7 +1271,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1278,10 +1279,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1290,7 +1291,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1298,10 +1299,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1310,7 +1311,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1318,10 +1319,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1330,7 +1331,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1338,10 +1339,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1350,7 +1351,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1360,15 +1361,15 @@
     }
   },
   "2020": {
-    "temporadas": [
+    "season": [
 	  {"titulo": "Estação de Celebrações",        "inicio": "2020-12-01T10:00:00",        "fim": "2021-03-01T10:00:00",        "img": "https://pokemongohub.net/wp-content/uploads/2020/11/Press_Diving_Deeper_Still_Logo.png",        "link": "https://pokemongohub.net/post/guide/go-beyond-update/"}
     ],
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1377,7 +1378,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1385,10 +1386,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1397,7 +1398,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1405,10 +1406,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1417,7 +1418,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1425,10 +1426,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1437,7 +1438,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1445,10 +1446,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1457,7 +1458,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1465,10 +1466,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1477,7 +1478,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1485,10 +1486,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1497,7 +1498,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1505,10 +1506,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1517,7 +1518,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1525,10 +1526,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1537,7 +1538,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1545,10 +1546,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1557,7 +1558,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1565,10 +1566,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1577,7 +1578,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1585,10 +1586,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1597,7 +1598,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1609,10 +1610,10 @@
   "2019": {
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1621,7 +1622,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1629,10 +1630,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1641,7 +1642,7 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ],
         "spotlights": [
@@ -1649,10 +1650,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1661,15 +1662,15 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1678,15 +1679,15 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1695,15 +1696,15 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1712,15 +1713,15 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1729,15 +1730,15 @@
         "raids": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raid_horas": [
+        "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogRaidLogo.png?raw=true",  "link": "" }
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1748,10 +1749,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1762,10 +1763,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1776,10 +1777,10 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1790,10 +1791,10 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1808,10 +1809,10 @@
   "2018": {
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1822,10 +1823,10 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1836,10 +1837,10 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1850,10 +1851,10 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1864,10 +1865,10 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1878,10 +1879,10 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1892,10 +1893,10 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1906,10 +1907,10 @@
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1920,10 +1921,10 @@
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1934,10 +1935,10 @@
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "pesquisas": [
+        "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1948,7 +1949,7 @@
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1959,7 +1960,7 @@
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "community_day": [
@@ -1974,7 +1975,7 @@
   "2017": {
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -1982,7 +1983,7 @@
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -1990,7 +1991,7 @@
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -1998,7 +1999,7 @@
         ]
       },
       "09": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -2006,7 +2007,7 @@
         ]
       },
       "08": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -2014,7 +2015,7 @@
         ]
       },
       "07": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raids": [
@@ -2022,32 +2023,32 @@
         ]
       },
       "06": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "05": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "04": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "03": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "02": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "01": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       }
@@ -2056,17 +2057,17 @@
   "2016": {
     "meses": {
       "12": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "11": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
       "10": {
-        "eventos": [
+        "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       }
