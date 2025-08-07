@@ -1,0 +1,142 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Avaliação Conta Pokémon GO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    fieldset {
+      border: 1px solid #ccc;
+      padding: 20px;
+      max-width: 600px;
+    }
+
+    form label {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+
+    form label span {
+      flex: 1;
+      text-align: left;
+    }
+
+    input[type="text"],
+    input[type="number"] {
+      flex: 1;
+      margin-left: 20px;
+    }
+
+    .com-contorno {
+      color: black;
+      text-shadow:
+        -1px -1px 0 white,
+         1px -1px 0 white,
+        -1px  1px 0 white,
+         1px  1px 0 white;
+    }
+  </style>
+
+  <script type="text/javascript">
+    function avaliar(){
+      var f = document.getElementById("formulario");
+
+      var xp = +f.xp.value;
+      var iv100 = +f.iv100.value;
+      var stardust = +f.stardust.value;
+      var traje = +f.traje.value;
+      var insignia = +f.insignia.value;
+      var regionais = +f.regionais.value;
+      var lendario = +f.lendario.value;
+      var shiny = +f.shiny.value;
+      var conta2016 = f.conta2016.checked ? 1.5 : 0;
+      var mitico = +f.mitico.value;
+      var exclusivo = +f.exclusivo.value;
+      var efeito = +f.efeito.value;
+      var espaco_pokemon = +f.espaco_pokemon.value;
+      var espaco_itens = +f.espaco_itens.value;
+
+      var valor = (
+        (xp * 0.00002) +
+        (iv100 * 1) +
+        (stardust * 0.00010) +
+        (traje * 1) +
+        (insignia * 1) +
+        (regionais * 1) +
+        (lendario * 5) +
+        (shiny * 10) +
+        (conta2016) +
+        (mitico * 5) +
+        (exclusivo * 1.2) +
+        (efeito * 1.2) +
+        (espaco_pokemon * 0.076) +
+        (espaco_itens * 0.076)
+      );
+
+      f.valor.value = valor.toFixed(2);
+    }
+  </script>
+</head>
+
+<body>
+  <form id="formulario">
+    <fieldset>
+      <legend><span class="com-contorno">Avaliar Conta</span></legend>
+
+      <label><span class="com-contorno">Pontos de experiência:</span>
+        <input type="text" name="xp"></label>
+
+      <label><span class="com-contorno">Pokémon 100% IV:</span>
+        <input type="number" name="iv100"></label>
+
+      <label><span class="com-contorno">Poeira estelar:</span>
+        <input type="text" name="stardust"></label>
+
+      <label><span class="com-contorno">Pokémons com traje:</span>
+        <input type="number" name="traje"></label>
+
+      <label><span class="com-contorno">Insígnias de evento:</span>
+        <input type="number" name="insignia"></label>
+
+      <label><span class="com-contorno">Regionais exclusivos:</span>
+        <input type="number" name="regionais"></label>
+
+      <label><span class="com-contorno">Lendários:</span>
+        <input type="number" name="lendario"></label>
+
+      <label><span class="com-contorno">Shiny:</span>
+        <input type="number" name="shiny"></label>
+
+      <label><span class="com-contorno">Conta criada em 2016:</span>
+        <input type="checkbox" name="conta2016"></label>
+
+      <label><span class="com-contorno">Pokémons míticos:</span>
+        <input type="number" name="mitico"></label>
+
+      <label><span class="com-contorno">Pokémons de eventos exclusivos:</span>
+        <input type="number" name="exclusivo"></label>
+
+      <label><span class="com-contorno">Pokémons com efeito de aventura:</span>
+        <input type="number" name="efeito"></label>
+
+      <label><span class="com-contorno">Espaço de Pokémon:</span>
+        <input type="number" name="espaco_pokemon"></label>
+
+      <label><span class="com-contorno">Espaço de Itens:</span>
+        <input type="number" name="espaco_itens"></label>
+
+      <label><span class="com-contorno">Valor estimado:</span>
+        <input type="text" name="valor" disabled="disabled"></label>
+
+      <br>
+      <a href="#" onclick="avaliar();"><span class="com-contorno">Avaliar</span></a>
+    </fieldset>
+  </form>
+</body>
+</html>

@@ -1,0 +1,346 @@
+/* Estilo geral da página */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+/* Menu */
+.navbar {
+  background-color: #1f1f1f;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;      /* espaço entre logo e menu */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar .logo {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  white-space: nowrap;      /* evita quebra da logo */
+}
+
+.navbar>ul {
+  display: flex;
+  gap: 20px;      /* diminui o espaço entre os links */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar ul li {
+  margin-left: 0px;      /* remove margem que separava mais ainda */
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background 0.3s;
+  display: flex;
+  align-items: center;      /* alinha ícone e texto */
+  gap: 10px;      /* espaço entre ícone e texto */
+}
+
+.navbar ul li a:hover {
+  background-color: #333;
+  border-radius: 5px;
+}
+
+/* Responsivo: empilha em telas pequenas */
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+/* Estilo base para dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  flex-direction: column;      /* força vertical */
+  position: absolute;
+  background-color: #2a2a2a;
+  min-width: 160px;
+  top: 100%;
+  left: 0;
+  border-radius: 5px;
+  z-index: 999;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Força os itens a se comportarem como blocos verticais */
+.dropdown-menu li {
+  width: 100%;
+}
+
+/* Links dentro do submenu */
+.dropdown-menu li a {
+  display: block;
+  padding: 10px 15px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+/* Hover no link do submenu */
+.dropdown-menu li a:hover {
+  background-color: #444;
+}
+
+/* Mostrar dropdown ao passar o mouse */
+.dropdown:hover .dropdown-menu {
+  display: flex;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #1f1f1f;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 2px solid #ffcb05;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 28px;
+  color: #ffcb05;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  font-size: 22px;
+  color: #ccc;
+}
+
+/* Controles do calendário (botões e destaques) */
+.controls {
+  text-align: center;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.controls button {
+  background-color: #2a75bb;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.destaques-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Estilo das caixas de destaque (temporada e ticket) */
+.evento-destaque {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 220px;      /* Mesma largura fixa para ambas */
+  min-height: 160px;      /* Mesma altura mínima para padronizar */
+  vertical-align: top;
+  background-color: #1f1f1f;
+  color: #fff;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  margin: 0 10px;
+  text-align: center;
+}
+
+/* Imagem dentro do destaque */
+.evento-destaque img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-bottom: 6px;
+}
+
+/* Texto do horário dentro do destaque, menor e com cor clara */
+.evento-destaque .horario {
+  font-size: 12px;
+  color: #ccc;
+  margin-top: 4px;
+}
+
+.filtro-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background-color: #222;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 4px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+    user-select: none;
+  }
+  
+/* Check box dos filtros de categoria */
+.filtro-item:hover {
+  background-color: #333;
+}
+  
+.filtro-item input[type="checkbox"] {
+  display: none;
+}
+  
+.filtro-item img {
+  width: 20px;
+  height: 20px;
+  transition: opacity 0.3s;
+}
+  
+.filtro-item span {
+  transition: opacity 0.3s;
+}
+  
+.filtro-item:not(.ativo) img,
+.filtro-item:not(.ativo) span {
+  opacity: 0.5;
+}
+
+/* Labels dos dias da semana */
+.week-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  max-width: 1000px;      /* Alinha com o calendário */
+  margin: 10px auto 0 auto;
+  padding: 0 20px;
+  text-align: center;
+  color: #bbb;
+  font-weight: bold;
+}
+
+/* Container do calendário com grid de 7 colunas */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Cada célula do dia */
+.day-cell {
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  min-height: 110px;
+  padding: 6px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  overflow-y: auto;
+}
+
+/* Destaque sutil para o dia atual */
+.day-cell.hoje {
+  background-color: rgba(255, 255, 150, 0.20);      /* tom amarelado sutil */
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);      /* brilho leve dourado */
+  border-radius: 6px;
+}
+
+/* Destaque sutil para o evento buscado */
+.day-cell.encontrado {
+    border: 1px solid #00e5ff; /* cor ciano brilhante */
+    box-shadow: 0 0 3px #00e5ff88;
+    border-radius: 10px;
+  }
+
+/* Número do dia */
+.day-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #aaa;
+  margin-bottom: 4px;
+  align-self: flex-start;
+}
+
+/* Eventos dentro da célula */
+.event {
+  background-color: #2a2a2a;
+  border-radius: 8px;
+  padding: 4px;
+  margin: 4px 0;
+  text-align: center;
+  font-size: 11px;
+  width: 100%;
+  color: white;
+  box-sizing: border-box;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.event img {
+  max-width: 48px;
+  height: 24px;
+  display: block;
+  margin: 2px auto 2px auto;
+}
+
+/* Responsivo para telas pequenas */
+@media (max-width: 768px) {
+    .grid-container,
+    .week-labels {
+      grid-template-columns: repeat(7, minmax(120px, 1fr)); /* mantém 7 dias */
+      overflow-x: auto;
+      overflow-y: hidden;
+    }
+  
+    .grid-container {
+      display: grid;
+      gap: 10px;
+      padding-bottom: 10px;
+      width: max-content; /* faz o container se expandir horizontalmente */
+    }
+  
+    .week-labels {
+      width: max-content;
+      margin-bottom: 10px;
+    }
+  
+    /* Envolve os dois em uma div com overflow */
+    .calendar-wrapper {
+      overflow-x: auto;
+      padding: 0 10px;
+    }
+  }
