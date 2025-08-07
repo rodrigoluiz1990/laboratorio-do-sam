@@ -164,7 +164,7 @@ header p {
   flex-wrap: wrap;
 }
 
-/* Estilo das caixas de destaque (temporada e ticket) */
+/* Estilo das caixas de destaque (season e ticket) */
 .evento-destaque {
   display: flex;
   flex-direction: column;
