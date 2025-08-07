@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Códigos de Amizade
 
 https://www.fcswap.com/game/pokemon-go/
@@ -36,4 +37,44 @@ https://www.stadiumgaming.gg/rank-checker
 
 Shiny check list
 
+=======
+Códigos de Amizade
+
+https://www.fcswap.com/game/pokemon-go/
+
+Counters (raid)
+
+https://www.pokebattler.com/raids
+
+Ditto
+
+https://leekduck.com/FindDitto/
+
+Eventos
+
+https://leekduck.com/events/
+
+Equipe Rocket
+
+https://www.pokebattler.com/rocket
+
+Ovos
+
+https://leekduck.com/eggs/
+
+Pesquisas de campo
+
+https://leekduck.com/research/
+
+Ranking DPS/TDO
+
+https://gamepress.gg/pokemongo/comprehensive-dps-spreadsheet
+
+Ranking IV PVP
+
+https://www.stadiumgaming.gg/rank-checker
+
+Shiny check list
+
+>>>>>>> 31d8c54c9ac9580e630155c93d70af4f1e49e8c2
 https://leekduck.com/shiny/

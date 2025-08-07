@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <html>
 <head>
 <style>
@@ -104,3 +105,111 @@ function avaliar(){
 </form>
 </body>
 </html>
+=======
+<html>
+<head>
+<style>
+body {
+  font-family: Arial, sans-serif;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 20px;
+  max-width: 500px;
+}
+
+form label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+form label span {
+  flex: 1;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="number"] {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.com-contorno {
+  color: black;
+  text-shadow:
+    -1px -1px 0 white,
+     1px -1px 0 white,
+    -1px  1px 0 white,
+     1px  1px 0 white;
+}
+</style>
+
+<script type="text/javascript">
+function avaliar(){
+  var formulario = document.getElementById("formulario");
+  var xp = +formulario.xp.value;
+  var pe = +formulario.pe.value;
+  var pokecoin = +formulario.pokecoin.value;
+  var estoque = +formulario.estoque.value;
+  var bolsa = +formulario.bolsa.value;
+  var pokedex = +formulario.pokedex.value;
+  var brilhante = +formulario.brilhante.value;
+  var lendario = +formulario.lendario.value;
+  var mitico = +formulario.mitico.value;
+  var sortudo = +formulario.sortudo.value;
+
+  var valor = ((xp*0.00002) + (pe*0.00010) + (pokecoin*0.019) + ((estoque-300)*0.076) + ((bolsa-350)*0.076) + (pokedex*0.01) + (brilhante*15) + (lendario*10) + (mitico*5) + (sortudo*2)) * 0.4;
+  formulario.valor.value = valor.toFixed(2);
+}
+</script>
+</head>
+
+<body>
+<form id="formulario">
+<fieldset>
+<legend><span class="com-contorno">Avaliar Conta</span></legend>
+
+<label for="xp"><span class="com-contorno">Pontos de experiência:</span>
+<input type="text" name="xp" maxlength="9" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="pe"><span class="com-contorno">Poeira estelar:</span>
+<input type="text" name="pe" maxlength="9" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="pokecoin"><span class="com-contorno">Pokecoin:</span>
+<input type="text" name="pokecoin" maxlength="5" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="estoque"><span class="com-contorno">Estoque Pokémon:</span>
+<input type="number" name="estoque" min="300" max= "20000" placeholder="300" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="bolsa"><span class="com-contorno">Bolsa de itens:</span>
+<input type="number" name="bolsa" min="350" max= "20000" placeholder="350" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="pokedex"><span class="com-contorno">Pokedex:</span>
+<input type="text" name="pokedex" maxlength="4" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="brilhante"><span class="com-contorno">Brilhantes:</span>
+<input type="text" name="brilhante" maxlength="4" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="lendario"><span class="com-contorno">Lendários:</span>
+<input type="text" name="lendario" maxlength="4" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="mitico"><span class="com-contorno">Míticos:</span>
+<input type="text" name="mitico" maxlength="4" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="sortudo"><span class="com-contorno">Sortudos:</span>
+<input type="text" name="sortudo" maxlength="4" onkeypress="return event.charCode >= 48 && event.charCode <= 57"></label>
+
+<label for="valor"><span class="com-contorno">Valor estimado:</span>
+<input type="text" name="valor" disabled="disabled"></label>
+
+<br>
+<a href="#" onclick="avaliar();"><span class="com-contorno">Avaliar</span></a>
+
+</fieldset>
+</form>
+</body>
+</html>
+>>>>>>> 31d8c54c9ac9580e630155c93d70af4f1e49e8c2

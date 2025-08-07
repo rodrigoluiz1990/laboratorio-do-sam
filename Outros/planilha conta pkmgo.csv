@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Critério,Valor,Peso,Multiplicador,Pontuação
 Nível do Treinador,43,3,1,
 Pokémon 100% IV,12,2,1,
@@ -11,3 +12,18 @@ Conta criada em 2016,Sim,2,1.5,
 Pokémon míticos,4,2,1.2,
 Pokémon de eventos exclusivos,8,2,1.2,
 Pokémon com efeito de aventura,3,2,1.2
+=======
+Critério,Valor,Peso,Multiplicador,Pontuação
+Nível do Treinador,43,3,1,
+Pokémon 100% IV,12,2,1,
+Stardust,5300000,2,1,
+Pokémon com roupa de evento,7,1,1,
+Insígnias de evento exclusivas,4,1,1,
+Regionais exclusivos capturados,6,2,1,
+Lendários capturados,56,2,1,
+Shiny,35,1,1,
+Conta criada em 2016,Sim,2,1.5,
+Pokémon míticos,4,2,1.2,
+Pokémon de eventos exclusivos,8,2,1.2,
+Pokémon com efeito de aventura,3,2,1.2
+>>>>>>> 31d8c54c9ac9580e630155c93d70af4f1e49e8c2
