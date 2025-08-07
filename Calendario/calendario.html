@@ -31,10 +31,10 @@
   <div class="controls">
     <button onclick="mudarMes(-1)">&#8592; Mês Anterior</button>
 
-    <!-- Container para os destaques (temporada + ticket do mês) -->
+    <!-- Container para os destaques (season + ticket do mês) -->
     <div id="destaquesMes" class="destaques-container">
-      <div class="evento-destaque" id="eventoTemporada" style="display: none;"></div>
-      <div class="evento-destaque" id="ticket_Mes" style="display: none;"></div>
+      <div class="evento-destaque" id="eventoSeason" style="display: none;"></div>
+      <div class="evento-destaque" id="go_pass" style="display: none;"></div>
     </div>
 
     <button onclick="mudarMes(1)">Próximo Mês &#8594;</button>
@@ -67,22 +67,22 @@
   <script>
     // Mapeamento dos nomes amigáveis das categorias
     const nomesCategorias = {
-      eventos: 'Eventos',
-      pesquisas: 'Pesquisas',
+      events: 'Eventos',
+      research: 'Pesquisas',
       community_day: 'Dias da Comunidade',
       raids: 'Raids',
-      raid_horas: 'Horas Lendárias',
+      raid_hour: 'Horas Lendárias',
       max_monday: 'Segundas Max',
       spotlights: 'Hora do Holofote'
       // adicione outras categorias que usar
     };
 
     // Carregar eventos do mês para o calendário (várias categorias)
-    const categorias = ['eventos', 'pesquisas', 'community_day', 'raids', 'raid_horas', 'max_monday', 'spotlights'];
+    const categorias = ['events', 'research', 'community_day', 'raids', 'raid_hour', 'max_monday', 'spotlights'];
 
     // Data atual que o calendário mostra
     let dataAtual = new Date();    // Objeto para armazenar eventos por data
-    let eventos = {};
+    let events = {};
 
     // Função para formatar datas (dd/mm e hora:min)
     function formatarData(iso) {
@@ -142,7 +142,7 @@
       }
 
     // Função para carregar eventos do arquivo JSON
-    async function carregarEventos() {
+    async function carregarEvents() {
     try {
       let dados;
 
@@ -171,7 +171,7 @@
 
         dadosGlobais = dados; // armazena para busca global
 
-        eventos = {};
+        events = {};
 
         const anoStr = String(dataAtual.getFullYear());
         const mesStr = String(dataAtual.getMonth() + 1).padStart(2, '0');
@@ -179,47 +179,47 @@
         const primeiroDiaMes = new Date(dataAtual.getFullYear(), dataAtual.getMonth(), 1);
         const ultimoDiaMes = new Date(dataAtual.getFullYear(), dataAtual.getMonth() + 1, 0);
 
-        // Exibir destaque da temporada
-        const divTemporada = document.getElementById('eventoTemporada');
-        divTemporada.style.display = 'none';
+        // Exibir destaque da season
+        const divSeason = document.getElementById('eventoSeason');
+        divSeason.style.display = 'none';
 
-        if (dados[anoStr] && dados[anoStr].temporadas) {
-          const temporadaAtiva = dados[anoStr].temporadas.find(ev => {
+        if (dados[anoStr] && dados[anoStr].season) {
+          const seasonAtiva = dados[anoStr].season.find(ev => {
             const inicio = new Date(ev.inicio);
             const fim = new Date(ev.fim);
             return fim >= primeiroDiaMes && inicio <= ultimoDiaMes;
           });
-          if (temporadaAtiva) {
-            divTemporada.style.display = 'inline-block';
-            if (temporadaAtiva.link) {
-              divTemporada.innerHTML = `
-                <a href="${temporadaAtiva.link}" target="_blank" style="color: inherit; text-decoration: none;">
-                  <img src="${temporadaAtiva.img}" alt="">
-                  <strong>${temporadaAtiva.titulo}</strong><br>
-                  <span class="horario">(${formatarData(temporadaAtiva.inicio)} – ${formatarData(temporadaAtiva.fim)})</span>
+          if (seasonAtiva) {
+            divSeason.style.display = 'inline-block';
+            if (seasonAtiva.link) {
+              divSeason.innerHTML = `
+                <a href="${seasonAtiva.link}" target="_blank" style="color: inherit; text-decoration: none;">
+                  <img src="${seasonAtiva.img}" alt="">
+                  <strong>${seasonAtiva.titulo}</strong><br>
+                  <span class="horario">(${formatarData(seasonAtiva.inicio)} – ${formatarData(seasonAtiva.fim)})</span>
                 </a>
               `;
             } else {
-              divTemporada.innerHTML = `
-                <img src="${temporadaAtiva.img}" alt="">
-                <strong>${temporadaAtiva.titulo}</strong><br>
-                <span class="horario">(${formatarData(temporadaAtiva.inicio)} – ${formatarData(temporadaAtiva.fim)})</span>
+              divSeason.innerHTML = `
+                <img src="${seasonAtiva.img}" alt="">
+                <strong>${seasonAtiva.titulo}</strong><br>
+                <span class="horario">(${formatarData(seasonAtiva.inicio)} – ${formatarData(seasonAtiva.fim)})</span>
               `;
             }
           }
         }
 
         // Exibir destaque do ticket do mês
-        const divTicket = document.getElementById('ticket_Mes');
+        const divTicket = document.getElementById('go_pass');
         divTicket.style.display = 'none';
 
         if (
           dados[anoStr] &&
           dados[anoStr].meses &&
           dados[anoStr].meses[mesStr] &&
-          dados[anoStr].meses[mesStr].ticket_Mes
+          dados[anoStr].meses[mesStr].go_pass
         ) {
-          const ticket = dados[anoStr].meses[mesStr].ticket_Mes;
+          const ticket = dados[anoStr].meses[mesStr].go_pass;
           const inicioMes = new Date(dataAtual.getFullYear(), dataAtual.getMonth(), 1);
           const fimMes = new Date(dataAtual.getFullYear(), dataAtual.getMonth() + 1, 0);
 
@@ -297,9 +297,9 @@
                         }
                       })();
 
-                      if (!eventos[dataStr]) eventos[dataStr] = [];
+                      if (!events[dataStr]) events[dataStr] = [];
 
-                      eventos[dataStr].push({
+                      events[dataStr].push({
                         texto: {
                           titulo: ev.titulo,
                           horario: mostrarHorario
@@ -377,8 +377,8 @@
           }
 
         // Adicionar eventos do dia, se houver
-        if (eventos[dataStr]) {
-          eventos[dataStr].forEach(ev => {
+        if (events[dataStr]) {
+          events[dataStr].forEach(ev => {
             const div = document.createElement('div');
             div.classList.add('event');      // para aplicar o filtro
             div.setAttribute('data-categoria', ev.categoria);      // para o filtro saber a qual categoria pertence
@@ -410,7 +410,7 @@
     // Função para mudar o mês e recarregar eventos
     function mudarMes(delta) {
       dataAtual.setMonth(dataAtual.getMonth() + delta);
-      carregarEventos();
+      carregarEvents();
     }
 
     // Busca global simples: encontra o mês e ano do primeiro evento que contém o termo buscado
@@ -426,7 +426,7 @@
           if (!meses.hasOwnProperty(mes)) continue;
 
           // Categorias possíveis
-          const categorias = ['ticket_Mes', 'eventos', 'pesquisas', 'community_day', 'raids', 'raid_horas', 'max_monday', 'spotlights'];
+          const categorias = ['go_pass', 'events', 'research', 'community_day', 'raids', 'raid_hour', 'max_monday', 'spotlights'];
 
           for (const cat of categorias) {
             const lista = meses[mes][cat];
@@ -455,12 +455,12 @@
     const resultado = buscarEventoGlobalSimples(termoBusca);
     if (resultado) {
       dataAtual = new Date(resultado.ano, resultado.mes, 1);
-      carregarEventos();
+      carregarEvents();
     }
   });
 
     // Carrega os eventos na inicialização
-    carregarEventos().then(() => {
+    carregarEvents().then(() => {
       gerarCheckboxesCategorias(categorias);
       aplicarFiltroCategorias();
     });
