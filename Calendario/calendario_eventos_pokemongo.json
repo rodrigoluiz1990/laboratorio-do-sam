@@ -9,32 +9,31 @@
       "12": {
         "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
         ],
         "raid_mega": [
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
-          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -46,32 +45,31 @@
       "11": {
         "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
         ],
         "raid_mega": [
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
-          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -83,32 +81,31 @@
       "10": {
         "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
         ],
         "raid_mega": [
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
-          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -120,17 +117,16 @@
       "09": {
         "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
+          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
@@ -157,17 +153,17 @@
       "08": {
         "go_pass": { "titulo": "Passe Go: Agosto",  "inicio": "2025-08-05T10:00:00",  "fim": "2025-09-02T10:00:00",  "img": "../Assets/gopass-2025-08.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-august-2025-eggs-pedition-access/" },
         "events": [
-          { "titulo": "Doce Enxame",  "data_inicio": "2025-08-03",  "hora_inicio": "12:00",  "data_fim": "2025-08-06",  "hora_fim": "12:00",  "img": "../Assets/icon-event.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-sweet-swarm-event-boosted-shiny-combee-and-shiny-swirlix/" },
-          { "titulo": "Companhias Aconchegantes",  "data_inicio": "2025-08-06",  "hora_inicio": "10:00",  "data_fim": "2025-08-12",  "hora_fim": "20:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/cozy-companions/" },
-          { "titulo": "Dias Deslumbrantes: A Invasão",  "data_inicio": "2025-08-11",  "hora_inicio": "12:00",  "data_fim": "2025-08-17",  "hora_fim": "24:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/delightful-days-taken-over-shadow-giratina-debut-shadow-kyogre-raids-and-more/" },
-          { "titulo": "Campeonato Mundial 2025 - Semana de Batalha GO",  "data_inicio": "2025-08-15",  "hora_inicio": "10:00",  "data_fim": "2025-08-17",  "hora_fim": "20:00",  "img": "https://upload.wikimedia.org/wikipedia/en/e/e8/Pok%C3%A9mon_World_Championships_logo.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-world-championships-2025-event-varsity-jacket-pikachu-and-special-moves/" },
-          { "titulo": "Céus Escuros",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-23",  "hora_fim": "24:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "https://pokemongohub.net/post/event/pokemon-go-dark-skies/" },
-          { "titulo": "GO Fest 2025: Max Finale",  "data_inicio": "2025-08-23",  "hora_inicio": "10:00",  "data_fim": "2025-08-24",  "hora_fim": "18:00",  "img": "https://lh3.googleusercontent.com/CHiLerSuoMbkgE3xudtViAGP0O54zvDcewd8pyAEiEy46FW4f8PnFF-QpciXkr705LNgHcg-4fWqMLvFxsjrqvo8sCdG8wdc8wM=s0-e365",  "link": "https://pokemongohub.net/post/event/pokemon-go-fest-2025-max-finale/" },
-          { "titulo": "Litoral Ensolarado",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-08-31",  "hora_fim": "18:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Today%20View/TodayView_Icon_Event.png?raw=true",  "link": "" }
+          { "titulo": "Doce Enxame",  "data_inicio": "2025-08-03",  "hora_inicio": "12:00",  "data_fim": "2025-08-06",  "hora_fim": "12:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-sweet-swarm-event-boosted-shiny-combee-and-shiny-swirlix/" },
+          { "titulo": "Companhias Aconchegantes",  "data_inicio": "2025-08-06",  "hora_inicio": "10:00",  "data_fim": "2025-08-12",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/cozy-companions/" },
+          { "titulo": "Dias Deslumbrantes: A Invasão",  "data_inicio": "2025-08-11",  "hora_inicio": "12:00",  "data_fim": "2025-08-17",  "hora_fim": "24:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/delightful-days-taken-over-shadow-giratina-debut-shadow-kyogre-raids-and-more/" },
+          { "titulo": "Campeonato Mundial 2025 - Semana de Batalha GO",  "data_inicio": "2025-08-15",  "hora_inicio": "10:00",  "data_fim": "2025-08-17",  "hora_fim": "20:00",  "img": "../Assets/icon-world-championships.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-world-championships-2025-event-varsity-jacket-pikachu-and-special-moves/" },
+          { "titulo": "Céus Escuros",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-23",  "hora_fim": "24:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-dark-skies/" },
+          { "titulo": "GO Fest 2025: Max Finale",  "data_inicio": "2025-08-23",  "hora_inicio": "10:00",  "data_fim": "2025-08-24",  "hora_fim": "18:00",  "img": "../Assets/icon-go-fest-2025-max-finale.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-fest-2025-max-finale/" },
+          { "titulo": "Litoral Ensolarado",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-08-31",  "hora_fim": "18:00",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
           { "titulo": "Dia de Pesquisa de Fóssil",  "data_inicio": "2025-08-02",  "hora_inicio": "14:00",  "data_fim": "2025-08-02",  "hora_fim": "17:00",  "img": "../Assets/icon-research.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-fossil-research-day/" },
-          { "titulo": "Dia de Chocar Ovos: Munchlax",  "data_inicio": "2025-08-09",  "hora_inicio": "11:00",  "data_fim": "2025-08-09",  "hora_fim": "17:00",  "img": "https://img.rankedboost.com/wp-content/uploads/2016/07/Pokemon-Go-Egg1.png",  "link": "https://pokemongohub.net/post/event/munchlax-hatch-day/" }
+          { "titulo": "Dia de Chocar Ovos: Munchlax",  "data_inicio": "2025-08-09",  "hora_inicio": "11:00",  "data_fim": "2025-08-09",  "hora_fim": "17:00",  "img": "../Assets/icon-incubator.png",  "link": "https://pokemongohub.net/post/event/munchlax-hatch-day/" }
         ],
         "community_day": [
           { "titulo": "Dia da Comunidade: Rookidee",  "data_inicio": "2025-08-30",  "hora_inicio": "14:00",  "data_fim": "2025-08-30",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/august-2025-rookidee/" }
@@ -240,7 +236,7 @@
         ]
       },
       "06": {
-        "go_pass": { "titulo": "Passe Go: Junho",  "inicio": "2025-06-05T10:00:00",  "fim": "2025-07-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/06/go-pass-june-1068x601.jpeg",  "link": "https://pokemongohub.net/post/guide/go-pass-june-2025/" },
+        "go_pass": { "titulo": "Passe Go: Junho",  "inicio": "2025-06-05T10:00:00",  "fim": "2025-07-02T10:00:00",  "img": "../Assets/gopass-2025-06.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-june-2025/" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
@@ -264,7 +260,7 @@
         ]
       },
       "05": {
-        "go_pass": { "titulo": "Passe Go: Maio",  "inicio": "2025-05-05T10:00:00",  "fim": "2025-06-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/04/gopassmaywall-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-may/" },
+        "go_pass": { "titulo": "Passe Go: Maio",  "inicio": "2025-05-05T10:00:00",  "fim": "2025-06-02T10:00:00",  "img": "../Assets/gopass-2025-05.jpg",  "link": "https://pokemongohub.net/post/guide/pokemon-go-pass-may/" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
@@ -288,7 +284,7 @@
         ]
       },
       "04": {
-        "go_pass": { "titulo": "Passe Go: Abril",  "inicio": "2025-04-05T10:00:00",  "fim": "2025-05-02T10:00:00",  "img": "https://pokemongohub.net/wp-content/uploads/2025/03/unnamed-2-1068x601.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-april-2025-guide-all-200-rewards-tasks-and-deluxe-bonuses/" },
+        "go_pass": { "titulo": "Passe Go: Abril",  "inicio": "2025-04-05T10:00:00",  "fim": "2025-05-02T10:00:00",  "img": "../Assets/gopass-2025-04.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-april-2025-guide-all-200-rewards-tasks-and-deluxe-bonuses/" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
