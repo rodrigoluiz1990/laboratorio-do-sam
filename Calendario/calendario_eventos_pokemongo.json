@@ -17,12 +17,24 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "" }
+        "raid": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+        ],
+        "raid_mega": [
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "raid_shadow": [
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "dynamax": [
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "gigantamax": [
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -42,12 +54,24 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "" }
+        "raid": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+        ],
+        "raid_mega": [
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "raid_shadow": [
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "dynamax": [
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "gigantamax": [
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -67,12 +91,24 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "" }
+        "raid": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+        ],
+        "raid_mega": [
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "raid_shadow": [
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "dynamax": [
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "gigantamax": [
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -92,12 +128,24 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "" },
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "" }
+        "raid": [
+          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+        ],
+        "raid_mega": [
+          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "raid_shadow": [
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "dynamax": [
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "gigantamax": [
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -124,25 +172,36 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: Rookidee",  "data_inicio": "2025-08-30",  "hora_inicio": "14:00",  "data_fim": "2025-08-30",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/august-2025-rookidee/" }
         ],
-        "raids": [
-          { "titulo": "Raid: Lugia",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/LUGIA" },
-          { "titulo": "Raid: Ho-Oh",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/HO_OH" },
-          { "titulo": "Raid: Necrozma",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
-          { "titulo": "Mega Raid: Ampharos",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "https://www.pokebattler.com/raids/AMPHAROS_MEGA" },
-          { "titulo": "Mega Raid: Slowbro",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "https://www.pokebattler.com/raids/SLOWBRO_MEGA" },
-          { "titulo": "Mega Raid: Pidgeot",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-25",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "https://www.pokebattler.com/raids/PIDGEOT_MEGA" },
-          { "titulo": "Mega Raid: Salamance",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "../Assets/icon-raidmega.png",  "link": "https://www.pokebattler.com/raids/SALAMENCE_MEGA" },
-          { "titulo": "Gigantamax: Butterfree",  "data_inicio": "2025-08-03",  "hora_inicio": "14:00",  "data_fim": "2025-08-03",  "hora_fim": "17:00",  "img": "https://static.mana.wiki/entry-icon-ZMKrLpVKxFsKqD8xmR-7Y.png?aspect_ratio=1%3A1&height=128&width=128",  "link": "https://www.pokebattler.com/raids/BUTTERFREE_GIGANTAMAX" },
-          { "titulo": "Raid Origem: Dialga e Palkia",  "data_inicio": "2025-08-10",  "hora_inicio": "14:00",  "data_fim": "2025-08-10",  "hora_fim": "17:00",  "img": "../Assets/icon-raid5.png",  "link": "https://pokemongohub.net/post/event/origin-dialga-palkia-raid-day-august-2025/" },
-          { "titulo": "Semana de Raid Sombrosa: Kyogre",  "data_inicio": "2025-08-16",  "hora_inicio": "06:00",  "data_fim": "2025-08-17",  "hora_fim": "21:00",  "img": "https://github.com/PokeMiners/pogo_assets/blob/master/Images/Raids/ActivityLogShadowRaidLogo.png?raw=true",  "link": "https://www.pokebattler.com/raids/KYOGRE_SHADOW_FORM" },
-          { "titulo": "Mega Raid: ?",  "data_inicio": "2025-08-31",  "hora_inicio": "14:00",  "data_fim": "2025-08-31",  "hora_fim": "17:00",  "img": "../Assets/icon-raidmega.png",  "link": "" }
+        "raid": [
+          { "titulo": "Raid: Lugia",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/LUGIA" },
+          { "titulo": "Raid: Ho-Oh",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/HO_OH" },
+          { "titulo": "Raid: Necrozma",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
+          { "titulo": "Raid Origem: Dialga e Palkia",  "data_inicio": "2025-08-10",  "hora_inicio": "14:00",  "data_fim": "2025-08-10",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "https://pokemongohub.net/post/event/origin-dialga-palkia-raid-day-august-2025/" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: Lugia",  "data_inicio": "2025-08-06",  "hora_inicio": "18:00",  "data_fim": "2025-08-06",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/LUGIA" },
-          { "titulo": "Hora Lendária: Ho-Oh",  "data_inicio": "2025-08-13",  "hora_inicio": "18:00",  "data_fim": "2025-08-13",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/HO_OH" },
-          { "titulo": "Hora Lendária: Necrozma",  "data_inicio": "2025-08-27",  "hora_inicio": "18:00",  "data_fim": "2025-08-27",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
-          { "titulo": "Hora Lendária: Zacian Coroado",  "data_inicio": "2025-08-21",  "hora_inicio": "18:00",  "data_fim": "2025-08-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/ZACIAN_CROWNED_SWORD_FORM" },
-          { "titulo": "Hora Lendária: Zamazenta Coroado",  "data_inicio": "2025-08-22",  "hora_inicio": "18:00",  "data_fim": "2025-08-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "https://www.pokebattler.com/raids/ZAMAZENTA_CROWNED_SHIELD_FORM" }
+          { "titulo": "Hora Lendária: Lugia",  "data_inicio": "2025-08-06",  "hora_inicio": "18:00",  "data_fim": "2025-08-06",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/LUGIA" },
+          { "titulo": "Hora Lendária: Ho-Oh",  "data_inicio": "2025-08-13",  "hora_inicio": "18:00",  "data_fim": "2025-08-13",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/HO_OH" },
+          { "titulo": "Hora Lendária: Necrozma",  "data_inicio": "2025-08-27",  "hora_inicio": "18:00",  "data_fim": "2025-08-27",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
+          { "titulo": "Hora Lendária: Zacian Coroado",  "data_inicio": "2025-08-21",  "hora_inicio": "18:00",  "data_fim": "2025-08-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZACIAN_CROWNED_SWORD_FORM" },
+          { "titulo": "Hora Lendária: Zamazenta Coroado",  "data_inicio": "2025-08-22",  "hora_inicio": "18:00",  "data_fim": "2025-08-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZAMAZENTA_CROWNED_SHIELD_FORM" }
+        ],
+        "raid_mega": [
+          { "titulo": "Mega Raid: Ampharos",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://www.pokebattler.com/raids/AMPHAROS_MEGA" },
+          { "titulo": "Mega Raid: Slowbro",  "data_inicio": "2025-08-11",  "hora_inicio": "10:00",  "data_fim": "2025-08-18",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://www.pokebattler.com/raids/SLOWBRO_MEGA" },
+          { "titulo": "Mega Raid: Pidgeot",  "data_inicio": "2025-08-18",  "hora_inicio": "10:00",  "data_fim": "2025-08-25",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://www.pokebattler.com/raids/PIDGEOT_MEGA" },
+          { "titulo": "Mega Raid: Salamance",  "data_inicio": "2025-08-25",  "hora_inicio": "10:00",  "data_fim": "2025-09-02",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://www.pokebattler.com/raids/SALAMENCE_MEGA" },
+          { "titulo": "Mega Raid: ?",  "data_inicio": "2025-08-31",  "hora_inicio": "14:00",  "data_fim": "2025-08-31",  "hora_fim": "17:00",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "raid_shadow": [
+          { "titulo": "Semana de Raid Sombrosa: Kyogre",  "data_inicio": "2025-08-16",  "hora_inicio": "06:00",  "data_fim": "2025-08-17",  "hora_fim": "21:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "https://www.pokebattler.com/raids/KYOGRE_SHADOW_FORM" },
+          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "dynamax": [
+          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+        ],
+        "gigantamax": [
+          { "titulo": "Gigantamax: Butterfree",  "data_inicio": "2025-08-03",  "hora_inicio": "14:00",  "data_fim": "2025-08-03",  "hora_fim": "17:00",  "img": "../Assets/icon-gigantamax.png",  "link": "https://www.pokebattler.com/raids/BUTTERFREE_GIGANTAMAX" },
+          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: Omanyte",  "data_inicio": "2025-08-04",  "hora_inicio": "18:00",  "data_fim": "2025-08-04",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/OMANYTE/RAID_LEVEL_1_MAX" },
@@ -167,11 +226,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -191,11 +250,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -215,11 +274,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -239,11 +298,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -262,11 +321,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -285,11 +344,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -308,11 +367,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -342,11 +401,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -365,11 +424,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -388,11 +447,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -411,11 +470,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -434,11 +493,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -457,11 +516,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -480,11 +539,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -503,11 +562,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -526,11 +585,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -549,11 +608,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -572,11 +631,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -595,11 +654,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -629,11 +688,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -649,11 +708,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -669,11 +728,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -689,11 +748,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -709,11 +768,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -729,11 +788,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -749,11 +808,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -769,11 +828,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -789,11 +848,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -809,11 +868,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -829,11 +888,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -849,11 +908,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -880,11 +939,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -900,11 +959,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -920,11 +979,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -940,11 +999,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -960,11 +1019,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -980,11 +1039,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1000,11 +1059,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1020,11 +1079,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1040,11 +1099,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1060,11 +1119,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1080,11 +1139,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1100,11 +1159,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1131,11 +1190,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1151,11 +1210,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1171,11 +1230,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1191,11 +1250,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1211,11 +1270,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1231,11 +1290,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1251,11 +1310,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1271,11 +1330,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1291,11 +1350,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1311,11 +1370,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1331,11 +1390,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1351,11 +1410,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1378,11 +1437,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1398,11 +1457,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1418,11 +1477,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1438,11 +1497,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1458,11 +1517,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1478,11 +1537,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1498,11 +1557,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1518,11 +1577,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1538,11 +1597,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1558,11 +1617,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1578,11 +1637,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1598,11 +1657,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1622,11 +1681,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1642,11 +1701,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
@@ -1662,11 +1721,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ]
       },
       "09": {
@@ -1679,11 +1738,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ]
       },
       "08": {
@@ -1696,11 +1755,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ]
       },
       "07": {
@@ -1713,11 +1772,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ]
       },
       "06": {
@@ -1730,11 +1789,11 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid5.png",  "link": "" }
+          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ]
       },
       "05": {
@@ -1747,7 +1806,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1761,7 +1820,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1775,7 +1834,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1789,7 +1848,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1803,7 +1862,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       }
@@ -1821,7 +1880,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1835,7 +1894,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1849,7 +1908,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1863,7 +1922,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1877,7 +1936,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1891,7 +1950,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1905,7 +1964,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1919,7 +1978,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1933,7 +1992,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1947,7 +2006,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1958,7 +2017,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1969,7 +2028,7 @@
         "community_day": [
           { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       }
@@ -1981,7 +2040,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1989,7 +2048,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -1997,7 +2056,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -2005,7 +2064,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -2013,7 +2072,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },
@@ -2021,7 +2080,7 @@
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
-        "raids": [
+        "raid": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ]
       },

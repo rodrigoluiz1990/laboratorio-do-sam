@@ -67,18 +67,22 @@
   <script>
     // Mapeamento dos nomes amigáveis das categorias
     const nomesCategorias = {
-      events: 'Eventos',
-      research: 'Pesquisas',
-      community_day: 'Dias da Comunidade',
-      raids: 'Raids',
-      raid_hour: 'Horas Lendárias',
-      max_monday: 'Segundas Max',
+      events: 'Evento',
+      research: 'Pesquisa',
+      community_day: 'Dia da Comunidade',
+      raid: 'Raid',
+      raid_hour: 'Hora Lendária',
+      raid_mega: 'Mega Raid',
+      raid_shadow: 'Raid Sombrosa',
+      dynamax: 'Dynamax',
+      gigantamax: 'Gigantamax',
+      max_monday: 'Segunda Max',
       spotlights: 'Hora do Holofote'
       // adicione outras categorias que usar
     };
 
     // Carregar eventos do mês para o calendário (várias categorias)
-    const categorias = ['events', 'research', 'community_day', 'raids', 'raid_hour', 'max_monday', 'spotlights'];
+    const categorias = ['events', 'research', 'community_day', 'raid', 'raid_hour', 'raid_mega', 'raid_shadow', 'dynamax', 'gigantamax', 'max_monday', 'spotlights'];
 
     // Data atual que o calendário mostra
     let dataAtual = new Date();    // Objeto para armazenar eventos por data
@@ -127,10 +131,14 @@
             events: 'icon-event.png',
             research: 'icon-research.png',
             community_day: 'icon-community-day.png',
-            raids: 'icon-raid5.png',
-            raid_hour: 'icon-raid5.png',
+            raid: 'icon-raid.png',
+            raid_hour: 'icon-raid-hour.png',
+            raid_mega: 'icon-raid-mega.png',
+            raid_shadow: 'icon-raid-shadow.png',
+            dynamax: 'icon-dynamax.png',
+            gigantamax: 'icon-gigantamax.png',
             max_monday: 'icon-powerstop.png',
-            spotlights: 'icon-encounter.png'
+            spotlights: 'icon-encounter.png',
             // você pode adicionar outros aqui conforme necessário
           };
 
@@ -458,7 +466,7 @@
           if (!meses.hasOwnProperty(mes)) continue;
 
           // Categorias possíveis
-          const categorias = ['go_pass', 'events', 'research', 'community_day', 'raids', 'raid_hour', 'max_monday', 'spotlights'];
+          const categorias = ['go_pass', 'events', 'research', 'community_day', 'raid', 'raid_hour', 'raid_mega', 'raid_shadow', 'dynamax', 'gigantamax', 'max_monday', 'spotlights'];
 
           for (const cat of categorias) {
             const lista = meses[mes][cat];
