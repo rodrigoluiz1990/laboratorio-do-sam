@@ -235,6 +235,16 @@ header p {
   opacity: 0.5;
 }
 
+#filtro-categorias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
 /* Labels dos dias da semana */
 .week-labels {
   display: grid;
