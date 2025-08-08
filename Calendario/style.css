@@ -160,7 +160,7 @@ header p {
 
 .destaques-container {
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -171,7 +171,7 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   width: 220px;      /* Mesma largura fixa para ambas */
-  min-height: 160px;      /* Mesma altura mínima para padronizar */
+  height: 205px;      /* Mesma altura fixa para ambas */
   vertical-align: top;
   background-color: #1f1f1f;
   color: #fff;
@@ -180,12 +180,13 @@ header p {
   box-sizing: border-box;
   margin: 0 10px;
   text-align: center;
+  overflow: hidden;    /* evita transbordamento */
 }
 
 /* Imagem dentro do destaque */
 .evento-destaque img {
-  max-width: 100%;
-  height: auto;
+  width: 200px;
+  height: 140px;       /* altura fixa para imagem */
   border-radius: 6px;
   margin-bottom: 6px;
 }
@@ -198,18 +199,18 @@ header p {
 }
 
 .filtro-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    background-color: #222;
-    padding: 6px 10px;
-    border-radius: 6px;
-    margin: 4px;
-    cursor: pointer;
-    color: white;
-    transition: background-color 0.3s;
-    user-select: none;
-  }
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #222;
+  padding: 6px 10px;
+  border-radius: 6px;
+  margin: 4px;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s;
+  user-select: none;
+}
   
 /* Check box dos filtros de categoria */
 .filtro-item:hover {

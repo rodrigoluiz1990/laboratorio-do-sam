@@ -31,7 +31,7 @@
   <div class="controls">
     <button onclick="mudarMes(-1)">&#8592; Mês Anterior</button>
 
-    <!-- Container para os destaques (season + ticket do mês) -->
+    <!-- Container para os destaques (season + passe do mês) -->
     <div id="destaquesMes" class="destaques-container">
       <div class="evento-destaque" id="eventoSeason" style="display: none;"></div>
       <div class="evento-destaque" id="go_pass" style="display: none;"></div>
@@ -211,6 +211,7 @@
 
         // Exibir destaque da season
         const divSeason = document.getElementById('eventoSeason');
+        divSeason.classList.add('evento-destaque');
         divSeason.style.display = 'none';
 
         if (dados[anoStr] && dados[anoStr].season) {
@@ -239,8 +240,9 @@
           }
         }
 
-        // Exibir destaque do ticket do mês
+        // Exibir destaque do passe do mês
         const divTicket = document.getElementById('go_pass');
+        divTicket.classList.add('evento-destaque');
         divTicket.style.display = 'none';
 
         if (
