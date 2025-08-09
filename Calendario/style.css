@@ -57,6 +57,39 @@ body {
   border-radius: 5px;
 }
 
+/* Calendario do cabeçalho */
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.calendar-select {
+    font-size: 1em;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.calendar-button {
+    font-size: 1em;
+    padding: 4px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4cafef;
+    color: white;
+    cursor: pointer;
+}
+
+.calendar-button:hover {
+    background-color: #3a9bdc;
+}
+
 /* Responsivo: empilha em telas pequenas */
 @media (max-width: 600px) {
   .navbar {

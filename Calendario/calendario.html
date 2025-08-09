@@ -25,6 +25,29 @@
   <header>
     <h1>Calendário de Eventos Pokémon GO</h1>
     <p id="mesAno"></p>
+
+  <!-- Calendario para navegar entre mes e ano -->
+  <div class="calendar-header">
+    <select id="selectMes" class="calendar-select">
+        <option value="1">Janeiro</option>
+        <option value="2">Fevereiro</option>
+        <option value="3">Março</option>
+        <option value="4">Abril</option>
+        <option value="5">Maio</option>
+        <option value="6">Junho</option>
+        <option value="7">Julho</option>
+        <option value="8">Agosto</option>
+        <option value="9">Setembro</option>
+        <option value="10">Outubro</option>
+        <option value="11">Novembro</option>
+        <option value="12">Dezembro</option>
+    </select>
+
+    <select id="selectAno" class="calendar-select"></select>
+
+    <button id="btnHoje" class="calendar-button">Hoje</button>
+  </div>
+
   </header>
 
   <!-- Controles para mudar o mês e exibir destaques -->
@@ -519,6 +542,49 @@
     aplicarFiltroCategorias();
   });
 
+  </script>
+  
+  <!-- Calendario do cabeçalho -->
+  <script>
+    // usa a variável dataAtual que já existe no seu código
+    const selectMes = document.getElementById("selectMes");
+    const selectAno = document.getElementById("selectAno");
+    const btnHoje = document.getElementById("btnHoje");
+
+    // Preenche anos (ex.: começa em 2016 ... +1)
+    const anoHoje = new Date().getFullYear();
+    for (let ano = 2016; ano <= anoHoje + 1; ano++) {
+      let option = document.createElement("option");
+      option.value = ano;
+      option.textContent = ano;
+      selectAno.appendChild(option);
+    }
+
+    // Define valores iniciais a partir de dataAtual (já usada por carregarEvents)
+    selectMes.value = dataAtual.getMonth() + 1; // select usa 1-12
+    selectAno.value = dataAtual.getFullYear();
+
+    // Quando o usuário mudar o mês, atualiza dataAtual e recarrega eventos
+    selectMes.addEventListener("change", () => {
+      const novoMes = parseInt(selectMes.value, 10) - 1; // 0-11 para Date
+      dataAtual.setMonth(novoMes);
+      carregarEvents(); // recarrega events e chama renderizarCalendario()
+    });
+
+    // Quando o usuário mudar o ano, atualiza dataAtual e recarrega eventos
+    selectAno.addEventListener("change", () => {
+      const novoAno = parseInt(selectAno.value, 10);
+      dataAtual.setFullYear(novoAno);
+      carregarEvents();
+    });
+
+    // Botão "Hoje" — volta para o mês atual
+    btnHoje.addEventListener("click", () => {
+      dataAtual = new Date();
+      selectMes.value = dataAtual.getMonth() + 1;
+      selectAno.value = dataAtual.getFullYear();
+      carregarEvents();
+    });
   </script>
 
   <!-- Modal com QR Code PIX -->
