@@ -182,8 +182,8 @@
           { "titulo": "Hora Lendária: Lugia",  "data_inicio": "2025-08-06",  "hora_inicio": "18:00",  "data_fim": "2025-08-06",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/LUGIA" },
           { "titulo": "Hora Lendária: Ho-Oh",  "data_inicio": "2025-08-13",  "hora_inicio": "18:00",  "data_fim": "2025-08-13",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/HO_OH" },
           { "titulo": "Hora Lendária: Necrozma",  "data_inicio": "2025-08-27",  "hora_inicio": "18:00",  "data_fim": "2025-08-27",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/NECROZMA" },
-          { "titulo": "Hora Lendária: Zacian Coroado",  "data_inicio": "2025-08-21",  "hora_inicio": "18:00",  "data_fim": "2025-08-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZACIAN_CROWNED_SWORD_FORM" },
-          { "titulo": "Hora Lendária: Zamazenta Coroado",  "data_inicio": "2025-08-22",  "hora_inicio": "18:00",  "data_fim": "2025-08-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZAMAZENTA_CROWNED_SHIELD_FORM" }
+          { "titulo": "Hora Lendária: Zacian Coroado",  "data_inicio": "2025-08-21",  "hora_inicio": "18:00",  "data_fim": "2025-08-21",  "hora_fim": "19:00",  "img": "../Assets/icon-zacian-coroado.png",  "link": "https://www.pokebattler.com/raids/ZACIAN_CROWNED_SWORD_FORM" },
+          { "titulo": "Hora Lendária: Zamazenta Coroado",  "data_inicio": "2025-08-22",  "hora_inicio": "18:00",  "data_fim": "2025-08-22",  "hora_fim": "19:00",  "img": "../Assets/icon-zamazenta-coroado.png",  "link": "https://www.pokebattler.com/raids/ZAMAZENTA_CROWNED_SHIELD_FORM" }
         ],
         "raid_mega": [
           { "titulo": "Mega Raid: Ampharos",  "data_inicio": "2025-08-04",  "hora_inicio": "10:00",  "data_fim": "2025-08-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://www.pokebattler.com/raids/AMPHAROS_MEGA" },
