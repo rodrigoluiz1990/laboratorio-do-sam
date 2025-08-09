@@ -51,7 +51,7 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: ?",  "data_inicio": "2025-11-30",  "hora_inicio": "14:00",  "data_fim": "2025-11-30",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
           { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
@@ -66,7 +66,9 @@
           { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
+          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-01",  "hora_inicio": "?",  "data_fim": "2025-11-01",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" },
+          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-21",  "hora_inicio": "?",  "data_fim": "2025-11-24",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" },
+          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-29",  "hora_inicio": "?",  "data_fim": "2025-11-30",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
           { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
@@ -87,10 +89,11 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: ?",  "data_inicio": "2025-10-12",  "hora_inicio": "14:00",  "data_fim": "2025-10-12",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-10-04",  "hora_inicio": "14:00",  "data_fim": "2025-10-04",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-10-18",  "hora_inicio": "14:00",  "data_fim": "2025-10-18",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
@@ -123,10 +126,11 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: Flabébé",  "data_inicio": "2025-09-14",  "hora_inicio": "14:00",  "data_fim": "2025-09-14",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-flabebe-community-day-september-2025/" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-09-07",  "hora_inicio": "14:00",  "data_fim": "2025-09-07",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" },
+          { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-09-28",  "hora_inicio": "14:00",  "data_fim": "2025-09-28",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
@@ -135,7 +139,7 @@
           { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: ?",  "data_inicio": "2025-09-20",  "hora_inicio": "?",  "data_fim": "2025-09-21",  "hora_fim": "?",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
           { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
