@@ -348,8 +348,9 @@ header p {
 }
 
 /* Responsivo: empilha em telas pequenas */
-@media (max-width: 1200px) { html {
-  font-size: 24px; /* aumenta a base */
+@media (max-width: 1200px) 
+  { html {
+    font-size: 24px; /* aumenta a base */
   }
   .navbar {
     flex-direction: column;
@@ -358,7 +359,6 @@ header p {
   }
 
   .navbar ul {
-    flex-direction: column;
     gap: 10px;
   }
 
