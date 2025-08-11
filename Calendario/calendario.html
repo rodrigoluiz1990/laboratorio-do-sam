@@ -23,8 +23,8 @@
 
   <!-- Cabeçalho com título e mês atual -->
   <header>
-    <h1>Calendário de Eventos Pokémon GO</h1>
-    <p id="mesAno"></p>
+    <h1 style="margin-bottom: 10px;">Calendário de Eventos Pokémon GO</h1>
+    <p id="mesAno" style="display: none;"></p>
 
   <!-- Calendario para navegar entre mes e ano -->
   <div class="calendar-header">
@@ -474,7 +474,17 @@
 
     // Função para mudar o mês e recarregar eventos
     function mudarMes(delta) {
+      // Muda o mês na data atual
       dataAtual.setMonth(dataAtual.getMonth() + delta);
+
+      // Atualiza selects de mês e ano
+      document.getElementById("selectMes").value = dataAtual.getMonth() + 1;
+      document.getElementById("selectAno").value = dataAtual.getFullYear();
+
+      // Atualiza o texto do mês/ano no <p id="mesAno">
+        document.getElementById("mesAno").textContent =
+        document.getElementById("selectMes").options[dataAtual.getMonth()].text +
+        " " + dataAtual.getFullYear();
       carregarEvents();
     }
 
