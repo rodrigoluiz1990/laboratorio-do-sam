@@ -412,11 +412,11 @@ header p {
   /* Busca de evento */
   
   .search-input {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .search-button {
-    font-size: 18px;
+    font-size: 20px;
   }
   
   /* Envolve os dois em uma div com overflow */
