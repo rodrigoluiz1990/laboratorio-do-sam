@@ -64,9 +64,9 @@
   </div>
 
   <!-- Caixa de busca de eventos -->
-  <div style="text-align: center; margin: 10px;">
-    <input type="text" id="buscaEvento" placeholder="🔍 Buscar evento..." style="padding: 6px; width: 220px;">
-    <button id="btnBuscar" style="padding: 6px 12px; margin-left: 6px; cursor: pointer;">Buscar</button>
+  <div class="search-container">
+    <input type="text" id="buscaEvento" class="search-input" placeholder="🔍 Buscar evento...">
+    <button id="btnBuscar" class="search-button">Buscar</button>
   </div>
 
   <!-- Filtro por categoria -->
@@ -443,14 +443,14 @@
                 <a href="${ev.link}" target="_blank" style="color: inherit; text-decoration: none;">
                   <img src="${ev.img}" alt="">
                   <div><strong>${ev.texto.titulo}</strong></div>
-                  <div style="font-size: 10px; color: #ccc;">${ev.texto.horario}</div>
+                  <div class="event-time">${ev.texto.horario}</div>
                 </a>
               `;
             } else {
               div.innerHTML = `
                 <img src="${ev.img}" alt="">
                 <div><strong>${ev.texto.titulo}</strong></div>
-                <div style="font-size: 10px; color: #ccc;">${ev.texto.horario}</div>
+                <div class="event-time">${ev.texto.horario}</div>
               `;
             }
 

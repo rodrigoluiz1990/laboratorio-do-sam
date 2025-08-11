@@ -217,6 +217,24 @@ header p {
   margin-top: 4px;
 }
 
+/* Busca de evento */
+.search-container {
+  text-align: center;
+  margin: 10px;
+}
+
+.search-input {
+  padding: 6px;
+  width: 220px;
+}
+
+.search-button {
+  padding: 6px 12px;
+  margin-left: 6px;
+  cursor: pointer;
+}
+  
+/* Check box dos filtros de categoria */
 .filtro-item {
   display: inline-flex;
   align-items: center;
@@ -230,8 +248,7 @@ header p {
   transition: background-color 0.3s;
   user-select: none;
 }
-  
-/* Check box dos filtros de categoria */
+
 .filtro-item:hover {
   background-color: #333;
 }
@@ -347,6 +364,11 @@ header p {
   margin: 2px auto 2px auto;
 }
 
+.event-time {
+  font-size: 10px;
+  color: #ccc;
+}
+
 /* Responsivo: empilha em telas pequenas */
 @media (max-width: 1200px) 
   { html {
@@ -385,6 +407,16 @@ header p {
     width: 38px;
     height: 38px;
     transition: opacity 0.3s;
+  }
+
+  /* Busca de evento */
+  
+  .search-input {
+    font-size: 18px;
+  }
+  
+  .search-button {
+    font-size: 18px;
   }
   
   /* Envolve os dois em uma div com overflow */
@@ -448,5 +480,10 @@ header p {
     height: 38px;
     display: block;
     margin: 2px auto 2px auto;
+  }
+
+  .event-time {
+    font-size: 16px;
+    color: #ccc;
   }
 }
