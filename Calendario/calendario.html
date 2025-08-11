@@ -19,6 +19,20 @@
       .then(html => {
         document.getElementById('menu').innerHTML = html;
       });
+
+    // Pedir permissão para notificações assim que a página carregar
+    window.addEventListener('load', () => {
+      if (Notification.permission === "default") { // ainda não concedida nem negada
+        Notification.requestPermission().then(permission => {
+          if (permission === "granted") {
+            console.log("Permissão para notificações concedida!");
+          } else {
+            console.log("Permissão para notificações negada ou recusada.");
+          }
+        });
+      }
+    });
+
   </script>
 
   <!-- Cabeçalho com título e mês atual -->
@@ -46,6 +60,11 @@
     <select id="selectAno" class="calendar-select"></select>
 
     <button id="btnHoje" class="calendar-button">Hoje</button>
+    <label class="switch">
+      <input type="checkbox" id="toggleNotificacoes" />
+      <span class="slider"></span>
+    </label>
+    <span id="labelNotificacao">Ativar notificações</span>
   </div>
 
   </header>
@@ -122,77 +141,77 @@
       });
     }
       
-      // Gera os checkbox de filtro de categorias
-      function gerarCheckboxesCategorias(listaCategorias) {
-        const container = document.getElementById('filtro-categorias');
-        if (!container) {
-          console.warn("Div de filtro-categorias não encontrada.");
-          return;
+    // Gera os checkbox de filtro de categorias
+    function gerarCheckboxesCategorias(listaCategorias) {
+      const container = document.getElementById('filtro-categorias');
+      if (!container) {
+        console.warn("Div de filtro-categorias não encontrada.");
+        return;
+      }
+
+      container.innerHTML = '';
+
+      listaCategorias.forEach(cat => {
+        const nomeAmigavel = nomesCategorias[cat] || cat;
+
+        const label = document.createElement('label');
+        label.className = 'filtro-item ativo'; // Começa como ativo (checkbox marcado)
+
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.value = cat;
+        checkbox.checked = true;
+        checkbox.classList.add('filtro-categoria');
+
+        checkbox.addEventListener('change', function () {
+          aplicarFiltroCategorias(); // sua função já existente
+          label.classList.toggle('ativo', checkbox.checked);
+        });
+
+        const icon = document.createElement('img');
+        const iconesCategorias = {
+          events: 'icon-event2.png',
+          research: 'icon-research.png',
+          community_day: 'icon-community-day.png',
+          max_monday: 'icon-powerstop.png',
+          spotlights: 'icon-encounter.png',
+          raid: 'icon-raid.png',
+          raid_hour: 'icon-raid-hour.png',
+          raid_mega: 'icon-raid-mega.png',
+          raid_shadow: 'icon-raid-shadow.png',
+          dynamax: 'icon-dynamax.png',
+          gigantamax: 'icon-gigantamax.png',
+          // você pode adicionar outros aqui conforme necessário
+        };
+
+        icon.src = `../Assets/${iconesCategorias[cat] || 'icon-default.png'}`;
+        icon.alt = nomeAmigavel;
+
+        const span = document.createElement('span');
+        span.textContent = nomeAmigavel;
+
+        label.appendChild(checkbox);
+        label.appendChild(icon);
+        label.appendChild(span);
+
+        container.appendChild(label);
+      });
+    }
+
+    // Aplica o filtro baseado nos checkboxes marcados
+    function aplicarFiltroCategorias() {
+      const selecionadas = Array.from(document.querySelectorAll('#filtro-categorias input[type="checkbox"]:checked'))
+      .map(cb => cb.value);
+
+      document.querySelectorAll(".event").forEach(el => {
+        const categoria = el.getAttribute("data-categoria");
+        if (selecionadas.includes(categoria)) {
+          el.style.display = "";
+        } else {
+          el.style.display = "none";
         }
-
-        container.innerHTML = '';
-
-        listaCategorias.forEach(cat => {
-          const nomeAmigavel = nomesCategorias[cat] || cat;
-
-          const label = document.createElement('label');
-          label.className = 'filtro-item ativo'; // Começa como ativo (checkbox marcado)
-
-          const checkbox = document.createElement('input');
-          checkbox.type = 'checkbox';
-          checkbox.value = cat;
-          checkbox.checked = true;
-          checkbox.classList.add('filtro-categoria');
-
-          checkbox.addEventListener('change', function () {
-            aplicarFiltroCategorias(); // sua função já existente
-            label.classList.toggle('ativo', checkbox.checked);
-          });
-
-          const icon = document.createElement('img');
-          const iconesCategorias = {
-            events: 'icon-event2.png',
-            research: 'icon-research.png',
-            community_day: 'icon-community-day.png',
-            max_monday: 'icon-powerstop.png',
-            spotlights: 'icon-encounter.png',
-            raid: 'icon-raid.png',
-            raid_hour: 'icon-raid-hour.png',
-            raid_mega: 'icon-raid-mega.png',
-            raid_shadow: 'icon-raid-shadow.png',
-            dynamax: 'icon-dynamax.png',
-            gigantamax: 'icon-gigantamax.png',
-            // você pode adicionar outros aqui conforme necessário
-          };
-
-          icon.src = `../Assets/${iconesCategorias[cat] || 'icon-default.png'}`;
-          icon.alt = nomeAmigavel;
-
-          const span = document.createElement('span');
-          span.textContent = nomeAmigavel;
-
-          label.appendChild(checkbox);
-          label.appendChild(icon);
-          label.appendChild(span);
-
-          container.appendChild(label);
-        });
-      }
-
-      // Aplica o filtro baseado nos checkboxes marcados
-      function aplicarFiltroCategorias() {
-        const selecionadas = Array.from(document.querySelectorAll('#filtro-categorias input[type="checkbox"]:checked'))
-        .map(cb => cb.value);
-
-        document.querySelectorAll(".event").forEach(el => {
-          const categoria = el.getAttribute("data-categoria");
-          if (selecionadas.includes(categoria)) {
-            el.style.display = "";
-          } else {
-            el.style.display = "none";
-          }
-        });
-      }
+      });
+    }
 
     // Função para carregar eventos do arquivo JSON
     async function carregarEvents() {
@@ -380,6 +399,11 @@
           renderizarCalendario();
         } catch (erro) {
           console.error('Erro ao carregar eventos:', erro);
+        }
+        
+        // Chama o agendamento de notificação
+        if (notificacoesEstaoAtivas() && Notification.permission === 'granted') {
+          agendarNotificacaoProximoEvento(dadosGlobais);
         }
       }
 
@@ -628,5 +652,6 @@
         style="width: 100%; border-radius: 8px;">
     </div>
 
+    <script src="notificacoes.js"></script>
   </body>
 </html>
