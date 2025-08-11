@@ -90,20 +90,6 @@ body {
     background-color: #3a9bdc;
 }
 
-/* Responsivo: empilha em telas pequenas */
-@media (max-width: 600px) {
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .navbar ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-}
-
 /* Estilo base para dropdown */
 .dropdown {
   position: relative;
@@ -361,30 +347,78 @@ header p {
   margin: 2px auto 2px auto;
 }
 
-/* Responsivo para telas pequenas */
-@media (max-width: 768px) {
-    .grid-container,
-    .week-labels {
-      grid-template-columns: repeat(7, minmax(120px, 1fr)); /* mantém 7 dias */
-      overflow-x: auto;
-      overflow-y: hidden;
-    }
-  
-    .grid-container {
-      display: grid;
-      gap: 10px;
-      padding-bottom: 10px;
-      width: max-content; /* faz o container se expandir horizontalmente */
-    }
-  
-    .week-labels {
-      width: max-content;
-      margin-bottom: 10px;
-    }
-  
-    /* Envolve os dois em uma div com overflow */
-    .calendar-wrapper {
-      overflow-x: auto;
-      padding: 0 10px;
-    }
+/* Responsivo: empilha em telas pequenas */
+@media (max-width: 1200px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
   }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  /* Envolve os dois em uma div com overflow */
+  .calendar-wrapper {
+    overflow-x: auto;
+    padding: 0 10px;
+  }
+
+  /* Remove os labels da semana, já que não fazem sentido em lista */
+  .week-labels {
+    display: none;
+    width: max-content;
+    margin-bottom: 10px;
+  }
+
+  /* Transforma o grid em lista */
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+    width: auto;
+    overflow-x: auto;
+  }
+
+  /* Cada dia ocupa a largura total */
+  .day-cell {
+    min-height: auto;
+    padding: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+
+  /* Número do dia fica à esquerda */
+  .day-label {
+    font-size: 16px;
+    margin: 0;
+    color: #ffcb05; /* opcional: destacar */
+    flex-shrink: 0;
+  }
+
+  /* Eventos ao lado do número */
+  .event {
+    flex: 1;
+    font-size: 12px;
+    text-align: center;
+    min-width: 100px;    /* largura mínima para manter legível */
+    max-width: 100%;
+    min-height: 100px;     /* altura mínima para igualar */
+    display: block;         /* facilita alinhamento */
+    align-items: center;   /* centraliza verticalmente */
+    padding: 6px 8px;      /* um pouco de espaço interno */
+    box-sizing: border-box;
+  }
+
+  .event img {
+    max-width: 48px;
+    height: 24px;
+    display: block;
+    margin: 2px auto 2px auto;
+  }
+}
