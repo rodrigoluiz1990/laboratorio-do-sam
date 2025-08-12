@@ -3,9 +3,9 @@ const labelNotificacao = document.getElementById('labelNotificacao');
 
 function atualizarLabelToggle() {
   if (toggleNotificacoes.checked) {
-    labelNotificacao.textContent = 'Notificações ativadas 🔔';
+    labelNotificacao.textContent = '🔔';
   } else {
-    labelNotificacao.textContent = 'Notificações desativadas 🔕';
+    labelNotificacao.textContent = '🔕';
   }
 }
 
