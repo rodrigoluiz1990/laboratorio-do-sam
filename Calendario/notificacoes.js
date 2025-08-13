@@ -4,8 +4,10 @@ const labelNotificacao = document.getElementById('labelNotificacao');
 function atualizarLabelToggle() {
   if (toggleNotificacoes.checked) {
     labelNotificacao.textContent = '🔔';
+    labelNotificacao.title = 'Ative as notificações para ser avisado quando o próximo evento começar, pode ser necessário liberar permissão no navegador.';
   } else {
     labelNotificacao.textContent = '🔕';
+    labelNotificacao.title = 'Ative as notificações para ser avisado quando o próximo evento começar, pode ser necessário liberar permissão no navegador.';
   }
 }
 

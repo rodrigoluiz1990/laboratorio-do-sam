@@ -76,20 +76,6 @@ body {
     cursor: pointer;
 }
 
-.calendar-button {
-    font-size: 1em;
-    padding: 4px 10px;
-    border-radius: 6px;
-    border: none;
-    background-color: #4cafef;
-    color: white;
-    cursor: pointer;
-}
-
-.calendar-button:hover {
-    background-color: #3a9bdc;
-}
-
 /* Estilo base para dropdown */
 .dropdown {
   position: relative;
@@ -210,14 +196,19 @@ header p {
 }
 
 .controls button {
-  background-color: #2a75bb;
+  font-size: 1em;
+  background-color: #4cafef;
   color: white;
   border: none;
   padding: 8px 12px;
   font-size: 14px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
   flex-shrink: 0;
+}
+
+.controls button:hover {
+    background-color: #198b0e;
 }
 
 .destaques-container {
@@ -267,14 +258,34 @@ header p {
 }
 
 .search-input {
-  padding: 6px;
-  width: 220px;
+  font-size: 1em;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 370px;
+}
+
+.search-input::placeholder {
+  text-align: center; /* para garantir que o placeholder siga o alinhamento */
+  line-height: 40px; /* igual à altura do input para centralizar verticalmente */
 }
 
 .search-button {
-  padding: 6px 12px;
-  margin-left: 6px;
+  font-size: 1em;
+  background-color: #4cafef;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  border-radius: 10px;
   cursor: pointer;
+  flex-shrink: 0;
+}
+
+.search-button:hover {
+  background-color: #198b0e;
 }
   
 /* Check box dos filtros de categoria */
