@@ -40,9 +40,9 @@
     <h1 style="margin-bottom: 10px;">Calendário de Eventos Pokémon GO</h1>
     <p id="mesAno" style="display: none;"></p>
 
-  <!-- Calendario para navegar entre mes e ano -->
-  <div class="calendar-header">
-    <select id="selectMes" class="calendar-select">
+    <!-- Calendario para navegar entre mes e ano -->
+    <div class="calendar-header">
+      <select id="selectMes" class="calendar-select">
         <option value="1">Janeiro</option>
         <option value="2">Fevereiro</option>
         <option value="3">Março</option>
@@ -55,17 +55,17 @@
         <option value="10">Outubro</option>
         <option value="11">Novembro</option>
         <option value="12">Dezembro</option>
-    </select>
+      </select>
 
-    <select id="selectAno" class="calendar-select"></select>
+      <select id="selectAno" class="calendar-select"></select>
 
-    <button id="btnHoje" class="calendar-button">Hoje</button>
-    <label class="switch">
-      <input type="checkbox" id="toggleNotificacoes" />
-      <span class="slider"></span>
-    </label>
-    <span id="labelNotificacao">Ativar notificações</span>
-  </div>
+      <button id="btnHoje" class="calendar-button">Hoje</button>
+      <label class="switch">
+        <input type="checkbox" id="toggleNotificacoes" />
+        <span class="slider"></span>
+      </label>
+      <span id="labelNotificacao">Ativar notificações</span>
+    </div>
 
   </header>
 
@@ -103,7 +103,7 @@
   </div>
 
   <!-- Container do calendário (dias gerados por JS) -->
-  <div class="grid-container" id="calendario">    <!-- Dias preenchidos pelo JS -->
+  <div class="grid-container" id="calendario"> <!-- Dias preenchidos pelo JS -->
   </div>
 
   <!-- define dadosGlobais, carregarEvents() -->
@@ -139,7 +139,7 @@
         minute: '2-digit'
       });
     }
-      
+
     // Gera os checkbox de filtro de categorias
     function gerarCheckboxesCategorias(listaCategorias) {
       const container = document.getElementById('filtro-categorias');
@@ -200,7 +200,7 @@
     // Aplica o filtro baseado nos checkboxes marcados
     function aplicarFiltroCategorias() {
       const selecionadas = Array.from(document.querySelectorAll('#filtro-categorias input[type="checkbox"]:checked'))
-      .map(cb => cb.value);
+        .map(cb => cb.value);
 
       document.querySelectorAll(".event").forEach(el => {
         const categoria = el.getAttribute("data-categoria");
@@ -211,48 +211,48 @@
         }
       });
     }
-    
-      // Função para renderizar o calendário
-      function renderizarCalendario() {
-        const container = document.getElementById('calendario');
-        const mesAno = document.getElementById('mesAno');
-        container.innerHTML = '';
 
-        const ano = dataAtual.getFullYear();
-        const mes = dataAtual.getMonth();
+    // Função para renderizar o calendário
+    function renderizarCalendario() {
+      const container = document.getElementById('calendario');
+      const mesAno = document.getElementById('mesAno');
+      container.innerHTML = '';
 
-        const primeiroDiaSemana = new Date(ano, mes, 1).getDay();
-        const diasNoMes = new Date(ano, mes + 1, 0).getDate();
+      const ano = dataAtual.getFullYear();
+      const mes = dataAtual.getMonth();
 
-        // Espaços vazios antes do primeiro dia do mês (para alinhar os dias da semana)
-        for (let i = 0; i < primeiroDiaSemana; i++) {
-          container.appendChild(document.createElement('div'));
+      const primeiroDiaSemana = new Date(ano, mes, 1).getDay();
+      const diasNoMes = new Date(ano, mes + 1, 0).getDate();
+
+      // Espaços vazios antes do primeiro dia do mês (para alinhar os dias da semana)
+      for (let i = 0; i < primeiroDiaSemana; i++) {
+        container.appendChild(document.createElement('div'));
+      }
+
+      // Criar células para cada dia do mês
+      for (let dia = 1; dia <= diasNoMes; dia++) {
+        const dataLocal = new Date(ano, mes, dia);
+        const anoStr = dataLocal.getFullYear();
+        const mesStr = String(dataLocal.getMonth() + 1).padStart(2, '0');
+        const diaStr = String(dataLocal.getDate()).padStart(2, '0');
+        const dataStr = `${anoStr}-${mesStr}-${diaStr}`;
+        const celula = document.createElement('div');
+        celula.className = 'day-cell';
+
+        const rotulo = document.createElement('div');
+        rotulo.className = 'day-label';
+        rotulo.textContent = dia;
+        celula.appendChild(rotulo);
+
+        // Verifica se é o dia atual e aplica classe especial
+        const hoje = new Date();
+        if (
+          dataLocal.getDate() === hoje.getDate() &&
+          dataLocal.getMonth() === hoje.getMonth() &&
+          dataLocal.getFullYear() === hoje.getFullYear()
+        ) {
+          celula.classList.add('hoje');
         }
-
-        // Criar células para cada dia do mês
-        for (let dia = 1; dia <= diasNoMes; dia++) {
-          const dataLocal = new Date(ano, mes, dia);
-          const anoStr = dataLocal.getFullYear();
-          const mesStr = String(dataLocal.getMonth() + 1).padStart(2, '0');
-          const diaStr = String(dataLocal.getDate()).padStart(2, '0');
-          const dataStr = `${anoStr}-${mesStr}-${diaStr}`;
-          const celula = document.createElement('div');
-          celula.className = 'day-cell';
-
-          const rotulo = document.createElement('div');
-          rotulo.className = 'day-label';
-          rotulo.textContent = dia;
-          celula.appendChild(rotulo);
-
-          // Verifica se é o dia atual e aplica classe especial
-          const hoje = new Date();
-          if (
-            dataLocal.getDate() === hoje.getDate() &&
-            dataLocal.getMonth() === hoje.getMonth() &&
-            dataLocal.getFullYear() === hoje.getFullYear()
-          ) {
-            celula.classList.add('hoje');
-          }
 
         // Adicionar eventos do dia, se houver
         if (events[dataStr]) {
@@ -283,7 +283,7 @@
           // Destacar o dia se algum evento contiver o termo buscado
           if (termoBuscaGlobal && events[dataStr]) {
             const encontrou = events[dataStr].some(ev =>
-            ev.texto.titulo.toLowerCase().includes(termoBuscaGlobal.toLowerCase())
+              ev.texto.titulo.toLowerCase().includes(termoBuscaGlobal.toLowerCase())
             );
             if (encontrou) {
               celula.classList.add('encontrado');
@@ -296,11 +296,11 @@
     }
 
 
-  // Carrega os eventos na inicialização
-  carregarEvents().then(() => {
-    gerarCheckboxesCategorias(categorias);
-    aplicarFiltroCategorias();
-  });
+    // Carrega os eventos na inicialização
+    carregarEvents().then(() => {
+      gerarCheckboxesCategorias(categorias);
+      aplicarFiltroCategorias();
+    });
 
   </script>
 
@@ -315,36 +315,14 @@
   <script src="buscaEventos.js"></script>
 
   <!-- Modal com QR Code PIX -->
-  <div id="pix-modal" style="
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    background: #1f1f1f;
-    border: 2px solid #444;
-    padding: 10px;
-    border-radius: 12px;
-    z-index: 9999;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    max-width: 170px;
-    text-align: center;
-    color: #fff;
-    font-family: Arial, sans-serif;
-  ">
-      <div style="text-align: right;">
-        <button onclick="document.getElementById('pix-modal').style.display='none'" style="
-        background: transparent;
-        border: none;
-        color: #fff;
-        font-size: 12px;
-        cursor: pointer;
-        line-height: 1;
-      ">✕</button>
-      </div>
-      <p style="margin-top: 0; font-size: 14px;">Ajude a melhorar o site <br>fazendo uma doação.</p>
-      <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg" alt="QR Code PIX"
-        style="width: 100%; border-radius: 8px;">
-    </div>
+  <div id="pix-modal" class="pix-modal">
+    <button class="pix-close" onclick="document.getElementById('pix-modal').style.display='none'">✕</button>
+    <p class="pix-text">💖 Ajude a melhorar o site <br>fazendo uma doação.</p>
+    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg" 
+         alt="QR Code PIX" class="pix-img">
+  </div>
 
-    <script src="notificacoes.js"></script>
-  </body>
+  <script src="notificacoes.js"></script>
+</body>
+
 </html>

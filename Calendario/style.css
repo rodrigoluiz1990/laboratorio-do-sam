@@ -412,6 +412,60 @@ header p {
   color: #ccc;
 }
 
+/* Modal PIX */
+.pix-modal {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  margin: 0;
+  background: #1c1c1c;
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 14px;
+  padding: 10px;
+  padding-top: 10px; /* espaço para o botão */
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  text-align: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  max-width: 240px;
+}
+
+.pix-close {
+  position: absolute;
+  top: -30px; /* sobe para sobrepor a borda */
+  right: -1px;
+  background: #1c1c1c; /* mesma cor do modal para cobrir a borda */
+  border: 1px solid rgba(255,255,255,0.2);
+  border-radius: 4px;
+  width: 30px;
+  height: 30px;
+  color: #fff;
+  font-size: 13px;
+  cursor: pointer;
+  line-height: 20px;
+  text-align: center;
+  z-index: 2; /* fica acima da borda */
+  transition: background 0.2s, border-color 0.2s;
+}
+.pix-close:hover {
+  background: rgba(255,255,255,0.1);
+  border-color: rgba(255,255,255,0.3);
+}
+
+.pix-text {
+  margin: 0 0 10px 0;
+  font-size: 14px;
+  line-height: 1.4;
+}
+
+.pix-img {
+  width: 100%;
+  border-radius: 0;
+}
+
+
+
+
 /* Responsivo: empilha em telas pequenas */
 @media (max-width: 1200px) 
   { html {
