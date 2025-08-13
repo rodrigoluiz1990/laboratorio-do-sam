@@ -11,13 +11,15 @@ body {
   background-color: #1f1f1f;
   padding: 15px 20px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  gap: 300px;      /* espaço entre logo e menu */
+  gap: 200px;      /* espaço entre logo e menu */
   position: sticky;
   top: 0;
   z-index: 1000;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  max-width: 1200px; /* mesma largura do calendário */
+  margin: 0 auto;    /* centraliza no meio da página */
 }
 
 .navbar .logo {
@@ -26,6 +28,13 @@ body {
   font-weight: bold;
   text-decoration: none;
   white-space: nowrap;      /* evita quebra da logo */
+}
+
+/* Tamanho padrão das imagens no menu */
+.navbar img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
 }
 
 .navbar>ul {
@@ -123,16 +132,15 @@ body {
 
 /* Cabeçalho */
 header {
-  background-color: #1f1f1f;
+  background-color: #121212;
   padding: 20px;
   text-align: center;
-  border-bottom: 2px solid #ffcb05;
 }
 
 header h1 {
   margin: 0;
   font-size: 28px;
-  color: #ffcb05;
+  color: #fff;
 }
 
 header p {
@@ -197,10 +205,10 @@ header p {
 
 .controls button {
   font-size: 1em;
-  background-color: #4cafef;
+  background-color: #333;
   color: white;
   border: none;
-  padding: 8px 12px;
+  padding: 9px 12px;
   font-size: 14px;
   border-radius: 10px;
   cursor: pointer;
@@ -208,7 +216,7 @@ header p {
 }
 
 .controls button:hover {
-    background-color: #198b0e;
+    background-color: #4caf50;
 }
 
 .destaques-container {
@@ -274,10 +282,10 @@ header p {
 
 .search-button {
   font-size: 1em;
-  background-color: #4cafef;
+  background-color: #333;
   color: white;
   border: none;
-  padding: 8px 12px;
+  padding: 9px 12px;
   font-size: 14px;
   border-radius: 10px;
   cursor: pointer;
@@ -285,7 +293,7 @@ header p {
 }
 
 .search-button:hover {
-  background-color: #198b0e;
+  background-color: #4caf50;
 }
   
 /* Check box dos filtros de categoria */
@@ -494,6 +502,11 @@ header p {
 
   .navbar .logo {
     font-size: 30px;
+  }
+
+  .navbar img {
+    width: 38px;
+    height: 38px;
   }
   
   /* Estilo das caixas de destaque (temporada e ticket) */
