@@ -59,28 +59,29 @@
 
     <select id="selectAno" class="calendar-select"></select>
 
-    <button id="btnHoje" class="calendar-button">Hoje</button>
     <label class="switch">
       <input type="checkbox" id="toggleNotificacoes" />
       <span class="slider"></span>
     </label>
     <span id="labelNotificacao">Ativar notificações</span>
+    
   </div>
+
+    <!-- Controles para mudar o mês e exibir destaques -->
+    <div class="controls">
+      <button onclick="mudarMes(-1)">&#8592; Mês Anterior</button>
+      <button id="btnHoje">Hoje</button>
+      <button onclick="mudarMes(1)">Próximo Mês &#8594;</button>
+    </div>
 
   </header>
 
-  <!-- Controles para mudar o mês e exibir destaques -->
-  <div class="controls">
-    <button onclick="mudarMes(-1)">&#8592; Mês Anterior</button>
-
-    <!-- Container para os destaques (season + passe do mês) -->
-    <div id="destaquesMes" class="destaques-container">
-      <div class="evento-destaque" id="eventoSeason" style="display: none;"></div>
-      <div class="evento-destaque" id="go_pass" style="display: none;"></div>
-    </div>
-
-    <button onclick="mudarMes(1)">Próximo Mês &#8594;</button>
+  <!-- Container para os destaques (season + passe do mês) -->
+  <div id="destaquesMes" class="destaques-container">
+    <div class="evento-destaque" id="eventoSeason" style="display: none;"></div>
+    <div class="evento-destaque" id="go_pass" style="display: none;"></div>
   </div>
+
 
   <!-- Caixa de busca de eventos -->
   <div class="search-container">
