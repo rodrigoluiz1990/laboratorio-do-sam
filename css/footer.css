@@ -1,0 +1,29 @@
+.site-footer {
+  background-color: #1f1f1f;
+  color: #bbb;
+  text-align: center;       /* centraliza o texto */
+  font-size: 12px;
+  padding: 20px 10px;       /* aumenta o espaço interno */
+  border-top: 1px solid #333;
+
+  display: flex;            /* ativa flexbox */
+  flex-direction: column;   /* organiza os elementos em coluna */
+  justify-content: center;  /* centraliza verticalmente */
+  align-items: center;      /* centraliza horizontalmente */
+}
+
+.site-footer p {
+  margin: 5px 0;
+  line-height: 1.4;
+}
+
+
+
+/***** RESPONSIVO PARA MOBILE *****/
+@media (max-width: 1200px) {
+
+  .site-footer {
+    font-size: 24px; /* aumenta a base */
+  }
+
+}

@@ -223,5 +223,14 @@
       });
   </script>
 
+<script>
+  fetch("../footer.html")  // ajuste o caminho se necessário
+    .then(res => res.text())
+    .then(data => {
+      document.body.insertAdjacentHTML("beforeend", data);
+    })
+    .catch(err => console.error("Erro ao carregar o rodapé:", err));
+</script>
+
 </body>
 </html>

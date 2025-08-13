@@ -377,7 +377,8 @@ header p {
 }
 
 
-/* Responsivo: empilha em telas pequenas */
+
+/***** RESPONSIVO PARA MOBILE *****/
 @media (max-width: 1200px) 
   { html {
     font-size: 24px; /* aumenta a base */
@@ -481,4 +482,5 @@ header p {
     font-size: 16px;
     color: #ccc;
   }
+  
 }

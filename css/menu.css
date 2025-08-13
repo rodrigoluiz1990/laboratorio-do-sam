@@ -103,30 +103,32 @@
     display: flex;
 }
 
-/***** Responsivo: empilha em telas pequenas *****/
+
+
+/***** RESPONSIVO PARA MOBILE *****/
 @media (max-width: 1200px) {
 
-html {
+  html {
     font-size: 24px; /* aumenta a base */
-}
+  }
 
-.navbar {
+  .navbar {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-}
+  }
 
-.navbar ul {
+  .navbar ul {
     gap: 10px;
-}
+  }
 
-.navbar .logo {
+  .navbar .logo {
     font-size: 30px;
-}
+  }
 
-.navbar img {
+  .navbar img {
     width: 38px;
     height: 38px;
-}
+  }
 
 }
