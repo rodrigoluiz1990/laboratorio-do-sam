@@ -39,6 +39,7 @@
 
   <!-- Cabeçalho com título e mês atual -->
   <header>
+
     <h1 style="margin-bottom: 10px;">Calendário de Eventos Pokémon GO</h1>
     <p id="mesAno" style="display: none;"></p>
 
@@ -76,7 +77,7 @@
       <button onclick="mudarMes(1)">Próximo Mês &#8594;</button>
     </div>
 
-  </header>
+  </header>  
 
   <!-- Container para os destaques (season + passe do mês) -->
   <div id="destaquesMes" class="destaques-container">
@@ -315,26 +316,27 @@
   <script>
     inicializarControleCalendario(dataAtual, carregarEvents);
   </script>
+
   <script src="buscaEventos.js"></script>
 
   <!-- Modal com QR Code PIX -->
   <div id="pix-modal" class="pix-modal">
     <button class="pix-close" onclick="document.getElementById('pix-modal').style.display='none'">✕</button>
-    <p class="pix-text">💖 Ajude a melhorar o site <br>fazendo uma doação.</p>
-    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg" 
+    <img src="../Assets/pokecoin.png" style="width: 48px; height: 48px;"> <p class="pix-text">Ajude a melhorar o site <br>fazendo uma doação.</p>
+    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg"
         alt="QR Code PIX" class="pix-img">
   </div>
 
-    <script src="notificacoes.js"></script>
+  <script src="notificacoes.js"></script>
 
-    <script>
-        fetch("../footer.html")  // ajuste o caminho se necessário
-          .then(res => res.text())
-          .then(data => {
-            document.body.insertAdjacentHTML("beforeend", data);
-          })
-          .catch(err => console.error("Erro ao carregar o rodapé:", err));
-      </script>
+  <script>
+    fetch("../footer.html")  // ajuste o caminho se necessário
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
 
   </body>
 </html>
