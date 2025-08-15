@@ -3,6 +3,7 @@
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/news.css">
   <link rel="stylesheet" href="../css/menu.css">
   <link rel="stylesheet" href="../css/calendario.css">
   <meta charset="UTF-8" />
@@ -39,6 +40,12 @@
 
   <!-- Cabeçalho com título e mês atual -->
   <header>
+
+    <div class="news-ticker">
+      <div class="news-track" id="news-track">
+        <span id="loading-msg">Carregando notícias...</span>
+      </div>
+    </div>
 
     <h1 style="margin-bottom: 10px;">Calendário de Eventos Pokémon GO</h1>
     <p id="mesAno" style="display: none;"></p>
@@ -327,6 +334,7 @@
         alt="QR Code PIX" class="pix-img">
   </div>
 
+  <script src="news.js"></script>
   <script src="notificacoes.js"></script>
 
   <script>
