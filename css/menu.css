@@ -1,4 +1,16 @@
 /* Menu */
+.menu-icon {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+  
+.menu-icon:hover {
+    transform: scale(1.2);
+}
+
+
 .navbar {
     background-color: #1f1f1f;
     padding: 15px 20px;

@@ -1,0 +1,119 @@
+:root{
+    --bg: #0f0f0f;
+    --fg: #f5f5f5;
+    --muted:#b7b7b7;
+    --accent:#ffd34d;
+    --accent2:#8bd17c;
+    --card:#1d1d1d;
+    --grid-gap:10px;
+    --board-size:300px;
+    --radius:16px;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+    font-synthesis-weight:none;
+  }
+  
+  *{box-sizing:border-box}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--fg);
+    font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  
+  .wrapper{ max-width:1000px; margin:0 auto; padding:20px 16px 40px; }
+  
+  /* Miniaturas de Pokémon */
+  .grid-thumbs{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap:var(--grid-gap);
+  }
+  .thumb{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+    padding:14px;
+    background:var(--card);
+    border:2px solid #2a2a2a;
+    border-radius:var(--radius);
+    cursor:pointer;
+    transition: transform .12s ease, border-color .2s ease, box-shadow .2s ease;
+    box-shadow: var(--shadow);
+  }
+  .thumb:hover{ transform:translateY(-2px); border-color:var(--accent) }
+  .thumb img{ width:140px; height:auto; object-fit:cover; border-radius:12px; image-rendering: pixelated }
+  .thumb span{ font-weight:700; }
+  
+  /* Modal base */
+  .modal{ position:fixed; inset:0; display:none; z-index:1000; }
+  .modal[aria-hidden="false"]{ display:block; }
+  .modal-backdrop{ position:absolute; inset:0; background:rgba(0,0,0,.82); backdrop-filter: blur(2px); }
+  
+  .modal-card{
+    position:absolute; inset:0; margin:auto;
+    width:min(92vw,760px);
+    background:linear-gradient(#232323,#1a1a1a);
+    border:2px solid #2d2d2d; border-radius: calc(var(--radius)+10px);
+    box-shadow: var(--shadow);
+    padding:18px 18px 16px;
+    display:flex; flex-direction:column; gap:14px;
+    max-height:88vh;
+    overflow:auto;
+  }
+  
+  /* Aba superior cartucho */
+  .modal-tab{
+    position:absolute; top:-16px; left:50%; transform:translateX(-50%);
+    width:180px; height:28px;
+    background: linear-gradient(180deg,#ffd34d,#e3b83a);
+    border:2px solid #2d2d2d; border-bottom:none;
+    border-top-left-radius:20px; border-top-right-radius:20px;
+    box-shadow:0 6px 0 rgba(0,0,0,.15) inset;
+  }
+  
+  .modal-header{ display:flex; align-items:center; justify-content:space-between; gap:10px; padding-top:4px }
+  .modal-header h2{ margin:0; font-size:20px }
+  .btn-close{ border:none; background:#2a2a2a; color:var(--fg); width:36px; height:36px; border-radius:12px; cursor:pointer }
+  .btn-close:hover{ background:#373737 }
+  
+  /* Controles apenas reset */
+  .modal-controls{ display:flex; gap:10px; padding:10px; border-radius:12px; background:#1a1a1a }
+  .btn{ background:var(--accent2); color:#0b0b0b; border:none; border-radius:12px; padding:10px 14px; cursor:pointer; font-weight:700 }
+  .btn:hover{ filter:brightness(1.05) }
+  
+  /* Tabuleiro */
+  .board-wrap{ display:flex; justify-content:center; margin-top:10px }
+  .board{
+    width:var(--board-size); height:var(--board-size);
+    display:grid; gap:2px;
+    background:#0a0a0a;
+    border:2px solid #2a2a2a;
+    border-radius:12px;
+    touch-action:none;
+    display:none; /* só aparece quando seleciona puzzle */
+  }
+  .tile{
+    position:relative;
+    background-size: var(--board-size) var(--board-size);
+    background-repeat:no-repeat;
+    cursor:grab;
+    border-radius:6px;
+    outline:1px solid rgba(255,255,255,.06);
+    user-select:none;
+  }
+  .tile:active{ cursor:grabbing }
+  .tile[aria-grabbed="true"]{ box-shadow:0 0 0 2px var(--accent) inset }
+  
+  /* Footer / reset */
+  .modal-footer{ display:flex; justify-content:flex-end; gap:10px }
+  
+  /* Preview original removido para simplificação */
+  .preview-original{ display:none }
+  
+  /* Responsivo */
+  @media (max-width:520px){ :root{--board-size:280px} .thumb img{width:120px} }
+  @media (max-width:380px){ :root{--board-size:240px} .thumb img{width:100px} }
+  
