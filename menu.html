@@ -1,19 +1,14 @@
 <nav class="navbar"> 
-
-  <link rel="stylesheet" href="../css/menu.css">
-  <a href="../index.html" class="logo"> <img src="../Assets/logo-gs2.png"> Laboratório do Sam</a>
+  <a href="../index.html" class="logo"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <img src="../Assets/logo-gs2.png"> Laboratório do Sam
+  </a>
   <ul>
-
-    <!-- Ícone do puzzle -->
-    <li id="menuPuzzle">
-      <img src="../Assets/puzzle.png" alt="Puzzle" title="Abrir Puzzle" class="menu-icon">
-    </li>
 
     <li><a href="../Calendario/calendario.html"><i class="fas fa-calendar-alt"></i> Calendário</a></li>
     <li><a href="../Avaliacao/avaliacao_conta_pokemon_go.html"><i class="fas fa-user-check"></i> Avaliar Conta</a></li>
     <li><a href="../Raids/ultimas_raids.html"><i class="fa-solid fa-shield"></i> Raids</a></li>
 
-    <!-- Menu com Submenu -->
     <li class="dropdown">
       <a href="#"><i class="fa-solid fa-link"></i>Links Úteis ▾</a>
       <ul class="dropdown-menu">
@@ -27,23 +22,10 @@
         <li><a href="https://www.pokebattler.com" target="_blank"> <img src="../Assets/logo-pokebattler.png"> PokeBattler</a></li>
         <li><a href="https://www.pvpoke.com" target="_blank"> <img src="../Assets/logo-pvppoke.png"> PvP Poke</a></li>
         <li><a href="https://www.stadiumgaming.gg/rank-checker" target="_blank"> <img src="../Assets/logo-stadium-gaming.png"> Stadium Gaming</a></li>
+        </a></li>
       </ul>
     </li>
+    <li><a href="../puzzle/puzzle.html" target="_blank"><i class="fas fa-puzzle-piece"></i></a></li>
     <li><a href="https://x.com/labdosam" target="_blank" title="Siga no Twitter"><i class="fab fa-x-twitter"></i></a></li>
   </ul>
-
-  <script>
-    // Carrega o menu-puzzle
-    const menuPuzzle = document.getElementById('menuPuzzle');
-
-menuPuzzle.addEventListener('click', () => {
-  const modal = document.getElementById('puzzleModal');
-  modal.setAttribute('aria-hidden','false');
-  modal.querySelector('.puzzle-selection').style.display = 'flex';
-  document.getElementById('puzzleBoard').style.display = 'none';
-  document.querySelector('.controls').style.display = 'none';
-  document.getElementById('modalTitle').textContent = 'Escolha um Pokémon';
-});
-  </script>
-
 </nav>

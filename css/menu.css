@@ -1,4 +1,4 @@
-/* Menu */
+/* ===================== MENU ICON ===================== */
 .menu-icon {
     width: 28px;
     height: 28px;
@@ -10,14 +10,14 @@
     transform: scale(1.2);
 }
 
-
+/* ===================== NAVBAR ===================== */
 .navbar {
     background-color: #1f1f1f;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 100px; /* espaço entre logo e menu */
+    gap: 70px; /* espaço entre logo e menu */
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -34,7 +34,6 @@
     white-space: nowrap; /* evita quebra da logo */
 }
 
-/* Tamanho padrão das imagens no menu */
 .navbar img {
     width: 20px;
     height: 20px;
@@ -43,14 +42,14 @@
 
 .navbar>ul {
     display: flex;
-    gap: 20px; /* diminui o espaço entre os links */
+    gap: 10px; /* espaço entre links */
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
 .navbar ul li {
-    margin-left: 0px; /* remove margem que separava mais ainda */
+    margin-left: 0;
 }
 
 .navbar ul li a {
@@ -70,7 +69,7 @@
     border-radius: 5px;
 }
 
-/* Estilo base para dropdown */
+/* ===================== DROPDOWN ===================== */
 .dropdown {
     position: relative;
 }
@@ -116,31 +115,31 @@
 }
 
 
-
-/***** RESPONSIVO PARA MOBILE *****/
+/* ===================== RESPONSIVO ===================== */
 @media (max-width: 1200px) {
 
-  html {
-    font-size: 24px; /* aumenta a base */
-  }
+    html {
+        font-size: 24px; /* aumenta a base */
+    }
 
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-  }
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
 
-  .navbar ul {
-    gap: 10px;
-  }
+    .navbar>ul {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
 
-  .navbar .logo {
-    font-size: 30px;
-  }
+    .navbar .logo {
+        font-size: 30px;
+    }
 
-  .navbar img {
-    width: 38px;
-    height: 38px;
-  }
-
+    .navbar img {
+        width: 38px;
+        height: 38px;
+    }
 }

@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Puzzle</title>
-
-  <!-- Link para o CSS do puzzle -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/menu.css">
   <link rel="stylesheet" href="../css/puzzle.css">
+  <meta charset="UTF-8">
+  <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
+  <title>Puzzle Pokémon</title>
 </head>
-<body>
 
-  <!-- Modal Puzzle -->
-  <div id="puzzleModal" class="modal" aria-hidden="true">
-    <div class="modal-backdrop"></div>
-    <div class="modal-card">
-      <!-- Aba cartucho -->
-      <div class="modal-tab"></div>
+<body>  
+    <!-- Menu carregado dinamicamente -->
+    <div id="menu"></div>
+  
+    <!-- Script para carregar o menu -->
+    <script>
+      fetch('../menu.html')
+        .then(response => response.text())
+        .then(html => {
+          document.getElementById('menu').innerHTML = html;
+        });  
+    </script>
 
-      <!-- Cabeçalho -->
-      <div class="modal-header">
-        <h2 id="modalTitle">Escolha um Pokémon</h2>
-        <button id="btnClose" class="btn-close" aria-label="Fechar">✕</button>
-      </div>
+<div class="puzzle-container"></div>
+  <header>
+    <h1 class="titulo-puzzle">Escolha um Puzzle</h1>
+  </header>
 
-      <!-- Seleção de 4 Pokémon -->
-      <div class="wrapper">
-        <div class="grid-thumbs">
-          <div class="thumb" data-img="../Assets/puzzle-kabuto.png" data-title="Kabuto">
-            <img src="../Assets/puzzle-kabuto.png" alt="Kabuto">
-            <span>Kabuto</span>
-          </div>
-          <div class="thumb" data-img="../Assets/puzzle-aerodactyl.png" data-title="Aerodactyl">
-            <img src="../Assets/puzzle-aerodactyl.png" alt="Aerodactyl">
-            <span>Aerodactyl</span>
-          </div>
-          <div class="thumb" data-img="../Assets/puzzle-ho-oh.png" data-title="Ho-Oh">
-            <img src="../Assets/puzzle-ho-oh.png" alt="Ho-Oh">
-            <span>Ho-Oh</span>
-          </div>
-          <div class="thumb" data-img="../Assets/puzzle-omanyte.png" data-title="Omanyte">
-            <img src="../Assets/puzzle-omanyte.png" alt="Omanyte">
-            <span>Omanyte</span>
-          </div>
-        </div>
-      </div>
+  <div class="wrapper">
+    <div class="grid-thumbs">
+      <div class="thumb" data-img="../Assets/puzzle-kabuto.png" data-title="Kabuto"><img src="../Assets/puzzle-kabuto.png" alt="Kabuto"><span>Kabuto</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-aerodactyl.png" data-title="Aerodactyl"><img src="../Assets/puzzle-aerodactyl.png" alt="Aerodactyl"><span>Aerodactyl</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-ho-oh.png" data-title="Ho-Oh"><img src="../Assets/puzzle-ho-oh.png" alt="Ho-Oh"><span>Ho-Oh</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-omanyte.png" data-title="Omanyte"><img src="../Assets/puzzle-omanyte.png" alt="Omanyte"><span>Omanyte</span></div>
+    </div>
 
-      <!-- Tabuleiro -->
-      <div class="board-wrap">
-        <div id="puzzleBoard" class="board"></div>
-      </div>
+    <div class="board-wrap">
+      <div id="puzzleBoard" class="board"></div>
+    </div>
 
-      <!-- Controles -->
-      <div class="modal-footer">
-        <button id="btnReset" class="btn">Resetar</button>
-      </div>
+    <div class="modal-footer">
+      <button id="btnReset" class="btn">Resetar</button>
     </div>
   </div>
 
-  <!-- Script do puzzle -->
   <script src="puzzle.js"></script>
+  </div>
 </body>
 </html>
