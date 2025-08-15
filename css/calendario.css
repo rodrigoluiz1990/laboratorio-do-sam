@@ -136,6 +136,13 @@ header p {
   margin: 0 10px;
   text-align: center;
   overflow: hidden;    /* evita transbordamento */
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.evento-destaque:hover {
+  transform: scale(1.07); /* aumenta 7% */
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); /* brilho dourado */
+  border: 1px solid rgba(255, 215, 0, 0.8); /* cor de destaque */
 }
 
 /* Imagem dentro do destaque */
@@ -311,6 +318,12 @@ header p {
   white-space: normal;
   word-wrap: break-word;
   overflow-wrap: break-word;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.event:hover {
+  transform: scale(1.07);
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.5);
 }
 
 .event img {
