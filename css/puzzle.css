@@ -102,14 +102,31 @@
     position: relative;
     background-repeat: no-repeat;
     cursor: grab;
-    transition: transform 0.2s;
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     box-sizing: border-box;
     image-rendering: -webkit-optimize-contrast;
+    outline: 2px solid transparent; /* prepara para o contorno */
+  }
+
+  .tile.selected {
+    outline: 3px solid var(--accent); /* contorno amarelo */
+    box-shadow: 0 0 10px rgba(255, 211, 77, 0.5); /* efeito de brilho */
+    transform: scale(0.98); /* leve redução para efeito de pressionado */
   }
   
   .tile:active {
     cursor: grabbing;
-    transform: scale(0.98);
+    transform: scale(0.95);
+  }
+
+  .tile.swapping {
+    animation: pulse 0.3s ease;
+  }
+
+  @keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(0.95); }
+    100% { transform: scale(1); }
   }
   
   /* Controles */

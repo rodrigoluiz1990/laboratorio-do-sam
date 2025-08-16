@@ -95,7 +95,15 @@
     }
 
     function swapTiles(i, j) {
-      if(i === j) return;
+      if (i === j) return;
+  
+      const tile1 = board.querySelector(`.tile[data-index="${i}"]`);
+      const tile2 = board.querySelector(`.tile[data-index="${j}"]`);
+  
+      // Remove classes de seleção antes da troca
+      if (tile1) tile1.classList.remove('selected');
+      if (tile2) tile2.classList.remove('selected');
+  
       [positions[i], positions[j]] = [positions[j], positions[i]];
       updateTile(i);
       updateTile(j);
@@ -132,14 +140,25 @@
     }
 
     function onTileClick(e) {
-      const idx = parseInt(e.currentTarget.getAttribute('data-index'), 10);
-      if(firstTapIndex === null) {
+      const tile = e.currentTarget;
+      const idx = parseInt(tile.getAttribute('data-index'), 10);
+  
+      if (firstTapIndex === null) {
+        // Primeira seleção
         firstTapIndex = idx;
-        e.currentTarget.setAttribute('aria-grabbed', 'true');
+        tile.classList.add('selected'); // Adiciona classe de seleção
       } else {
-        const firstEl = board.querySelector(`.tile[data-index="${firstTapIndex}"]`);
-        if(firstEl) firstEl.removeAttribute('aria-grabbed');
-        swapTiles(firstTapIndex, idx);
+        // Segunda seleção
+        const firstTile = board.querySelector(`.tile[data-index="${firstTapIndex}"]`);
+        if (firstTile) {
+          firstTile.classList.remove('selected'); // Remove classe de seleção
+        }
+    
+        // Realiza a troca se não for a mesma peça
+        if (firstTapIndex !== idx) {
+          swapTiles(firstTapIndex, idx);
+        }
+    
         firstTapIndex = null;
       }
     }
@@ -154,6 +173,12 @@
     });
 
     btnReset.addEventListener('click', () => {
+      // Remove seleção de qualquer peça
+      const selectedTile = board.querySelector('.tile.selected');
+      if (selectedTile) {
+        selectedTile.classList.remove('selected');
+      }
+  
       positions = correct.slice();
       shuffle(positions);
       firstTapIndex = null;
