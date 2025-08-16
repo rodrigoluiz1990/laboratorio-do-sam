@@ -149,6 +149,79 @@
   }
   
   .btn:hover, #btnReset:hover { filter: brightness(1.05); }
+
+  /* Estilos do Modal */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 100;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .modal-content {
+    background-color: var(--card);
+    margin: 10% auto;
+    padding: 25px;
+    border-radius: var(--radius);
+    max-width: 500px;
+    width: 90%;
+    border: 2px solid var(--accent);
+    box-shadow: var(--shadow);
+    position: relative;
+    animation: modalFadeIn 0.3s ease-out;
+  }
+
+  @keyframes modalFadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .close-modal {
+    color: var(--muted);
+    font-size: 28px;
+    font-weight: bold;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    cursor: pointer;
+  }
+
+  .close-modal:hover {
+    color: var(--accent);
+  }
+
+  /* Estilo do botão de ajuda */
+  #btnHelp {
+    background: var(--accent2);
+    color: #0b0b0b;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 14px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: filter 0.2s;
+  }
+
+  #btnHelp:hover {
+    filter: brightness(1.05);
+  }
+
+  .controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
   
 /* Responsivo para telas pequenas */
 @media (max-width: 1200px) {
@@ -196,9 +269,20 @@
     padding: 12px 20px;
     font-size: 1.1rem;
   }
+
   /* Ajuste do botão Reset */
   #btnReset {
     padding: 12px 20px; /* aumenta o botão proporcionalmente */
+    font-size: 1rem;
+  }
+
+  .modal-content {
+    margin: 20% auto;
+    padding: 20px;
+  }
+  
+  #btnHelp, #btnReset {
+    padding: 12px 18px;
     font-size: 1rem;
   }
 }  

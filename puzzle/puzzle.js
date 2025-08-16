@@ -4,6 +4,9 @@
     const board = document.getElementById('puzzleBoard');
     const btnReset = document.getElementById('btnReset');
     const thumbs = document.querySelectorAll('.thumb');
+    const btnHelp = document.getElementById('btnHelp');
+    const helpModal = document.getElementById('helpModal');
+    const closeModal = document.querySelector('.close-modal');
 
     // Estado
     const size = 4; // 4x4 fixo
@@ -183,6 +186,23 @@
       shuffle(positions);
       firstTapIndex = null;
       renderBoard();
+    });
+
+    // Evento para abrir o modal
+    btnHelp.addEventListener('click', () => {
+      helpModal.style.display = 'block';
+    });
+
+    // Evento para fechar o modal
+    closeModal.addEventListener('click', () => {
+      helpModal.style.display = 'none';
+    });
+
+    // Fechar o modal clicando fora do conteúdo
+    window.addEventListener('click', (event) => {
+      if (event.target === helpModal) {
+        helpModal.style.display = 'none';
+      }
     });
 
     // Redimensionamento responsivo
