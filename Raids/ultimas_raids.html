@@ -8,7 +8,6 @@
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-EY17XNV9RM');
   </script>
   
@@ -19,7 +18,6 @@
   <title>Raids Pokémon GO - Dias destacados com labels</title>
   <style>
 
-    /* Estilo geral da página */
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
@@ -32,12 +30,14 @@
       color: #4CAF50;
       margin-bottom: 20px;
     }
+
     .grid-container {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 30px;
       align-items: start;
     }
+
     .grupo {
       background: #bee9ec;
       padding: 15px;
@@ -47,6 +47,7 @@
       flex-direction: column;
       height: 100%;
     }
+
     .grupo h3 {
       margin-top: 0;
       margin-bottom: 15px;
@@ -55,6 +56,7 @@
       border-bottom: 2px solid #4CAF50;
       padding-bottom: 8px;
     }
+
     .pkm-item {
       padding: 8px 10px;
       border-bottom: 1px solid #ddd;
@@ -63,62 +65,91 @@
       justify-content: space-between;
       align-items: center;
     }
+
     .pkm-item:last-child {
       border-bottom: none;
     }
+
     .pkm-nome {
       font-weight: bold;
       margin-right: 10px;
       flex: 1 1 auto;
     }
+
     .pkm-nome a {
       text-decoration: none;
       color: #2a7ae2;
     }
+
     .pkm-nome a:hover {
       text-decoration: underline;
     }
+
     .pkm-info {
       font-size: 0.85em;
       white-space: nowrap;
       margin-left: 10px;
       flex-shrink: 0;
     }
-    /* Destaques dias */
+
     .pkm-info.dias {
       font-weight: bold;
     }
+
     .dias-positivo {
       color: black;
     }
+
     .dias-zero {
       color: blue;
     }
+
     .dias-negativo {
       color: green;
     }
+
+    /* 🔹 Preloader */
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #121212;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+    }
+
+    #preloader img {
+      width: 100px;
+      height: auto;
+    }
   </style>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 <body>
 
+  <!-- 🔹 Preloader -->
+  <div id="preloader">
+    <img src="../Assets/gif-mew.gif" alt="Carregando...">
+  </div>
+
   <!-- Espaço para o menu -->
-<div id="menu"></div>
+  <div id="menu"></div>
 
-<!-- Script para carregar o menu -->
-<script>
-  fetch('../menu.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('menu').innerHTML = html;
-    });
-</script>
-
-<!-- Menu carregado dinamicamente -->
-<div id="menu"></div>
+  <script>
+    fetch('../menu.html')
+      .then(response => response.text())
+      .then(html => {
+        document.getElementById('menu').innerHTML = html;
+      });
+  </script>
 
   <h2>Raids Pokémon GO</h2>
-  <div id="grupos" class="grid-container">Carregando...</div>
+  <div id="grupos" class="grid-container"></div>
 
   <script>
     const excelUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSoZvSv7j6PmVqUq-RweVXOuS5S8RUE8y0aTew8rdxCWRLSxktA17alYPDgQBXHhMYR_VxRhGDHb2XC/pub?output=xlsx";
@@ -227,21 +258,23 @@
         }
 
         document.getElementById("grupos").innerHTML = html;
+        document.getElementById("preloader").style.display = "none"; // 🔹 Esconde preloader
       })
       .catch(err => {
         document.getElementById("grupos").innerText = "Erro ao carregar os dados.";
+        document.getElementById("preloader").style.display = "none"; // 🔹 Esconde mesmo se erro
         console.error(err);
       });
   </script>
 
-<script>
-  fetch("../footer.html")  // ajuste o caminho se necessário
-    .then(res => res.text())
-    .then(data => {
-      document.body.insertAdjacentHTML("beforeend", data);
-    })
-    .catch(err => console.error("Erro ao carregar o rodapé:", err));
-</script>
+  <script>
+    fetch("../footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
 
 </body>
 </html>
