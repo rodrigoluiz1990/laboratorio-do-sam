@@ -7,7 +7,7 @@
     ],
     "meses": {
       "12": {
-        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Dezembro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
@@ -43,7 +43,7 @@
         ]
       },      
       "11": {
-        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Novembro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
@@ -81,7 +81,7 @@
         ]
       },
       "10": {
-        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Outubro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
@@ -118,7 +118,7 @@
         ]
       },
       "09": {
-        "go_pass": { "titulo": "Passe Go: ",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Setembro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
         "events": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
@@ -334,7 +334,10 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Spritzee",  "data_inicio": "2025-06-03",  "hora_inicio": "18:00",  "data_fim": "2025-06-03",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/spritzee-spotlight-hour-june-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Magnemite",  "data_inicio": "2025-06-10",  "hora_inicio": "18:00",  "data_fim": "2025-06-10",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/magnemite-spotlight-hour-june-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Solosis",  "data_inicio": "2025-06-17",  "hora_inicio": "18:00",  "data_fim": "2025-06-17",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/solosis-spotlight-hour-june-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Growlithe",  "data_inicio": "2025-06-24",  "hora_inicio": "18:00",  "data_fim": "2025-06-24",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/growlithe-spotlight-hour-june-2025-last-minute-guide/" }
         ]
       },
       "05": {
@@ -358,7 +361,10 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Furfrou",  "data_inicio": "2025-05-06",  "hora_inicio": "18:00",  "data_fim": "2025-05-06",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/furfrou-spotlight-hour-may-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Sandygast",  "data_inicio": "2025-05-13",  "hora_inicio": "18:00",  "data_fim": "2025-05-13",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/sandygast-spotlight-hour-may-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Poochyena",  "data_inicio": "2025-05-20",  "hora_inicio": "18:00",  "data_fim": "2025-05-20",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/poochyena-spotlight-hour-may-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Golett",  "data_inicio": "2025-05-27",  "hora_inicio": "18:00",  "data_fim": "2025-05-27",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/golett-spotlight-hour-may-2025-last-minute-guide/" }
         ]
       },
       "04": {
@@ -382,7 +388,11 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Poké Bolas",  "data_inicio": "2025-04-01",  "hora_inicio": "18:00",  "data_fim": "2025-04-01",  "hora_fim": "19:00",  "img": "../Assets/icon-pokeball.png",  "link": "https://leekduck.com/events/pokemonspotlighthour2025-04-01/" },
+          { "titulo": "Hora do Holofote: Meditite",  "data_inicio": "2025-04-08",  "hora_inicio": "18:00",  "data_fim": "2025-04-08",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/meditite-spotlight-hour-april-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Fomantis",  "data_inicio": "2025-04-15",  "hora_inicio": "18:00",  "data_fim": "2025-04-15",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/fomantis-spotlight-hour-april-2025/" },
+          { "titulo": "Hora do Holofote: Morelull",  "data_inicio": "2025-04-22",  "hora_inicio": "18:00",  "data_fim": "2025-04-22",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/news/morelull-spotlight-hour/" },
+          { "titulo": "Hora do Holofote: Abra",  "data_inicio": "2025-04-29",  "hora_inicio": "18:00",  "data_fim": "2025-04-29",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/abra-spotlight-hour-april-2024-last-minute-guide/" }
         ]
       },
       "03": {
@@ -405,7 +415,10 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Makuhita",  "data_inicio": "2025-03-04",  "hora_inicio": "18:00",  "data_fim": "2025-03-04",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/makuhita-spotlight-hour-february-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Roselia",  "data_inicio": "2025-03-11",  "hora_inicio": "18:00",  "data_fim": "2025-03-11",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/roselia-spotlight-hour-march-2025/" },
+          { "titulo": "Hora do Holofote: Shellder",  "data_inicio": "2025-03-18",  "hora_inicio": "18:00",  "data_fim": "2025-03-18",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/shellder-spotlight-hour-march-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Cutiefly",  "data_inicio": "2025-03-25",  "hora_inicio": "18:00",  "data_fim": "2025-03-25",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/cutiefly-spotlight-hour-march-2025/" }
         ]
       },
       "02": {
@@ -428,7 +441,10 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Carvanha",  "data_inicio": "2025-02-04",  "hora_inicio": "18:00",  "data_fim": "2025-02-04",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/carvanha-spotlight-hour-february-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Luvdisc",  "data_inicio": "2025-02-11",  "hora_inicio": "18:00",  "data_fim": "2025-02-11",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/luvdisc-spotlight-hour-february-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Inkay",  "data_inicio": "2025-02-18",  "hora_inicio": "18:00",  "data_fim": "2025-02-18",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/inkay-spotlight-hour-february-2025/" },
+          { "titulo": "Hora do Holofote: Snivy / Tepig / Oshawott",  "data_inicio": "2025-02-25",  "hora_inicio": "18:00",  "data_fim": "2025-02-25",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/unova-starters-spotlight-hour-tuesday-february-25-2025/" }
         ]
       },
       "01": {
@@ -451,7 +467,10 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Voltorb / Voltorb de Hisui",  "data_inicio": "2025-01-07",  "hora_inicio": "18:00",  "data_fim": "2025-01-07",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/voltorb-spotlight-hour-january-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Roselia",  "data_inicio": "2025-01-14",  "hora_inicio": "18:00",  "data_fim": "2025-01-14",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/roselia-spotlight-hour-january-2025/" },
+          { "titulo": "Hora do Holofote: Wooper (Paldea)",  "data_inicio": "2025-01-21",  "hora_inicio": "18:00",  "data_fim": "2025-01-21",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/paldean-wooper-spotlight-hour-tuesday-january-21-2025/" },
+          { "titulo": "Hora do Holofote: Yungoos",  "data_inicio": "2025-01-28",  "hora_inicio": "18:00",  "data_fim": "2025-01-28",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/yungoos-spotlight-hour-january-2025-last-minute-guide/" }
         ]
       }
     }
@@ -623,7 +642,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       },
       "05": {
@@ -646,7 +665,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       },
       "04": {
@@ -669,7 +688,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       },
       "03": {
@@ -692,7 +711,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       },
       "02": {
@@ -715,7 +734,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       },
       "01": {
@@ -738,7 +757,7 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          
         ]
       }
     }
