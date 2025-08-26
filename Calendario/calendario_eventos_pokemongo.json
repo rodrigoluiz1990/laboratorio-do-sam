@@ -209,8 +209,8 @@
           { "titulo": "Dynamax: Articuno",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/ARTICUNO/RAID_LEVEL_5_MAX" },
           { "titulo": "Dynamax: Zapdos",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/ZAPDOS/RAID_LEVEL_5_MAX" },
           { "titulo": "Dynamax: Moltres",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/MOLTRES/RAID_LEVEL_5_MAX" },
-          { "titulo": "Dynamax: Toxtricity (Forma Aguda)",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_AMPED_FORM/RAID_LEVEL_5_MAX" },
-          { "titulo": "Dynamax: Toxtricity (Forma Grave) ",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_LOW_KEY_FORM/RAID_LEVEL_5_MAX" },
+          { "titulo": "Dynamax: Toxtricity (Aguda)",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_AMPED_FORM/RAID_LEVEL_5_MAX" },
+          { "titulo": "Dynamax: Toxtricity (Grave) ",  "data_inicio": "2025-08-19",  "hora_inicio": "10:00",  "data_fim": "2025-08-20",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_LOW_KEY_FORM/RAID_LEVEL_5_MAX" },
           { "titulo": "Dynamax: Raikou",  "data_inicio": "2025-08-21",  "hora_inicio": "10:00",  "data_fim": "2025-08-22",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/RAIKOU/RAID_LEVEL_5_MAX" },
           { "titulo": "Dynamax: Suicune",  "data_inicio": "2025-08-21",  "hora_inicio": "10:00",  "data_fim": "2025-08-22",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/SUICUNE/RAID_LEVEL_5_MAX" },
           { "titulo": "Dynamax: Entei",  "data_inicio": "2025-08-21",  "hora_inicio": "10:00",  "data_fim": "2025-08-22",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/ENTEI/RAID_LEVEL_5_MAX" }
@@ -328,7 +328,9 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: Tapu Bulu",  "data_inicio": "2025-06-04",  "hora_inicio": "18:00",  "data_fim": "2025-06-04",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/TAPU_BULU" },
+          { "titulo": "Hora Lendária: Groudon",  "data_inicio": "2025-06-11",  "hora_inicio": "18:00",  "data_fim": "2025-06-11",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GROUDON" },
+          { "titulo": "Hora Lendária: Kyogre",  "data_inicio": "2025-06-18",  "hora_inicio": "18:00",  "data_fim": "2025-06-18",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/KYOGRE" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -355,7 +357,14 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: Tapu Fini",  "data_inicio": "2025-05-07",  "hora_inicio": "18:00",  "data_fim": "2025-05-07",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/TAPU_FINI" },
+          { "titulo": "Hora Lendária: Uxie (Asia-Pacifico)",  "data_inicio": "2025-05-14",  "hora_inicio": "18:00",  "data_fim": "2025-05-14",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/UXIE" },
+          { "titulo": "Hora Lendária: Mesprit (EMEA & India)",  "data_inicio": "2025-05-14",  "hora_inicio": "18:00",  "data_fim": "2025-05-14",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/MESPRIT" },
+          { "titulo": "Hora Lendária: Azelf (Americas & Greenland)",  "data_inicio": "2025-05-14",  "hora_inicio": "18:00",  "data_fim": "2025-05-14",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/AZELF" },
+          { "titulo": "Hora Lendária: Uxie (Asia-Pacifico)",  "data_inicio": "2025-05-21",  "hora_inicio": "18:00",  "data_fim": "2025-05-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/UXIE" },
+          { "titulo": "Hora Lendária: Mesprit (EMEA & India)",  "data_inicio": "2025-05-21",  "hora_inicio": "18:00",  "data_fim": "2025-05-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/MESPRIT" },
+          { "titulo": "Hora Lendária: Azelf (Americas & Greenland)",  "data_inicio": "2025-05-21",  "hora_inicio": "18:00",  "data_fim": "2025-05-21",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/AZELF" },
+          { "titulo": "Hora Lendária: Tapu Bulu",  "data_inicio": "2025-05-28",  "hora_inicio": "18:00",  "data_fim": "2025-05-28",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/TAPU_BULU" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -382,7 +391,11 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: Tapu Lele",  "data_inicio": "2025-04-02",  "hora_inicio": "18:00",  "data_fim": "2025-04-02",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/TAPU_LELE" },
+          { "titulo": "Hora Lendária: Stakataka (Hemisfério Leste)",  "data_inicio": "2025-04-09",  "hora_inicio": "18:00",  "data_fim": "2025-04-09",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/STAKATAKA" },
+          { "titulo": "Hora Lendária: Blacephalon (hemisfério Oeste)",  "data_inicio": "2025-04-09",  "hora_inicio": "18:00",  "data_fim": "2025-04-09",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/BLACEPHALON" },
+          { "titulo": "Hora Lendária: Cresselia",  "data_inicio": "2025-04-23",  "hora_inicio": "18:00",  "data_fim": "2025-04-23",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/CRESSELIA" },
+          { "titulo": "Hora Lendária: Cresselia",  "data_inicio": "2025-04-30",  "hora_inicio": "18:00",  "data_fim": "2025-04-30",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/CRESSELIA" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -409,7 +422,14 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: Articuno",  "data_inicio": "2025-03-05",  "hora_inicio": "18:00",  "data_fim": "2025-03-05",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ARTICUNO" },
+          { "titulo": "Hora Lendária: Zapdos",  "data_inicio": "2025-03-05",  "hora_inicio": "18:00",  "data_fim": "2025-03-05",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZAPDOS" },
+          { "titulo": "Hora Lendária: Moltres",  "data_inicio": "2025-03-05",  "hora_inicio": "18:00",  "data_fim": "2025-03-05",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/MOLTRES" },
+          { "titulo": "Hora Lendária: Articuno",  "data_inicio": "2025-03-12",  "hora_inicio": "18:00",  "data_fim": "2025-03-12",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ARTICUNO" },
+          { "titulo": "Hora Lendária: Zapdos",  "data_inicio": "2025-03-12",  "hora_inicio": "18:00",  "data_fim": "2025-03-12",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZAPDOS" },
+          { "titulo": "Hora Lendária: Moltres",  "data_inicio": "2025-03-12",  "hora_inicio": "18:00",  "data_fim": "2025-03-12",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/MOLTRES" },
+          { "titulo": "Hora Lendária: Tapu Koko",  "data_inicio": "2025-03-19",  "hora_inicio": "18:00",  "data_fim": "2025-03-19",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/TAPU_KOKO" },
+          { "titulo": "Hora Lendária: Heatran",  "data_inicio": "2025-03-26",  "hora_inicio": "18:00",  "data_fim": "2025-03-26",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/HEATRAN" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -435,7 +455,10 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Hora Lendária: Dialga",  "data_inicio": "2025-02-05",  "hora_inicio": "18:00",  "data_fim": "2025-02-05",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DIALGA" },
+          { "titulo": "Hora Lendária: Enamorus (Incarnate)",  "data_inicio": "2025-02-12",  "hora_inicio": "18:00",  "data_fim": "2025-02-12",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ENAMORUS_INCARNATE_FORM" },
+          { "titulo": "Hora Lendária: Yveltal",  "data_inicio": "2025-02-19",  "hora_inicio": "18:00",  "data_fim": "2025-02-19",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/YVELTAL" },
+          { "titulo": "Hora Lendária: Xerneas",  "data_inicio": "2025-02-19",  "hora_inicio": "18:00",  "data_fim": "2025-02-19",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/XERNEAS" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
@@ -467,10 +490,12 @@
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: Voltorb / Voltorb de Hisui",  "data_inicio": "2025-01-07",  "hora_inicio": "18:00",  "data_fim": "2025-01-07",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/voltorb-spotlight-hour-january-2025-last-minute-guide/" },
-          { "titulo": "Hora do Holofote: Roselia",  "data_inicio": "2025-01-14",  "hora_inicio": "18:00",  "data_fim": "2025-01-14",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/roselia-spotlight-hour-january-2025/" },
-          { "titulo": "Hora do Holofote: Wooper (Paldea)",  "data_inicio": "2025-01-21",  "hora_inicio": "18:00",  "data_fim": "2025-01-21",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/paldean-wooper-spotlight-hour-tuesday-january-21-2025/" },
-          { "titulo": "Hora do Holofote: Yungoos",  "data_inicio": "2025-01-28",  "hora_inicio": "18:00",  "data_fim": "2025-01-28",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/guide/yungoos-spotlight-hour-january-2025-last-minute-guide/" }
+          { "titulo": "Hora Lendária: Giratina (Alterada)",  "data_inicio": "2025-01-08",  "hora_inicio": "18:00",  "data_fim": "2025-01-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GIRATINA_ALTERED_FORM" },
+          { "titulo": "Hora Lendária: Palkia",  "data_inicio": "2025-01-08",  "hora_inicio": "18:00",  "data_fim": "2025-01-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/PALKIA" },
+          { "titulo": "Hora Lendária: Palkia",  "data_inicio": "2025-01-15",  "hora_inicio": "18:00",  "data_fim": "2025-01-15",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/PALKIA" },
+          { "titulo": "Hora Lendária: Deoxys (Ataque)",  "data_inicio": "2025-01-22",  "hora_inicio": "18:00",  "data_fim": "2025-01-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_ATTACK_FORM" },
+          { "titulo": "Hora Lendária: Deoxys (Defesa)",  "data_inicio": "2025-01-22",  "hora_inicio": "18:00",  "data_fim": "2025-01-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_DEFENSE_FORM" },
+          { "titulo": "Hora Lendária: Dialga",  "data_inicio": "2025-01-29",  "hora_inicio": "18:00",  "data_fim": "2025-01-29",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DIALGA" }
         ]
       }
     }
