@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://rodrigoluiz1990.github.io/laboratorio-do-sam/sitemap.xml
