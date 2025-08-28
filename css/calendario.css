@@ -126,7 +126,7 @@ header p {
   flex-direction: column;
   justify-content: space-between;
   width: 220px;      /* Mesma largura fixa para ambas */
-  height: 205px;      /* Mesma altura fixa para ambas */
+  height: 220px;      /* Mesma altura fixa para ambas */
   vertical-align: top;
   background-color: #1f1f1f;
   color: #fff;
