@@ -128,6 +128,13 @@ function mudarAno(delta) {
   carregarEvents();
 }
 
+document.getElementById("btnToggleFiltros").addEventListener("click", () => {
+  const filtros = document.getElementById("filtro-categorias");
+  filtros.style.display = (filtros.style.display === "none" || filtros.style.display === "") 
+    ? "block" 
+    : "none";
+});
+
 
 // Expor funções globalmente para uso no HTML
 window.inicializarControleCalendario = inicializarControleCalendario;

@@ -13,7 +13,7 @@ body {
     justify-content: center;
     gap: 8px;
     font-size: 1.2em;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .calendar-select {
@@ -27,7 +27,7 @@ body {
 /* Cabeçalho */
 header {
   background-color: #121212;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
 }
 
@@ -89,7 +89,7 @@ header p {
 /* Controles do calendário (botões e destaques) */
 .controls {
   text-align: center;
-  margin: 15px 0;
+  margin: 5px 0;
   display: flex;
   justify-content: center;
   align-items: center;
