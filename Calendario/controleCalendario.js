@@ -67,12 +67,67 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
 function mudarMes(delta) {
   dataAtual.setMonth(dataAtual.getMonth() + delta);
 
+  // Limites
+  const anoMin = 2016;
+  const mesMin = 9; // Outubro (0 = Jan, 9 = Out)
+  const anoMax = new Date().getFullYear() + 1;
+
+  // Se ano menor que 2016 → trava em outubro/2016
+  if (dataAtual.getFullYear() < anoMin) {
+    dataAtual.setFullYear(anoMin);
+    dataAtual.setMonth(mesMin);
+  }
+
+  // Se ano = 2016 mas mês < outubro → trava em outubro
+  if (dataAtual.getFullYear() === anoMin && dataAtual.getMonth() < mesMin) {
+    dataAtual.setMonth(mesMin);
+  }
+
+  // Se passou do limite superior
+  if (dataAtual.getFullYear() > anoMax) {
+    dataAtual.setFullYear(anoMax);
+    dataAtual.setMonth(11); // Dezembro
+  }
+
   document.getElementById("selectMes").value = dataAtual.getMonth() + 1;
   document.getElementById("selectAno").value = dataAtual.getFullYear();
 
   atualizarTextoMesAno(dataAtual);
   carregarEvents();
 }
+
+// Função para mudar ano, atualiza selects, texto e recarrega eventos
+function mudarAno(delta) {
+  dataAtual.setFullYear(dataAtual.getFullYear() + delta);
+
+  // Limites
+  const anoMin = 2016;
+  const mesMin = 9; // Outubro
+  const anoMax = new Date().getFullYear() + 1;
+
+  // Ano mínimo → força para outubro
+  if (dataAtual.getFullYear() < anoMin) {
+    dataAtual.setFullYear(anoMin);
+    dataAtual.setMonth(mesMin);
+  }
+
+  if (dataAtual.getFullYear() === anoMin && dataAtual.getMonth() < mesMin) {
+    dataAtual.setMonth(mesMin);
+  }
+
+  // Ano máximo → trava em dezembro
+  if (dataAtual.getFullYear() > anoMax) {
+    dataAtual.setFullYear(anoMax);
+    dataAtual.setMonth(11);
+  }
+
+  document.getElementById("selectMes").value = dataAtual.getMonth() + 1;
+  document.getElementById("selectAno").value = dataAtual.getFullYear();
+
+  atualizarTextoMesAno(dataAtual);
+  carregarEvents();
+}
+
 
 // Expor funções globalmente para uso no HTML
 window.inicializarControleCalendario = inicializarControleCalendario;

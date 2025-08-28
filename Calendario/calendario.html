@@ -63,6 +63,16 @@
 
   <!-- Calendario para navegar entre mes e ano -->
   <div class="calendar-header">
+
+    <!-- Controles para mudar o mês e exibir destaques -->
+    <div class="controls">
+      <button onclick="mudarAno(-1)">◀◀</button>
+      <button onclick="mudarMes(-1)">◀</button>
+      <button id="btnHoje">Hoje</button>
+      <button onclick="mudarMes(1)">▶</button>
+      <button onclick="mudarAno(1)">▶▶</button>
+    </div>
+
     <select id="selectMes" class="calendar-select">
         <option value="1">Janeiro</option>
         <option value="2">Fevereiro</option>
@@ -87,13 +97,6 @@
     <span id="labelNotificacao">Ativar notificações</span>
     
   </div>
-
-    <!-- Controles para mudar o mês e exibir destaques -->
-    <div class="controls">
-      <button onclick="mudarMes(-1)">&#8592; Mês Anterior</button>
-      <button id="btnHoje">Hoje</button>
-      <button onclick="mudarMes(1)">Próximo Mês &#8594;</button>
-    </div>
 
   </header>  
 
