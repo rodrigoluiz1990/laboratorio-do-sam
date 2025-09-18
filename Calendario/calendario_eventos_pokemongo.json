@@ -91,7 +91,7 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ?",  "data_inicio": "2025-10-12",  "hora_inicio": "14:00",  "data_fim": "2025-10-12",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: Solosis",  "data_inicio": "2025-10-12",  "hora_inicio": "14:00",  "data_fim": "2025-10-12",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-solosis-community-day-october-2025/" }
         ],
         "raid": [
           { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-10-04",  "hora_inicio": "14:00",  "data_fim": "2025-10-04",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" },
@@ -101,7 +101,7 @@
           { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
         ],
         "raid_mega": [
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Dia de Mega Raid: Metagross",  "data_inicio": "2025-10-04",  "hora_inicio": "14:00",  "data_fim": "2025-10-04",  "hora_fim": "17:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/METAGROSS_MEGA" }
         ],
         "raid_shadow": [
           { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
@@ -136,8 +136,7 @@
         ],
         "raid": [
           { "titulo": "Raid: Palkia",    "data_inicio": "2025-09-02",  "hora_inicio": "10:00",  "data_fim": "2025-09-16",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/PALKIA" },
-          { "titulo": "Raid: Dialga",    "data_inicio": "2025-09-23",  "hora_inicio": "10:00",  "data_fim": "2025-10-01",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DIALGA" },
-          { "titulo": "Dia de Raid: ",  "data_inicio": "2025-09-28",  "hora_inicio": "14:00",  "data_fim": "2025-09-28",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Raid: Dialga",    "data_inicio": "2025-09-23",  "hora_inicio": "10:00",  "data_fim": "2025-10-01",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DIALGA" }
         ],
         "raid_hour": [
           { "titulo": "Hora Lendária: Palkia (Origem)",  "data_inicio": "2025-09-03",  "hora_inicio": "18:00",  "data_fim": "2025-09-03",  "hora_fim": "19:00",  "img": "../Assets/icon-origem.png",  "link": "https://www.pokebattler.com/raids/PALKIA_ORIGIN_FORM" },
@@ -170,7 +169,7 @@
           { "titulo": "Raid Sombrosa: Groudon",  "data_inicio": "2025-09-20",  "hora_inicio": "10:00",  "data_fim": "2025-09-21",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Dynamax: Duraludon",  "data_inicio": "2025-09-30",  "hora_inicio": "10:00",  "data_fim": "2025-10-07",  "hora_fim": "20:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/DURALUDON/RAID_LEVEL_4_MAX" }
         ],
         "gigantamax": [
           { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
