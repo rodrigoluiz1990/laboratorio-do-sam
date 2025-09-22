@@ -7,44 +7,62 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-EY17XNV9RM');
   </script>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
   <link rel="stylesheet" href="../css/puzzle.css">
   <meta charset="UTF-8">
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
   <title>Puzzle Pokémon</title>
 </head>
 
-<body>  
-    <!-- Menu carregado dinamicamente -->
-    <div id="menu"></div>
-  
-    <!-- Script para carregar o menu -->
-    <script>
-      fetch('../menu.html')
-        .then(response => response.text())
-        .then(html => {
-          document.getElementById('menu').innerHTML = html;
-        });  
-    </script>
+<body>
+  <!-- Menu carregado dinamicamente -->
+  <div id="menu"></div>
 
-<div class="puzzle-container"></div>
+  <!-- Script para carregar o menu -->
+  <script>
+    fetch('../menu.html')
+      .then(response => response.text())
+      .then(html => {
+        // Inserir menu no DOM
+        document.getElementById('menu').innerHTML = html;
+
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal.querySelector(".close");
+
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
+
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
+      }); 
+  </script>
+
+  <div class="puzzle-container"></div>
   <header>
     <h1 class="titulo-puzzle">Escolha um Puzzle</h1>
   </header>
 
   <div class="wrapper">
     <div class="grid-thumbs">
-      <div class="thumb" data-img="../Assets/puzzle-kabuto.png" data-title="Kabuto"><img src="../Assets/puzzle-kabuto.png" alt="Kabuto"><span>Kabuto</span></div>
-      <div class="thumb" data-img="../Assets/puzzle-aerodactyl.png" data-title="Aerodactyl"><img src="../Assets/puzzle-aerodactyl.png" alt="Aerodactyl"><span>Aerodactyl</span></div>
-      <div class="thumb" data-img="../Assets/puzzle-ho-oh.png" data-title="Ho-Oh"><img src="../Assets/puzzle-ho-oh.png" alt="Ho-Oh"><span>Ho-Oh</span></div>
-      <div class="thumb" data-img="../Assets/puzzle-omanyte.png" data-title="Omanyte"><img src="../Assets/puzzle-omanyte.png" alt="Omanyte"><span>Omanyte</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-kabuto.png" data-title="Kabuto"><img
+          src="../Assets/puzzle-kabuto.png" alt="Kabuto"><span>Kabuto</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-aerodactyl.png" data-title="Aerodactyl"><img
+          src="../Assets/puzzle-aerodactyl.png" alt="Aerodactyl"><span>Aerodactyl</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-ho-oh.png" data-title="Ho-Oh"><img src="../Assets/puzzle-ho-oh.png"
+          alt="Ho-Oh"><span>Ho-Oh</span></div>
+      <div class="thumb" data-img="../Assets/puzzle-omanyte.png" data-title="Omanyte"><img
+          src="../Assets/puzzle-omanyte.png" alt="Omanyte"><span>Omanyte</span></div>
     </div>
 
     <div class="board-wrap">
@@ -84,4 +102,5 @@
       .catch(err => console.error("Erro ao carregar o rodapé:", err));
   </script>
 </body>
+
 </html>

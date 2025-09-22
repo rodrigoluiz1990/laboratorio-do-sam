@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', 'G-EY17XNV9RM');
   </script>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
   <meta charset="UTF-8" />
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
   <title>Raids Pokémon GO - Dias destacados com labels</title>
   <style>
-
     body {
       margin: 0;
       font-family: 'Arial', sans-serif;
@@ -42,7 +43,7 @@
       background: #bee9ec;
       padding: 15px;
       border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       display: flex;
       flex-direction: column;
       height: 100%;
@@ -130,6 +131,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
+
 <body>
 
   <!-- 🔹 Preloader -->
@@ -144,7 +146,20 @@
     fetch('../menu.html')
       .then(response => response.text())
       .then(html => {
+        // Inserir menu no DOM
         document.getElementById('menu').innerHTML = html;
+
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal.querySelector(".close");
+
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
+
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
       });
   </script>
 
@@ -154,18 +169,18 @@
   <script>
     const excelUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSoZvSv7j6PmVqUq-RweVXOuS5S8RUE8y0aTew8rdxCWRLSxktA17alYPDgQBXHhMYR_VxRhGDHb2XC/pub?output=xlsx";
 
-    const colunasData = [1,5,9,13];
+    const colunasData = [1, 5, 9, 13];
     const gruposDefinidos = {
-      "Raids 5": [0,1,2],          
-      "Raids Mega": [4,5,6],       
-      "Gigantamax": [8,9,10],      
-      "Dinamax (Lendário)": [12,13,14]
+      "Raids 5": [0, 1, 2],
+      "Raids Mega": [4, 5, 6],
+      "Gigantamax": [8, 9, 10],
+      "Dinamax (Lendário)": [12, 13, 14]
     };
 
     function excelDateToJSDate(serial) {
       if (typeof serial === "number") {
-        const utc_days  = Math.floor(serial - 25569);
-        const utc_value = utc_days * 86400;                                        
+        const utc_days = Math.floor(serial - 25569);
+        const utc_value = utc_days * 86400;
         const date_info = new Date(utc_value * 1000);
         const day = ("0" + date_info.getUTCDate()).slice(-2);
         const month = ("0" + (date_info.getUTCMonth() + 1)).slice(-2);
@@ -205,7 +220,7 @@
             const nome = sheetData[row][nomeCol] || "";
             if (!nome) continue;
 
-            const cellAddress = XLSX.utils.encode_cell({c: nomeCol, r: row});
+            const cellAddress = XLSX.utils.encode_cell({ c: nomeCol, r: row });
             const link = getHyperlink(sheet, cellAddress);
 
             let ultimaRaw = ultimaCol !== null ? (sheetData[row][ultimaCol] || "") : "";
@@ -277,4 +292,5 @@
   </script>
 
 </body>
+
 </html>

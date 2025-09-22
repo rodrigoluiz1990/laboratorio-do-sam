@@ -1,3 +1,18 @@
+/* ================= Variáveis globais ================= */
+:root {
+    --bg: #0f0f0f;
+    --fg: #f5f5f5;
+    --muted: #b7b7b7;
+    --accent: #ffd34d;
+    --accent2: #8bd17c;
+    --card: #1d1d1d;
+    --grid-gap: 10px;
+    --board-size: 300px;
+    --radius: 16px;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+    font-synthesis-weight: none;
+  }
+
 /* ===================== MENU ICON ===================== */
 .menu-icon {
     width: 28px;

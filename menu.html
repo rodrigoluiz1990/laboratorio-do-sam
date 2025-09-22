@@ -1,6 +1,5 @@
-<nav class="navbar"> 
-  <a href="../index.html" class="logo"> 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<nav class="navbar">
+  <a href="../index.html" class="logo">
     <img src="../Assets/logo-gs2.png"> Laboratório do Sam
   </a>
   <ul>
@@ -22,10 +21,23 @@
         <li><a href="https://www.pokebattler.com" target="_blank"> <img src="../Assets/logo-pokebattler.png"> PokeBattler</a></li>
         <li><a href="https://www.pvpoke.com" target="_blank"> <img src="../Assets/logo-pvppoke.png"> PvP Poke</a></li>
         <li><a href="https://www.stadiumgaming.gg/rank-checker" target="_blank"> <img src="../Assets/logo-stadium-gaming.png"> Stadium Gaming</a></li>
-        </a></li>
-      </ul>
+        </a>
     </li>
-    <li><a href="../puzzle/puzzle.html" target="_blank"><i class="fas fa-puzzle-piece"></i></a></li>
-    <li><a href="https://x.com/labdosam" target="_blank" title="Siga no Twitter"><i class="fab fa-x-twitter"></i></a></li>
+  </ul>
+  </li>
+  <li><a href="#" id="puzzleIcon"><i class="fas fa-puzzle-piece"></i></a></li>
+  <li><a href="https://x.com/labdosam" target="_blank" title="Siga no Twitter"><i class="fab fa-x-twitter"></i></a></li>
   </ul>
 </nav>
+
+<!-- MODAL -->
+<div id="gameModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2>Escolha o jogo</h2>
+    <button onclick="location.href='../puzzle/puzzle.html'">Puzzle</button>
+    <button onclick="location.href='../memory_game/memory_game.html'">Memory Game</button>
+  </div>
+</div>
+
+<script src="modal-game.js"></script>

@@ -1,20 +1,21 @@
-
 <!DOCTYPE html>
 <html>
+
 <head>
 
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-EY17XNV9RM');
   </script>
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
   <meta charset="UTF-8">
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
   <title>Avaliação Conta Pokémon GO</title>
@@ -30,7 +31,8 @@
     .form-container {
       display: flex;
       justify-content: center;
-      padding-top: 30px;       /* distância do topo */
+      padding-top: 30px;
+      /* distância do topo */
     }
 
     fieldset {
@@ -61,15 +63,17 @@
       color: black;
       text-shadow:
         -1px -1px 0 white,
-         1px -1px 0 white,
-        -1px  1px 0 white,
-         1px  1px 0 white;
+        1px -1px 0 white,
+        -1px 1px 0 white,
+        1px 1px 0 white;
     }
 
     .botao-avaliar {
-      background-color: #0058F3; /* verde */
+      background-color: #0058F3;
+      /* verde */
       color: white;
-      text-decoration: none; /* remove sublinhado */
+      text-decoration: none;
+      /* remove sublinhado */
       padding: 10px 20px;
       font-weight: bold;
       border: none;
@@ -80,18 +84,19 @@
     }
 
     .botao-avaliar:hover {
-      background-color: #3ca733; /* verde escuro */
+      background-color: #3ca733;
+      /* verde escuro */
     }
 
     .botao-container {
       text-align: right;
-      margin-top: 10px; /* só para dar espaçamento */
+      margin-top: 10px;
+      /* só para dar espaçamento */
     }
-
   </style>
 
   <script type="text/javascript">
-    function avaliar(){
+    function avaliar() {
       var f = document.getElementById("formulario");
 
       var xp = +f.xp.value;
@@ -133,88 +138,102 @@
 
 <body>
 
-<!-- Espaço para o menu -->
-<div id="menu"></div>
+  <!-- Espaço para o menu -->
+  <div id="menu"></div>
 
-<!-- Script para carregar o menu -->
-<script>
-  fetch('../menu.html')
-    .then(response => response.text())
-    .then(html => {
-      document.getElementById('menu').innerHTML = html;
-    });
-</script>
+  <!-- Script para carregar o menu -->
+  <script>
+    fetch('../menu.html')
+      .then(response => response.text())
+      .then(html => {
+        // Inserir menu no DOM
+        document.getElementById('menu').innerHTML = html;
 
-<!-- Menu carregado dinamicamente -->
-<div id="menu"></div>
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal.querySelector(".close");
 
-<div class="form-container">
-  <form id="formulario">
-    <fieldset>
-      <legend><span>Avaliar Conta</span></legend>
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
 
-      <label><span>Pontos de experiência:</span>
-        <input type="text" name="xp"></label>
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
+      });
+  </script>
 
-      <label><span>Pokémon 100% IV:</span>
-        <input type="number" name="iv100"></label>
+  <!-- Menu carregado dinamicamente -->
+  <div id="menu"></div>
 
-      <label><span>Poeira estelar:</span>
-        <input type="text" name="stardust"></label>
+  <div class="form-container">
+    <form id="formulario">
+      <fieldset>
+        <legend><span>Avaliar Conta</span></legend>
 
-      <label><span>Pokémons com traje:</span>
-        <input type="number" name="traje"></label>
+        <label><span>Pontos de experiência:</span>
+          <input type="text" name="xp"></label>
 
-      <label><span>Insígnias de evento:</span>
-        <input type="number" name="insignia"></label>
+        <label><span>Pokémon 100% IV:</span>
+          <input type="number" name="iv100"></label>
 
-      <label><span>Regionais exclusivos:</span>
-        <input type="number" name="regionais"></label>
+        <label><span>Poeira estelar:</span>
+          <input type="text" name="stardust"></label>
 
-      <label><span>Lendários:</span>
-        <input type="number" name="lendario"></label>
+        <label><span>Pokémons com traje:</span>
+          <input type="number" name="traje"></label>
 
-      <label><span>Shiny:</span>
-        <input type="number" name="shiny"></label>
+        <label><span>Insígnias de evento:</span>
+          <input type="number" name="insignia"></label>
 
-      <label><span>Conta criada em 2016:</span>
-        <input type="checkbox" name="conta2016"></label>
+        <label><span>Regionais exclusivos:</span>
+          <input type="number" name="regionais"></label>
 
-      <label><span>Pokémons míticos:</span>
-        <input type="number" name="mitico"></label>
+        <label><span>Lendários:</span>
+          <input type="number" name="lendario"></label>
 
-      <label><span>Pokémons de eventos exclusivos:</span>
-        <input type="number" name="exclusivo"></label>
+        <label><span>Shiny:</span>
+          <input type="number" name="shiny"></label>
 
-      <label><span>Pokémons com efeito de aventura:</span>
-        <input type="number" name="efeito"></label>
+        <label><span>Conta criada em 2016:</span>
+          <input type="checkbox" name="conta2016"></label>
 
-      <label><span>Espaço de Pokémon:</span>
-        <input type="number" name="espaco_pokemon"></label>
+        <label><span>Pokémons míticos:</span>
+          <input type="number" name="mitico"></label>
 
-      <label><span>Espaço de Itens:</span>
-        <input type="number" name="espaco_itens"></label>
+        <label><span>Pokémons de eventos exclusivos:</span>
+          <input type="number" name="exclusivo"></label>
 
-      <label><span>Valor estimado:</span>
-        <input type="text" name="valor" disabled="disabled"></label>
+        <label><span>Pokémons com efeito de aventura:</span>
+          <input type="number" name="efeito"></label>
 
-      <br>
-      <div class="botao-container">
-        <a href="#" class="botao-avaliar" onclick="avaliar();">Avaliar</a>
-      </div>
-    </fieldset>
-  </form>
-</div>
+        <label><span>Espaço de Pokémon:</span>
+          <input type="number" name="espaco_pokemon"></label>
 
-<script>
-  fetch("../footer.html")  // ajuste o caminho se necessário
-    .then(res => res.text())
-    .then(data => {
-      document.body.insertAdjacentHTML("beforeend", data);
-    })
-    .catch(err => console.error("Erro ao carregar o rodapé:", err));
-</script>
+        <label><span>Espaço de Itens:</span>
+          <input type="number" name="espaco_itens"></label>
+
+        <label><span>Valor estimado:</span>
+          <input type="text" name="valor" disabled="disabled"></label>
+
+        <br>
+        <div class="botao-container">
+          <a href="#" class="botao-avaliar" onclick="avaliar();">Avaliar</a>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+
+  <script>
+    fetch("../footer.html")  // ajuste o caminho se necessário
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
 
 
 </body>
+
 </html>

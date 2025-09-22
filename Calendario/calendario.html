@@ -7,7 +7,7 @@
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+    function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
 
     gtag('config', 'G-EY17XNV9RM');
@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/news.css">
   <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
   <link rel="stylesheet" href="../css/calendario.css">
   <meta charset="UTF-8" />
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
@@ -31,7 +32,20 @@
     fetch('../menu.html')
       .then(response => response.text())
       .then(html => {
+        // Inserir menu no DOM
         document.getElementById('menu').innerHTML = html;
+
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal.querySelector(".close");
+
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
+
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
       });
 
     // Pedir permissão para notificações assim que a página carregar
@@ -61,19 +75,19 @@
     <h1 style="margin-bottom: 10px;">Calendário de Eventos Pokémon GO</h1>
     <p id="mesAno" style="display: none;"></p>
 
-  <!-- Calendario para navegar entre mes e ano -->
-  <div class="calendar-header">
+    <!-- Calendario para navegar entre mes e ano -->
+    <div class="calendar-header">
 
-    <!-- Controles para mudar o mês e exibir destaques -->
-    <div class="controls">
-      <button onclick="mudarAno(-1)">◀◀</button>
-      <button onclick="mudarMes(-1)">◀</button>
-      <button id="btnHoje">Hoje</button>
-      <button onclick="mudarMes(1)">▶</button>
-      <button onclick="mudarAno(1)">▶▶</button>
-    </div>
+      <!-- Controles para mudar o mês e exibir destaques -->
+      <div class="controls">
+        <button onclick="mudarAno(-1)">◀◀</button>
+        <button onclick="mudarMes(-1)">◀</button>
+        <button id="btnHoje">Hoje</button>
+        <button onclick="mudarMes(1)">▶</button>
+        <button onclick="mudarAno(1)">▶▶</button>
+      </div>
 
-    <select id="selectMes" class="calendar-select">
+      <select id="selectMes" class="calendar-select">
         <option value="1">Janeiro</option>
         <option value="2">Fevereiro</option>
         <option value="3">Março</option>
@@ -86,19 +100,19 @@
         <option value="10">Outubro</option>
         <option value="11">Novembro</option>
         <option value="12">Dezembro</option>
-    </select>
+      </select>
 
-    <select id="selectAno" class="calendar-select"></select>
+      <select id="selectAno" class="calendar-select"></select>
 
-    <label class="switch">
-      <input type="checkbox" id="toggleNotificacoes" />
-      <span class="slider"></span>
-    </label>
-    <span id="labelNotificacao">Ativar notificações</span>
-    
-  </div>
+      <label class="switch">
+        <input type="checkbox" id="toggleNotificacoes" />
+        <span class="slider"></span>
+      </label>
+      <span id="labelNotificacao">Ativar notificações</span>
 
-  </header>  
+    </div>
+
+  </header>
 
   <!-- Container para os destaques (season + passe do mês) -->
   <div id="destaquesMes" class="destaques-container">
@@ -129,7 +143,7 @@
   </div>
 
   <!-- Container do calendário (dias gerados por JS) -->
-  <div class="grid-container" id="calendario">    <!-- Dias preenchidos pelo JS -->
+  <div class="grid-container" id="calendario"> <!-- Dias preenchidos pelo JS -->
   </div>
 
   <!-- define dadosGlobais, carregarEvents() -->
@@ -165,7 +179,7 @@
         minute: '2-digit'
       });
     }
-      
+
     // Gera os checkbox de filtro de categorias
     function gerarCheckboxesCategorias(listaCategorias) {
       const container = document.getElementById('filtro-categorias');
@@ -226,7 +240,7 @@
     // Aplica o filtro baseado nos checkboxes marcados
     function aplicarFiltroCategorias() {
       const selecionadas = Array.from(document.querySelectorAll('#filtro-categorias input[type="checkbox"]:checked'))
-      .map(cb => cb.value);
+        .map(cb => cb.value);
 
       document.querySelectorAll(".event").forEach(el => {
         const categoria = el.getAttribute("data-categoria");
@@ -237,48 +251,48 @@
         }
       });
     }
-    
-      // Função para renderizar o calendário
-      function renderizarCalendario() {
-        const container = document.getElementById('calendario');
-        const mesAno = document.getElementById('mesAno');
-        container.innerHTML = '';
 
-        const ano = dataAtual.getFullYear();
-        const mes = dataAtual.getMonth();
+    // Função para renderizar o calendário
+    function renderizarCalendario() {
+      const container = document.getElementById('calendario');
+      const mesAno = document.getElementById('mesAno');
+      container.innerHTML = '';
 
-        const primeiroDiaSemana = new Date(ano, mes, 1).getDay();
-        const diasNoMes = new Date(ano, mes + 1, 0).getDate();
+      const ano = dataAtual.getFullYear();
+      const mes = dataAtual.getMonth();
 
-        // Espaços vazios antes do primeiro dia do mês (para alinhar os dias da semana)
-        for (let i = 0; i < primeiroDiaSemana; i++) {
-          container.appendChild(document.createElement('div'));
+      const primeiroDiaSemana = new Date(ano, mes, 1).getDay();
+      const diasNoMes = new Date(ano, mes + 1, 0).getDate();
+
+      // Espaços vazios antes do primeiro dia do mês (para alinhar os dias da semana)
+      for (let i = 0; i < primeiroDiaSemana; i++) {
+        container.appendChild(document.createElement('div'));
+      }
+
+      // Criar células para cada dia do mês
+      for (let dia = 1; dia <= diasNoMes; dia++) {
+        const dataLocal = new Date(ano, mes, dia);
+        const anoStr = dataLocal.getFullYear();
+        const mesStr = String(dataLocal.getMonth() + 1).padStart(2, '0');
+        const diaStr = String(dataLocal.getDate()).padStart(2, '0');
+        const dataStr = `${anoStr}-${mesStr}-${diaStr}`;
+        const celula = document.createElement('div');
+        celula.className = 'day-cell';
+
+        const rotulo = document.createElement('div');
+        rotulo.className = 'day-label';
+        rotulo.textContent = dia;
+        celula.appendChild(rotulo);
+
+        // Verifica se é o dia atual e aplica classe especial
+        const hoje = new Date();
+        if (
+          dataLocal.getDate() === hoje.getDate() &&
+          dataLocal.getMonth() === hoje.getMonth() &&
+          dataLocal.getFullYear() === hoje.getFullYear()
+        ) {
+          celula.classList.add('hoje');
         }
-
-        // Criar células para cada dia do mês
-        for (let dia = 1; dia <= diasNoMes; dia++) {
-          const dataLocal = new Date(ano, mes, dia);
-          const anoStr = dataLocal.getFullYear();
-          const mesStr = String(dataLocal.getMonth() + 1).padStart(2, '0');
-          const diaStr = String(dataLocal.getDate()).padStart(2, '0');
-          const dataStr = `${anoStr}-${mesStr}-${diaStr}`;
-          const celula = document.createElement('div');
-          celula.className = 'day-cell';
-
-          const rotulo = document.createElement('div');
-          rotulo.className = 'day-label';
-          rotulo.textContent = dia;
-          celula.appendChild(rotulo);
-
-          // Verifica se é o dia atual e aplica classe especial
-          const hoje = new Date();
-          if (
-            dataLocal.getDate() === hoje.getDate() &&
-            dataLocal.getMonth() === hoje.getMonth() &&
-            dataLocal.getFullYear() === hoje.getFullYear()
-          ) {
-            celula.classList.add('hoje');
-          }
 
         // Adicionar eventos do dia, se houver
         if (events[dataStr]) {
@@ -309,7 +323,7 @@
           // Destacar o dia se algum evento contiver o termo buscado
           if (termoBuscaGlobal && events[dataStr]) {
             const encontrou = events[dataStr].some(ev =>
-            ev.texto.titulo.toLowerCase().includes(termoBuscaGlobal.toLowerCase())
+              ev.texto.titulo.toLowerCase().includes(termoBuscaGlobal.toLowerCase())
             );
             if (encontrou) {
               celula.classList.add('encontrado');
@@ -322,11 +336,11 @@
     }
 
 
-  // Carrega os eventos na inicialização
-  carregarEvents().then(() => {
-    gerarCheckboxesCategorias(categorias);
-    aplicarFiltroCategorias();
-  });
+    // Carrega os eventos na inicialização
+    carregarEvents().then(() => {
+      gerarCheckboxesCategorias(categorias);
+      aplicarFiltroCategorias();
+    });
 
   </script>
 
@@ -344,9 +358,10 @@
   <!-- Modal com QR Code PIX -->
   <div id="pix-modal" class="pix-modal">
     <button class="pix-close" onclick="document.getElementById('pix-modal').style.display='none'">✕</button>
-    <img src="../Assets/pokecoin.png" style="width: 48px; height: 48px;"> <p class="pix-text">Ajude a melhorar o site <br>fazendo uma doação.</p>
-    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg"
-        alt="QR Code PIX" class="pix-img">
+    <img src="../Assets/pokecoin.png" style="width: 48px; height: 48px;">
+    <p class="pix-text">Ajude a melhorar o site <br>fazendo uma doação.</p>
+    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg" alt="QR Code PIX"
+      class="pix-img">
   </div>
 
   <script src="news.js"></script>
@@ -361,5 +376,6 @@
       .catch(err => console.error("Erro ao carregar o rodapé:", err));
   </script>
 
-  </body>
+</body>
+
 </html>

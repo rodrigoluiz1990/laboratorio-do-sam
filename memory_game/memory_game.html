@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Super Jogo da Memória Pokémon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
+  <link rel="stylesheet" href="memory_game.css">
+</head>
+<body>
+
+    <!-- Menu carregado dinamicamente -->
+    <div id="menu"></div>
+  
+    <!-- Script para carregar o menu -->
+    <script>
+      fetch('../menu.html')
+        .then(response => response.text())
+        .then(html => {
+          // Inserir menu no DOM
+          document.getElementById('menu').innerHTML = html;
+  
+          // Inicializar modal
+          const modal = document.getElementById("gameModal");
+          const btn = document.getElementById("puzzleIcon");
+          const span = modal.querySelector(".close");
+  
+          if (btn) btn.onclick = () => modal.style.display = "block";
+          if (span) span.onclick = () => modal.style.display = "none";
+  
+          window.onclick = (event) => {
+            if (event.target == modal) modal.style.display = "none";
+          };
+        }); 
+    </script>
+    
+  <h1>Super Jogo da Memória Pokémon</h1>
+
+  <div class="controls">
+    <label for="pairCount">Nº de pares:</label>
+    <select id="pairCount">
+      <option value="10">10</option>
+      <option value="20">20</option>
+      <option value="30">30</option>
+      <option value="40">40</option>
+      <option value="50">50</option>
+      <option value="81">81 (completo)</option>
+    </select>
+    <button id="startBtn">Iniciar Jogo</button>
+  </div>
+
+  <div class="status">
+    <span>Movimentos: <span id="moves">0</span></span>
+    <span>Encontrados: <span id="found">0</span></span>
+    <span>Tempo: <span id="timer">00:00</span></span>
+  </div>
+
+  <div id="board"></div>
+
+  <script src="memory_game.js"></script>
+
+  <script>
+    fetch("../footer.html")  // ajuste o caminho se necessário
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
+
+</body>
+</html>
