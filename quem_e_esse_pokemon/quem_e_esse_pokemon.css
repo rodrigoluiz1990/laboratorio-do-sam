@@ -1,0 +1,102 @@
+/* quem.css - estilos específicos do jogo "Quem é esse Pokémon?" */
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin: 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+p.lead {
+    margin: 0;
+    color: var(--muted);
+    font-size: 13px;
+}
+
+.card {
+    background: rgba(15, 23, 36, 0.85);
+    border-radius: var(--radius);
+    padding: 20px;
+    box-shadow: 0 6px 30px rgba(2, 6, 23, 0.6);
+}
+
+.game {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 20px auto;
+}
+
+.silhouette-wrap {
+    background: url("../quem_e_esse_pokemon/img/fundo_classico.png") center/cover no-repeat;
+    border-radius: 12px;
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 620px;
+}
+
+.poke-img {
+    max-width: 100%;
+    max-height: 300px;
+    opacity: 0;
+    transition: opacity 0.4s ease, filter 0.35s ease, transform 0.35s ease;
+    filter: brightness(0) saturate(100%) drop-shadow(0 8px 18px rgba(0,0,0,0.7));
+    opacity: 1;
+}
+
+.hidden {
+    filter: brightness(0) saturate(100%);
+}
+
+.revealed {
+    filter: none;
+    transform: scale(1.03);
+    opacity: 1;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.input-wrap {
+    margin-top: 14px;
+    display: flex;
+    gap: 8px;
+}
+
+input[type=text] {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    font-size: 15px;
+}
+
+.feedback {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.correct {
+    color: #22c55e;
+}
+
+.wrong {
+    color: #ef4444;
+}

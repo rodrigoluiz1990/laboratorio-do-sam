@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="pt-BR">
+
+<head>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EY17XNV9RM');
+  </script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/menu.css">
+  <link rel="stylesheet" href="../css/modal-game.css">
+  <link rel="stylesheet" href="../css/puzzle.css">
+  <link rel="stylesheet" href="../quem_e_esse_pokemon/quem_e_esse_pokemon.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
+
+  <title>Quem é esse Pokémon?</title>
+
+</head>
+
+<body>
+  <!-- Menu carregado dinamicamente -->
+  <div id="menu"></div>
+
+  <!-- Script para carregar o menu -->
+  <script>
+    fetch('../menu.html')
+      .then(response => response.text())
+      .then(html => {
+        // Inserir menu no DOM
+        document.getElementById('menu').innerHTML = html;
+
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal.querySelector(".close");
+
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
+
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
+      }); 
+  </script>
+
+  <div class="wrap">
+    <header>
+      <h1>Quem é esse Pokémon?</h1>
+    </header>
+
+    <div class="card game">
+      <div class="left">
+        <div class="silhouette-wrap">
+          <img id="pokeImg" class="poke-img hidden" src="img/pk-001.png" alt="Pokémon" />
+        </div>
+
+        <div class="input-wrap">
+          <input id="answerInput" type="text" placeholder="Digite o nome..." />
+          <button id="submitBtn" class="primary">Enviar</button>
+          <button id="nextBtn" class="primary" disabled>Próximo</button>
+        </div>
+        <div id="feedback" class="feedback"></div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let POKEMON = [];
+    let current = null;
+  
+    const pokeImg = document.getElementById('pokeImg');
+    const nextBtn = document.getElementById('nextBtn');
+    const submitBtn = document.getElementById('submitBtn');
+    const answerInput = document.getElementById('answerInput');
+    const feedback = document.getElementById('feedback');
+  
+    // --- Carrega automaticamente os 151 primeiros Pokémon ---
+    async function loadPokemon() {
+      const promises = [];
+      for (let id = 1; id <= 898; id++) {
+        promises.push(fetch(`https://pokeapi.co/api/v2/pokemon-species/${id}/`).then(r => r.json()));
+      }
+      const results = await Promise.all(promises);
+  
+      POKEMON = results.map(p => {
+        const namePt = p.names.find(n => n.language.name === "pt")?.name || p.name;
+        return {
+          id: p.id,
+          name: namePt,
+          file: `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/${p.id}.png`
+        };
+      });
+  
+      newRound(); // inicia o jogo só depois que tiver carregado
+    }
+  
+    function newRound() {
+      pokeImg.classList.remove('revealed');
+      pokeImg.classList.add('hidden');
+  
+      setTimeout(() => {
+        current = POKEMON[Math.floor(Math.random() * POKEMON.length)];
+        pokeImg.src = current.file;
+        pokeImg.alt = current.name;
+  
+        feedback.textContent = '';
+        answerInput.value = '';
+        nextBtn.disabled = true;
+      }, 200);
+    }
+  
+    function checkAnswer() {
+      if (!current) return;
+      const guess = answerInput.value.trim().toLowerCase();
+      if (!guess) return;
+  
+      if (guess === current.name.toLowerCase()) {
+        feedback.textContent = '✅ É o ' + current.name;
+        feedback.className = 'feedback correct';
+        pokeImg.classList.remove('hidden');
+        pokeImg.classList.add('revealed');
+        nextBtn.disabled = false;
+      } else {
+        feedback.textContent = '❌ Tente novamente';
+        feedback.className = 'feedback wrong';
+      }
+    }
+  
+    submitBtn.addEventListener('click', checkAnswer);
+    answerInput.addEventListener('keypress', e => { if (e.key === 'Enter') checkAnswer() });
+    nextBtn.addEventListener('click', newRound);
+  
+    window.addEventListener('load', loadPokemon);
+  </script>
+  
+
+  <script>
+    fetch("../footer.html")  // ajuste o caminho se necessário
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+/* ================= BASE GLOBAL ================= */
+
+/* Variáveis globais */
+:root {
+    --bg: #0f0f0f;
+    --fg: #f5f5f5;
+    --muted: #b7b7b7;
+    --accent: #ffd34d;
+    --accent2: #8bd17c;
+    --card: #1d1d1d;
+    --radius: 16px;
+    --shadow: 0 10px 30px rgba(0,0,0,.35);
+  
+    --text-base: 16px;
+    --text-small: 14px;
+    --text-large: 1.6rem;
+    --maxw: 1000px;
+  }
+  
+  /* Reset básico */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Body padrão */
+  body {
+    font-family: Inter, system-ui, Segoe UI, Roboto, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--fg);
+    line-height: 1.5;
+    min-height: 100vh;
+  }
+  
+  /* Estrutura geral */
+  .wrap, .wrapper {
+    width: 100%;
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 0 10px;
+  }
+  
+  /* Títulos */
+  h1, h2, h3 {
+    font-weight: bold;
+    color: var(--fg);
+  }
+  h1 {
+    font-size: var(--text-large);
+    margin-bottom: 10px;
+  }
+  p, span, li {
+    font-size: var(--text-base);
+    color: var(--muted);
+  }
+  
+  /* Botões globais */
+  button, .btn {
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: inherit;
+    padding: 8px 12px;
+    border-radius: var(--radius);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  button.primary, .btn.primary {
+    background: var(--accent);
+    color: #05204a;
+    border: none;
+  }
+  button:hover, .btn:hover {
+    filter: brightness(1.1);
+  }
+  
