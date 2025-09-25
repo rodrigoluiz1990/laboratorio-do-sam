@@ -13,7 +13,7 @@
     gtag('config', 'G-EY17XNV9RM');
   </script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/menu.css">
   <link rel="stylesheet" href="../css/modal-game.css">
@@ -67,7 +67,7 @@
         <div class="input-wrap">
           <input id="answerInput" type="text" placeholder="Digite o nome..." />
           <button id="submitBtn" class="primary">Enviar</button>
-          <button id="nextBtn" class="primary" disabled>Próximo</button>
+          <button id="nextBtn" class="primary">Próximo</button>
         </div>
         <div id="feedback" class="feedback"></div>
       </div>
@@ -115,7 +115,6 @@
   
         feedback.textContent = '';
         answerInput.value = '';
-        nextBtn.disabled = true;
       }, 200);
     }
   
@@ -129,7 +128,6 @@
         feedback.className = 'feedback correct';
         pokeImg.classList.remove('hidden');
         pokeImg.classList.add('revealed');
-        nextBtn.disabled = false;
       } else {
         feedback.textContent = '❌ Tente novamente';
         feedback.className = 'feedback wrong';
