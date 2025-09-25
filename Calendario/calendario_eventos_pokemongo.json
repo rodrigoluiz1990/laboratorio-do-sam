@@ -98,10 +98,27 @@
           { "titulo": "Dia de Raid: ?",  "data_inicio": "2025-10-18",  "hora_inicio": "14:00",  "data_fim": "2025-10-18",  "hora_fim": "17:00",  "img": "../Assets/icon-raid.png",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
+          { "titulo": "Hora Lendária: Deoxys (Normal)",      "data_inicio": "2025-10-08",  "hora_inicio": "18:00",  "data_fim": "2025-10-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS" },
+          { "titulo": "Hora Lendária: Deoxys (Defesa)",      "data_inicio": "2025-10-08",  "hora_inicio": "18:00",  "data_fim": "2025-10-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_DEFENSE_FORM" },
+          { "titulo": "Hora Lendária: Deoxys (Ataque)",      "data_inicio": "2025-10-15",  "hora_inicio": "18:00",  "data_fim": "2025-10-15",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_ATTACK_FORM" },
+          { "titulo": "Hora Lendária: Deoxys (Velocidade)",  "data_inicio": "2025-10-15",  "hora_inicio": "18:00",  "data_fim": "2025-10-15",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_SPEED_FORM" },
+          { "titulo": "Hora Lendária: Genesect (Normal)",    "data_inicio": "2025-10-22",  "hora_inicio": "18:00",  "data_fim": "2025-10-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT" },
+          { "titulo": "Hora Lendária: Genesect (Hídrico)",   "data_inicio": "2025-10-22",  "hora_inicio": "18:00",  "data_fim": "2025-10-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT_DOUSE_FORM" },
+          { "titulo": "Hora Lendária: Genesect (Elétrico)",  "data_inicio": "2025-10-22",  "hora_inicio": "18:00",  "data_fim": "2025-10-22",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT_SHOCK_FORM" },
+          { "titulo": "Hora Lendária: Giratina (Alterada)",  "data_inicio": "2025-10-29",  "hora_inicio": "18:00",  "data_fim": "2025-10-29",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GIRATINA_ALTERED_FORM" }
         ],
         "raid_mega": [
-          { "titulo": "Dia de Mega Raid: Metagross",  "data_inicio": "2025-10-04",  "hora_inicio": "14:00",  "data_fim": "2025-10-04",  "hora_fim": "17:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/METAGROSS_MEGA" }
+          { "titulo": "Dia de Mega Raid: Metagross",  "data_inicio": "2025-10-04",  "hora_inicio": "14:00",  "data_fim": "2025-10-04",  "hora_fim": "17:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/METAGROSS_MEGA" },
+          { "titulo": "Mega Raid: Sceptile",          "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/SCEPTILE_MEGA" },
+          { "titulo": "Mega Raid: Blaziken",          "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/BLAZIKEN_MEGA" },
+          { "titulo": "Mega Raid: Swampert",          "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/SWAMPERT_MEGA" },
+          { "titulo": "Mega Raid: Mawile",            "data_inicio": "2025-10-14",  "hora_inicio": "10:00",  "data_fim": "2025-10-21",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/MAWILE_MEGA" },
+          { "titulo": "Mega Raid: Salamence",         "data_inicio": "2025-10-14",  "hora_inicio": "10:00",  "data_fim": "2025-10-21",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/SALAMENCE_MEGA" },
+          { "titulo": "Mega Raid: Houndoom",          "data_inicio": "2025-10-21",  "hora_inicio": "10:00",  "data_fim": "2025-10-28",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/HOUNDOOM_MEGA" },
+          { "titulo": "Mega Raid: Absol",             "data_inicio": "2025-10-21",  "hora_inicio": "10:00",  "data_fim": "2025-10-28",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/ABSOL_MEGA" },
+          { "titulo": "Mega Raid: Gengar",            "data_inicio": "2025-10-28",  "hora_inicio": "10:00",  "data_fim": "2025-11-04",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/GENGAR_MEGA" },
+          { "titulo": "Mega Raid: Sableye",           "data_inicio": "2025-10-28",  "hora_inicio": "10:00",  "data_fim": "2025-11-04",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/SABLEYE_MEGA" },
+          { "titulo": "Mega Raid: Banette",           "data_inicio": "2025-10-28",  "hora_inicio": "10:00",  "data_fim": "2025-11-04",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/BANETTE_MEGA" }
         ],
         "raid_shadow": [
           { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
@@ -113,10 +130,16 @@
           { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
         ],
         "max_monday": [
-          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
+          { "titulo": "Segundas Max: Drilbur",    "data_inicio": "2025-10-06",  "hora_inicio": "18:00",  "data_fim": "2025-10-06",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/DRILBUR/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Bounsweet",  "data_inicio": "2025-10-13",  "hora_inicio": "18:00",  "data_fim": "2025-10-13",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/BOUNSWEET/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Gastly",     "data_inicio": "2025-10-20",  "hora_inicio": "18:00",  "data_fim": "2025-10-20",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/GASTLY/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Woobat",     "data_inicio": "2025-10-27",  "hora_inicio": "18:00",  "data_fim": "2025-10-27",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/WOOBAT/RAID_LEVEL_1_MAX" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Ferrossed",  "data_inicio": "2025-10-07",  "hora_inicio": "18:00",  "data_fim": "2025-10-07",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Petillil",   "data_inicio": "2025-10-14",  "hora_inicio": "18:00",  "data_fim": "2025-10-14",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Gastly",     "data_inicio": "2025-10-21",  "hora_inicio": "18:00",  "data_fim": "2025-10-21",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Sinistea",   "data_inicio": "2025-10-28",  "hora_inicio": "18:00",  "data_fim": "2025-10-28",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
         ]
       },
       "09": {
@@ -124,9 +147,9 @@
         "events": [
           { "titulo": "Celebração de Kanto",            "data_inicio": "2025-09-02",  "hora_inicio": "10:00",  "data_fim": "2025-09-07",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/kanto-celebration-september-2025/" },
           { "titulo": "A Concierge Pokémon",            "data_inicio": "2025-09-09",  "hora_inicio": "10:00",  "data_fim": "2025-09-14",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-concierge-celebration-event-in-pokemon-go/" },
-          { "titulo": "Espetáculo Psíquio: A Invasão",  "data_inicio": "2025-09-16",  "hora_inicio": "10:00",  "data_fim": "2025-09-21",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
-          { "titulo": "Completamente Normais",          "data_inicio": "2025-09-23",  "hora_inicio": "10:00",  "data_fim": "2025-09-27",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
-          { "titulo": "Horizonte de Aço",               "data_inicio": "2025-09-30",  "hora_inicio": "10:00",  "data_fim": "2025-10-07",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" }
+          { "titulo": "Espetáculo Psíquio: A Invasão",  "data_inicio": "2025-09-16",  "hora_inicio": "10:00",  "data_fim": "2025-09-21",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/psychic-spectacular-taken-over-indeedee-debut-shadow-tornadus-and-more/" },
+          { "titulo": "Completamente Normais",          "data_inicio": "2025-09-23",  "hora_inicio": "10:00",  "data_fim": "2025-09-27",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-completely-normal-event-dudunsparce-debut-ditto-disguises/" },
+          { "titulo": "Horizonte de Aço",               "data_inicio": "2025-09-30",  "hora_inicio": "10:00",  "data_fim": "2025-10-07",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-steel-skyline-event/" }
         ],
         "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
@@ -166,7 +189,7 @@
           { "titulo": "Dia de Mega Raid: Camerupt",  "data_inicio": "2025-09-28",  "hora_inicio": "14:00",  "data_fim": "2025-09-28",  "hora_fim": "17:00",  "img": "../Assets/icon-raid-mega.png",  "link": "http://pokebattler.com/raids/CAMERUPT_MEGA" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: Groudon",  "data_inicio": "2025-09-20",  "hora_inicio": "10:00",  "data_fim": "2025-09-21",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: Groudon",  "data_inicio": "2025-09-20",  "hora_inicio": "10:00",  "data_fim": "2025-09-21",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "http://pokebattler.com/raids/GROUDON_SHADOW_FORM" }
         ],
         "dynamax": [
           { "titulo": "Dynamax: Duraludon",  "data_inicio": "2025-09-30",  "hora_inicio": "10:00",  "data_fim": "2025-10-07",  "hora_fim": "20:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/DURALUDON/RAID_LEVEL_4_MAX" }
@@ -184,8 +207,8 @@
         "spotlights": [
           { "titulo": "Hora do Holofote: Pidgey",    "data_inicio": "2025-09-02",  "hora_inicio": "18:00",  "data_fim": "2025-09-02",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/pidgey-spotlight-hour-september-2025-last-minute-guide/" },
           { "titulo": "Hora do Holofote: Trubbish",  "data_inicio": "2025-09-09",  "hora_inicio": "18:00",  "data_fim": "2025-09-09",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/trubbish-spotlight-hour-september-2025-last-minute-guide/" },
-          { "titulo": "Hora do Holofote: Gothita",   "data_inicio": "2025-09-16",  "hora_inicio": "18:00",  "data_fim": "2025-09-16",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
-          { "titulo": "Hora do Holofote: Hoothoot",  "data_inicio": "2025-09-23",  "hora_inicio": "18:00",  "data_fim": "2025-09-23",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Gothita",   "data_inicio": "2025-09-16",  "hora_inicio": "18:00",  "data_fim": "2025-09-16",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/gothita-spotlight-hour-september-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Hoothoot",  "data_inicio": "2025-09-23",  "hora_inicio": "18:00",  "data_fim": "2025-09-23",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/hoothoot-spotlight-hour-september-2025-last-minute-guide/" },
           { "titulo": "Hora do Holofote: Aron",      "data_inicio": "2025-09-30",  "hora_inicio": "18:00",  "data_fim": "2025-09-30",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
         ]
       },
@@ -560,8 +583,8 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "",  "link": "" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: Chill Genesect",       "data_inicio": "2024-12-11",  "hora_inicio": "18:00",  "data_fim": "2024-12-11",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT" },
-          { "titulo": "Hora Lendária: Chill Genesect",       "data_inicio": "2024-12-04",  "hora_inicio": "18:00",  "data_fim": "2024-12-04",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT" },
+          { "titulo": "Hora Lendária: Genesect (Gelo)",       "data_inicio": "2024-12-11",  "hora_inicio": "18:00",  "data_fim": "2024-12-11",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT_CHILL_FORM" },
+          { "titulo": "Hora Lendária: Genesect (Gelo)",       "data_inicio": "2024-12-04",  "hora_inicio": "18:00",  "data_fim": "2024-12-04",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GENESECT_CHILL_FORM" },
           { "titulo": "Hora Lendária: Mega Latios",          "data_inicio": "2024-12-18",  "hora_inicio": "18:00",  "data_fim": "2024-12-18",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/LATIOS_MEGA" },
           { "titulo": "Hora Lendária: Mega Latias",          "data_inicio": "2024-12-25",  "hora_inicio": "18:00",  "data_fim": "2024-12-25",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/LATIAS_MEGA" },
           { "titulo": "Hora Lendária: Giratina (Alterada)",  "data_inicio": "2024-12-26",  "hora_inicio": "18:00",  "data_fim": "2024-12-26",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/GIRATINA_ALTERED_FORM" }
