@@ -139,7 +139,7 @@
       }
       setTimeout(() => {
         alert(`Parabéns! Você montou o ${title}!`);
-      }, 200);
+      }, 250);
     }
 
     function onTileClick(e) {
