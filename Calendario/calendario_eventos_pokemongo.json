@@ -83,7 +83,7 @@
         ]
       },
       "10": {
-        "go_pass": { "titulo": "Passe Go: Outubro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Outubro",  "inicio": "2025-10-07T10:00:00",  "fim": "2025-11-04T10:00:00",  "img": "../Assets/gopass-2025-10.jpg",  "link": "https://pokemongohub.net/post/guide/october-2025-go-pass-pokecoins-rewards-guide/" },
         "events": [
           { "titulo": "Festival da Colheita",         "data_inicio": "2025-10-10",  "hora_inicio": "10:00",  "data_fim": "2025-10-16",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/harvest-festival-2025/" },
           { "titulo": "Celebração Legends: Z-A",      "data_inicio": "2025-10-16",  "hora_inicio": "10:00",  "data_fim": "2025-10-20",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
@@ -154,7 +154,7 @@
         ]
       },
       "09": {
-        "go_pass": { "titulo": "Passe Go: Setembro",  "inicio": "2025-09-02T10:00:00",  "fim": "2025-10-07T10:00:00",  "img": "../Assets/gopass-2025-09.jpg",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Setembro",  "inicio": "2025-09-02T10:00:00",  "fim": "2025-10-07T10:00:00",  "img": "../Assets/gopass-2025-09.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-september-2025/" },
         "events": [
           { "titulo": "Celebração de Kanto",            "data_inicio": "2025-09-02",  "hora_inicio": "10:00",  "data_fim": "2025-09-07",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/kanto-celebration-september-2025/" },
           { "titulo": "A Concierge Pokémon",            "data_inicio": "2025-09-09",  "hora_inicio": "10:00",  "data_fim": "2025-09-14",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-concierge-celebration-event-in-pokemon-go/" },
