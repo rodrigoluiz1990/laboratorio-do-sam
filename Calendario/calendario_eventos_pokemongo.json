@@ -73,7 +73,7 @@
           { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-29",  "hora_inicio": "?",  "data_fim": "2025-11-30",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
-          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
+          { "titulo": "Gigantamax: Garbodor",  "data_inicio": "2025-11-01",  "hora_inicio": "14:00",  "data_fim": "2025-11-01",  "hora_fim": "17:00",  "img": "../Assets/icon-gigantamax.png",  "link": "https://www.pokebattler.com/raids/GARBODOR_GIGANTAMAX" }
         ],
         "max_monday": [
           { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
