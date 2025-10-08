@@ -98,7 +98,7 @@
           { "titulo": "Dia da Comunidade: Solosis",  "data_inicio": "2025-10-12",  "hora_inicio": "14:00",  "data_fim": "2025-10-12",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-solosis-community-day-october-2025/" }
         ],
         "raid": [
-          { "titulo": "Raid: Deoxys (Normal)",      "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DEOXYS" },
+          { "titulo": "Raid: Deoxys (Normal)",      "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_NORMAL_FORM" },
           { "titulo": "Raid: Deoxys (Defesa)",      "data_inicio": "2025-10-07",  "hora_inicio": "10:00",  "data_fim": "2025-10-14",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_DEFENSE_FORM" },
           { "titulo": "Raid: Deoxys (Ataque)",      "data_inicio": "2025-10-14",  "hora_inicio": "10:00",  "data_fim": "2025-10-21",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_ATTACK_FORM" },
           { "titulo": "Raid: Deoxys (Velocidade)",  "data_inicio": "2025-10-14",  "hora_inicio": "10:00",  "data_fim": "2025-10-21",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_SPEED_FORM" },
@@ -108,7 +108,7 @@
           { "titulo": "Raid: Giratina (Alterada)",  "data_inicio": "2025-10-28",  "hora_inicio": "10:00",  "data_fim": "2025-11-04",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/GIRATINA_ALTERED_FORM" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: Deoxys (Normal)",      "data_inicio": "2025-10-08",  "hora_inicio": "18:00",  "data_fim": "2025-10-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS" },
+          { "titulo": "Hora Lendária: Deoxys (Normal)",      "data_inicio": "2025-10-08",  "hora_inicio": "18:00",  "data_fim": "2025-10-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_NORMAL_FORM" },
           { "titulo": "Hora Lendária: Deoxys (Defesa)",      "data_inicio": "2025-10-08",  "hora_inicio": "18:00",  "data_fim": "2025-10-08",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_DEFENSE_FORM" },
           { "titulo": "Hora Lendária: Deoxys (Ataque)",      "data_inicio": "2025-10-15",  "hora_inicio": "18:00",  "data_fim": "2025-10-15",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_ATTACK_FORM" },
           { "titulo": "Hora Lendária: Deoxys (Velocidade)",  "data_inicio": "2025-10-15",  "hora_inicio": "18:00",  "data_fim": "2025-10-15",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/DEOXYS_SPEED_FORM" },
