@@ -2,7 +2,6 @@
 <html lang="pt-br">
 
 <head>
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
@@ -17,96 +16,294 @@
   <link rel="stylesheet" href="../css/modal-game.css">
   <meta charset="UTF-8" />
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
-  <title>Raids Pokémon GO - Dias destacados com labels</title>
+  <title>Últimas Raids Pokémon GO</title>
   <style>
+    :root {
+      --cor-primaria: #4CAF50;
+      --cor-secundaria: #2196F3;
+      --cor-perigo: #f44336;
+      --cor-alerta: #ff9800;
+      --cor-sucesso: #4CAF50;
+      --cor-texto: #333;
+      --cor-texto-claro: #666;
+      --cor-fundo: #121212;
+      --cor-card: #ffffff;
+      --sombra: 0 4px 6px rgba(0, 0, 0, 0.1);
+      --sombra-hover: 0 8px 15px rgba(0, 0, 0, 0.2);
+    }
+
     body {
       margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #121212;
-      color: #121212;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, var(--cor-fundo) 0%, #1a1a1a 100%);
+      color: white;
+      min-height: 100vh;
+    }
+
+    .container {
+      max-width: 1800px;
+      margin: 0 auto;
+      padding: 20px;
     }
 
     h2 {
       text-align: center;
-      color: #4CAF50;
-      margin-bottom: 20px;
+      color: var(--cor-primaria);
+      margin-bottom: 30px;
+      font-size: 2.5em;
+      text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+      position: relative;
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 450px;
+      height: 3px;
+      background: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
+      border-radius: 2px;
+    }
+
+    .filtros {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .filtro-btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      background: rgba(255,255,255,0.1);
+      color: white;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    .filtro-btn:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    .filtro-btn.ativo {
+      background: var(--cor-primaria);
+      box-shadow: var(--sombra);
     }
 
     .grid-container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 25px;
       align-items: start;
+      margin-bottom: 50px;
     }
 
     .grupo {
-      background: #bee9ec;
-      padding: 15px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-      display: flex;
-      flex-direction: column;
-      height: 100%;
+      background: linear-gradient(145deg, #2c3e50, #34495e);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: var(--sombra);
+      border: 1px solid rgba(76, 175, 80, 0.3);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+      min-height: 400px;
     }
 
-    .grupo h3 {
-      margin-top: 0;
-      margin-bottom: 15px;
-      color: #4CAF50;
-      text-align: center;
-      border-bottom: 2px solid #4CAF50;
-      padding-bottom: 8px;
+    .grupo::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, var(--cor-primaria), var(--cor-secundaria));
     }
 
-    .pkm-item {
-      padding: 8px 10px;
-      border-bottom: 1px solid #ddd;
-      font-size: 0.95em;
+    .grupo:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--sombra-hover);
+      border-color: var(--cor-primaria);
+    }
+
+    .grupo-header {
       display: flex;
       justify-content: space-between;
       align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .grupo h3 {
+      margin: 0;
+      color: var(--cor-primaria);
+      font-size: 1.4em;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    .grupo-icon {
+      width: 28px;
+      height: 28px;
+      object-fit: contain;
+    }
+
+    .contador {
+      background: rgba(76, 175, 80, 0.2);
+      color: var(--cor-primaria);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      font-weight: bold;
+      border: 1px solid var(--cor-primaria);
+    }
+
+    .pkm-list {
+      max-height: 1000px;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+
+    .pkm-list::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    .pkm-list::-webkit-scrollbar-track {
+      background: rgba(255,255,255,0.1);
+      border-radius: 3px;
+    }
+
+    .pkm-list::-webkit-scrollbar-thumb {
+      background: var(--cor-primaria);
+      border-radius: 3px;
+    }
+
+    .pkm-item {
+      background: rgba(255, 255, 255, 0.05);
+      padding: 10px 12px;
+      border-radius: 10px;
+      margin-bottom: 8px;
+      border-left: 4px solid var(--cor-primaria);
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .pkm-item:hover {
+      background: rgba(255, 255, 255, 0.1);
+      transform: translateX(5px);
+      border-left-color: var(--cor-secundaria);
     }
 
     .pkm-item:last-child {
-      border-bottom: none;
+      margin-bottom: 0;
     }
 
     .pkm-nome {
       font-weight: bold;
-      margin-right: 10px;
-      flex: 1 1 auto;
+      font-size: 1em;
+      color: white;
+      line-height: 1.3;
+      margin-bottom: 2px;
     }
 
     .pkm-nome a {
       text-decoration: none;
-      color: #2a7ae2;
+      color: #64b5f6;
+      transition: color 0.3s ease;
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
 
     .pkm-nome a:hover {
+      color: #90caf9;
       text-decoration: underline;
     }
 
-    .pkm-info {
-      font-size: 0.85em;
-      white-space: nowrap;
-      margin-left: 10px;
-      flex-shrink: 0;
+    .pkm-nome .fas.fa-external-link-alt {
+      font-size: 0.8em;
+      opacity: 0.8;
     }
 
-    .pkm-info.dias {
+    .pkm-info-linha {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.8em;
+      color: #bdc3c7;
+    }
+
+    .data-info {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1;
+    }
+
+    .data-label {
+      font-weight: 500;
+      color: #ecf0f1;
+      min-width: 45px;
+    }
+
+    .data-value {
+      color: #bdc3c7;
+    }
+
+    .status-info {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .status-badge {
+      padding: 3px 8px;
+      border-radius: 10px;
+      font-size: 0.75em;
       font-weight: bold;
+      text-transform: uppercase;
+      white-space: nowrap;
     }
 
-    .dias-positivo {
-      color: black;
+    .status-ativa {
+      background: rgba(76, 175, 80, 0.2);
+      color: var(--cor-sucesso);
+      border: 1px solid var(--cor-sucesso);
     }
 
-    .dias-zero {
-      color: blue;
+    .status-terminada {
+      background: rgba(244, 67, 54, 0.2);
+      color: var(--cor-perigo);
+      border: 1px solid var(--cor-perigo);
     }
 
-    .dias-negativo {
-      color: green;
+    .status-futura {
+      background: rgba(33, 150, 243, 0.2);
+      color: var(--cor-secundaria);
+      border: 1px solid var(--cor-secundaria);
+    }
+
+    .dias-info {
+      font-size: 0.75em;
+      font-weight: 600;
+      padding: 2px 6px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.1);
+      white-space: nowrap;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
     }
 
     /* 🔹 Preloader */
@@ -116,20 +313,103 @@
       left: 0;
       width: 100%;
       height: 100%;
-      background: #121212;
+      background: var(--cor-fundo);
       display: flex;
       justify-content: center;
       align-items: center;
       z-index: 9999;
+      flex-direction: column;
     }
 
     #preloader img {
       width: 100px;
       height: auto;
+      margin-bottom: 20px;
+    }
+
+    .loading-text {
+      color: var(--cor-primaria);
+      font-size: 1.2em;
+    }
+
+    .erro-carregamento {
+      color: white;
+      text-align: center;
+      padding: 30px;
+      background: var(--cor-perigo);
+      margin: 20px;
+      border-radius: 10px;
+      border: 2px solid #d32f2f;
+    }
+
+    .sem-dados {
+      text-align: center;
+      color: #95a5a6;
+      padding: 40px 20px;
+      font-style: italic;
+    }
+
+    .sem-dados i {
+      font-size: 3em;
+      margin-bottom: 15px;
+      display: block;
+      color: #7f8c8d;
+    }
+
+    /* Responsividade */
+    @media (max-width: 1200px) {
+      .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .grid-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+      }
+      
+      .container {
+        padding: 10px;
+      }
+      
+      .grupo {
+        padding: 15px;
+      }
+      
+      .filtros {
+        gap: 10px;
+      }
+      
+      .filtro-btn {
+        padding: 8px 16px;
+        font-size: 0.9em;
+      }
+      
+      h2 {
+        font-size: 2em;
+      }
+      
+      .pkm-info-linha {
+        font-size: 0.75em;
+      }
+      
+      .grupo-icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    /* Animações */
+    .fade-in {
+      animation: fadeIn 0.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
     }
   </style>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
 
 <body>
@@ -137,6 +417,7 @@
   <!-- 🔹 Preloader -->
   <div id="preloader">
     <img src="../Assets/gif-mew.gif" alt="Carregando...">
+    <div class="loading-text">Carregando raids...</div>
   </div>
 
   <!-- Espaço para o menu -->
@@ -146,13 +427,10 @@
     fetch('../menu.html')
       .then(response => response.text())
       .then(html => {
-        // Inserir menu no DOM
         document.getElementById('menu').innerHTML = html;
-
-        // Inicializar modal
         const modal = document.getElementById("gameModal");
         const btn = document.getElementById("puzzleIcon");
-        const span = modal.querySelector(".close");
+        const span = modal?.querySelector(".close");
 
         if (btn) btn.onclick = () => modal.style.display = "block";
         if (span) span.onclick = () => modal.style.display = "none";
@@ -163,123 +441,312 @@
       });
   </script>
 
-  <h2>Raids Pokémon GO</h2>
-  <div id="grupos" class="grid-container"></div>
+  <div class="container">
+    <h2>Últimas Raids Pokémon GO</h2>
+    
+    <div class="filtros">
+      <button class="filtro-btn ativo" data-filtro="todas">Todas</button>
+      <button class="filtro-btn" data-filtro="ativas">Ativas</button>
+      <button class="filtro-btn" data-filtro="futuras">Futuras</button>
+      <button class="filtro-btn" data-filtro="terminadas">Terminadas</button>
+    </div>
+
+    <div id="grupos" class="grid-container"></div>
+  </div>
 
   <script>
-    const excelUrl = "https://docs.google.com/spreadsheets/d/e/2PACX-1vSoZvSv7j6PmVqUq-RweVXOuS5S8RUE8y0aTew8rdxCWRLSxktA17alYPDgQBXHhMYR_VxRhGDHb2XC/pub?output=xlsx";
+    // URL do arquivo JSON
+    const jsonUrl = "../calendario/calendario_eventos_pokemongo.json";
+    const dataReferencia = new Date();
 
-    const colunasData = [1, 5, 9, 13];
-    const gruposDefinidos = {
-      "Raids 5": [0, 1, 2],
-      "Raids Mega": [4, 5, 6],
-      "Gigantamax": [8, 9, 10],
-      "Dinamax (Lendário)": [12, 13, 14]
-    };
-
-    function excelDateToJSDate(serial) {
-      if (typeof serial === "number") {
-        const utc_days = Math.floor(serial - 25569);
-        const utc_value = utc_days * 86400;
-        const date_info = new Date(utc_value * 1000);
-        const day = ("0" + date_info.getUTCDate()).slice(-2);
-        const month = ("0" + (date_info.getUTCMonth() + 1)).slice(-2);
-        const year = date_info.getUTCFullYear();
-        return `${day}/${month}/${year}`;
-      }
-      return serial;
+    // Função para formatar data DD/MM/AAAA
+    function formatarData(data) {
+      if (!data) return '';
+      const [ano, mes, dia] = data.split('-');
+      return `${dia}/${mes}/${ano}`;
     }
 
-    function getHyperlink(sheet, cellAddress) {
-      const cell = sheet[cellAddress];
-      if (cell && cell.l && cell.l.Target) {
-        return cell.l.Target;
+    // Função para determinar status baseado no intervalo de datas
+    function determinarStatus(dataInicio, dataFim) {
+      const hoje = dataReferencia;
+      const inicio = new Date(dataInicio);
+      const fim = new Date(dataFim);
+
+      if (hoje < inicio) {
+        return {
+          status: 'FUTURA',
+          classe: 'status-futura',
+          diasRestantes: Math.ceil((inicio - hoje) / (1000 * 60 * 60 * 24))
+        };
+      } else if (hoje >= inicio && hoje <= fim) {
+        return {
+          status: 'ATIVA',
+          classe: 'status-ativa',
+          diasRestantes: Math.ceil((fim - hoje) / (1000 * 60 * 60 * 24))
+        };
+      } else {
+        return {
+          status: 'TERMINADA',
+          classe: 'status-terminada',
+          diasPassados: Math.ceil((hoje - fim) / (1000 * 60 * 60 * 24))
+        };
       }
-      return null;
     }
 
-    fetch(excelUrl)
-      .then(res => res.arrayBuffer())
-      .then(data => {
-        const workbook = XLSX.read(data, { type: "array" });
-        const sheetName = workbook.SheetNames[0];
-        const sheet = workbook.Sheets[sheetName];
-        const sheetData = XLSX.utils.sheet_to_json(sheet, { header: 1 });
+    // Função para extrair nome do Pokémon do título - MANTÉM OS PARÊNTESES
+    function extrairNomePokemon(titulo) {
+      if (!titulo) return '';
+      // Remove apenas os prefixos, mas mantém o conteúdo entre parênteses
+      return titulo.replace(/^(Raid: |Mega Raid: |Dynamax: |Gigantamax: |Raid Sombrosa: |Hora Lendária: |Segundas Max: |Dia de Mega Raid: |Dia de Raid: )/, '')
+                   .trim();
+    }
 
-        const grupos = {};
-        for (const grupoNome in gruposDefinidos) {
-          grupos[grupoNome] = [];
+    // Função para filtrar raids únicas (apenas a mais recente de cada espécie)
+    function filtrarRaidsUnicas(raids) {
+      const mapaRaids = new Map();
+      
+      raids.forEach(raid => {
+        // Usa o nome COMPLETO (incluindo parênteses) como chave única
+        const nomeCompleto = raid.nome;
+        const raidExistente = mapaRaids.get(nomeCompleto);
+        
+        // Se não existe ou se esta raid tem data final mais recente
+        if (!raidExistente || new Date(raid.dataFim) > new Date(raidExistente.dataFim)) {
+          mapaRaids.set(nomeCompleto, raid);
         }
-
-        for (let row = 2; row < sheetData.length; row++) {
-          for (const [grupoNome, colunas] of Object.entries(gruposDefinidos)) {
-            const nomeCol = colunas[0];
-            const ultimaCol = colunas.length > 1 ? colunas[1] : null;
-            const diasCol = colunas.length > 2 ? colunas[2] : null;
-
-            const nome = sheetData[row][nomeCol] || "";
-            if (!nome) continue;
-
-            const cellAddress = XLSX.utils.encode_cell({ c: nomeCol, r: row });
-            const link = getHyperlink(sheet, cellAddress);
-
-            let ultimaRaw = ultimaCol !== null ? (sheetData[row][ultimaCol] || "") : "";
-            if (colunasData.includes(ultimaCol)) {
-              ultimaRaw = excelDateToJSDate(ultimaRaw);
-            }
-
-            let diasRaw = diasCol !== null ? (sheetData[row][diasCol] || "") : "";
-            const dias = (diasRaw === 0 || diasRaw === "0") ? "0" : diasRaw || "0";
-
-            grupos[grupoNome].push({ nome, link, ultima: ultimaRaw, dias });
-          }
-        }
-
-        let html = "";
-        for (const tipo in grupos) {
-          html += `<div class="grupo"><h3>${tipo}</h3>`;
-
-          grupos[tipo].forEach(pkm => {
-            const nomeHTML = pkm.link
-              ? `<a href="${pkm.link}" target="_blank" rel="noopener noreferrer">${pkm.nome}</a>`
-              : pkm.nome;
-
-            const diasNum = Number(pkm.dias);
-
-            let labelData = "Última:";
-            if (diasNum === 0) {
-              labelData = "Hoje:";
-            } else if (diasNum < 0) {
-              labelData = "Próxima:";
-            }
-
-            let diasClass = "pkm-info dias";
-            if (diasNum > 0) {
-              diasClass += " dias-positivo";
-            } else if (diasNum === 0) {
-              diasClass += " dias-zero";
-            } else if (diasNum < 0) {
-              diasClass += " dias-negativo";
-            }
-
-            html += `<div class="pkm-item">
-              <div class="pkm-nome">${nomeHTML}</div>
-              <div class="pkm-info">${labelData} ${pkm.ultima}</div>
-              <div class="${diasClass}">Dias: ${pkm.dias}</div>
-            </div>`;
-          });
-
-          html += `</div>`;
-        }
-
-        document.getElementById("grupos").innerHTML = html;
-        document.getElementById("preloader").style.display = "none"; // 🔹 Esconde preloader
-      })
-      .catch(err => {
-        document.getElementById("grupos").innerText = "Erro ao carregar os dados.";
-        document.getElementById("preloader").style.display = "none"; // 🔹 Esconde mesmo se erro
-        console.error(err);
       });
+      
+      return Array.from(mapaRaids.values());
+    }
+
+    // Processar dados do JSON
+    function processarDados(dados) {
+      const raids5 = [];
+      const raidsMega = [];
+      const raidsGigantamax = [];
+      const raidsDynamax = [];
+      const raidsShadow = [];
+
+      Object.values(dados).forEach(ano => {
+        if (ano.meses) {
+          Object.values(ano.meses).forEach(mes => {
+            // Função auxiliar para processar raids
+            const processarRaids = (array, destino) => {
+              if (array && Array.isArray(array)) {
+                array.forEach(raid => {
+                  if (raid.titulo && raid.titulo !== `${destino.tipo}: ` && raid.data_inicio && raid.data_fim) {
+                    const statusInfo = determinarStatus(raid.data_inicio, raid.data_fim);
+                    
+                    destino.array.push({
+                      nome: extrairNomePokemon(raid.titulo),
+                      dataInicio: raid.data_inicio,
+                      dataFim: raid.data_fim,
+                      status: statusInfo.status,
+                      statusClass: statusInfo.classe,
+                      diasRestantes: statusInfo.diasRestantes,
+                      diasPassados: statusInfo.diasPassados,
+                      link: raid.link || ''
+                    });
+                  }
+                });
+              }
+            };
+
+            processarRaids(mes.raid, { array: raids5, tipo: 'Raid' });
+            processarRaids(mes.raid_mega, { array: raidsMega, tipo: 'Mega Raid' });
+            processarRaids(mes.raid_shadow, { array: raidsShadow, tipo: 'Raid Sombrosa' });
+            processarRaids(mes.gigantamax, { array: raidsGigantamax, tipo: 'Gigantamax' });
+            processarRaids(mes.dynamax, { array: raidsDynamax, tipo: 'Dynamax' });
+          });
+        }
+      });
+
+      // Filtrar apenas raids únicas (mais recentes de cada espécie)
+      const raids5Unicas = filtrarRaidsUnicas(raids5);
+      const raidsMegaUnicas = filtrarRaidsUnicas(raidsMega);
+      const raidsShadowUnicas = filtrarRaidsUnicas(raidsShadow);
+      const raidsGigantamaxUnicas = filtrarRaidsUnicas(raidsGigantamax);
+      const raidsDynamaxUnicas = filtrarRaidsUnicas(raidsDynamax);
+
+      // Ordenar por data final (mais recentes primeiro)
+      const ordenarPorDataFim = (a, b) => new Date(b.dataFim) - new Date(a.dataFim);
+      raids5Unicas.sort(ordenarPorDataFim);
+      raidsMegaUnicas.sort(ordenarPorDataFim);
+      raidsShadowUnicas.sort(ordenarPorDataFim);
+      raidsGigantamaxUnicas.sort(ordenarPorDataFim);
+      raidsDynamaxUnicas.sort(ordenarPorDataFim);
+
+      return { 
+        raids5: raids5Unicas, 
+        raidsMega: raidsMegaUnicas, 
+        raidsShadow: raidsShadowUnicas, 
+        raidsGigantamax: raidsGigantamaxUnicas, 
+        raidsDynamax: raidsDynamaxUnicas 
+      };
+    }
+
+    // Criar item HTML individual
+    function criarItemHTML(pkm) {
+      const nomeHTML = pkm.link && pkm.link !== ''
+        ? `<a href="${pkm.link}" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt"></i>${pkm.nome}</a>`
+        : pkm.nome;
+
+      let textoDias = '';
+      if (pkm.status === 'ATIVA') {
+        textoDias = `${pkm.diasRestantes} dias`;
+      } else if (pkm.status === 'FUTURA') {
+        textoDias = `em ${pkm.diasRestantes} dias`;
+      } else if (pkm.status === 'TERMINADA') {
+        textoDias = `${pkm.diasPassados} dias`;
+      }
+
+      return `<div class="pkm-item fade-in" data-status="${pkm.status.toLowerCase()}">
+        <div class="pkm-nome">${nomeHTML}</div>
+        <div class="pkm-info-linha">
+          <div class="data-info">
+            <span class="data-label">Início:</span>
+            <span class="data-value">${formatarData(pkm.dataInicio)}</span>
+          </div>
+          <div class="status-info">
+            <div class="status-badge ${pkm.statusClass}">${pkm.status}</div>
+          </div>
+        </div>
+        <div class="pkm-info-linha">
+          <div class="data-info">
+            <span class="data-label">Término:</span>
+            <span class="data-value">${formatarData(pkm.dataFim)}</span>
+          </div>
+          <div class="status-info">
+            <div class="dias-info">${textoDias}</div>
+          </div>
+        </div>
+      </div>`;
+    }
+
+    // Gerar HTML para um grupo de raids
+    function gerarGrupoHTML(raids, titulo, icone) {
+      if (raids.length === 0) return '';
+
+      // Verifica se o ícone é uma imagem (contém extensão de arquivo)
+      const isImage = /\.(png|jpg|jpeg|gif|svg|webp)$/i.test(icone);
+      
+      const iconeHTML = isImage 
+        ? `<img src="${icone}" alt="${titulo}" class="grupo-icon">`
+        : `<span class="grupo-icon-text">${icone}</span>`;
+
+      return `<div class="grupo fade-in" data-tipo="${titulo.toLowerCase()}">
+        <div class="grupo-header">
+          <h3>${iconeHTML} ${titulo}</h3>
+          <div class="contador">${raids.length}</div>
+        </div>
+        <div class="pkm-list">
+          ${raids.map(pkm => criarItemHTML(pkm)).join('')}
+        </div>
+      </div>`;
+    }
+
+    // Gerar HTML completo
+    function gerarHTML(raids) {
+      const grupos = [
+        { dados: raids.raids5, titulo: 'Raids Nível 5', icone: '../Assets/icon-raid.png' },
+        { dados: raids.raidsMega, titulo: 'Raids Mega', icone: '../Assets/icon-raid-mega.png' },
+        { dados: raids.raidsShadow, titulo: 'Raids Sombrosas', icone: '../Assets/icon-raid-shadow.png' },
+        { dados: raids.raidsGigantamax, titulo: 'Gigantamax', icone: '../Assets/icon-gigantamax.png' },
+        { dados: raids.raidsDynamax, titulo: 'Dynamax (Lendário)', icone: '../Assets/icon-dynamax.png' }
+      ];
+
+      const html = grupos.map(grupo => gerarGrupoHTML(grupo.dados, grupo.titulo, grupo.icone)).join('');
+
+      return html || `
+        <div class="sem-dados">
+          <i class="fas fa-search"></i>
+          <h3>Nenhuma raid encontrada</h3>
+          <p>Verifique se o arquivo JSON contém dados válidos.</p>
+        </div>`;
+    }
+
+    // Sistema de filtros
+    function configurarFiltros() {
+      const botoesFiltro = document.querySelectorAll('.filtro-btn');
+      
+      botoesFiltro.forEach(botao => {
+        botao.addEventListener('click', () => {
+          // Remover classe ativa de todos os botões
+          botoesFiltro.forEach(b => b.classList.remove('ativo'));
+          // Adicionar classe ativa ao botão clicado
+          botao.classList.add('ativo');
+          
+          const filtro = botao.dataset.filtro;
+          aplicarFiltro(filtro);
+        });
+      });
+    }
+
+    function aplicarFiltro(filtro) {
+      const grupos = document.querySelectorAll('.grupo');
+      
+      grupos.forEach(grupo => {
+        const itens = grupo.querySelectorAll('.pkm-item');
+        let itensVisiveis = 0;
+        
+        itens.forEach(item => {
+          const status = item.dataset.status;
+          let mostrar = true;
+          
+          switch(filtro) {
+            case 'ativas':
+              mostrar = status === 'ativa';
+              break;
+            case 'futuras':
+              mostrar = status === 'futura';
+              break;
+            case 'terminadas':
+              mostrar = status === 'terminada';
+              break;
+            case 'todas':
+            default:
+              mostrar = true;
+          }
+          
+          item.style.display = mostrar ? 'flex' : 'none';
+          if (mostrar) itensVisiveis++;
+        });
+        
+        // Mostrar/ocultar grupo baseado nos itens visíveis
+        grupo.style.display = itensVisiveis > 0 ? 'block' : 'none';
+      });
+    }
+
+    // Carregar e processar dados do JSON
+    function carregarDados() {
+      fetch(jsonUrl)
+        .then(response => {
+          if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
+          return response.json();
+        })
+        .then(dados => {
+          const raidsProcessadas = processarDados(dados);
+          const html = gerarHTML(raidsProcessadas);
+          document.getElementById("grupos").innerHTML = html;
+          document.getElementById("preloader").style.display = "none";
+          
+          // Configurar filtros após carregar os dados
+          configurarFiltros();
+        })
+        .catch(error => {
+          console.error('Erro ao carregar dados:', error);
+          document.getElementById("grupos").innerHTML = `
+            <div class="erro-carregamento">
+              <h3>❌ Erro ao carregar dados</h3>
+              <p>${error.message}</p>
+              <p>Verifique se o arquivo JSON está no caminho correto: ${jsonUrl}</p>
+            </div>`;
+          document.getElementById("preloader").style.display = "none";
+        });
+    }
+
+    // Executar quando a página carregar
+    document.addEventListener('DOMContentLoaded', carregarDados);
   </script>
 
   <script>
