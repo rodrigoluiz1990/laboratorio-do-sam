@@ -1,100 +1,406 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-BR">
 
 <head>
-
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-EY17XNV9RM"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     gtag('js', new Date());
-
     gtag('config', 'G-EY17XNV9RM');
   </script>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="../css/base.css">
   <link rel="stylesheet" href="../css/menu.css">
   <link rel="stylesheet" href="../css/modal-game.css">
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
   <title>Avaliação Conta Pokémon GO</title>
+  
+  <!-- CSS específico para esta página -->
   <style>
-    /* Estilo geral da página */
-    body {
-      margin: 0;
-      font-family: 'Arial', sans-serif;
-      background-color: #121212;
-      color: #ffffff;
+    /* Variáveis específicas para esta página */
+    :root {
+      --form-bg: #1d1d1d;
+      --form-border: rgba(255, 255, 255, 0.1);
+      --form-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+      --accent-primary: #0058F3;
+      --accent-hover: #3ca733;
+      --text-label: #f5f5f5;
+      --text-muted: #b7b7b7;
+      --input-bg: rgba(255, 255, 255, 0.05);
+      --input-border: rgba(255, 255, 255, 0.15);
+      --input-focus: rgba(0, 88, 243, 0.3);
     }
 
-    .form-container {
+    /* Layout principal */
+    .main-container {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    .content-wrapper {
+      flex: 1;
       display: flex;
       justify-content: center;
-      padding-top: 30px;
-      /* distância do topo */
+      align-items: flex-start;
+      padding: 2rem 1rem;
     }
 
-    fieldset {
-      border: 1px solid #ccc;
-      padding: 20px;
-      max-width: 600px;
+    /* Container do formulário */
+    .form-container {
+      width: 100%;
+      max-width: 700px;
     }
 
-    form label {
+    /* Estilização do formulário */
+    .form-card {
+      background: var(--form-bg);
+      border-radius: var(--radius);
+      box-shadow: var(--form-shadow);
+      padding: 2rem;
+      border: 1px solid var(--form-border);
+    }
+
+    .form-title {
+      font-size: 1.8rem;
+      margin-bottom: 1.5rem;
+      color: var(--fg);
+      text-align: center;
+      font-weight: 700;
+    }
+
+    /* Estilização dos campos do formulário */
+    .form-group {
       display: flex;
+      flex-wrap: wrap;
       justify-content: space-between;
       align-items: center;
-      margin-bottom: 10px;
+      margin-bottom: 1.2rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--form-border);
     }
 
-    form label span {
+    .form-group:last-of-type {
+      border-bottom: none;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+
+    .form-label {
       flex: 1;
-      text-align: left;
+      min-width: 200px;
+      color: var(--text-label);
+      font-weight: 500;
+      margin-bottom: 0.5rem;
     }
 
-    input[type="text"],
-    input[type="number"] {
+    .form-input {
       flex: 1;
-      margin-left: 20px;
+      min-width: 150px;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: var(--radius);
+      padding: 0.75rem 1rem;
+      color: var(--fg);
+      font-size: var(--text-base);
+      transition: all 0.2s ease;
     }
 
-    .com-contorno {
-      color: black;
-      text-shadow:
-        -1px -1px 0 white,
-        1px -1px 0 white,
-        -1px 1px 0 white,
-        1px 1px 0 white;
+    .form-input:focus {
+      outline: none;
+      border-color: var(--accent-primary);
+      box-shadow: 0 0 0 3px var(--input-focus);
     }
 
-    .botao-avaliar {
-      background-color: #0058F3;
-      /* verde */
-      color: white;
-      text-decoration: none;
-      /* remove sublinhado */
-      padding: 10px 20px;
+    .form-input[disabled] {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--accent2);
       font-weight: bold;
-      border: none;
-      border-radius: 5px;
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+    /* Checkbox personalizado */
+    .checkbox-container {
+      display: flex;
+      align-items: center;
       cursor: pointer;
-      margin-top: 15px;
-      transition: background-color 0.3s;
     }
 
-    .botao-avaliar:hover {
-      background-color: #3ca733;
-      /* verde escuro */
+    .checkbox-custom {
+      width: 20px;
+      height: 20px;
+      background: var(--input-bg);
+      border: 1px solid var(--input-border);
+      border-radius: 4px;
+      margin-right: 10px;
+      position: relative;
+      transition: all 0.2s ease;
     }
 
-    .botao-container {
-      text-align: right;
-      margin-top: 10px;
-      /* só para dar espaçamento */
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked + .checkbox-custom {
+      background: var(--accent-primary);
+      border-color: var(--accent-primary);
+    }
+
+    input[type="checkbox"]:checked + .checkbox-custom::after {
+      content: "✓";
+      position: absolute;
+      color: white;
+      font-size: 14px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    /* Botão de avaliação */
+    .button-container {
+      display: flex;
+      justify-content: flex-end;
+      margin-top: 1.5rem;
+    }
+
+    .evaluate-button {
+      background: var(--accent-primary);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      padding: 0.8rem 1.8rem;
+      font-weight: 600;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .evaluate-button:hover {
+      background: var(--accent-hover);
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .evaluate-button i {
+      margin-right: 8px;
+    }
+
+    /* Tooltip informativo */
+    .info-tooltip {
+      display: inline-block;
+      margin-left: 8px;
+      color: var(--text-muted);
+      cursor: help;
+      position: relative;
+    }
+
+    .tooltip-text {
+      visibility: hidden;
+      width: 200px;
+      background-color: var(--card);
+      color: var(--fg);
+      text-align: center;
+      border-radius: var(--radius);
+      padding: 8px;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.3s;
+      font-size: var(--text-small);
+      box-shadow: var(--shadow);
+    }
+
+    .info-tooltip:hover .tooltip-text {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      .form-group {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .form-label, .form-input {
+        min-width: 100%;
+        width: 100%;
+      }
+      
+      .form-input {
+        margin-top: 0.5rem;
+      }
+      
+      .button-container {
+        justify-content: center;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .form-card {
+        padding: 1.5rem;
+      }
+      
+      .form-title {
+        font-size: 1.5rem;
+      }
     }
   </style>
+</head>
 
+<body>
+  <div class="main-container">
+    <!-- Menu carregado dinamicamente -->
+    <div id="menu"></div>
+
+    <!-- Conteúdo principal -->
+    <div class="content-wrapper">
+      <div class="form-container">
+        <div class="form-card">
+          <h1 class="form-title">Avaliação de Conta Pokémon GO</h1>
+          
+          <form id="formulario">
+            <div class="form-group">
+              <label class="form-label">Pontos de experiência:</label>
+              <input type="text" name="xp" class="form-input" placeholder="Ex: 5000000">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pokémon 100% IV:</label>
+              <input type="number" name="iv100" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Poeira estelar:</label>
+              <input type="text" name="stardust" class="form-input" placeholder="Ex: 1000000">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pokémons com traje:</label>
+              <input type="number" name="traje" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Insígnias de evento:</label>
+              <input type="number" name="insignia" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Regionais exclusivos:</label>
+              <input type="number" name="regionais" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Lendários:</label>
+              <input type="number" name="lendario" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Shiny:</label>
+              <input type="number" name="shiny" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">
+                Conta criada em 2016
+                <span class="info-tooltip">
+                  <i class="fas fa-info-circle"></i>
+                  <span class="tooltip-text">Contas de 2016 recebem um bônus especial na avaliação</span>
+                </span>
+              </label>
+              <label class="checkbox-container">
+                <input type="checkbox" name="conta2016">
+                <span class="checkbox-custom"></span>
+              </label>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pokémons míticos:</label>
+              <input type="number" name="mitico" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pokémons de eventos exclusivos:</label>
+              <input type="number" name="exclusivo" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Pokémons com efeito de aventura:</label>
+              <input type="number" name="efeito" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Espaço de Pokémon:</label>
+              <input type="number" name="espaco_pokemon" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Espaço de Itens:</label>
+              <input type="number" name="espaco_itens" class="form-input" placeholder="0">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Valor estimado:</label>
+              <input type="text" name="valor" class="form-input" disabled placeholder="Clique em Avaliar">
+            </div>
+            
+            <div class="button-container">
+              <button type="button" class="evaluate-button" onclick="avaliar();">
+                <i class="fas fa-calculator"></i> Avaliar Conta
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script para carregar o menu -->
+  <script>
+    fetch('../menu.html')
+      .then(response => response.text())
+      .then(html => {
+        // Inserir menu no DOM
+        document.getElementById('menu').innerHTML = html;
+
+        // Inicializar modal
+        const modal = document.getElementById("gameModal");
+        const btn = document.getElementById("puzzleIcon");
+        const span = modal?.querySelector(".close");
+
+        if (btn) btn.onclick = () => modal.style.display = "block";
+        if (span) span.onclick = () => modal.style.display = "none";
+
+        window.onclick = (event) => {
+          if (event.target == modal) modal.style.display = "none";
+        };
+      })
+      .catch(err => console.error("Erro ao carregar o menu:", err));
+  </script>
+
+  <!-- Script para carregar o rodapé -->
+  <script>
+    fetch("../footer.html")
+      .then(res => res.text())
+      .then(data => {
+        document.body.insertAdjacentHTML("beforeend", data);
+      })
+      .catch(err => console.error("Erro ao carregar o rodapé:", err));
+  </script>
+
+  <!-- Script de avaliação (mantido do original) -->
   <script type="text/javascript">
     function avaliar() {
       var f = document.getElementById("formulario");
@@ -131,109 +437,9 @@
         (espaco_itens * 0.076)
       );
 
-      f.valor.value = valor.toFixed(2);
+      f.valor.value = "R$ " + valor.toFixed(2);
     }
   </script>
-</head>
-
-<body>
-
-  <!-- Espaço para o menu -->
-  <div id="menu"></div>
-
-  <!-- Script para carregar o menu -->
-  <script>
-    fetch('../menu.html')
-      .then(response => response.text())
-      .then(html => {
-        // Inserir menu no DOM
-        document.getElementById('menu').innerHTML = html;
-
-        // Inicializar modal
-        const modal = document.getElementById("gameModal");
-        const btn = document.getElementById("puzzleIcon");
-        const span = modal.querySelector(".close");
-
-        if (btn) btn.onclick = () => modal.style.display = "block";
-        if (span) span.onclick = () => modal.style.display = "none";
-
-        window.onclick = (event) => {
-          if (event.target == modal) modal.style.display = "none";
-        };
-      });
-  </script>
-
-  <!-- Menu carregado dinamicamente -->
-  <div id="menu"></div>
-
-  <div class="form-container">
-    <form id="formulario">
-      <fieldset>
-        <legend><span>Avaliar Conta</span></legend>
-
-        <label><span>Pontos de experiência:</span>
-          <input type="text" name="xp"></label>
-
-        <label><span>Pokémon 100% IV:</span>
-          <input type="number" name="iv100"></label>
-
-        <label><span>Poeira estelar:</span>
-          <input type="text" name="stardust"></label>
-
-        <label><span>Pokémons com traje:</span>
-          <input type="number" name="traje"></label>
-
-        <label><span>Insígnias de evento:</span>
-          <input type="number" name="insignia"></label>
-
-        <label><span>Regionais exclusivos:</span>
-          <input type="number" name="regionais"></label>
-
-        <label><span>Lendários:</span>
-          <input type="number" name="lendario"></label>
-
-        <label><span>Shiny:</span>
-          <input type="number" name="shiny"></label>
-
-        <label><span>Conta criada em 2016:</span>
-          <input type="checkbox" name="conta2016"></label>
-
-        <label><span>Pokémons míticos:</span>
-          <input type="number" name="mitico"></label>
-
-        <label><span>Pokémons de eventos exclusivos:</span>
-          <input type="number" name="exclusivo"></label>
-
-        <label><span>Pokémons com efeito de aventura:</span>
-          <input type="number" name="efeito"></label>
-
-        <label><span>Espaço de Pokémon:</span>
-          <input type="number" name="espaco_pokemon"></label>
-
-        <label><span>Espaço de Itens:</span>
-          <input type="number" name="espaco_itens"></label>
-
-        <label><span>Valor estimado:</span>
-          <input type="text" name="valor" disabled="disabled"></label>
-
-        <br>
-        <div class="botao-container">
-          <a href="#" class="botao-avaliar" onclick="avaliar();">Avaliar</a>
-        </div>
-      </fieldset>
-    </form>
-  </div>
-
-  <script>
-    fetch("../footer.html")  // ajuste o caminho se necessário
-      .then(res => res.text())
-      .then(data => {
-        document.body.insertAdjacentHTML("beforeend", data);
-      })
-      .catch(err => console.error("Erro ao carregar o rodapé:", err));
-  </script>
-
-
 </body>
 
 </html>
