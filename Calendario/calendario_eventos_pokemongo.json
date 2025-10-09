@@ -365,7 +365,8 @@
           { "titulo": "Raid Sombrosa: Registeel",  "data_inicio": "2025-07-26",  "hora_inicio": "06:00",  "data_fim": "2025-07-27",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "https://www.pokebattler.com/raids/REGISTEEL_SHADOW_FORM" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: Latios e Latias",  "data_inicio": "2025-07-26",  "hora_inicio": "06:00",  "data_fim": "2025-07-27",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/LATIAS/RAID_LEVEL_5_MAX" }
+          { "titulo": "Dynamax: Latios",  "data_inicio": "2025-07-26",  "hora_inicio": "06:00",  "data_fim": "2025-07-27",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/LATIOS/RAID_LEVEL_5_MAX" },
+          { "titulo": "Dynamax: Latias",  "data_inicio": "2025-07-26",  "hora_inicio": "06:00",  "data_fim": "2025-07-27",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/LATIAS/RAID_LEVEL_5_MAX" }
         ],
         "gigantamax": [
           { "titulo": "Gigantamax: Lapras",  "data_inicio": "2025-07-19",  "hora_inicio": "14:00",  "data_fim": "2025-07-19",  "hora_fim": "17:00",  "img": "../Assets/icon-gigantamax.png",  "link": "https://www.pokebattler.com/raids/LAPRAS_GIGANTAMAX" }
