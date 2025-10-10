@@ -368,32 +368,32 @@
         grid-template-columns: 1fr;
         gap: 20px;
       }
-      
+
       .container {
         padding: 10px;
       }
-      
+
       .grupo {
         padding: 15px;
       }
-      
+
       .filtros {
         gap: 10px;
       }
-      
+
       .filtro-btn {
         padding: 8px 16px;
         font-size: 0.9em;
       }
-      
+
       h2 {
         font-size: 2em;
       }
-      
+
       .pkm-info-linha {
         font-size: 0.75em;
       }
-      
+
       .grupo-icon {
         width: 24px;
         height: 24px;
@@ -443,7 +443,7 @@
 
   <div class="container">
     <h2>Últimas Raids Pokémon GO</h2>
-    
+
     <div class="filtros">
       <button class="filtro-btn ativo" data-filtro="todas">Todas</button>
       <button class="filtro-btn" data-filtro="ativas">Ativas</button>
@@ -456,7 +456,11 @@
 
   <script>
     // URL do arquivo JSON
-    const jsonUrl = "../calendario/calendario_eventos_pokemongo.json";
+    const basePath = window.location.hostname.includes("github.io")
+      ? "https://rodrigoluiz1990.github.io/laboratorio-do-sam/"
+      : "../"; // caminho local
+
+    const jsonUrl = `${basePath}calendario/calendario_eventos_pokemongo.json`;
     const dataReferencia = new Date();
 
     // Função para formatar data DD/MM/AAAA
@@ -498,24 +502,24 @@
       if (!titulo) return '';
       // Remove apenas os prefixos, mas mantém o conteúdo entre parênteses
       return titulo.replace(/^(Raid: |Mega Raid: |Dynamax: |Gigantamax: |Raid Sombrosa: |Hora Lendária: |Segundas Max: |Dia de Mega Raid: |Dia de Raid: )/, '')
-                   .trim();
+        .trim();
     }
 
     // Função para filtrar raids únicas (apenas a mais recente de cada espécie)
     function filtrarRaidsUnicas(raids) {
       const mapaRaids = new Map();
-      
+
       raids.forEach(raid => {
         // Usa o nome COMPLETO (incluindo parênteses) como chave única
         const nomeCompleto = raid.nome;
         const raidExistente = mapaRaids.get(nomeCompleto);
-        
+
         // Se não existe ou se esta raid tem data final mais recente
         if (!raidExistente || new Date(raid.dataFim) > new Date(raidExistente.dataFim)) {
           mapaRaids.set(nomeCompleto, raid);
         }
       });
-      
+
       return Array.from(mapaRaids.values());
     }
 
@@ -536,7 +540,7 @@
                 array.forEach(raid => {
                   if (raid.titulo && raid.titulo !== `${destino.tipo}: ` && raid.data_inicio && raid.data_fim) {
                     const statusInfo = determinarStatus(raid.data_inicio, raid.data_fim);
-                    
+
                     destino.array.push({
                       nome: extrairNomePokemon(raid.titulo),
                       dataInicio: raid.data_inicio,
@@ -576,12 +580,12 @@
       raidsGigantamaxUnicas.sort(ordenarPorDataFim);
       raidsDynamaxUnicas.sort(ordenarPorDataFim);
 
-      return { 
-        raids5: raids5Unicas, 
-        raidsMega: raidsMegaUnicas, 
-        raidsShadow: raidsShadowUnicas, 
-        raidsGigantamax: raidsGigantamaxUnicas, 
-        raidsDynamax: raidsDynamaxUnicas 
+      return {
+        raids5: raids5Unicas,
+        raidsMega: raidsMegaUnicas,
+        raidsShadow: raidsShadowUnicas,
+        raidsGigantamax: raidsGigantamaxUnicas,
+        raidsDynamax: raidsDynamaxUnicas
       };
     }
 
@@ -629,8 +633,8 @@
 
       // Verifica se o ícone é uma imagem (contém extensão de arquivo)
       const isImage = /\.(png|jpg|jpeg|gif|svg|webp)$/i.test(icone);
-      
-      const iconeHTML = isImage 
+
+      const iconeHTML = isImage
         ? `<img src="${icone}" alt="${titulo}" class="grupo-icon">`
         : `<span class="grupo-icon-text">${icone}</span>`;
 
@@ -668,14 +672,14 @@
     // Sistema de filtros
     function configurarFiltros() {
       const botoesFiltro = document.querySelectorAll('.filtro-btn');
-      
+
       botoesFiltro.forEach(botao => {
         botao.addEventListener('click', () => {
           // Remover classe ativa de todos os botões
           botoesFiltro.forEach(b => b.classList.remove('ativo'));
           // Adicionar classe ativa ao botão clicado
           botao.classList.add('ativo');
-          
+
           const filtro = botao.dataset.filtro;
           aplicarFiltro(filtro);
         });
@@ -684,15 +688,15 @@
 
     function aplicarFiltro(filtro) {
       const grupos = document.querySelectorAll('.grupo');
-      
+
       grupos.forEach(grupo => {
         const itens = grupo.querySelectorAll('.pkm-item');
         let itensVisiveis = 0;
-        
+
         itens.forEach(item => {
           const status = item.dataset.status;
           let mostrar = true;
-          
+
           switch(filtro) {
             case 'ativas':
               mostrar = status === 'ativa';
@@ -707,11 +711,11 @@
             default:
               mostrar = true;
           }
-          
+
           item.style.display = mostrar ? 'flex' : 'none';
           if (mostrar) itensVisiveis++;
         });
-        
+
         // Mostrar/ocultar grupo baseado nos itens visíveis
         grupo.style.display = itensVisiveis > 0 ? 'block' : 'none';
       });
@@ -729,7 +733,7 @@
           const html = gerarHTML(raidsProcessadas);
           document.getElementById("grupos").innerHTML = html;
           document.getElementById("preloader").style.display = "none";
-          
+
           // Configurar filtros após carregar os dados
           configurarFiltros();
         })
