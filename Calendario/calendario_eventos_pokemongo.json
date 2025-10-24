@@ -46,10 +46,10 @@
       "11": {
         "go_pass": { "titulo": "Passe Go: Novembro",  "inicio": "2025-11-04T10:00:00",  "fim": "",  "img": "",  "link": "" },
         "events": [
-          { "titulo": "Clareira Encantada",  "data_inicio": "2025-11-04",  "hora_inicio": "10:00",  "data_fim": "2025-11-09",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
-          { "titulo": "Natureza Selvagem",   "data_inicio": "2025-11-10",  "hora_inicio": "10:00",  "data_fim": "2025-11-14",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
-          { "titulo": "Area Selvagem",       "data_inicio": "2025-11-15",  "hora_inicio": "10:00",  "data_fim": "2025-11-15",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "" },
-          { "titulo": "Area Selvagem",       "data_inicio": "2025-11-16",  "hora_inicio": "10:00",  "data_fim": "2025-11-16",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "" },
+          { "titulo": "Clareira Encantada",  "data_inicio": "2025-11-04",  "hora_inicio": "10:00",  "data_fim": "2025-11-09",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-enchanted-hollow-event/" },
+          { "titulo": "Natureza Selvagem",   "data_inicio": "2025-11-10",  "hora_inicio": "10:00",  "data_fim": "2025-11-14",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/into-the-wild-november-2025/" },
+          { "titulo": "Area Selvagem",       "data_inicio": "2025-11-15",  "hora_inicio": "10:00",  "data_fim": "2025-11-15",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "https://pokemongohub.net/post/event/wild-area-2025-global/" },
+          { "titulo": "Area Selvagem",       "data_inicio": "2025-11-16",  "hora_inicio": "10:00",  "data_fim": "2025-11-16",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "https://pokemongohub.net/post/event/wild-area-2025-global/" },
           { "titulo": "Alta Voltagem",       "data_inicio": "2025-11-18",  "hora_inicio": "10:00",  "data_fim": "2025-11-22",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
           { "titulo": "Golpe Final",         "data_inicio": "2025-11-25",  "hora_inicio": "10:00",  "data_fim": "2025-11-30",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
