@@ -57,7 +57,7 @@
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ?",  "data_inicio": "2025-11-30",  "hora_inicio": "14:00",  "data_fim": "2025-11-30",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade: Pikipek",  "data_inicio": "2025-11-30",  "hora_inicio": "14:00",  "data_fim": "2025-11-30",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/november-community-day-2025-pikipek/" }
         ],
         "raid": [
           { "titulo": "Raid: Raikou",                       "data_inicio": "2025-11-04",  "hora_inicio": "10:00",  "data_fim": "2025-11-11",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/RAIKOU" },
@@ -114,9 +114,8 @@
           { "titulo": "Raid Sombrosa: Latios",     "data_inicio": "2025-11-29",  "hora_inicio": "10:00",  "data_fim": "2025-11-30",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "https://www.pokebattler.com/raids/LATIOS_SHADOW_FORM" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-01",  "hora_inicio": "?",  "data_fim": "2025-11-01",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" },
-          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-21",  "hora_inicio": "?",  "data_fim": "2025-11-24",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" },
-          { "titulo": "Dynamax: ?",  "data_inicio": "2025-11-29",  "hora_inicio": "?",  "data_fim": "2025-11-30",  "hora_fim": "?",  "img": "../Assets/icon-dynamax.png",  "link": "" }
+          { "titulo": "Dynamax: Eevee",  "data_inicio": "2025-11-21",  "hora_inicio": "06:00",  "data_fim": "2025-11-24",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX" },
+          { "titulo": "Dynamax: Lugia",  "data_inicio": "2025-11-29",  "hora_inicio": "06:00",  "data_fim": "2025-11-30",  "hora_fim": "21:00",  "img": "../Assets/icon-dynamax.png",  "link": "https://www.pokebattler.com/raids/LUGIA/RAID_LEVEL_5_MAX" }
         ],
         "gigantamax": [
           { "titulo": "Gigantamax: Garbodor",    "data_inicio": "2025-11-01",  "hora_inicio": "14:00",  "data_fim": "2025-11-01",  "hora_fim": "17:00",  "img": "../Assets/icon-gigantamax.png",  "link": "https://www.pokebattler.com/raids/GARBODOR_GIGANTAMAX" },
@@ -132,9 +131,9 @@
           { "titulo": "Segundas Max: Darumaka",            "data_inicio": "2025-12-01",  "hora_inicio": "18:00",  "data_fim": "2025-12-01",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/DARUMAKA/RAID_LEVEL_1_MAX" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: Weedle",    "data_inicio": "2025-11-04",  "hora_inicio": "18:00",  "data_fim": "2025-11-04",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
-          { "titulo": "Hora do Holofote: Morelull",  "data_inicio": "2025-11-11",  "hora_inicio": "18:00",  "data_fim": "2025-11-11",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
-          { "titulo": "Hora do Holofote: Sableye",   "data_inicio": "2025-11-18",  "hora_inicio": "18:00",  "data_fim": "2025-11-18",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Weedle",    "data_inicio": "2025-11-04",  "hora_inicio": "18:00",  "data_fim": "2025-11-04",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/weedle-spotlight-hour-october-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Morelull",  "data_inicio": "2025-11-11",  "hora_inicio": "18:00",  "data_fim": "2025-11-11",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/article/morelull-spotlight-hour-november-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Sableye",   "data_inicio": "2025-11-18",  "hora_inicio": "18:00",  "data_fim": "2025-11-18",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/sableye-spotlight-hour-november-2025-last-minute-guide/" },
           { "titulo": "Hora do Holofote: Scraggy",   "data_inicio": "2025-11-25",  "hora_inicio": "18:00",  "data_fim": "2025-11-25",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
         ]
       },
