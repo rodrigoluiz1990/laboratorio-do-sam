@@ -1,6 +1,7 @@
 {
   "2025": {
     "season": [
+      {"titulo": "Passos Preciosos",            "inicio": "2025-12-02T10:00:00",  "fim": "2026-03-0T10:00:00",  "img": "../Assets/season-2025-09-tales-of-transformation.jpg",  "link": "https://pokemongohub.net/post/guide/precious-paths-season-special-research/"},
       {"titulo": "Histórias de Transformação",  "inicio": "2025-09-02T10:00:00",  "fim": "2025-12-02T10:00:00",  "img": "../Assets/season-2025-09-tales-of-transformation.jpg",  "link": "https://pokemongohub.net/post/event/tales-of-transformation-pokemon-go-season/"},
       {"titulo": "Dias Deslumbrantes",          "inicio": "2025-06-03T10:00:00",  "fim": "2025-09-02T10:00:00",  "img": "../Assets/season-2025-06-delightful-days.jpg",          "link": "https://pokemongohub.net/post/guide/delightful-days/"},
       {"titulo": "Poder e Proeza",              "inicio": "2025-03-04T10:00:00",  "fim": "2025-06-03T10:00:00",  "img": "../Assets/season-2025-03-might&mastery.jpg",            "link": "https://pokemongohub.net/post/guide/might-and-mastery-season/"},
@@ -8,50 +9,71 @@
     ],
     "meses": {
       "12": {
-        "go_pass": { "titulo": "Passe Go: Dezembro",  "inicio": "",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Dezembro",  "inicio": "2025-12-02T10:00:00",  "fim": "2026-01-08T10:00:00",  "img": "../Assets/gopass-2025-12.jpg",  "link": "https://pokemongohub.net/post/guide/go-pass-december-2025/" },
         "events": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-event2.png",  "link": "" }
+          { "titulo": "Jornada para Paldea",             "data_inicio": "2025-12-02",  "hora_inicio": "10:00",  "data_fim": "2025-12-09",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/journey-to-paldea-pokemon-go-event/" },
+          { "titulo": "Da Guarda ao Gancho",             "data_inicio": "2025-12-11",  "hora_inicio": "10:00",  "data_fim": "2025-12-16",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/well-armed-pokemon-go-event/" },
+          { "titulo": "Festas de fim de ano (Parte 1)",  "data_inicio": "2025-12-18",  "hora_inicio": "10:00",  "data_fim": "2025-12-24",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
+          { "titulo": "Festas de fim de ano (Parte 2)",  "data_inicio": "2025-12-24",  "hora_inicio": "10:00",  "data_fim": "2025-12-29",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
+          { "titulo": "Fim de Semana de Festas",         "data_inicio": "2025-12-27",  "hora_inicio": "10:00",  "data_fim": "2025-12-28",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
+          { "titulo": "Ano Novo 2026",                   "data_inicio": "2025-12-31",  "hora_inicio": "10:00",  "data_fim": "2026-01-04",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" }
         ],
         "research": [
-          { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
+          { "titulo": "Dia de Pesquisas",  "data_inicio": "2025-12-20",  "hora_inicio": "",  "data_fim": "2025-12-20",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
         ],
         "community_day": [
-          { "titulo": "Dia da Comunidade: ",  "data_inicio": "",  "hora_inicio": "14:00",  "data_fim": "",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "" }
+          { "titulo": "Dia da Comunidade",  "data_inicio": "2025-12-06",  "hora_inicio": "14:00",  "data_fim": "2025-12-06",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-december-2025-community-day/" },
+          { "titulo": "Dia da Comunidade",  "data_inicio": "2025-12-07",  "hora_inicio": "14:00",  "data_fim": "2025-12-07",  "hora_fim": "17:00",  "img": "../Assets/icon-community-day.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-december-2025-community-day/" }
         ],
         "raid": [
-          { "titulo": "Raid: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "" }
+          { "titulo": "Raid: Kyurem",    "data_inicio": "2025-12-04",  "hora_inicio": "10:00",  "data_fim": "2025-12-13",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/KYUREM" },
+          { "titulo": "Raid: Reshiram",  "data_inicio": "2025-12-13",  "hora_inicio": "10:00",  "data_fim": "2025-12-22",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/RESHIRAM" },
+          { "titulo": "Raid: Zekrom",    "data_inicio": "2025-12-22",  "hora_inicio": "10:00",  "data_fim": "2025-12-31",  "hora_fim": "10:00",  "img": "../Assets/icon-raid.png",  "link": "https://www.pokebattler.com/raids/ZEKROM" }
         ],
         "raid_hour": [
-          { "titulo": "Hora Lendária: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "" }
+          { "titulo": "Hora Lendária: Kyurem",       "data_inicio": "2025-12-10",  "hora_inicio": "18:00",  "data_fim": "2025-12-10",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/KYUREM" },
+          { "titulo": "Hora Lendária: Reshiram",     "data_inicio": "2025-12-17",  "hora_inicio": "18:00",  "data_fim": "2025-12-17",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/RESHIRAM" },
+          { "titulo": "Hora Lendária: Zekrom",       "data_inicio": "2025-12-24",  "hora_inicio": "18:00",  "data_fim": "2025-12-24",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/ZEKROM" },
+          { "titulo": "Hora Lendária: Blacephalon",  "data_inicio": "2025-12-31",  "hora_inicio": "18:00",  "data_fim": "2025-12-31",  "hora_fim": "19:00",  "img": "../Assets/icon-raid-hour.png",  "link": "https://www.pokebattler.com/raids/BLACEPHALON" }
         ],
         "raid_mega": [
-          { "titulo": "Mega Raid: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-raid-mega.png",  "link": "" }
+          { "titulo": "Mega Raid: Gyarados",   "data_inicio": "2025-12-04",  "hora_inicio": "10:00",  "data_fim": "2025-12-13",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://pokebattler.com/raids/GYARADOS_MEGA" },
+          { "titulo": "Mega Raid: Abomasnow",  "data_inicio": "2025-12-13",  "hora_inicio": "10:00",  "data_fim": "2025-12-22",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://pokebattler.com/raids/ABOMASNOW_MEGA" },
+          { "titulo": "Mega Raid: Glalie",     "data_inicio": "2025-12-22",  "hora_inicio": "10:00",  "data_fim": "2025-12-31",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-mega.png",  "link": "https://pokebattler.com/raids/GLALIE_MEGA" }
         ],
         "raid_shadow": [
-          { "titulo": "Raid Sombrosa: ",  "data_inicio": "",  "hora_inicio": "10:00",  "data_fim": "",  "hora_fim": "22:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "" }
+          { "titulo": "Raid Sombrosa: Heatran",  "data_inicio": "2025-12-02",  "hora_inicio": "10:00",  "data_fim": "2026-12-01",  "hora_fim": "10:00",  "img": "../Assets/icon-raid-shadow.png",  "link": "https://www.pokebattler.com/raids/HEATRAN_SHADOW_FORM" }
         ],
         "dynamax": [
-          { "titulo": "Dynamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
+          { "titulo": "Dynamax: ",   "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-dynamax.png",  "link": "" }
         ],
         "gigantamax": [
-          { "titulo": "Gigantamax: ",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-gigantamax.png",  "link": "" }
+          { "titulo": "Gigantamax: Snorlax",  "data_inicio": "2025-12-14",  "hora_inicio": "14:00",  "data_fim": "2025-12-14",  "hora_fim": "17:00",  "img": "../Assets/icon-gigantamax.png",  "link": "https://www.pokebattler.com/raids/SNORLAX_GIGANTAMAX" }
         ],
         "max_monday": [
-          { "titulo": "Segundas Max: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "" }
+          { "titulo": "Segundas Max: Darumaka",   "data_inicio": "2025-12-01",  "hora_inicio": "18:00",  "data_fim": "2025-12-01",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/DARUMAKA/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Cryogonal",  "data_inicio": "2025-12-08",  "hora_inicio": "18:00",  "data_fim": "2025-12-08",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/CRYOGONAL/RAID_LEVEL_3_MAX" },
+          { "titulo": "Segundas Max: Kabuto",     "data_inicio": "2025-12-15",  "hora_inicio": "18:00",  "data_fim": "2025-12-15",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/KABUTO/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Spheal",     "data_inicio": "2025-12-22",  "hora_inicio": "18:00",  "data_fim": "2025-12-22",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/SPHEAL/RAID_LEVEL_1_MAX" },
+          { "titulo": "Segundas Max: Omanyte",    "data_inicio": "2025-12-29",  "hora_inicio": "18:00",  "data_fim": "2025-12-29",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/OMANYTE/RAID_LEVEL_1_MAX" }
         ],
         "spotlights": [
-          { "titulo": "Hora do Holofote: ",  "data_inicio": "",  "hora_inicio": "18:00",  "data_fim": "",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
+          { "titulo": "Hora do Holofote: Cranidos",  "data_inicio": "2025-12-02",  "hora_inicio": "18:00",  "data_fim": "2025-12-02",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/cranidos-spotlight-hour-december-2025-last-minute-guide/" },
+          { "titulo": "Hora do Holofote: Shieldon",  "data_inicio": "2025-12-09",  "hora_inicio": "18:00",  "data_fim": "2025-12-09",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Mienfoo",   "data_inicio": "2025-12-16",  "hora_inicio": "18:00",  "data_fim": "2025-12-16",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Spheal",    "data_inicio": "2025-12-23",  "hora_inicio": "18:00",  "data_fim": "2025-12-23",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" },
+          { "titulo": "Hora do Holofote: Delibird",  "data_inicio": "2025-12-30",  "hora_inicio": "18:00",  "data_fim": "2025-12-30",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "" }
         ]
       },      
       "11": {
-        "go_pass": { "titulo": "Passe Go: Novembro",  "inicio": "2025-11-04T10:00:00",  "fim": "",  "img": "",  "link": "" },
+        "go_pass": { "titulo": "Passe Go: Novembro",  "inicio": "2025-11-04T10:00:00",  "fim": "2025-12-02T10:00:00",  "img": "../Assets/gopass-2025-11.jpg",  "link": "https://pokemongohub.net/post/news/go-pass-november-2025-the-lucky-trinket-returns/" },
         "events": [
           { "titulo": "Clareira Encantada",  "data_inicio": "2025-11-04",  "hora_inicio": "10:00",  "data_fim": "2025-11-09",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-enchanted-hollow-event/" },
           { "titulo": "Natureza Selvagem",   "data_inicio": "2025-11-10",  "hora_inicio": "10:00",  "data_fim": "2025-11-14",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/into-the-wild-november-2025/" },
           { "titulo": "Area Selvagem",       "data_inicio": "2025-11-15",  "hora_inicio": "10:00",  "data_fim": "2025-11-15",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "https://pokemongohub.net/post/event/wild-area-2025-global/" },
           { "titulo": "Area Selvagem",       "data_inicio": "2025-11-16",  "hora_inicio": "10:00",  "data_fim": "2025-11-16",  "hora_fim": "20:00",  "img": "../Assets/icon-wild-area-2025.png",  "link": "https://pokemongohub.net/post/event/wild-area-2025-global/" },
-          { "titulo": "Alta Voltagem",       "data_inicio": "2025-11-18",  "hora_inicio": "10:00",  "data_fim": "2025-11-22",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" },
-          { "titulo": "Golpe Final",         "data_inicio": "2025-11-25",  "hora_inicio": "10:00",  "data_fim": "2025-11-30",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "" }
+          { "titulo": "Alta Voltagem",       "data_inicio": "2025-11-18",  "hora_inicio": "10:00",  "data_fim": "2025-11-22",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-high-voltage-event/" },
+          { "titulo": "Golpe Final",         "data_inicio": "2025-11-25",  "hora_inicio": "10:00",  "data_fim": "2025-11-30",  "hora_fim": "20:00",  "img": "../Assets/icon-event2.png",  "link": "https://pokemongohub.net/post/event/pokemon-go-final-justice-event/" }
         ],
         "research": [
           { "titulo": "",  "data_inicio": "",  "hora_inicio": "",  "data_fim": "",  "hora_fim": "",  "img": "../Assets/icon-research.png",  "link": "" }
@@ -127,8 +149,7 @@
           { "titulo": "Segundas Max: Ralts",               "data_inicio": "2025-11-10",  "hora_inicio": "18:00",  "data_fim": "2025-11-10",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/RALTS/RAID_LEVEL_1_MAX" },
           { "titulo": "Segundas Max: Toxtricity (Aguda)",  "data_inicio": "2025-11-17",  "hora_inicio": "18:00",  "data_fim": "2025-11-17",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_AMPED_FORM/RAID_LEVEL_5_MAX" },
           { "titulo": "Segundas Max: Toxtricity (Grave)",  "data_inicio": "2025-11-17",  "hora_inicio": "18:00",  "data_fim": "2025-11-17",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/TOXTRICITY_LOW_KEY_FORM/RAID_LEVEL_5_MAX" },
-          { "titulo": "Segundas Max: Eevee",               "data_inicio": "2025-11-24",  "hora_inicio": "18:00",  "data_fim": "2025-11-24",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX" },
-          { "titulo": "Segundas Max: Darumaka",            "data_inicio": "2025-12-01",  "hora_inicio": "18:00",  "data_fim": "2025-12-01",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/DARUMAKA/RAID_LEVEL_1_MAX" }
+          { "titulo": "Segundas Max: Eevee",               "data_inicio": "2025-11-24",  "hora_inicio": "18:00",  "data_fim": "2025-11-24",  "hora_fim": "19:00",  "img": "../Assets/icon-powerstop.png",  "link": "https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX" }
         ],
         "spotlights": [
           { "titulo": "Hora do Holofote: Weedle",    "data_inicio": "2025-11-04",  "hora_inicio": "18:00",  "data_fim": "2025-11-04",  "hora_fim": "19:00",  "img": "../Assets/icon-encounter.png",  "link": "https://pokemongohub.net/post/tips-and-tricks/weedle-spotlight-hour-october-2025-last-minute-guide/" },
