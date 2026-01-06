@@ -49,18 +49,37 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
     carregarEvents();
   });
 
-  // Evento botão Hoje (volta para mês atual)
+  // Evento botão Hoje (volta para o mês atual)
   btnHoje.addEventListener("click", () => {
+
+    // 🔹 1. LIMPA BUSCA GLOBAL
+    termoBuscaGlobal = "";
+
+    // 🔹 2. LIMPA INPUT
+    const inputBusca = document.getElementById("buscaEvento");
+    if (inputBusca) inputBusca.value = "";
+
+    // 🔹 3. FECHA LISTBOX
+    const listbox = document.getElementById("listboxBusca");
+    if (listbox) listbox.style.display = "none";
+
+    // 🔹 4. VOLTA PARA HOJE
     const hoje = new Date();
+
+    // 🔒 Normaliza para o 1º dia do mês
     dataAtual.setFullYear(hoje.getFullYear());
     dataAtual.setMonth(hoje.getMonth());
-    dataAtual.setDate(hoje.getDate());
+    dataAtual.setDate(1);
 
-    selectMes.value = dataAtual.getMonth() + 1;
-    selectAno.value = dataAtual.getFullYear();
+    // 🔁 Sincroniza os selects
+    selectMes.value = hoje.getMonth() + 1;
+    selectAno.value = hoje.getFullYear();
+
     atualizarTextoMesAno(dataAtual);
     carregarEvents();
   });
+
+
 }
 
 // Função para mudar mês, atualiza selects, texto e recarrega eventos
@@ -130,8 +149,8 @@ function mudarAno(delta) {
 
 document.getElementById("btnToggleFiltros").addEventListener("click", () => {
   const filtros = document.getElementById("filtro-categorias");
-  filtros.style.display = (filtros.style.display === "none" || filtros.style.display === "") 
-    ? "block" 
+  filtros.style.display = (filtros.style.display === "none" || filtros.style.display === "")
+    ? "block"
     : "none";
 });
 

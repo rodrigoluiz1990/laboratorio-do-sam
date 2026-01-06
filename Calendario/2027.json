@@ -1,0 +1,61 @@
+{
+  "2027": {
+    "season": [
+      {"titulo": "Passos Preciosos",           "inicio": "2025-12-02T10:00:00", "fim": "2026-03-03T10:00:00", "img": "../Assets/season-2025-09-tales-of-transformation.jpg", "link": "https://pokemongohub.net/post/guide/precious-paths-season-special-research/"},
+      {"titulo": "Histórias de Transformação", "inicio": "2025-09-02T10:00:00", "fim": "2025-12-02T10:00:00", "img": "../Assets/season-2025-09-tales-of-transformation.jpg", "link": "https://pokemongohub.net/post/event/tales-of-transformation-pokemon-go-season/"},
+      {"titulo": "Dias Deslumbrantes",         "inicio": "2025-06-03T10:00:00", "fim": "2025-09-02T10:00:00", "img": "../Assets/season-2025-06-delightful-days.jpg",         "link": "https://pokemongohub.net/post/guide/delightful-days/"},
+      {"titulo": "Poder e Proeza",             "inicio": "2025-03-04T10:00:00", "fim": "2025-06-03T10:00:00", "img": "../Assets/season-2025-03-might&mastery.jpg",           "link": "https://pokemongohub.net/post/guide/might-and-mastery-season/"},
+      {"titulo": "Destinos Entrelaçados",      "inicio": "2024-12-03T10:00:00", "fim": "2025-03-04T10:00:00", "img": "../Assets/season-2024-12-dual-destiny.jpg",            "link": "https://pokemongohub.net/post/guide/dual-destiny-special-research-full-tasks-and-rewards-guide/"}
+    ],
+    "go_pass": [
+      { "titulo": "Passe Go: Dezembro",  "inicio": "2025-12-02T10:00:00", "fim": "2026-01-08T10:00:00", "img": "../Assets/gopass-2026-12.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Novembro",  "inicio": "2025-11-04T10:00:00", "fim": "2025-12-02T10:00:00", "img": "../Assets/gopass-2026-11.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Outubro",   "inicio": "2025-10-07T10:00:00", "fim": "2025-11-04T10:00:00", "img": "../Assets/gopass-2026-10.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Setembro",  "inicio": "2025-09-02T10:00:00", "fim": "2025-10-07T10:00:00", "img": "../Assets/gopass-2026-09.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Agosto",    "inicio": "2025-08-05T10:00:00", "fim": "2025-09-02T10:00:00", "img": "../Assets/gopass-2026-08.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Julho",     "inicio": "2025-07-05T10:00:00", "fim": "2025-08-02T10:00:00", "img": "../Assets/gopass-2026-07.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Junho",     "inicio": "2025-06-05T10:00:00", "fim": "2025-07-02T10:00:00", "img": "../Assets/gopass-2026-06.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Maio",      "inicio": "2025-05-05T10:00:00", "fim": "2025-06-02T10:00:00", "img": "../Assets/gopass-2026-05.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Abril",     "inicio": "2025-04-05T10:00:00", "fim": "2025-05-02T10:00:00", "img": "../Assets/gopass-2026-04.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Março",     "inicio": "2025-04-05T10:00:00", "fim": "2025-05-02T10:00:00", "img": "../Assets/gopass-2026-03.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Fevereiro", "inicio": "2025-04-05T10:00:00", "fim": "2025-05-02T10:00:00", "img": "../Assets/gopass-2026-02.jpg", "link": "https://pokemongohub.net/" },
+      { "titulo": "Passe Go: Janeiro",   "inicio": "2025-04-05T10:00:00", "fim": "2025-05-02T10:00:00", "img": "../Assets/gopass-2026-01.jpg", "link": "https://pokemongohub.net/" }
+    ],
+    "events": [
+      { "titulo": "", "inicio": "2025-12-22T10:00:00", "fim": "2025-12-22T10:00:00", "link": "https://pokemongohub.net/" },
+      { "titulo": "", "inicio": "2025-12-22T10:00:00", "fim": "2025-12-22T10:00:00", "link": "https://pokemongohub.net/" }
+    ],
+    "research": [
+      {"titulo": "",  "inicio": "2025-12-22T14:00:00", "fim": "2025-12-22T17:00:00", "link": "https://pokemongohub.net/" }
+    ],
+    "community_day": [
+      {"titulo": "Dia da Comunidade: Grookey",         "inicio": "2026-01-18T14:00:00", "fim": "2026-01-18T17:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Dia da Comunidade Clássico: Piplup", "inicio": "2026-01-04T14:00:00", "fim": "2026-01-04T17:00:00", "link": "https://pokemongohub.net/"}    
+    ],
+    "raid": [
+      {"ref": "raid_blacephalon", "inicio": "2026-01-01T10:00:00", "fim": "2026-01-05T10:00:00"}
+    ],
+    "raid_hour": [
+      {"ref": "raid_tornadus_incarnate",  "inicio": "2026-01-28T18:00:00", "fim": "2026-01-28T19:00:00", "titulo_alt": "Hora lendária: Tornadus (Incarnado)"}
+    ],
+    "raid_mega": [
+      {"ref": "mega_blaziken", "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"}
+      ],
+    "raid_shadow": [
+      {"ref": "shadow_cresselia", "inicio": "2026-01-02T10:00:00", "fim": "2026-02-01T22:00:00"}
+    ],
+    "dynamax": [
+      {"ref": "dmax_NOME_POKEMON", "inicio": "2025-00-00T14:00:00", "fim": "2025-00-00T17:00:00"}
+    ],
+    "gigantamax": [
+      {"ref": "gmax_NOME_POKEMON", "inicio": "2026-00-00T14:00:00", "fim": "2026-00-00T17:00:00"}
+    ],
+    "max_monday": [
+      {"titulo": "Segundas Max: Drampa",     "inicio": "2026-01-05T18:00:00", "fim": "2026-01-05T19:00:00", "link": "https://www.pokebattler.com/raids/DRAMPA/RAID_LEVEL_1_MAX"}      
+    ],
+    "spotlights": [
+      {"titulo": "Hora do Holofote: Barboach", "inicio": "2026-01-06T18:00:00", "fim": "2026-01-06T19:00:00", "link": "https://pokemongohub.net/"}
+    ]
+  }
+}
+

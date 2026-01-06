@@ -1,29 +1,22 @@
-/* Estilo geral da página */
-body {
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #121212;
-  color: #ffffff;
-}
-
 /* Calendario do cabeçalho */
 .calendar-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-    font-size: 1.2em;
-    margin-bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.2em;
+  margin-bottom: 0px;
 }
 
 .calendar-select {
-    font-size: 1em;
-    padding: 4px 8px;
-    border-radius: 6px;
-    border: 1px solid #ccc;
-    background-color: #fff;
-    cursor: pointer;
+  font-size: 1em;
+  padding: 4px 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  cursor: pointer;
 }
+
 /* Cabeçalho */
 header {
   background-color: #121212;
@@ -61,7 +54,10 @@ header p {
 .slider {
   position: absolute;
   cursor: pointer;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: #ccc;
   border-radius: 34px;
   transition: 0.4s;
@@ -70,7 +66,8 @@ header p {
 .slider:before {
   position: absolute;
   content: "";
-  height: 20px; width: 20px;
+  height: 20px;
+  width: 20px;
   left: 3px;
   bottom: 3px;
   background-color: white;
@@ -78,11 +75,11 @@ header p {
   transition: 0.4s;
 }
 
-.switch input:checked + .slider {
+.switch input:checked+.slider {
   background-color: #4caf50;
 }
 
-.switch input:checked + .slider:before {
+.switch input:checked+.slider:before {
   transform: translateX(24px);
 }
 
@@ -110,7 +107,7 @@ header p {
 }
 
 .controls button:hover {
-    background-color: #4caf50;
+  background-color: #4caf50;
 }
 
 .destaques-container {
@@ -125,8 +122,8 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 220px;      /* Mesma largura fixa para ambas */
-  height: 220px;      /* Mesma altura fixa para ambas */
+  width: 220px;  /* Mesma largura fixa para ambas */
+  height: 220px;  /* Mesma altura fixa para ambas */
   vertical-align: top;
   background-color: #1f1f1f;
   color: #fff;
@@ -135,20 +132,20 @@ header p {
   box-sizing: border-box;
   margin: 0 10px;
   text-align: center;
-  overflow: hidden;    /* evita transbordamento */
+  overflow: hidden;  /* evita transbordamento */
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .evento-destaque:hover {
-  transform: scale(1.07); /* aumenta 7% */
-  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6); /* brilho dourado */
-  border: 1px solid rgba(255, 215, 0, 0.8); /* cor de destaque */
+  transform: scale(1.07);  /* aumenta 7% */
+  box-shadow: 0 0 12px rgba(255, 215, 0, 0.6);  /* brilho dourado */
+  border: 1px solid rgba(255, 215, 0, 0.8);  /* cor de destaque */
 }
 
 /* Imagem dentro do destaque */
 .evento-destaque img {
   width: 200px;
-  height: 140px;       /* altura fixa para imagem */
+  height: 140px;  /* altura fixa para imagem */
   border-radius: 6px;
   margin-bottom: 6px;
 }
@@ -177,8 +174,8 @@ header p {
 }
 
 .search-input::placeholder {
-  text-align: center; /* para garantir que o placeholder siga o alinhamento */
-  line-height: 40px; /* igual à altura do input para centralizar verticalmente */
+  text-align: center;  /* para garantir que o placeholder siga o alinhamento */
+  line-height: 40px;  /* igual à altura do input para centralizar verticalmente */
 }
 
 .search-button {
@@ -196,7 +193,84 @@ header p {
 .search-button:hover {
   background-color: #4caf50;
 }
-  
+
+/*Lista Autocomplete*/
+.search-container {
+  position: relative;
+}
+
+/* ===== LISTBOX AUTOCOMPLETE ===== */
+#listboxBusca {
+  position: absolute;
+  top: 100%;
+  left: 46%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 420px;
+  max-height: 280px;
+  overflow-y: auto;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  display: none;
+}
+
+
+/* Item */
+.listbox-item {
+  display: grid;
+  grid-template-columns: 36px 1fr auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.listbox-item:last-child {
+  border-bottom: none;
+}
+
+.listbox-item:hover {
+  background: #f2f6ff;
+}
+
+/* Ícone */
+.listbox-icon img {
+  width: 28px;
+  height: 28px;
+}
+
+/* Conteúdo central */
+.listbox-conteudo {
+  display: flex;
+  align-items: center;     /* centraliza verticalmente */
+  justify-content: center; /* garante centro do bloco */
+  height: 100%;
+}
+
+.listbox-titulo {
+  font-weight: 600;
+  font-size: 12px;
+  display: none;
+}
+
+.listbox-categoria {
+  font-size: 14px;
+  color: #272727;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* Data à direita */
+.listbox-data {
+  font-size: 12px;
+  color: #444;
+  white-space: nowrap;
+}
+
 /* Check box dos filtros de categoria */
 .filtro-item {
   display: inline-flex;
@@ -215,21 +289,21 @@ header p {
 .filtro-item:hover {
   background-color: #333;
 }
-  
+
 .filtro-item input[type="checkbox"] {
   display: none;
 }
-  
+
 .filtro-item img {
   width: 20px;
   height: 20px;
   transition: opacity 0.3s;
 }
-  
+
 .filtro-item span {
   transition: opacity 0.3s;
 }
-  
+
 .filtro-item:not(.ativo) img,
 .filtro-item:not(.ativo) span {
   opacity: 0.5;
@@ -249,7 +323,7 @@ header p {
 .week-labels {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  max-width: 1000px;      /* Alinha com o calendário */
+  max-width: 1000px;  /* Alinha com o calendário */
   margin: 10px auto 0 auto;
   padding: 0 20px;
   text-align: center;
@@ -283,17 +357,17 @@ header p {
 
 /* Destaque sutil para o dia atual */
 .day-cell.hoje {
-  background-color: rgba(255, 255, 150, 0.20);      /* tom amarelado sutil */
-  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);      /* brilho leve dourado */
+  background-color: rgba(255, 255, 150, 0.20);  /* tom amarelado sutil */
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);  /* brilho leve dourado */
   border-radius: 6px;
 }
 
 /* Destaque sutil para o evento buscado */
 .day-cell.encontrado {
-    border: 1px solid #00e5ff; /* cor ciano brilhante */
-    box-shadow: 0 0 3px #00e5ff88;
-    border-radius: 10px;
-  }
+  border: 1px solid #00e5ff;  /* cor ciano brilhante */
+  box-shadow: 0 0 3px #00e5ff88;
+  border-radius: 10px;
+}
 
 /* Número do dia */
 .day-label {
@@ -345,11 +419,11 @@ header p {
   right: 20px;
   margin: 0;
   background: #1c1c1c;
-  border: 1px solid rgba(255,255,255,0.2);
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 14px;
   padding: 10px;
-  padding-top: 10px; /* espaço para o botão */
-  box-shadow: 0 4px 20px rgba(0,0,0,0.6);
+  padding-top: 10px;  /* espaço para o botão */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
   text-align: center;
   color: #fff;
   font-family: Arial, sans-serif;
@@ -358,24 +432,27 @@ header p {
 
 .pix-close {
   position: absolute;
-  top: -30px; /* sobe para sobrepor a borda */
+  top: -30px;  /* sobe para sobrepor a borda */
   right: -1px;
-  background: #1c1c1c; /* mesma cor do modal para cobrir a borda */
-  border: 1px solid rgba(255,255,255,0.2);
+  background: #1c1c1c;  /* mesma cor do modal para cobrir a borda */
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 4px;
   width: 30px;
   height: 30px;
   color: #fff;
   font-size: 13px;
-  cursor: pointer;
-  line-height: 20px;
+  cursor: pointer;  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1; /* substitui o line-height antigo */
   text-align: center;
-  z-index: 2; /* fica acima da borda */
+  z-index: 2;  /* fica acima da borda */
   transition: background 0.2s, border-color 0.2s;
 }
+
 .pix-close:hover {
-  background: rgba(255,255,255,0.1);
-  border-color: rgba(255,255,255,0.3);
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.3);
 }
 
 .pix-text {
@@ -392,15 +469,18 @@ header p {
 
 
 /***** RESPONSIVO PARA MOBILE *****/
-@media (max-width: 1200px) 
-  { html {
-    font-size: 24px; /* aumenta a base */
+@media (max-width: 1200px) {
+  html {
+    font-size: 24px;
+    /* aumenta a base */
   }
-  
+
   /* Estilo das caixas de destaque (temporada e ticket) */
   .evento-destaque {
-    width: 260px;      /* Mesma largura fixa para ambas */
-    height: 250px;      /* Mesma altura fixa para ambas */
+    width: 260px;
+    /* Mesma largura fixa para ambas */
+    height: 250px;
+    /* Mesma altura fixa para ambas */
   }
 
   /* Texto do horário dentro do destaque, menor e com cor clara */
@@ -411,7 +491,7 @@ header p {
   .controls button {
     font-size: 18px;
   }
-  
+
   .filtro-item img {
     width: 38px;
     height: 38px;
@@ -419,15 +499,15 @@ header p {
   }
 
   /* Busca de evento */
-  
+
   .search-input {
     font-size: 20px;
   }
-  
+
   .search-button {
     font-size: 20px;
   }
-  
+
   /* Envolve os dois em uma div com overflow */
   .calendar-wrapper {
     overflow-x: auto;
@@ -466,7 +546,8 @@ header p {
   .day-label {
     font-size: 26px;
     margin: 0;
-    color: #ffcb05; /* opcional: destacar */
+    color: #ffcb05;
+    /* opcional: destacar */
     flex-shrink: 0;
   }
 
@@ -475,12 +556,17 @@ header p {
     flex: 1;
     font-size: 19px;
     text-align: center;
-    min-width: 100px;    /* largura mínima para manter legível */
+    min-width: 100px;
+    /* largura mínima para manter legível */
     max-width: auto;
-    min-height: 125px;     /* altura mínima para igualar */
-    display: block;         /* facilita alinhamento */
-    align-items: center;   /* centraliza verticalmente */
-    padding: 6px 8px;      /* um pouco de espaço interno */
+    min-height: 125px;
+    /* altura mínima para igualar */
+    display: block;
+    /* facilita alinhamento */
+    align-items: center;
+    /* centraliza verticalmente */
+    padding: 6px 8px;
+    /* um pouco de espaço interno */
     box-sizing: border-box;
   }
 
@@ -495,5 +581,5 @@ header p {
     font-size: 16px;
     color: #ccc;
   }
-  
+
 }
