@@ -13,33 +13,65 @@
       {"titulo": "Passe Go: Junho",     "inicio": "2026-06-05T10:00:00", "fim": "2026-07-02T10:00:00", "img": "../Assets/gopass-2026-06.jpg", "link": "https://pokemongohub.net/"},
       {"titulo": "Passe Go: Maio",      "inicio": "2026-05-05T10:00:00", "fim": "2026-06-02T10:00:00", "img": "../Assets/gopass-2026-05.jpg", "link": "https://pokemongohub.net/"},
       {"titulo": "Passe Go: Abril",     "inicio": "2026-04-05T10:00:00", "fim": "2026-05-02T10:00:00", "img": "../Assets/gopass-2026-04.jpg", "link": "https://pokemongohub.net/"},
-      {"titulo": "Passe Go: Março",     "inicio": "2026-04-05T10:00:00", "fim": "2026-05-02T10:00:00", "img": "../Assets/gopass-2026-03.jpg", "link": "https://pokemongohub.net/"},
-      {"titulo": "Passe Go: Fevereiro", "inicio": "2026-04-05T10:00:00", "fim": "2026-05-02T10:00:00", "img": "../Assets/gopass-2026-02.jpg", "link": "https://pokemongohub.net/"},
-      {"titulo": "Passe Go: Janeiro",   "inicio": "2026-01-01T10:00:00", "fim": "2026-01-31T20:00:00", "img": "../Assets/gopass-2026-01.jpg", "link": "https://pokemongohub.net/"}
+      {"titulo": "Passe Go: Março",     "inicio": "2026-03-02T10:00:00", "fim": "2026-04-02T10:00:00", "img": "../Assets/gopass-2026-03.jpg", "link": "https://pokemongohub.net/"},
+      {"titulo": "Passe Go: Fevereiro", "inicio": "2026-02-01T10:00:00", "fim": "2026-03-01T10:00:00", "img": "../Assets/gopass-2026-02.jpg", "link": "https://pokemongohub.net/post/news/pokemon-go-pass-february/"},
+      {"titulo": "Passe Go: Janeiro",   "inicio": "2026-01-01T10:00:00", "fim": "2026-01-31T20:00:00", "img": "../Assets/gopass-2026-01.jpg", "link": "https://pokemongohub.net/post/article/go-pass-january-2026-dialga-and-the-lucky-trinket-return/"}
     ],
     "events": [
-      {"titulo": "Fim de Semana Dynamax", "inicio": "2026-01-31T06:00:00", "fim": "2026-02-01T21:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
-      {"titulo": "Nas Profundezas",                "inicio": "2026-01-27T10:00:00", "fim": "2026-02-01T20:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
-      {"titulo": "Parceiros Preciosos: A Invasão", "inicio": "2026-01-23T00:00:00", "fim": "2026-01-25T23:59:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
-      {"titulo": "Parceiros Preciosos",            "inicio": "2026-01-20T10:00:00", "fim": "2026-01-25T20:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
-      {"titulo": "Alta Eletroaptidão",             "inicio": "2026-01-13T10:00:00", "fim": "2026-01-18T20:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
-      {"titulo": "Pinça Perfeita",                 "inicio": "2026-01-06T10:00:00", "fim": "2026-01-11T20:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"}
+      {"titulo": "GO Tour: Kalos (Global)",       "inicio": "2026-02-28T10:00:00", "fim": "2026-03-01T18:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-tour-kalos-2026-global/"},
+      {"titulo": "Rumo a Kalos",                  "inicio": "2026-02-23T10:00:00", "fim": "2026-02-27T20:00:00", "link": "https://pokemongohub.net/post/event/road-to-kalos/"},
+      {"titulo": "GO Tour: Kalos (Los Angeles)",  "inicio": "2026-02-20T10:00:00", "fim": "2026-02-22T18:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-tour-kalos-2026-los-angeles-usa/"},
+      {"titulo": "GO Tour: Kalos (Tainan)",       "inicio": "2026-02-20T10:00:00", "fim": "2026-02-22T18:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-tour-kalos-2026-tainan-taiwan/"},
+      {"titulo": "Ano Novo Lunar",                "inicio": "2026-02-17T10:00:00", "fim": "2026-02-21T20:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Dia de Batalha Max", "inicio": "2026-02-15T10:00:00", "fim": "2026-02-15T20:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Dia de Reides", "inicio": "2026-02-14T14:00:00", "fim": "2026-02-14T17:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Dia de São Valentim 2026",      "inicio": "2026-02-10T10:00:00", "fim": "2026-02-15T20:00:00", "link": "https://pokemongohub.net/post/event/valentines-day-2026-event/"},
+      {"titulo": "Carnaval de Flamigo",           "inicio": "2026-02-03T10:00:00", "fim": "2026-02-08T20:00:00", "link": "https://pokemongohub.net/post/event/carnival-of-flamigo-event/"},
+      {"titulo": "Fim de Semana Dynamax",          "inicio": "2026-01-31T06:00:00", "fim": "2026-02-01T21:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-events/"},
+      {"titulo": "Nas Profundezas",                "inicio": "2026-01-27T10:00:00", "fim": "2026-02-01T20:00:00", "link": "https://pokemongohub.net/post/event/into-the-depths-event-january-2026/"},
+      {"titulo": "Parceiros Preciosos: A Invasão", "inicio": "2026-01-23T00:00:00", "fim": "2026-01-25T23:59:00", "link": "https://pokemongohub.net/post/event/precious-pals-taken-over/"},
+      {"titulo": "Parceiros Preciosos",            "inicio": "2026-01-20T10:00:00", "fim": "2026-01-25T20:00:00", "link": "https://pokemongohub.net/post/event/precious-pals-january-2026/"},
+      {"titulo": "Alta Eletroaptidão",             "inicio": "2026-01-13T10:00:00", "fim": "2026-01-18T20:00:00", "link": "https://pokemongohub.net/post/event/high-zaptitude/"},
+      {"titulo": "Pinça Perfeita",                 "inicio": "2026-01-06T10:00:00", "fim": "2026-01-11T20:00:00", "link": "https://pokemongohub.net/post/event/pinch-perfect-event-pokemon-go/"}
     ],
     "research": [
-      {"titulo": "",  "inicio": "2025-12-22T14:00:00", "fim": "2025-12-22T17:00:00", "link": "https://pokemongohub.net/" }
+      {"titulo": "Domínio de Captura: Oricorio", "inicio": "2026-02-07T10:00:00", "fim": "2026-02-07T20:00:00", "link": "https://pokemongohub.net/post/event/catch-mastery-oricorio/"}
     ],
     "community_day": [
-      {"titulo": "Dia da Comunidade: Grookey",         "inicio": "2026-01-18T14:00:00", "fim": "2026-01-18T17:00:00", "link": "https://pokemongohub.net/"},
-      {"titulo": "Dia da Comunidade Clássico: Piplup", "inicio": "2026-01-04T14:00:00", "fim": "2026-01-04T17:00:00", "link": "https://pokemongohub.net/"}
+      {"titulo": "Dia da Comunidade: Vulpix e Vulpix Alola", "inicio": "2026-02-01T14:00:00", "fim": "2026-02-01T17:00:00", "link": "https://pokemongohub.net/post/event/vulpix-and-alolan-vulpix-community-day-february-2026/"},
+      {"titulo": "Dia da Comunidade: Grookey",               "inicio": "2026-01-18T14:00:00", "fim": "2026-01-18T17:00:00", "link": "https://pokemongohub.net/post/event/pokemon-go-january-2026-community-day/"},
+      {"titulo": "Dia da Comunidade Clássico: Piplup",       "inicio": "2026-01-04T14:00:00", "fim": "2026-01-04T17:00:00", "link": "https://pokemongohub.net/post/event/piplup-community-day-classic-january-2026/"}
     ],
     "raid": [
-      {"ref": "raid_tornadus_incarnate", "inicio": "2026-01-25T10:00:00", "fim": "2026-02-04T10:00:00"},
+      {"ref": "raid_kyurem_black",  "inicio": "2026-02-27T18:00:00", "fim": "2026-02-27T19:00:00"},
+      {"ref": "raid_kyurem_white",  "inicio": "2026-02-27T18:00:00", "fim": "2026-02-27T19:00:00"},
+      {"ref": "raid_dialga_origem",   "inicio": "2026-02-26T18:00:00", "fim": "2026-02-26T19:00:00"},
+      {"ref": "raid_palkia_origem",   "inicio": "2026-02-26T18:00:00", "fim": "2026-02-26T19:00:00"},
+      {"ref": "raid_lunala",    "inicio": "2026-02-21T10:00:00", "fim": "2026-03-04T10:00:00"},
+      {"ref": "raid_solgaleo",  "inicio": "2026-02-16T10:00:00", "fim": "2026-02-21T10:00:00"},
+      {"ref": "raid_dialga",    "inicio": "2026-02-04T10:00:00", "fim": "2026-02-16T10:00:00"},
+      {"ref": "raid_palkia",    "inicio": "2026-02-04T10:00:00", "fim": "2026-02-16T10:00:00"},
+      {"ref": "raid_tornadus_incarnate",  "inicio": "2026-01-25T10:00:00", "fim": "2026-02-04T10:00:00"},
       {"ref": "raid_thundurus_incarnate", "inicio": "2026-01-16T10:00:00", "fim": "2026-01-25T10:00:00"},
-      {"ref": "raid_genesect_burn", "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"},
-      {"ref": "raid_genesect_chill", "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"},
-      {"ref": "raid_blacephalon", "inicio": "2026-01-01T10:00:00", "fim": "2026-01-05T10:00:00"}
+      {"ref": "raid_kyurem_black",        "inicio": "2026-01-10T14:00:00", "fim": "2026-01-10T17:00:00"},
+      {"ref": "raid_kyurem_white",        "inicio": "2026-01-10T14:00:00", "fim": "2026-01-10T17:00:00"},
+      {"ref": "raid_zekrom",              "inicio": "2026-01-10T14:00:00", "fim": "2026-01-10T17:00:00"},
+      {"ref": "raid_reshiram",            "inicio": "2026-01-10T14:00:00", "fim": "2026-01-10T17:00:00"},
+      {"ref": "raid_genesect_burn",       "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"},
+      {"ref": "raid_genesect_chill",      "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"},
+      {"ref": "raid_blacephalon",         "inicio": "2026-01-01T10:00:00", "fim": "2026-01-05T10:00:00"}
     ],
     "raid_hour": [
+      {"ref": "raid_reshiram",  "inicio": "2026-02-27T18:00:00", "fim": "2026-02-27T19:00:00"},
+      {"ref": "raid_zekrom",    "inicio": "2026-02-27T18:00:00", "fim": "2026-02-27T19:00:00"},
+      {"ref": "raid_moltres",   "inicio": "2026-02-23T18:00:00", "fim": "2026-02-23T19:00:00"},
+      {"ref": "raid_zapdos",    "inicio": "2026-02-23T18:00:00", "fim": "2026-02-23T19:00:00"},
+      {"ref": "raid_articuno",  "inicio": "2026-02-23T18:00:00", "fim": "2026-02-23T19:00:00"},
+      {"ref": "raid_solgaleo",  "inicio": "2026-02-18T18:00:00", "fim": "2026-02-18T19:00:00"},
+      {"ref": "raid_dialga",    "inicio": "2026-02-11T18:00:00", "fim": "2026-02-11T19:00:00"},
+      {"ref": "raid_palkia",    "inicio": "2026-02-11T18:00:00", "fim": "2026-02-11T19:00:00"},
+      {"ref": "raid_dialga",    "inicio": "2026-02-04T18:00:00", "fim": "2026-02-04T19:00:00"},
+      {"ref": "raid_palkia",    "inicio": "2026-02-04T18:00:00", "fim": "2026-02-04T19:00:00"},
       {"ref": "raid_tornadus_incarnate",  "inicio": "2026-01-28T18:00:00", "fim": "2026-01-28T19:00:00", "titulo_alt": "Hora lendária: Tornadus (Incarnado)"},
       {"ref": "raid_thundurus_incarnate", "inicio": "2026-01-21T18:00:00", "fim": "2026-01-21T19:00:00", "titulo_alt": "Hora lendária: Thundurs (Incarnado)"},
       {"ref": "raid_genesect_burn",       "inicio": "2026-01-14T18:00:00", "fim": "2026-01-14T19:00:00", "titulo_alt": "Hora lendária: Genesect (Incendiário)"},
@@ -48,30 +80,47 @@
       {"ref": "raid_genesect_chill",      "inicio": "2026-01-07T18:00:00", "fim": "2026-01-07T19:00:00", "titulo_alt": "Hora lendária: Genesect (Criogênico)"}
     ],
     "raid_mega": [
+      {"ref": "primal_groudon", "inicio": "2026-02-25T18:00:00", "fim": "2026-02-25T19:00:00"},
+      {"ref": "primal_kyogre",  "inicio": "2026-02-25T18:00:00", "fim": "2026-02-25T19:00:00"},
+      {"ref": "mega_absol",     "inicio": "2026-02-21T10:00:00", "fim": "2026-03-04T10:00:00"},
+      {"ref": "mega_sableye",   "inicio": "2026-02-16T10:00:00", "fim": "2026-02-21T10:00:00"},
+      {"ref": "mega_pidgeot",   "inicio": "2026-02-04T10:00:00", "fim": "2026-02-16T10:00:00"},
       {"ref": "mega_ampharos", "inicio": "2026-01-25T10:00:00", "fim": "2026-02-04T10:00:00"},
       {"ref": "mega_sceptile", "inicio": "2026-01-16T10:00:00", "fim": "2026-01-25T10:00:00"},
       {"ref": "mega_blaziken", "inicio": "2026-01-05T10:00:00", "fim": "2026-01-16T10:00:00"}
     ],
     "raid_shadow": [
+      {"ref": "shadow_ho_oh",     "inicio": "2026-02-24T18:00:00", "fim": "2026-02-24T19:00:00"},
+      {"ref": "shadow_lugia",     "inicio": "2026-02-24T18:00:00", "fim": "2026-02-24T19:00:00"},
+      {"ref": "shadow_regigigas", "inicio": "2026-02-01T10:00:00", "fim": "2026-03-04T10:00:00"},
+      {"ref": "shadow_raikou",    "inicio": "2026-01-24T14:00:00", "fim": "2026-01-24T17:00:00"},
       {"ref": "shadow_cresselia", "inicio": "2026-01-02T10:00:00", "fim": "2026-02-01T22:00:00"}
     ],
     "dynamax": [
-      {"ref": "dmax_nome_pokemon", "inicio": "2025-00-00T14:00:00", "fim": "2025-00-00T17:00:00"}
+      {"ref": "dmax_ho_oh", "inicio": "2026-01-31T06:00:00", "fim": "2026-02-01T21:00:00"}
     ],
     "gigantamax": [
       {"ref": "gmax_nome_pokemon", "inicio": "2026-00-00T14:00:00", "fim": "2026-00-00T17:00:00"}
     ],
     "max_monday": [
+      {"titulo": "Segundas Max: Desconhecido",       "inicio": "2026-02-23T18:00:00", "fim": "2026-02-23T19:00:00", "link": "https://www.pokebattler.com/"},
+      {"titulo": "Segundas Max: Machop",             "inicio": "2026-02-16T18:00:00", "fim": "2026-02-16T19:00:00", "link": "https://www.pokebattler.com/raids/MACHOP/RAID_LEVEL_1_MAX"},
+      {"titulo": "Segundas Max: Growlithe de Hisui", "inicio": "2026-02-09T18:00:00", "fim": "2026-02-09T19:00:00", "link": "https://www.pokebattler.com/raids/GROWLITHE_HISUIAN/RAID_LEVEL_1_MAX"},
+      {"titulo": "Segundas Max: Wailmer",            "inicio": "2026-02-02T18:00:00", "fim": "2026-02-02T19:00:00", "link": "https://www.pokebattler.com/raids/WAILMER/RAID_LEVEL_1_MAX"},
       {"titulo": "Segundas Max: Roggenrola", "inicio": "2026-01-26T18:00:00", "fim": "2026-01-26T19:00:00", "link": "https://www.pokebattler.com/raids/ROGGENROLA/RAID_LEVEL_1_MAX"},
       {"titulo": "Segundas Max: Beldum",     "inicio": "2026-01-19T18:00:00", "fim": "2026-01-19T19:00:00", "link": "https://www.pokebattler.com/raids/BELDUM/RAID_LEVEL_3_MAX"},
       {"titulo": "Segundas Max: Caterpie",   "inicio": "2026-01-12T18:00:00", "fim": "2026-01-12T19:00:00", "link": "https://www.pokebattler.com/raids/CATERPIE/RAID_LEVEL_1_MAX"},
       {"titulo": "Segundas Max: Drampa",     "inicio": "2026-01-05T18:00:00", "fim": "2026-01-05T19:00:00", "link": "https://www.pokebattler.com/raids/DRAMPA/RAID_LEVEL_1_MAX"}
     ],
     "spotlights": [
-      {"titulo": "Hora do Holofote: Foongus",  "inicio": "2026-01-27T18:00:00", "fim": "2026-01-27T19:00:00", "link": "https://pokemongohub.net/"},
-      {"titulo": "Hora do Holofote: Hatenna",  "inicio": "2026-01-20T18:00:00", "fim": "2026-01-20T19:00:00", "link": "https://pokemongohub.net/"},
-      {"titulo": "Hora do Holofote: Mareep",   "inicio": "2026-01-13T18:00:00", "fim": "2026-01-13T19:00:00", "link": "https://pokemongohub.net/"},
-      {"titulo": "Hora do Holofote: Barboach", "inicio": "2026-01-06T18:00:00", "fim": "2026-01-06T19:00:00", "link": "https://pokemongohub.net/"}
+      {"titulo": "Hora do Holofote: Totodile", "inicio": "2026-02-24T18:00:00", "fim": "2026-02-24T19:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Hora do Holofote: Horsea",   "inicio": "2026-02-17T18:00:00", "fim": "2026-02-17T19:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Hora do Holofote: Munna",    "inicio": "2026-02-10T18:00:00", "fim": "2026-02-10T19:00:00", "link": "https://pokemongohub.net/"},
+      {"titulo": "Hora do Holofote: Whismur",  "inicio": "2026-02-03T18:00:00", "fim": "2026-02-03T19:00:00", "link": "https://pokemongohub.net/post/tips-and-tricks/whismur-spotlight-hour-february-2026-last-minute-guide/"},
+      {"titulo": "Hora do Holofote: Foongus",  "inicio": "2026-01-27T18:00:00", "fim": "2026-01-27T19:00:00", "link": "https://pokemongohub.net/post/tips-and-tricks/foongus-spotlight-hour-january-2026-last-minute-guide/"},
+      {"titulo": "Hora do Holofote: Hatenna",  "inicio": "2026-01-20T18:00:00", "fim": "2026-01-20T19:00:00", "link": "https://pokemongohub.net/post/tips-and-tricks/hatenna-spotlight-hour-january-2026-last-minute-guide/"},
+      {"titulo": "Hora do Holofote: Mareep",   "inicio": "2026-01-13T18:00:00", "fim": "2026-01-13T19:00:00", "link": "https://pokemongohub.net/post/tips-and-tricks/mareep-spotlight-hour-january-2026-last-minute-guide/"},
+      {"titulo": "Hora do Holofote: Barboach", "inicio": "2026-01-06T18:00:00", "fim": "2026-01-06T19:00:00", "link": "https://pokemongohub.net/post/tips-and-tricks/barboach-spotlight-hour-january-2026-last-minute-guide/"}
     ]
   }
 }

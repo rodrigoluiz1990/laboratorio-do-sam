@@ -46,6 +46,8 @@
     { "raid_reshiram": { "titulo": "Raid: Reshiram", "link": "https://www.pokebattler.com/raids/RESHIRAM" }},
     { "raid_zekrom": { "titulo": "Raid: Zekrom", "link": "https://www.pokebattler.com/raids/ZEKROM" }},
     { "raid_kyurem": { "titulo": "Raid: Kyurem", "link": "https://www.pokebattler.com/raids/KYUREM" }},
+    { "raid_kyurem_black": { "titulo": "Raid: Kyurem Preto", "link": "https://www.pokebattler.com/raids/KYUREM_BLACK_FORM", "img": "../Assets/icon-kyuremblack.png"  }},
+    { "raid_kyurem_white": { "titulo": "Raid: Kyurem Branco", "link": "https://www.pokebattler.com/raids/KYUREM_WHITE_FORM", "img": "../Assets/icon-kyuremwhite.png" }},
     { "raid_genesect_normal": { "titulo": "Raid: Genesect (Normal)", "link": "https://www.pokebattler.com/raids/GENESECT" }},
     { "raid_genesect_hidrico": { "titulo": "Raid: Genesect (Hídrico)", "link": "https://www.pokebattler.com/raids/GENESECT_DOUSE_FORM" }},
     { "raid_genesect_eletrico": { "titulo": "Raid: Genesect (Elétrico)", "link": "https://www.pokebattler.com/raids/GENESECT_SHOCK_FORM" }},
