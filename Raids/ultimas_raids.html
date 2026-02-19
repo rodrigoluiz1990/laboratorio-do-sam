@@ -461,14 +461,22 @@
       ? "https://rodrigoluiz1990.github.io/laboratorio-do-sam/"
       : "../"; // caminho local
 
-    const jsonUrl = `${basePath}Calendario/calendario_eventos_pokemongo.json`;
+    const anosUrl = `${basePath}Calendario/anos.json`;
+    const raidsUrl = `${basePath}Calendario/raids.json`;
     const dataReferencia = new Date();
 
     // Função para formatar data DD/MM/AAAA
     function formatarData(data) {
       if (!data) return '';
-      const [ano, mes, dia] = data.split('-');
+      const [ano, mes, dia] = data.split('T')[0].split('-');
       return `${dia}/${mes}/${ano}`;
+    }
+
+    function dataValida(data) {
+      if (!data || typeof data !== 'string') return false;
+      if (data.includes('-00-')) return false;
+      const dataObj = new Date(data);
+      return !Number.isNaN(dataObj.getTime());
     }
 
     // Função para determinar status baseado no intervalo de datas
@@ -525,45 +533,83 @@
     }
 
     // Processar dados do JSON
-    function processarDados(dados) {
+    function criarMapaRefsRaids(raidsData) {
+      const mapa = {
+        raid: new Map(),
+        raid_mega: new Map(),
+        raid_shadow: new Map(),
+        gigantamax: new Map(),
+        dynamax: new Map()
+      };
+
+      if (!raidsData || typeof raidsData !== 'object') return mapa;
+
+      Object.keys(mapa).forEach(categoria => {
+        const lista = raidsData[categoria];
+        if (!Array.isArray(lista)) return;
+
+        lista.forEach(item => {
+          const chave = Object.keys(item || {})[0];
+          if (chave) mapa[categoria].set(chave, item[chave]);
+        });
+      });
+
+      return mapa;
+    }
+
+    function processarDados(dados, raidsData) {
       const raids5 = [];
       const raidsMega = [];
       const raidsGigantamax = [];
       const raidsDynamax = [];
       const raidsShadow = [];
+      const refsRaids = criarMapaRefsRaids(raidsData);
+
+      const adicionarRaid = (raid, destino, categoriaRef) => {
+        if (!raid || typeof raid !== 'object') return;
+
+        const inicio = raid.data_inicio || raid.inicio;
+        const fim = raid.data_fim || raid.fim;
+
+        if (!dataValida(inicio) || !dataValida(fim)) return;
+
+        let titulo = raid.titulo;
+        let link = raid.link || '';
+
+        if ((!titulo || titulo.trim() === '') && raid.ref) {
+          const raidRef = refsRaids[categoriaRef]?.get(raid.ref);
+          if (raidRef) {
+            titulo = raidRef.titulo;
+            link = raidRef.link || link;
+          }
+        }
+
+        if (!titulo || titulo.endsWith(': ')) return;
+
+        const statusInfo = determinarStatus(inicio, fim);
+        destino.push({
+          nome: extrairNomePokemon(titulo),
+          dataInicio: inicio,
+          dataFim: fim,
+          status: statusInfo.status,
+          statusClass: statusInfo.classe,
+          diasRestantes: statusInfo.diasRestantes,
+          diasPassados: statusInfo.diasPassados,
+          link
+        });
+      };
+
+      const processarLista = (lista, destino, categoriaRef) => {
+        if (!Array.isArray(lista)) return;
+        lista.forEach(item => adicionarRaid(item, destino, categoriaRef));
+      };
 
       Object.values(dados).forEach(ano => {
-        if (ano.meses) {
-          Object.values(ano.meses).forEach(mes => {
-            // Função auxiliar para processar raids
-            const processarRaids = (array, destino) => {
-              if (array && Array.isArray(array)) {
-                array.forEach(raid => {
-                  if (raid.titulo && raid.titulo !== `${destino.tipo}: ` && raid.data_inicio && raid.data_fim) {
-                    const statusInfo = determinarStatus(raid.data_inicio, raid.data_fim);
-
-                    destino.array.push({
-                      nome: extrairNomePokemon(raid.titulo),
-                      dataInicio: raid.data_inicio,
-                      dataFim: raid.data_fim,
-                      status: statusInfo.status,
-                      statusClass: statusInfo.classe,
-                      diasRestantes: statusInfo.diasRestantes,
-                      diasPassados: statusInfo.diasPassados,
-                      link: raid.link || ''
-                    });
-                  }
-                });
-              }
-            };
-
-            processarRaids(mes.raid, { array: raids5, tipo: 'Raid' });
-            processarRaids(mes.raid_mega, { array: raidsMega, tipo: 'Mega Raid' });
-            processarRaids(mes.raid_shadow, { array: raidsShadow, tipo: 'Raid Sombrosa' });
-            processarRaids(mes.gigantamax, { array: raidsGigantamax, tipo: 'Gigantamax' });
-            processarRaids(mes.dynamax, { array: raidsDynamax, tipo: 'Dynamax' });
-          });
-        }
+        processarLista(ano.raid, raids5, 'raid');
+        processarLista(ano.raid_mega, raidsMega, 'raid_mega');
+        processarLista(ano.raid_shadow, raidsShadow, 'raid_shadow');
+        processarLista(ano.gigantamax, raidsGigantamax, 'gigantamax');
+        processarLista(ano.dynamax, raidsDynamax, 'dynamax');
       });
 
       // Filtrar apenas raids únicas (mais recentes de cada espécie)
@@ -724,13 +770,36 @@
 
     // Carregar e processar dados do JSON
     function carregarDados() {
-      fetch(jsonUrl)
-        .then(response => {
-          if (!response.ok) throw new Error(`Erro HTTP: ${response.status}`);
-          return response.json();
-        })
-        .then(dados => {
-          const raidsProcessadas = processarDados(dados);
+      Promise.all([
+        fetch(anosUrl),
+        fetch(raidsUrl)
+      ])
+        .then(async ([anosResp, raidsResp]) => {
+          let dados = {};
+
+          if (anosResp.ok) {
+            const anosData = await anosResp.json();
+            const anos = Array.isArray(anosData.anos) ? anosData.anos : [];
+
+            const dadosPorAno = await Promise.all(
+              anos.map(ano =>
+                fetch(`${basePath}Calendario/${ano}.json`)
+                  .then(resp => (resp.ok ? resp.json() : null))
+                  .catch(() => null)
+              )
+            );
+
+            dadosPorAno.filter(Boolean).forEach(jsonAno => {
+              dados = { ...dados, ...jsonAno };
+            });
+          }
+
+          if (Object.keys(dados).length === 0) {
+            throw new Error('Nenhum arquivo anual pôde ser carregado.');
+          }
+
+          const raidsData = raidsResp.ok ? await raidsResp.json() : null;
+          const raidsProcessadas = processarDados(dados, raidsData);
           const html = gerarHTML(raidsProcessadas);
           document.getElementById("grupos").innerHTML = html;
           document.getElementById("preloader").style.display = "none";
@@ -744,7 +813,7 @@
             <div class="erro-carregamento">
               <h3>❌ Erro ao carregar dados</h3>
               <p>${error.message}</p>
-              <p>Verifique se o arquivo JSON está no caminho correto: ${jsonUrl}</p>
+              <p>Verifique os arquivos: ${anosUrl}, ${raidsUrl} e os arquivos anuais (ex.: 2026.json).</p>
             </div>`;
           document.getElementById("preloader").style.display = "none";
         });
