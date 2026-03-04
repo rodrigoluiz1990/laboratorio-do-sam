@@ -1,4 +1,4 @@
-{
+﻿{
   "raid": [
     { "raid_articuno": { "titulo": "Raid: Articuno", "link": "https://www.pokebattler.com/raids/ARTICUNO" }},
     { "raid_zapdos": { "titulo": "Raid: Zapdos", "link": "https://www.pokebattler.com/raids/ZAPDOS" }},
@@ -49,10 +49,10 @@
     { "raid_kyurem_black": { "titulo": "Raid: Kyurem Preto", "link": "https://www.pokebattler.com/raids/KYUREM_BLACK_FORM", "img": "../Assets/icon-kyuremblack.png"  }},
     { "raid_kyurem_white": { "titulo": "Raid: Kyurem Branco", "link": "https://www.pokebattler.com/raids/KYUREM_WHITE_FORM", "img": "../Assets/icon-kyuremwhite.png" }},
     { "raid_genesect_normal": { "titulo": "Raid: Genesect (Normal)", "link": "https://www.pokebattler.com/raids/GENESECT" }},
-    { "raid_genesect_hidrico": { "titulo": "Raid: Genesect (Hídrico)", "link": "https://www.pokebattler.com/raids/GENESECT_DOUSE_FORM" }},
-    { "raid_genesect_eletrico": { "titulo": "Raid: Genesect (Elétrico)", "link": "https://www.pokebattler.com/raids/GENESECT_SHOCK_FORM" }},
-    { "raid_genesect_burn": { "titulo": "Raid: Genesect (Incendiário)", "link": "https://www.pokebattler.com/raids/GENESECT_BURN_FORM" }},
-    { "raid_genesect_chill": { "titulo": "Raid: Genesect (Criogênico)", "link": "https://www.pokebattler.com/raids/GENESECT_CHILL_FORM" }},
+    { "raid_genesect_hidrico": { "titulo": "Raid: Genesect (HÃ­drico)", "link": "https://www.pokebattler.com/raids/GENESECT_DOUSE_FORM" }},
+    { "raid_genesect_eletrico": { "titulo": "Raid: Genesect (ElÃ©trico)", "link": "https://www.pokebattler.com/raids/GENESECT_SHOCK_FORM" }},
+    { "raid_genesect_burn": { "titulo": "Raid: Genesect (IncendiÃ¡rio)", "link": "https://www.pokebattler.com/raids/GENESECT_BURN_FORM" }},
+    { "raid_genesect_chill": { "titulo": "Raid: Genesect (CriogÃªnico)", "link": "https://www.pokebattler.com/raids/GENESECT_CHILL_FORM" }},
     { "raid_xerneas": { "titulo": "Raid: Xerneas", "link": "https://www.pokebattler.com/raids/XERNEAS" }},
     { "raid_yveltal": { "titulo": "Raid: Yveltal", "link": "https://www.pokebattler.com/raids/YVELTAL" }},
     { "raid_hoopa": { "titulo": "Raid: Hoopa", "link": "https://www.pokebattler.com/raids/HOOPA_UNBOUND" }},
@@ -64,7 +64,7 @@
     { "raid_lunala": { "titulo": "Raid: Lunala", "link": "https://www.pokebattler.com/raids/LUNALA" }},
     { "raid_necrozma": { "titulo": "Raid: Necrozma", "link": "https://www.pokebattler.com/raids/NECROZMA", "img": "../Assets/icon-raid-ultra.png" }},
     { "raid_necrozma_asas_alvorada": { "titulo": "Raid: Necrozma (Asas Alvorada)", "link": "https://www.pokebattler.com/raids/NECROZMA_DAWN_WINGS_FORM" }},
-    { "raid_necrozma_juba_crepusculo": { "titulo": "Raid: Necrozma (Juba Crepúsculo)", "link": "https://www.pokebattler.com/raids/NECROZMA_DUSK_MANE_FORM" }},
+    { "raid_necrozma_juba_crepusculo": { "titulo": "Raid: Necrozma (Juba CrepÃºsculo)", "link": "https://www.pokebattler.com/raids/NECROZMA_DUSK_MANE_FORM" }},
     { "raid_nihilego": { "titulo": "Raid: Nihilego", "link": "https://www.pokebattler.com/raids/NIHILEGO", "img": "../Assets/icon-raid-ultra.png" }},
     { "raid_buzzwole": { "titulo": "Raid: Buzzwole", "link": "https://www.pokebattler.com/raids/BUZZWOLE", "img": "../Assets/icon-raid-ultra.png" }},
     { "raid_pheromosa": { "titulo": "Raid: Pheromosa", "link": "https://www.pokebattler.com/raids/PHEROMOSA", "img": "../Assets/icon-raid-ultra.png" }},
