@@ -107,6 +107,7 @@
     { "mega_blaziken": { "titulo": "Mega Raid: Blaziken", "link": "https://pokebattler.com/raids/BLAZIKEN_MEGA" }},
     { "mega_swampert": { "titulo": "Mega Raid: Swampert", "link": "https://pokebattler.com/raids/SWAMPERT_MEGA" }},
     { "mega_gardevoir": { "titulo": "Mega Raid: Gardevoir", "link": "https://pokebattler.com/raids/GARDEVOIR_MEGA" }},
+    { "mega_gallade": { "titulo": "Mega Raid: Gallade", "link": "https://pokebattler.com/raids/GALLADE_MEGA" }},
     { "mega_sableye": { "titulo": "Mega Raid: Sableye", "link": "https://pokebattler.com/raids/SABLEYE_MEGA" }},
     { "mega_mawile": { "titulo": "Mega Raid: Mawile", "link": "https://pokebattler.com/raids/MAWILE_MEGA" }},
     { "mega_aggron": { "titulo": "Mega Raid: Aggron", "link": "https://pokebattler.com/raids/AGGRON_MEGA" }},
@@ -129,6 +130,12 @@
     { "mega_abomasnow": { "titulo": "Mega Raid: Abomasnow", "link": "https://pokebattler.com/raids/ABOMASNOW_MEGA" }},
     { "primal_kyogre": { "titulo": "Primal Raid: Kyogre", "link": "https://pokebattler.com/raids/KYOGRE_PRIMAL", "img": "../Assets/icon-raid-primal.png" }},
     { "primal_groudon": { "titulo": "Primal Raid: Groudon", "link": "https://pokebattler.com/raids/GROUDON_PRIMAL", "img": "../Assets/icon-raid-primal.png" }}
+  ],
+
+  "raid_mega_super": [
+    { "mega_victreebel": { "titulo": "Mega Raid: Victreebel", "link": "https://pokebattler.com/raids/VICTREEBEL_MEGA" }},
+    { "mega_dragonite": { "titulo": "Mega Raid: Dragonite", "link": "https://pokebattler.com/raids/DRAGONITE_MEGA" }},
+    { "mega_malamar": { "titulo": "Mega Raid: Malamar", "link": "https://pokebattler.com/raids/MALAMAR_MEGA" }}
   ],
 
   "raid_shadow": [

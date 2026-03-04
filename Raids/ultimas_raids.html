@@ -537,6 +537,7 @@
       const mapa = {
         raid: new Map(),
         raid_mega: new Map(),
+        raid_mega_super: new Map(),
         raid_shadow: new Map(),
         gigantamax: new Map(),
         dynamax: new Map()
@@ -559,10 +560,11 @@
 
     function processarDados(dados, raidsData) {
       const raids5 = [];
-      const raidsMega = [];
-      const raidsGigantamax = [];
-      const raidsDynamax = [];
-      const raidsShadow = [];
+        const raidsMega = [];
+        const raidsMegaSuper = [];
+        const raidsGigantamax = [];
+        const raidsDynamax = [];
+        const raidsShadow = [];
       const refsRaids = criarMapaRefsRaids(raidsData);
 
       const adicionarRaid = (raid, destino, categoriaRef) => {
@@ -606,34 +608,38 @@
 
       Object.values(dados).forEach(ano => {
         processarLista(ano.raid, raids5, 'raid');
-        processarLista(ano.raid_mega, raidsMega, 'raid_mega');
-        processarLista(ano.raid_shadow, raidsShadow, 'raid_shadow');
-        processarLista(ano.gigantamax, raidsGigantamax, 'gigantamax');
-        processarLista(ano.dynamax, raidsDynamax, 'dynamax');
-      });
+          processarLista(ano.raid_mega, raidsMega, 'raid_mega');
+          processarLista(ano.raid_mega_super, raidsMegaSuper, 'raid_mega_super');
+          processarLista(ano.raid_shadow, raidsShadow, 'raid_shadow');
+          processarLista(ano.gigantamax, raidsGigantamax, 'gigantamax');
+          processarLista(ano.dynamax, raidsDynamax, 'dynamax');
+        });
 
       // Filtrar apenas raids únicas (mais recentes de cada espécie)
       const raids5Unicas = filtrarRaidsUnicas(raids5);
-      const raidsMegaUnicas = filtrarRaidsUnicas(raidsMega);
-      const raidsShadowUnicas = filtrarRaidsUnicas(raidsShadow);
-      const raidsGigantamaxUnicas = filtrarRaidsUnicas(raidsGigantamax);
-      const raidsDynamaxUnicas = filtrarRaidsUnicas(raidsDynamax);
+        const raidsMegaUnicas = filtrarRaidsUnicas(raidsMega);
+        const raidsMegaSuperUnicas = filtrarRaidsUnicas(raidsMegaSuper);
+        const raidsShadowUnicas = filtrarRaidsUnicas(raidsShadow);
+        const raidsGigantamaxUnicas = filtrarRaidsUnicas(raidsGigantamax);
+        const raidsDynamaxUnicas = filtrarRaidsUnicas(raidsDynamax);
 
       // Ordenar por data final (mais recentes primeiro)
       const ordenarPorDataFim = (a, b) => new Date(b.dataFim) - new Date(a.dataFim);
       raids5Unicas.sort(ordenarPorDataFim);
-      raidsMegaUnicas.sort(ordenarPorDataFim);
-      raidsShadowUnicas.sort(ordenarPorDataFim);
-      raidsGigantamaxUnicas.sort(ordenarPorDataFim);
-      raidsDynamaxUnicas.sort(ordenarPorDataFim);
+        raidsMegaUnicas.sort(ordenarPorDataFim);
+        raidsMegaSuperUnicas.sort(ordenarPorDataFim);
+        raidsShadowUnicas.sort(ordenarPorDataFim);
+        raidsGigantamaxUnicas.sort(ordenarPorDataFim);
+        raidsDynamaxUnicas.sort(ordenarPorDataFim);
 
       return {
         raids5: raids5Unicas,
-        raidsMega: raidsMegaUnicas,
-        raidsShadow: raidsShadowUnicas,
-        raidsGigantamax: raidsGigantamaxUnicas,
-        raidsDynamax: raidsDynamaxUnicas
-      };
+          raidsMega: raidsMegaUnicas,
+          raidsMegaSuper: raidsMegaSuperUnicas,
+          raidsShadow: raidsShadowUnicas,
+          raidsGigantamax: raidsGigantamaxUnicas,
+          raidsDynamax: raidsDynamaxUnicas
+        };
     }
 
     // Criar item HTML individual
@@ -700,8 +706,9 @@
     function gerarHTML(raids) {
       const grupos = [
         { dados: raids.raids5, titulo: 'Raids Nível 5', icone: '../Assets/icon-raid.png' },
-        { dados: raids.raidsMega, titulo: 'Raids Mega', icone: '../Assets/icon-raid-mega.png' },
-        { dados: raids.raidsShadow, titulo: 'Raids Sombrosas', icone: '../Assets/icon-raid-shadow.png' },
+          { dados: raids.raidsMega, titulo: 'Raids Mega', icone: '../Assets/icon-raid-mega.png' },
+          { dados: raids.raidsMegaSuper, titulo: 'Raids Super Mega', icone: '../Assets/icon-raid-mega-super.png' },
+          { dados: raids.raidsShadow, titulo: 'Raids Sombrosas', icone: '../Assets/icon-raid-shadow.png' },
         { dados: raids.raidsGigantamax, titulo: 'Gigantamax', icone: '../Assets/icon-gigantamax.png' },
         { dados: raids.raidsDynamax, titulo: 'Dynamax (Lendário)', icone: '../Assets/icon-dynamax.png' }
       ];
