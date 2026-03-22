@@ -76,6 +76,8 @@
     { "raid_blacephalon": { "titulo": "Raid: Blacephalon", "link": "https://www.pokebattler.com/raids/BLACEPHALON", "img": "../Assets/icon-raid-ultra.png" }},
     { "raid_zacian": { "titulo": "Raid: Zacian", "link": "https://www.pokebattler.com/raids/ZACIAN" }},
     { "raid_zamazenta": { "titulo": "Raid: Zamazenta", "link": "https://www.pokebattler.com/raids/ZAMAZENTA" }},
+    { "raid_zacian_hero": { "titulo": "Raid: Zacian (Hero)", "link": "https://www.pokebattler.com/raids/ZACIAN" }},
+    { "raid_zamazenta_hero": { "titulo": "Raid: Zamazenta (Hero)", "link": "https://www.pokebattler.com/raids/ZAMAZENTA" }},
     { "raid_regieleki": { "titulo": "Raid: Regieleki", "link": "https://www.pokebattler.com/raids/REGIELEKI" }},
     { "raid_regidrago": { "titulo": "Raid: Regidrago", "link": "https://www.pokebattler.com/raids/REGIDRAGO" }},
     { "raid_enamorus": { "titulo": "Raid: Enamorus", "link": "https://www.pokebattler.com/raids/ENAMORUS_INCARNATE_FORM" }},
@@ -214,3 +216,4 @@
     { "gmax_urshifu_rapid": { "titulo": "Gigantamax: Urshifu (Estilo Fluido)", "link": "https://www.pokebattler.com/raids/URSHIFU_RAPID_STRIKE_GIGANTAMAX" }}
   ]
 }
+
