@@ -1,0 +1,10 @@
+{
+  "2016": {
+    "events": [
+      {"titulo":"Evento de Natal 2016 (Parte 2)","inicio":"2016-12-30T00:00:00","fim":"2017-01-08T23:59:00","link":"https://pokemongohub.net/post/uncategorized/niantic-announces-pokemon-go-christmas-event-guide-2016/"},
+      {"titulo":"Evento de Natal 2016 (Parte 1)","inicio":"2016-12-25T00:00:00","fim":"2017-01-03T23:59:00","link":"https://pokemongohub.net/post/uncategorized/niantic-announces-pokemon-go-christmas-event-guide-2016/"},
+      {"titulo":"Evento de Ação de Graças 2016","inicio":"2016-11-23T00:00:00","fim":"2016-11-30T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-thanksgiving-event-announced-double-xp-stardust-november-23rd-30th/"},
+      {"titulo":"Lançamento do Pokémon GO no Brasil","inicio":"2016-08-03T18:30:00","fim":"2016-08-03T18:30:00","link":"https://g1.globo.com/tecnologia/games/noticia/2016/08/pokemon-go-comeca-funcionar-no-brasil.html","img":"../Assets/icon-go-2016.png"}
+    ]
+  }
+}

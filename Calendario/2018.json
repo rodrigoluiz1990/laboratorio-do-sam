@@ -1,0 +1,44 @@
+{
+  "2018": {
+    "events": [
+      {"titulo":"Fim de Ano","inicio":"2018-12-18T13:00:00","fim":"2019-01-02T13:00:00","link":"https://pokemongolive.com/post/holiday2018/"},
+      {"titulo":"Evento Let\u0027s GO, Meltan","inicio":"2018-11-16T13:00:00","fim":"2018-11-27T13:00:00","link":"https://pokemongohub.net/post/pokemon-lets-go/lets-go-event-in-pokemon-go-everything-you-need-to-know/"},
+      {"titulo":"Halloween","inicio":"2018-10-23T13:00:00","fim":"2018-11-01T13:00:00","link":"https://pokemongolive.com/post/halloween2018/"},
+      {"titulo":"Evento Psiquico","inicio":"2018-10-05T13:00:00","fim":"2018-10-14T13:00:00","link":"https://pokemongohub.net/post/news/psychic-spectacular-event/"},
+      {"titulo":"Ultra Bonus (Regionais de Kanto)","inicio":"2018-09-13T13:00:00","fim":"2018-09-30T13:00:00","link":"https://pokemongolive.com/post/globalchallenge-ultrabonus/"},
+      {"titulo":"GO Fest: Chicago","inicio":"2018-07-14T00:00:00","fim":"2018-07-15T23:59:00","link":"https://pokemongolive.com/post/pokemongofest2018/","img":"../Assets/icon-go-fest-2018.png"},
+      {"titulo":"Semana de Aventura","inicio":"2018-05-24T13:00:00","fim":"2018-06-05T13:00:00","link":"https://pokemongolive.com/post/adventureweek2018/"},
+      {"titulo":"Pesquisa Especial: Mew","inicio":"2018-03-30T00:00:00","fim":"2018-03-30T23:59:00","link":"https://pokemongolive.com/post/research/"}
+    ],
+    "community_day": [
+      {"titulo":"Dia da Comunidade: Dezembro (Recapitulacao)","inicio":"2018-11-30T00:00:00","fim":"2018-12-03T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-december-community-day-a-community-day-reunion-announced/"},
+      {"titulo":"Dia da Comunidade: Cyndaquil","inicio":"2018-11-10T00:00:00","fim":"2018-11-10T23:59:00","link":"https://pokemongohub.net/post/guide/cyndaquil-community-day-guide-november-2018/"},
+      {"titulo":"Dia da Comunidade: Beldum","inicio":"2018-10-21T00:00:00","fim":"2018-10-21T23:59:00","link":"https://pokemongohub.net/post/guide/beldum-community-day-guide-its-meteor-mash-time/"},
+      {"titulo":"Dia da Comunidade: Chikorita","inicio":"2018-09-22T00:00:00","fim":"2018-09-22T23:59:00","link":"https://pokemongohub.net/post/guide/chikorita-community-day-guide/"},
+      {"titulo":"Dia da Comunidade: Eevee","inicio":"2018-08-11T00:00:00","fim":"2018-08-12T23:59:00","link":"https://pokemongohub.net/post/guide/eevee-community-day-guide-2018/"},
+      {"titulo":"Dia da Comunidade: Squirtle","inicio":"2018-07-08T00:00:00","fim":"2018-07-08T23:59:00","link":"https://pokemongohub.net/post/guide/squirtle-community-day-guide-and-tips/"},
+      {"titulo":"Dia da Comunidade: Larvitar","inicio":"2018-06-16T00:00:00","fim":"2018-06-16T23:59:00","link":"https://pokemongohub.net/post/guide/larvitar-community-day-6-guide-june/"},
+      {"titulo":"Dia da Comunidade: Charmander","inicio":"2018-05-19T00:00:00","fim":"2018-05-19T23:59:00","link":"https://pokemongohub.net/post/guide/pokemon-go-may-community-day-guide-charizard-3x-stardust/"},
+      {"titulo":"Dia da Comunidade: Mareep","inicio":"2018-04-15T00:00:00","fim":"2018-04-15T23:59:00","link":"https://pokemongohub.net/post/guide/april-community-day-4-guide-mareep/"},
+      {"titulo":"Dia da Comunidade: Bulbasaur","inicio":"2018-03-25T00:00:00","fim":"2018-03-25T23:59:00","link":"https://pokemongohub.net/post/guide/march-community-day-3-guide-bulbasaur/"},
+      {"titulo":"Dia da Comunidade: Dratini","inicio":"2018-02-24T00:00:00","fim":"2018-02-24T23:59:00","link":"https://pokemongohub.net/post/guide/community-day-2-guide/"},
+      {"titulo":"Dia da Comunidade: Pikachu","inicio":"2018-01-20T00:00:00","fim":"2018-01-20T23:59:00","link":"https://pokemongohub.net/post/guide/guide-pokemon-gos-community-day-1-codenamed-surf-pikachu/"}
+    ],
+    "raid": [
+      {"ref":"raid_heatran","inicio":"2018-12-18T10:00:00","fim":"2019-01-15T10:00:00"},
+      {"ref":"raid_cresselia","inicio":"2018-11-20T10:00:00","fim":"2018-12-18T10:00:00"},
+      {"ref":"raid_giratina_alterada","inicio":"2018-10-23T10:00:00","fim":"2018-11-20T10:00:00"},
+      {"ref":"raid_mewtwo","inicio":"2018-09-20T10:00:00","fim":"2018-10-23T10:00:00"},
+      {"ref":"raid_regirock","inicio":"2018-08-16T10:00:00","fim":"2018-09-20T10:00:00"},
+      {"ref":"raid_registeel","inicio":"2018-07-19T10:00:00","fim":"2018-08-16T10:00:00"},
+      {"ref":"raid_regice","inicio":"2018-06-21T10:00:00","fim":"2018-07-19T10:00:00"},
+      {"ref":"raid_kyogre","inicio":"2018-06-07T10:00:00","fim":"2018-06-21T10:00:00"},
+      {"ref":"raid_latios","inicio":"2018-04-02T10:00:00","fim":"2018-06-05T10:00:00"},
+      {"ref":"raid_latias","inicio":"2018-04-02T10:00:00","fim":"2018-06-05T10:00:00"},
+      {"ref":"raid_lugia","inicio":"2018-03-16T10:00:00","fim":"2018-04-02T10:00:00"},
+      {"ref":"raid_rayquaza","inicio":"2018-02-09T10:00:00","fim":"2018-03-16T10:00:00"},
+      {"ref":"raid_kyogre","inicio":"2018-01-12T10:00:00","fim":"2018-02-14T10:00:00"},
+      {"ref":"raid_deoxys_normal","inicio":"2018-10-01T10:00:00","fim":"2018-12-31T10:00:00"}
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "2017": {
+    "events": [
+      {"titulo":"Fim de Ano","inicio":"2017-12-21T00:00:00","fim":"2018-01-04T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-holiday-2017-event-announced-new-pokemon-sales-festive-pikachu-kyogre/"},
+      {"titulo":"Desafio Global de Captura","inicio":"2017-11-20T00:00:00","fim":"2017-11-26T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-travel-first-global-catch-challenge-announced-catch-3-billion-pokemon-november-20th-26th/"},
+      {"titulo":"Halloween","inicio":"2017-10-20T12:00:00","fim":"2017-11-02T13:00:00","link":"https://pokemongolive.com/post/halloween2017/"},
+      {"titulo":"Equinocio","inicio":"2017-09-22T00:00:00","fim":"2017-10-02T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-equinox-event-announced/"},
+      {"titulo":"Safari Zone (Europa)","inicio":"2017-09-16T00:00:00","fim":"2017-10-14T23:59:00","link":"https://pokemongolive.com/post/safarizoneupdate2/"},
+      {"titulo":"Pikachu Outbreak (Yokohama)","inicio":"2017-08-09T00:00:00","fim":"2017-08-15T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-park-announced-yokohama-japan-aug-9-15-mr-mime-confirmed/"},
+      {"titulo":"GO Fest: Chicago","inicio":"2017-07-22T00:00:00","fim":"2017-07-24T23:59:00","link":"https://pokemongolive.com/post/pokemongofestupdate/","img":"../Assets/icon-go-fest-2017.png"},
+      {"titulo":"Pokémon Go: 1 Aniversário","inicio":"2017-07-06T00:00:00","fim":"2017-07-24T23:59:00","link":"https://pokemongolive.com/post/birthday2017/","img":"../Assets/icon-anniversary-1th.png"},
+      {"titulo":"Solsticio (Fogo e Gelo)","inicio":"2017-06-13T00:00:00","fim":"2017-06-20T23:59:00","link":"https://pokemongolive.com/post/solstice2017/"},
+      {"titulo":"Semana de Aventura","inicio":"2017-05-18T00:00:00","fim":"2017-05-25T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-adventure-week-announced-drops-explorer-hat-4x-buddy-candy-increased-rock-spawns/"},
+      {"titulo":"Worldwide Bloom","inicio":"2017-05-05T00:00:00","fim":"2017-05-08T23:59:00","link":"https://pokemongohub.net/post/news/pokemon-go-grass-event-announced-worldwide-bloom-may-5-may-8-2017/"},
+      {"titulo":"Festival Aquatico","inicio":"2017-03-22T00:00:00","fim":"2017-03-29T23:59:00","link":"https://pokemongohub.net/post/news/niantic-announces-water-festival-event-lasts-march-22-march-29/"},
+      {"titulo":"Dia de Pokemon","inicio":"2017-02-26T00:00:00","fim":"2017-03-06T23:59:00","link":"https://pokemongohub.net/post/news/pikachu-parties-event-announced-february-26-march-6-2017/","img":"../Assets/icon-pokemon-day.png"}
+    ],
+    "raid": [
+      {"ref":"raid_groudon","inicio":"2017-12-15T10:00:00","fim":"2018-01-15T10:00:00"},
+      {"ref":"raid_ho_oh","inicio":"2017-11-28T10:00:00","fim":"2017-12-12T10:00:00"},
+      {"ref":"raid_suicune","inicio":"2017-11-01T10:00:00","fim":"2017-11-30T10:00:00"},
+      {"ref":"raid_raikou","inicio":"2017-11-01T10:00:00","fim":"2017-11-30T10:00:00"},
+      {"ref":"raid_entei","inicio":"2017-11-01T10:00:00","fim":"2017-11-30T10:00:00"},
+      {"ref":"raid_suicune","inicio":"2017-09-30T10:00:00","fim":"2017-10-31T10:00:00"},
+      {"ref":"raid_raikou","inicio":"2017-09-30T10:00:00","fim":"2017-10-31T10:00:00"},
+      {"ref":"raid_entei","inicio":"2017-09-30T10:00:00","fim":"2017-10-31T10:00:00"},
+      {"ref":"raid_mewtwo","inicio":"2017-09-06T10:00:00","fim":"2017-12-31T10:00:00"},
+      {"ref":"raid_suicune","inicio":"2017-08-31T10:00:00","fim":"2017-09-30T10:00:00"},
+      {"ref":"raid_raikou","inicio":"2017-08-31T10:00:00","fim":"2017-09-30T10:00:00"},
+      {"ref":"raid_entei","inicio":"2017-08-31T10:00:00","fim":"2017-09-30T10:00:00"},
+      {"ref":"raid_lugia","inicio":"2017-08-14T10:00:00","fim":"2017-08-31T10:00:00"},
+      {"ref":"raid_zapdos","inicio":"2017-08-07T10:00:00","fim":"2017-08-14T10:00:00"},
+      {"ref":"raid_moltres","inicio":"2017-07-31T10:00:00","fim":"2017-08-07T10:00:00"},
+      {"ref":"raid_articuno","inicio":"2017-07-22T10:00:00","fim":"2017-07-31T10:00:00"},
+      {"ref":"raid_lugia","inicio":"2017-07-22T10:00:00","fim":"2017-07-31T10:00:00"}
+    ]
+  }
+}

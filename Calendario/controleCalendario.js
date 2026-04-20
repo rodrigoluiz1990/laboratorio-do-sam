@@ -88,16 +88,16 @@ function mudarMes(delta) {
 
   // Limites
   const anoMin = 2016;
-  const mesMin = 9; // Outubro (0 = Jan, 9 = Out)
+  const mesMin = 7; // Agosto (0 = Jan, 7 = Ago)
   const anoMax = new Date().getFullYear() + 1;
 
-  // Se ano menor que 2016 → trava em outubro/2016
+  // Se ano menor que 2016 -> trava em agosto/2016
   if (dataAtual.getFullYear() < anoMin) {
     dataAtual.setFullYear(anoMin);
     dataAtual.setMonth(mesMin);
   }
 
-  // Se ano = 2016 mas mês < outubro → trava em outubro
+  // Se ano = 2016 mas mês < agosto -> trava em agosto
   if (dataAtual.getFullYear() === anoMin && dataAtual.getMonth() < mesMin) {
     dataAtual.setMonth(mesMin);
   }
@@ -121,10 +121,10 @@ function mudarAno(delta) {
 
   // Limites
   const anoMin = 2016;
-  const mesMin = 9; // Outubro
+  const mesMin = 7; // Agosto
   const anoMax = new Date().getFullYear() + 1;
 
-  // Ano mínimo → força para outubro
+  // Ano mínimo -> força para agosto
   if (dataAtual.getFullYear() < anoMin) {
     dataAtual.setFullYear(anoMin);
     dataAtual.setMonth(mesMin);
