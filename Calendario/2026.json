@@ -26,10 +26,11 @@
       {"titulo":"Festival de Pokémon GO 2026: Tóquio","inicio":"2026-05-29T10:00:00","fim":"2026-06-01T20:00:00","link":"https://pokemongo.com/gofest/tokyo"},
       {"titulo":"Dia de Reides: Maio","inicio":"2026-05-23T14:00:00","fim":"2026-05-23T17:00:00","link":"https://pokemongo.com/pt_BR/news/save-the-date-s22"},
       {"titulo":"Dia de Reides Sombrosos","inicio":"2026-05-02T14:00:00","fim":"2026-05-02T17:00:00","link":"https://leekduck.com/events/shadow-raid-day-may-2026/"},
-      {"titulo":"Steeled Resolve","inicio":"2026-04-28T10:00:00","fim":"2026-05-04T20:00:00","link":"https://leekduck.com/events/steeled-resolve-2026/"},
+      {"titulo":"Determinação de Aço: A Invasão","inicio":"2026-04-30T10:00:00","fim":"2026-05-04T20:00:00","link":"https://leekduck.com/events/steeled-resolve-taken-over-2026/"},
+      {"titulo":"Determinação de Aço","inicio":"2026-04-28T10:00:00","fim":"2026-05-04T20:00:00","link":"https://leekduck.com/events/steeled-resolve-2026/"},
       {"titulo":"Dia de Batalhas Max","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00","link":"https://leekduck.com/events/max-battle-day-april-2026/"},
-      {"titulo":"Semana da Sustentabilidade 2026","inicio":"2026-04-14T10:00:00","fim":"2026-04-20T20:00:00","link":"https://leekduck.com/events/sustainability-week-2026/"},
-      {"titulo":"Dia de Reides Fashion","inicio":"2026-04-04T14:00:00","fim":"2026-04-04T17:00:00","link":"https://pokemongo.com/news/fashion-raid-day-2026"},
+      {"titulo":"Semana da Sustentabilidade","inicio":"2026-04-14T10:00:00","fim":"2026-04-20T20:00:00","link":"https://leekduck.com/events/sustainability-week-2026/"},
+      {"titulo":"Dia de Fashion","inicio":"2026-04-04T14:00:00","fim":"2026-04-04T17:00:00","link":"https://pokemongo.com/news/fashion-raid-day-2026"},
       {"titulo":"Momentos Eletrizantes","inicio":"2026-03-31T10:00:00","fim":"2026-04-06T20:00:00","link":"https://pokemongo.com/pt_BR/news/a-shockingly-good-time"},
       {"titulo":"Caça aos Insetos","inicio":"2026-03-17T10:00:00","fim":"2026-03-23T20:00:00","link":"https://pokemongohub.net/post/event/bug-out-event-2026/"},
       {"titulo":"30º Aniversário Pokémon: All Out","inicio":"2026-03-07T10:00:00","fim":"2026-03-09T20:00:00","link":"https://pokemongohub.net/post/news/pokemon-30th-anniversary-go-pass/","img":"../Assets/icon-anniversary-pkm-30th.png"},
@@ -50,16 +51,23 @@
       {"titulo":"Pinça Perfeita","inicio":"2026-01-06T10:00:00","fim":"2026-01-11T20:00:00","link":"https://pokemongohub.net/post/event/pinch-perfect-event-pokemon-go/"}
     ],
     "research": [
+      {"titulo":"Dia de Chocar Ovos: Riolu","inicio":"2026-04-18T11:00:00","fim":"2026-04-18T17:00:00","link":"https://leekduck.com/events/replay-riolu-hatch-day-2026/","img":"../Assets/icon-incubator.png"},
       {"titulo":"Replay: Dia de Pesquisa de Água","inicio":"2026-03-29T14:00:00","fim":"2026-03-29T17:00:00","link":"https://pokemongohub.net/post/event/replay-water-research-day/"},
       {"titulo":"Mestre da Captura: Oricorio","inicio":"2026-02-07T10:00:00","fim":"2026-02-07T20:00:00","link":"https://pokemongohub.net/post/event/catch-mastery-oricorio/"}
     ],
     "community_day": [
+      {"titulo":"Dia da Comunidade: Tinkatink","inicio":"2026-04-11T14:00:00","fim":"2026-04-11T17:00:00","link":"https://leekduck.com/events/april-communityday2026/"},
       {"titulo":"Dia da Comunidade: Scorbunny","inicio":"2026-03-21T14:00:00","fim":"2026-03-21T17:00:00","link":"https://pokemongohub.net/post/event/scorbunny-cd-march-2026/"},
       {"titulo":"Dia da Comunidade: Vulpix e Vulpix Alola","inicio":"2026-02-01T14:00:00","fim":"2026-02-01T17:00:00","link":"https://pokemongohub.net/post/event/vulpix-and-alolan-vulpix-community-day-february-2026/"},
       {"titulo":"Dia da Comunidade: Grookey","inicio":"2026-01-18T14:00:00","fim":"2026-01-18T17:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-january-2026-community-day/"},
       {"titulo":"Dia da Comunidade Clássico: Piplup","inicio":"2026-01-04T14:00:00","fim":"2026-01-04T17:00:00","link":"https://pokemongohub.net/post/event/piplup-community-day-classic-january-2026/"}
     ],
     "raid": [
+      {"ref":"raid_tapu_lele","inicio":"2026-04-29T10:00:00","fim":"2026-05-05T10:00:00"},
+      {"ref":"raid_tapu_koko","inicio":"2026-04-22T10:00:00","fim":"2026-04-29T10:00:00"},
+      {"ref":"raid_groudon","inicio":"2026-04-15T10:00:00","fim":"2026-04-22T10:00:00"},
+      {"ref":"raid_kyogre","inicio":"2026-04-08T10:00:00","fim":"2026-04-15T10:00:00"},
+      {"ref":"raid_regidrago","inicio":"2026-04-01T10:00:00","fim":"2026-04-08T10:00:00"},
       {"ref":"raid_regieleki","inicio":"2026-03-25T10:00:00","fim":"2026-04-01T10:00:00"},
       {"ref":"raid_zamazenta","inicio":"2026-03-18T10:00:00","fim":"2026-03-25T10:00:00"},
       {"ref":"raid_zacian","inicio":"2026-03-11T10:00:00","fim":"2026-03-18T10:00:00"},
@@ -94,6 +102,11 @@
       {"ref":"raid_blacephalon","inicio":"2026-01-01T10:00:00","fim":"2026-01-05T10:00:00"}
     ],
     "raid_hour": [
+      {"ref":"raid_tapu_lele","inicio":"2026-04-29T18:00:00","fim":"2026-04-29T19:00:00","titulo_alt":"Hora lendária: Tapu Lele"},
+      {"ref":"raid_tapu_koko","inicio":"2026-04-22T18:00:00","fim":"2026-04-22T19:00:00","titulo_alt":"Hora lendária: Tapu Koko"},
+      {"ref":"raid_groudon","inicio":"2026-04-15T18:00:00","fim":"2026-04-15T19:00:00","titulo_alt":"Hora lendária: Groudon"},
+      {"ref":"raid_kyogre","inicio":"2026-04-08T18:00:00","fim":"2026-04-08T19:00:00","titulo_alt":"Hora lendária: Kyogre"},
+      {"ref":"raid_regidrago","inicio":"2026-04-01T18:00:00","fim":"2026-04-01T19:00:00","titulo_alt":"Hora lendária: Regidrago"},
       {"ref":"raid_regieleki","inicio":"2026-03-25T18:00:00","fim":"2026-03-25T19:00:00","titulo_alt":"Hora lendária: Regieleki"},
       {"ref":"raid_zamazenta","inicio":"2026-03-18T18:00:00","fim":"2026-03-18T19:00:00","titulo_alt":"Hora lendária: Zamazenta"},
       {"ref":"raid_zacian","inicio":"2026-03-11T18:00:00","fim":"2026-03-11T19:00:00","titulo_alt":"Hora lendária: Zacian"},
@@ -113,6 +126,11 @@
       {"ref":"raid_genesect_chill","inicio":"2026-01-07T18:00:00","fim":"2026-01-07T19:00:00","titulo_alt":"Hora lendária: Genesect (Criogênico)"}
     ],
     "raid_mega": [
+      {"ref":"mega_banette","inicio":"2026-04-29T10:00:00","fim":"2026-05-05T10:00:00"},
+      {"ref":"mega_sharpedo","inicio":"2026-04-22T10:00:00","fim":"2026-04-29T10:00:00"},
+      {"ref":"mega_alakazam","inicio":"2026-04-15T10:00:00","fim":"2026-04-22T10:00:00"},
+      {"ref":"mega_aerodactyl","inicio":"2026-04-08T10:00:00","fim":"2026-04-15T10:00:00"},
+      {"ref":"mega_manectric","inicio":"2026-04-01T10:00:00","fim":"2026-04-08T10:00:00"},
       {"ref":"mega_houndoom","inicio":"2026-03-25T10:00:00","fim":"2026-04-01T10:00:00"},
       {"ref":"mega_slowbro","inicio":"2026-03-18T10:00:00","fim":"2026-03-25T10:00:00"},
       {"ref":"mega_steelix","inicio":"2026-03-11T10:00:00","fim":"2026-03-18T10:00:00"},
@@ -154,6 +172,7 @@
       {"ref":"mega_malamar","inicio":"2026-02-28T10:00:00","fim":"2026-03-01T18:00:00"}
     ],
     "raid_shadow": [
+      {"ref":"shadow_latios","inicio":"2026-04-01T10:00:00","fim":"2026-05-05T10:00:00"},
       {"ref":"shadow_latias","inicio":"2026-03-04T10:00:00","fim":"2026-04-01T10:00:00"},
       {"ref":"shadow_ho_oh","inicio":"2026-02-24T10:00:00","fim":"2026-02-24T21:00:00"},
       {"ref":"shadow_lugia","inicio":"2026-02-24T10:00:00","fim":"2026-02-24T21:00:00"},
@@ -162,12 +181,24 @@
       {"ref":"shadow_cresselia","inicio":"2026-01-02T10:00:00","fim":"2026-02-01T22:00:00"}
     ],
     "dynamax": [
+      {"ref":"dmax_shuckle","inicio":"2026-04-27T18:00:00","fim":"2026-05-03T21:00:00"},
+      {"ref":"dmax_regirock","inicio":"2026-04-20T18:00:00","fim":"2026-04-26T21:00:00"},
+      {"ref":"dmax_drilbur","inicio":"2026-04-13T18:00:00","fim":"2026-04-19T21:00:00"},
+      {"ref":"dmax_trapinch","inicio":"2026-04-06T18:00:00","fim":"2026-04-12T21:00:00"},
       {"ref":"dmax_ho_oh","inicio":"2026-01-31T06:00:00","fim":"2026-02-01T21:00:00"}
     ],
     "gigantamax": [
+      {"ref":"gmax_venusaur","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
+      {"ref":"gmax_charizard","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
+      {"ref":"gmax_blastoise","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
+      {"ref":"gmax_gengar","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
       {"ref":"gmax_meowth","inicio":"2026-02-15T14:00:00","fim":"2026-02-15T17:00:00"}
     ],
     "max_monday": [
+      {"titulo":"Segundas Max: Shuckle","inicio":"2026-04-27T18:00:00","fim":"2026-04-27T19:00:00","link":"https://www.pokebattler.com/raids/SHUCKLE/RAID_LEVEL_3_MAX"},
+      {"titulo":"Segundas Max: Regirock","inicio":"2026-04-20T18:00:00","fim":"2026-04-20T19:00:00","link":"https://www.pokebattler.com/raids/REGIROCK/RAID_LEVEL_5_MAX"},
+      {"titulo":"Segundas Max: Drilbur","inicio":"2026-04-13T18:00:00","fim":"2026-04-13T19:00:00","link":"https://www.pokebattler.com/raids/DRILBUR/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Trapinch","inicio":"2026-04-06T18:00:00","fim":"2026-04-06T19:00:00","link":"https://www.pokebattler.com/raids/TRAPINCH/RAID_LEVEL_1_MAX"},
       {"titulo":"Segundas Max: Regice","inicio":"2026-03-30T18:00:00","fim":"2026-03-30T19:00:00","link":"https://www.pokebattler.com/raids/REGICE/RAID_LEVEL_5_MAX"},
       {"titulo":"Segundas Max: Falinks","inicio":"2026-03-23T18:00:00","fim":"2026-03-23T19:00:00","link":"https://www.pokebattler.com/raids/FALINKS/RAID_LEVEL_3_MAX"},
       {"titulo":"Segundas Max: Pikachu","inicio":"2026-03-16T18:00:00","fim":"2026-03-16T19:00:00","link":"https://www.pokebattler.com/raids/PIKACHU/RAID_LEVEL_1_MAX"},
