@@ -159,6 +159,10 @@
   ],
   "dynamax": [
     {"dmax_eevee":{"titulo":"Dynamax: Eevee","link":"https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX"}},
+    {"dmax_trapinch":{"titulo":"Dynamax: Trapinch","link":"https://www.pokebattler.com/raids/TRAPINCH/RAID_LEVEL_1_MAX"}},
+    {"dmax_drilbur":{"titulo":"Dynamax: Drilbur","link":"https://www.pokebattler.com/raids/DRILBUR/RAID_LEVEL_1_MAX"}},
+    {"dmax_regirock":{"titulo":"Dynamax: Regirock","link":"https://www.pokebattler.com/raids/REGIROCK/RAID_LEVEL_5_MAX"}},
+    {"dmax_shuckle":{"titulo":"Dynamax: Shuckle","link":"https://www.pokebattler.com/raids/SHUCKLE/RAID_LEVEL_3_MAX"}},
     {"dmax_articuno":{"titulo":"Dynamax: Articuno","link":"https://www.pokebattler.com/raids/ARTICUNO/RAID_LEVEL_5_MAX"}},
     {"dmax_zapdos":{"titulo":"Dynamax: Zapdos","link":"https://www.pokebattler.com/raids/ZAPDOS/RAID_LEVEL_5_MAX"}},
     {"dmax_moltres":{"titulo":"Dynamax: Moltres","link":"https://www.pokebattler.com/raids/MOLTRES/RAID_LEVEL_5_MAX"}},
@@ -170,7 +174,11 @@
     {"dmax_toxtricity_amped":{"titulo":"Dynamax: Toxtricity (Aguda)","link":"https://www.pokebattler.com/raids/TOXTRICITY_AMPED_FORM/RAID_LEVEL_5_MAX"}},
     {"dmax_toxtricity_low_key":{"titulo":"Dynamax: Toxtricity (Grave)","link":"https://www.pokebattler.com/raids/TOXTRICITY_LOW_KEY_FORM/RAID_LEVEL_5_MAX"}},
     {"dmax_latias":{"titulo":"Dynamax: Latias","link":"https://www.pokebattler.com/raids/LATIAS/RAID_LEVEL_5_MAX"}},
-    {"dmax_latios":{"titulo":"Dynamax: Latios","link":"https://www.pokebattler.com/raids/LATIOS/RAID_LEVEL_5_MAX"}}
+    {"dmax_latios":{"titulo":"Dynamax: Latios","link":"https://www.pokebattler.com/raids/LATIOS/RAID_LEVEL_5_MAX"}},
+    {"dmax_cottonee":{"titulo":"Dynamax: Cottonee","link":"https://www.pokebattler.com/raids/COTTONEE/RAID_LEVEL_1_MAX"}},
+    {"dmax_growlithe":{"titulo":"Dynamax: Growlithe","link":"https://www.pokebattler.com/raids/GROWLITHE/RAID_LEVEL_1_MAX"}},
+    {"dmax_registeel":{"titulo":"Dynamax: Registeel","link":"https://www.pokebattler.com/raids/REGISTEEL/RAID_LEVEL_5_MAX"}},
+    {"dmax_combee":{"titulo":"Dynamax: Combee","link":"https://www.pokebattler.com/raids/COMBEE/RAID_LEVEL_1_MAX"}}
   ],
   "gigantamax": [
     {"gmax_venusaur":{"titulo":"Gigantamax: Venusaur","link":"https://www.pokebattler.com/raids/VENUSAUR_GIGANTAMAX"}},
