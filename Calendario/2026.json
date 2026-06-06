@@ -1,6 +1,7 @@
 {
   "2026": {
     "season": [
+      {"titulo":"Sempre em Frente","inicio":"2026-06-02T10:00:00","fim":"2026-09-08T10:00:00","img":"../Assets/season-2026-06-forever-forwrad.jpg","link":"https://pokemongohub.net/post/guide/forever-forward/"},
       {"titulo":"Mémorias em Movimento","inicio":"2026-03-03T10:00:00","fim":"2026-06-02T10:00:00","img":"../Assets/season-2026-03-memories-in-motion.jpg","link":"https://pokemongohub.net/post/event/memories-in-motion-pokemon-go-season/"},
       {"titulo":"Passos Preciosos","inicio":"2025-12-02T10:00:00","fim":"2026-03-03T10:00:00","img":"../Assets/season-2025-12-precious-paths.jpg","link":"https://pokemongohub.net/post/guide/precious-paths-season-special-research/"}
     ],
@@ -11,9 +12,9 @@
       {"titulo":"Passe Go: Setembro","inicio":"2026-09-02T10:00:00","fim":"2026-10-07T10:00:00","img":"../Assets/gopass-2026-09.jpg","link":"https://pokemongohub.net/"},
       {"titulo":"Passe Go: Agosto","inicio":"2026-08-05T10:00:00","fim":"2026-09-02T10:00:00","img":"../Assets/gopass-2026-08.jpg","link":"https://pokemongohub.net/"},
       {"titulo":"Passe Go: Julho","inicio":"2026-07-05T10:00:00","fim":"2026-08-02T10:00:00","img":"../Assets/gopass-2026-07.jpg","link":"https://pokemongohub.net/"},
-      {"titulo":"Passe Go: Junho","inicio":"2026-06-05T10:00:00","fim":"2026-07-02T10:00:00","img":"../Assets/gopass-2026-06.jpg","link":"https://pokemongohub.net/"},
-      {"titulo":"Passe Go: Maio","inicio":"2026-05-05T10:00:00","fim":"2026-06-02T10:00:00","img":"../Assets/gopass-2026-05.jpg","link":"https://pokemongohub.net/"},
-      {"titulo":"Passe Go: Abril","inicio":"2026-04-05T10:00:00","fim":"2026-05-02T10:00:00","img":"../Assets/gopass-2026-04.jpg","link":"https://pokemongohub.net/"},
+      {"titulo":"Passe Go: Junho","inicio":"2026-06-05T10:00:00","fim":"2026-07-02T10:00:00","img":"../Assets/gopass-2026-06.jpg","link":"https://pokemongohub.net/post/news/go-pass-june-2026/"},
+      {"titulo":"Passe Go: Maio","inicio":"2026-05-05T10:00:00","fim":"2026-06-02T10:00:00","img":"../Assets/gopass-2026-05.jpg","link":"https://pokemongohub.net/post/news/go-pass-may-2026/"},
+      {"titulo":"Passe Go: Abril","inicio":"2026-04-05T10:00:00","fim":"2026-05-02T10:00:00","img":"../Assets/gopass-2026-04.jpg","link":"https://pokemongohub.net/post/news/go-pass-april-2026/"},
       {"titulo":"Passe Go: Março","inicio":"2026-03-02T10:00:00","fim":"2026-04-02T10:00:00","img":"../Assets/gopass-2026-03.jpg","link":"https://pokemongohub.net/post/news/go-pass-march-2026/"},
       {"titulo":"Passe Go: Fevereiro","inicio":"2026-02-01T10:00:00","fim":"2026-03-01T10:00:00","img":"../Assets/gopass-2026-02.jpg","link":"https://pokemongohub.net/post/news/pokemon-go-pass-february/"},
       {"titulo":"Passe Go: Janeiro","inicio":"2026-01-01T10:00:00","fim":"2026-01-31T20:00:00","img":"../Assets/gopass-2026-01.jpg","link":"https://pokemongohub.net/post/article/go-pass-january-2026-dialga-and-the-lucky-trinket-return/"}
@@ -21,17 +22,20 @@
     "events": [
       {"titulo":"GO Fest 2026: Global","inicio":"2026-07-12T00:00:00","fim":"2026-07-12T23:59:00","img":"../Assets/icon-go-fest-2026.png","link":"https://pokemongo.com/pt_BR/gofest/global"},
       {"titulo":"GO Fest 2026: Global","inicio":"2026-07-11T00:00:00","fim":"2026-07-11T23:59:00","img":"../Assets/icon-go-fest-2026.png","link":"https://pokemongo.com/pt_BR/gofest/global"},
+      {"titulo":"Invasão Rocket","inicio":"2026-06-25T00:00:00","fim":"2026-06-29T23:59:00","link":"https://pokemongohub.net/post/event/pokemon-go-june-2026-events/"},
+      {"titulo":"Táxi Voador","inicio":"2026-06-23T10:00:00","fim":"2026-06-29T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-june-2026-events/"},
       {"titulo":"GO Fest 2026: Copenhagen","inicio":"2026-06-12T09:00:00","fim":"2026-06-14T18:00:00","img":"../Assets/icon-go-fest-2026-copenhagen.png","link":"https://pokemongo.com/gofest/copenhagen"},
+      {"titulo":"Vitória da Candela","inicio":"2026-06-09T10:00:00","fim":"2026-06-15T20:00:00","link":"https://pokemongohub.net/post/event/candelas-quest-for-victory/"},
       {"titulo":"GO Fest 2026: Chicago","inicio":"2026-06-05T09:00:00","fim":"2026-06-07T18:00:00","img":"../Assets/icon-go-fest-2026.png","link":"https://pokemongo.com/gofest/chicago"},
+      {"titulo":"Proteção do Spark","inicio":"2026-06-02T10:00:00","fim":"2026-06-08T20:00:00","link":"https://pokemongohub.net/post/event/sparks-caretaking-quest/"},
       {"titulo":"GO Fest 2026: Tóquio","inicio":"2026-05-29T10:00:00","fim":"2026-06-01T20:00:00","img":"../Assets/icon-go-fest-2026-tokyo.png","link":"https://pokemongo.com/gofest/tokyo"},
-      {"titulo":"Dia de Megarreides: Maio","inicio":"2026-05-23T14:00:00","fim":"2026-05-23T17:00:00","link":"https://pokemongo.com/pt_BR/news/save-the-date-s22"},
-      {"titulo":"Maratona das Flores","inicio":"2026-05-12T10:00:00","fim":"2026-05-18T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-may-2026-events/"},
+      {"titulo":"Missão do conhecimento de Blanche","inicio":"2026-05-26T10:00:00","fim":"2026-06-01T20:00:00","link":"https://pokemongohub.net/post/event/blanches-quest-for-knowledge/"},
+      {"titulo":"Maratona das Flores","inicio":"2026-05-12T10:00:00","fim":"2026-05-18T20:00:00","link":"https://pokemongohub.net/post/event/spring-marathon-2026/"},
       {"titulo":"Determinação de Aço: A Invasão","inicio":"2026-04-30T10:00:00","fim":"2026-05-04T20:00:00","link":"https://leekduck.com/events/steeled-resolve-taken-over-2026/"},
       {"titulo":"Determinação de Aço","inicio":"2026-04-28T10:00:00","fim":"2026-05-04T20:00:00","link":"https://leekduck.com/events/steeled-resolve-2026/"},
       {"titulo":"Semana da Sustentabilidade","inicio":"2026-04-14T10:00:00","fim":"2026-04-20T20:00:00","link":"https://leekduck.com/events/sustainability-week-2026/"},
       {"titulo":"Dia de Reides Fashion","inicio":"2026-04-04T14:00:00","fim":"2026-04-04T17:00:00","link":"https://pokemongo.com/news/fashion-raid-day-2026"},
       {"titulo":"Momentos Eletrizantes","inicio":"2026-03-31T10:00:00","fim":"2026-04-06T20:00:00","link":"https://pokemongo.com/pt_BR/news/a-shockingly-good-time"},
-      {"titulo":"Dia de Batalha Max","inicio":"2026-03-28T10:00:00","fim":"2026-03-28T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-march-2026-events/"},
       {"titulo":"Caça aos Insetos","inicio":"2026-03-17T10:00:00","fim":"2026-03-23T20:00:00","link":"https://pokemongohub.net/post/event/bug-out-event-2026/"},
       {"titulo":"Evento de Celebração Pokémon Pokopia","inicio":"2026-03-10T10:00:00","fim":"2026-03-16T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-pokopia-celebration-event/"},
       {"titulo":"30º Aniversário Pokémon: All Out","inicio":"2026-03-07T10:00:00","fim":"2026-03-09T20:00:00","link":"https://pokemongohub.net/post/news/pokemon-30th-anniversary-go-pass/","img":"../Assets/icon-anniversary-pkm-30th.png"},
@@ -55,15 +59,21 @@
       {"titulo":"Mestre da Captura: Oricorio","inicio":"2026-02-07T10:00:00","fim":"2026-02-07T20:00:00","link":"https://pokemongohub.net/post/event/catch-mastery-oricorio/"}
     ],
     "community_day": [
-      {"titulo":"Dia da Comunidade Clássico","inicio":"2026-05-16T14:00:00","fim":"2026-05-16T17:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-may-2026-events/"},
-      {"titulo":"Dia da Comunidade: Lechonk","inicio":"2026-05-09T14:00:00","fim":"2026-05-09T17:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-may-2026-events/"},
-      {"titulo":"Dia da Comunidade: Tinkatink","inicio":"2026-04-11T14:00:00","fim":"2026-04-11T17:00:00","link":"https://leekduck.com/events/april-communityday2026/"},
+      {"titulo":"Dia da Comunidade: Frigibax","inicio":"2026-06-20T14:00:00","fim":"2026-06-20T17:00:00","link":"https://pokemongohub.net/post/event/frigibax-community-day-june-2026/"},
+      {"titulo":"Dia da Comunidade Clássico: Deino","inicio":"2026-05-16T14:00:00","fim":"2026-05-16T17:00:00","link":"https://pokemongohub.net/post/event/deino-community-day-classic-2026/"},
+      {"titulo":"Dia da Comunidade: Lechonk","inicio":"2026-05-09T14:00:00","fim":"2026-05-09T17:00:00","link":"https://pokemongohub.net/post/event/lechonk-community-day-may-2026-shiny-odds-bonuses-mud-slap-oinkologne/"},
+      {"titulo":"Dia da Comunidade: Tinkatink","inicio":"2026-04-11T14:00:00","fim":"2026-04-11T17:00:00","link":"https://pokemongohub.net/post/event/tinkatink-community-day-april-2026/"},
       {"titulo":"Dia da Comunidade: Scorbunny","inicio":"2026-03-21T14:00:00","fim":"2026-03-21T17:00:00","link":"https://pokemongohub.net/post/event/scorbunny-cd-march-2026/"},
       {"titulo":"Dia da Comunidade: Vulpix e Vulpix Alola","inicio":"2026-02-01T14:00:00","fim":"2026-02-01T17:00:00","link":"https://pokemongohub.net/post/event/vulpix-and-alolan-vulpix-community-day-february-2026/"},
       {"titulo":"Dia da Comunidade: Grookey","inicio":"2026-01-18T14:00:00","fim":"2026-01-18T17:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-january-2026-community-day/"},
       {"titulo":"Dia da Comunidade Clássico: Piplup","inicio":"2026-01-04T14:00:00","fim":"2026-01-04T17:00:00","link":"https://pokemongohub.net/post/event/piplup-community-day-classic-january-2026/"}
     ],
     "raid": [
+      {"ref":"raid_celesteela","inicio":"2026-06-24T10:00:00","fim":"2026-07-01T10:00:00","titulo_alt":"Raid: Celesteela (Hemisfério Sul)"},
+      {"ref":"raid_kartana","inicio":"2026-06-24T10:00:00","fim":"2026-07-01T10:00:00","titulo_alt":"Raid: Kartana (Hemisfério Norte)"},
+      {"ref":"raid_necrozma","inicio":"2026-06-17T10:00:00","fim":"2026-06-24T10:00:00"},
+      {"ref":"raid_zekrom","inicio":"2026-06-10T10:00:00","fim":"2026-06-17T10:00:00"},
+      {"ref":"raid_reshiram","inicio":"2026-06-03T10:00:00","fim":"2026-06-10T10:00:00"},
       {"ref":"raid_tapu_fini","inicio":"2026-05-27T10:00:00","fim":"2026-06-03T10:00:00"},
       {"ref":"raid_tapu_bulu","inicio":"2026-05-20T10:00:00","fim":"2026-05-27T10:00:00"},
       {"ref":"raid_xurkitree","inicio":"2026-05-13T10:00:00","fim":"2026-05-20T10:00:00"},
@@ -109,6 +119,11 @@
       {"ref":"raid_blacephalon","inicio":"2026-01-01T10:00:00","fim":"2026-01-05T10:00:00"}
     ],
     "raid_hour": [
+      {"ref":"raid_celesteela","inicio":"2026-06-24T18:00:00","fim":"2026-06-24T19:00:00","titulo_alt":"Hora lendária: Celesteela (Hemisfério Sul)"},
+      {"ref":"raid_kartana","inicio":"2026-06-24T18:00:00","fim":"2026-06-24T19:00:00","titulo_alt":"Hora lendária: Kartana (Hemisfério Norte)"},
+      {"ref":"raid_necrozma","inicio":"2026-06-17T18:00:00","fim":"2026-06-17T19:00:00","titulo_alt":"Hora lendária: Necrozma"},
+      {"ref":"raid_zekrom","inicio":"2026-06-10T18:00:00","fim":"2026-06-10T19:00:00","titulo_alt":"Hora lendária: Zekrom"},
+      {"ref":"raid_reshiram","inicio":"2026-06-03T18:00:00","fim":"2026-06-03T19:00:00","titulo_alt":"Hora lendária: Reshiram"},
       {"ref":"raid_tapu_fini","inicio":"2026-05-27T18:00:00","fim":"2026-05-27T19:00:00","titulo_alt":"Hora lendária: Tapu Fini"},
       {"ref":"raid_tapu_bulu","inicio":"2026-05-20T18:00:00","fim":"2026-05-20T19:00:00","titulo_alt":"Hora lendária: Tapu Bulu"},
       {"ref":"raid_xurkitree","inicio":"2026-05-13T18:00:00","fim":"2026-05-13T19:00:00","titulo_alt":"Hora lendária: Xurkitree (Ásia-Pacífico)"},
@@ -139,6 +154,10 @@
       {"ref":"raid_genesect_chill","inicio":"2026-01-07T18:00:00","fim":"2026-01-07T19:00:00","titulo_alt":"Hora lendária: Genesect (Criogênico)"}
     ],
     "raid_mega": [
+      {"ref":"mega_pidgeot","inicio":"2026-06-24T10:00:00","fim":"2026-07-01T10:00:00"},
+      {"ref":"mega_scizor","inicio":"2026-06-17T10:00:00","fim":"2026-06-24T10:00:00"},
+      {"ref":"mega_lopunny","inicio":"2026-06-10T10:00:00","fim":"2026-06-17T10:00:00"},
+      {"ref":"mega_audino","inicio":"2026-06-03T10:00:00","fim":"2026-06-10T10:00:00"},
       {"ref":"mega_medicham","inicio":"2026-05-27T10:00:00","fim":"2026-06-03T10:00:00"},
       {"ref":"mega_altaria","inicio":"2026-05-20T10:00:00","fim":"2026-05-27T10:00:00"},
       {"ref":"mega_glalie","inicio":"2026-05-13T10:00:00","fim":"2026-05-20T10:00:00"},
@@ -184,11 +203,14 @@
       {"ref":"mega_blaziken","inicio":"2026-01-05T10:00:00","fim":"2026-01-16T10:00:00"}
     ],
     "raid_mega_super": [
+      {"ref":"mega_skarmory","inicio":"2026-06-27T14:00:00","fim":"2026-06-27T17:00:00"},
+      {"ref":"mega_falinks","inicio":"2026-05-23T14:00:00","fim":"2026-05-23T17:00:00"},
       {"ref":"mega_victreebel","inicio":"2026-02-28T10:00:00","fim":"2026-03-01T18:00:00"},
       {"ref":"mega_dragonite","inicio":"2026-02-28T10:00:00","fim":"2026-03-01T18:00:00"},
       {"ref":"mega_malamar","inicio":"2026-02-28T10:00:00","fim":"2026-03-01T18:00:00"}
     ],
     "raid_shadow": [
+      {"ref":"shadow_dialga","inicio":"2026-06-02T10:00:00","fim":"2026-07-01T10:00:00"},
       {"ref":"shadow_cresselia","inicio":"2026-05-06T10:00:00","fim":"2026-06-02T10:00:00"},
       {"ref":"shadow_entei","inicio":"2026-05-02T14:00:00","fim":"2026-05-02T17:00:00"},
       {"ref":"shadow_latios","inicio":"2026-04-01T10:00:00","fim":"2026-05-05T10:00:00"},
@@ -209,9 +231,15 @@
       {"ref":"gmax_gengar","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
       {"ref":"gmax_venusaur","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
       {"ref":"gmax_charizard","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
+      {"ref":"gmax_pikachu","inicio":"2026-03-28T10:00:00","fim":"2026-03-28T20:00:00"},
       {"ref":"gmax_meowth","inicio":"2026-02-15T14:00:00","fim":"2026-02-15T17:00:00"}
     ],
     "max_monday": [
+      {"titulo":"Segundas Max: Pidove","inicio":"2026-06-29T18:00:00","fim":"2026-06-29T19:00:00","link":"https://www.pokebattler.com/raids/PIDOVE/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Hoothoot","inicio":"2026-06-22T18:00:00","fim":"2026-06-22T19:00:00","link":"https://www.pokebattler.com/raids/HOOTHOOT/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Roggenrola","inicio":"2026-06-15T18:00:00","fim":"2026-06-15T19:00:00","link":"https://www.pokebattler.com/raids/ROGGENROLA/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Electabuzz","inicio":"2026-06-08T18:00:00","fim":"2026-06-08T19:00:00","link":"https://www.pokebattler.com/raids/ELECTABUZZ/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Inkay","inicio":"2026-06-01T18:00:00","fim":"2026-06-01T19:00:00","link":"https://www.pokebattler.com/raids/INKAY/RAID_LEVEL_1_MAX"},
       {"titulo":"Segundas Max: Combee","inicio":"2026-05-25T18:00:00","fim":"2026-05-25T19:00:00","link":"https://www.pokebattler.com/raids/COMBEE/RAID_LEVEL_1_MAX"},
       {"titulo":"Segundas Max: Registeel","inicio":"2026-05-18T18:00:00","fim":"2026-05-18T19:00:00","link":"https://www.pokebattler.com/raids/REGISTEEL/RAID_LEVEL_5_MAX"},
       {"titulo":"Segundas Max: Growlithe","inicio":"2026-05-11T18:00:00","fim":"2026-05-11T19:00:00","link":"https://www.pokebattler.com/raids/GROWLITHE/RAID_LEVEL_1_MAX"},
