@@ -124,6 +124,7 @@
     {"mega_latios":{"titulo":"Mega Raid: Latios","link":"https://pokebattler.com/raids/LATIOS_MEGA"}},
     {"mega_rayquaza":{"titulo":"Mega Raid: Rayquaza","link":"https://pokebattler.com/raids/RAYQUAZA_MEGA"}},
     {"mega_lopunny":{"titulo":"Mega Raid: Lopunny","link":"https://pokebattler.com/raids/LOPUNNY_MEGA"}},
+    {"mega_audino":{"titulo":"Mega Raid: Audino","link":"https://pokebattler.com/raids/AUDINO_MEGA"}},
     {"mega_garchomp":{"titulo":"Mega Raid: Garchomp","link":"https://pokebattler.com/raids/GARCHOMP_MEGA"}},
     {"mega_lucario":{"titulo":"Mega Raid: Lucario","link":"https://pokebattler.com/raids/LUCARIO_MEGA"}},
     {"mega_abomasnow":{"titulo":"Mega Raid: Abomasnow","link":"https://pokebattler.com/raids/ABOMASNOW_MEGA"}},
@@ -131,6 +132,8 @@
     {"primal_groudon":{"titulo":"Primal Raid: Groudon","link":"https://pokebattler.com/raids/GROUDON_PRIMAL","img":"../Assets/icon-raid-primal.png"}}
   ],
   "raid_mega_super": [
+    {"mega_falinks":{"titulo":"Mega Raid: Falinks","link":"https://pokebattler.com/raids/FALINKS_MEGA"}},
+    {"mega_skarmory":{"titulo":"Mega Raid: Skarmory","link":"https://pokebattler.com/raids/SKARMORY_MEGA"}},
     {"mega_victreebel":{"titulo":"Mega Raid: Victreebel","link":"https://pokebattler.com/raids/VICTREEBEL_MEGA"}},
     {"mega_dragonite":{"titulo":"Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}},
     {"mega_malamar":{"titulo":"Mega Raid: Malamar","link":"https://pokebattler.com/raids/MALAMAR_MEGA"}}
@@ -155,7 +158,8 @@
     {"shadow_heatran":{"titulo":"Raid Sombrosa: Heatran","link":"https://www.pokebattler.com/raids/HEATRAN_SHADOW_FORM"}},
     {"shadow_regigigas":{"titulo":"Raid Sombrosa: Regigigas","link":"https://www.pokebattler.com/raids/REGIGIGAS_SHADOW_FORM"}},
     {"shadow_darkrai":{"titulo":"Raid Sombrosa: Darkrai","link":"https://www.pokebattler.com/raids/DARKRAI_SHADOW_FORM"}},
-    {"shadow_cresselia":{"titulo":"Raid Sombrosa: Cresselia","link":"https://www.pokebattler.com/raids/CRESSELIA_SHADOW_FORM"}}
+    {"shadow_cresselia":{"titulo":"Raid Sombrosa: Cresselia","link":"https://www.pokebattler.com/raids/CRESSELIA_SHADOW_FORM"}},
+    {"shadow_dialga":{"titulo":"Raid Sombrosa: Dialga","link":"https://www.pokebattler.com/raids/DIALGA_SHADOW_FORM"}}
   ],
   "dynamax": [
     {"dmax_eevee":{"titulo":"Dynamax: Eevee","link":"https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX"}},
