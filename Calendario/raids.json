@@ -132,11 +132,15 @@
     {"primal_groudon":{"titulo":"Primal Raid: Groudon","link":"https://pokebattler.com/raids/GROUDON_PRIMAL","img":"../Assets/icon-raid-primal.png"}}
   ],
   "raid_mega_super": [
-    {"mega_falinks":{"titulo":"Mega Raid: Falinks","link":"https://pokebattler.com/raids/FALINKS_MEGA"}},
-    {"mega_skarmory":{"titulo":"Mega Raid: Skarmory","link":"https://pokebattler.com/raids/SKARMORY_MEGA"}},
-    {"mega_victreebel":{"titulo":"Mega Raid: Victreebel","link":"https://pokebattler.com/raids/VICTREEBEL_MEGA"}},
-    {"mega_dragonite":{"titulo":"Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}},
-    {"mega_malamar":{"titulo":"Mega Raid: Malamar","link":"https://pokebattler.com/raids/MALAMAR_MEGA"}}
+    {"mega_raichu_x":{"titulo":"Super Mega Raid: Raichu X","link":"https://pokebattler.com/raids/RAICHU_MEGA_X"}},
+    {"mega_raichu_y":{"titulo":"Super Mega Raid: Raichu Y","link":"https://pokebattler.com/raids/RAICHU_MEGA_Y"}},
+    {"mega_mewtwo_x":{"titulo":"Super Mega Raid: Mewtwo X","link":"https://pokebattler.com/raids/MEWTWO_MEGA_X"}},
+    {"mega_mewtwo_y":{"titulo":"Super Mega Raid: Mewtwo Y","link":"https://pokebattler.com/raids/MEWTWO_MEGA_Y"}},
+    {"mega_falinks":{"titulo":"Super Mega Raid: Falinks","link":"https://pokebattler.com/raids/FALINKS_MEGA"}},
+    {"mega_skarmory":{"titulo":"Super Mega Raid: Skarmory","link":"https://pokebattler.com/raids/SKARMORY_MEGA"}},
+    {"mega_malamar":{"titulo":"Super Mega Raid: Malamar","link":"https://pokebattler.com/raids/MALAMAR_MEGA"}},
+    {"mega_victreebel":{"titulo":"Super Mega Raid: Victreebel","link":"https://pokebattler.com/raids/VICTREEBEL_MEGA"}},
+    {"mega_dragonite":{"titulo":"Super Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}}
   ],
   "raid_shadow": [
     {"shadow_articuno":{"titulo":"Raid Sombrosa: Articuno","link":"https://www.pokebattler.com/raids/ARTICUNO_SHADOW_FORM"}},
