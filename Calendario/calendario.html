@@ -371,14 +371,29 @@
 
   <script src="buscaEventos.js"></script>
 
-  <!-- Modal com QR Code PIX -->
-  <div id="pix-modal" class="pix-modal">
-    <button class="pix-close" onclick="document.getElementById('pix-modal').style.display='none'">✕</button>
-    <img src="../Assets/pokecoin.png" style="width: 48px; height: 48px;">
-    <p class="pix-text">Ajude a melhorar o site <br>fazendo uma doação.</p>
-    <img src="https://static.wixstatic.com/media/547906_18d83fe6ead44cbdb360b0658479ea09~mv2.jpeg" alt="QR Code PIX"
-      class="pix-img">
-  </div>
+  <!-- Modal para download do aplicativo -->
+  <aside id="apk-modal" class="apk-modal" aria-label="Baixar aplicativo MewName">
+    <button class="apk-close" type="button" aria-label="Fechar"
+      onclick="document.getElementById('apk-modal').style.display='none'">&times;</button>
+    <img src="https://raw.githubusercontent.com/rodrigoluiz1990/MewName/main/app/src/main/assets/mewname.png" alt="Logo MewName" class="apk-icon" />
+    <p class="apk-title">Experimente nosso aplicativo: MewName</p>
+  
+  <!-- Nova estrutura da descrição em tópicos -->
+  <ul class="apk-features">
+    <li>🏷️ <strong>Gere nomes estratégicos</strong> para organizar sua coleção.</li>
+    <li>⚔️ <strong>Consulte Ataques Legados</strong> e planeje seus melhores movimentos.</li>
+    <li>✨ <strong>Efeitos de Aventura:</strong> Use bônus especiais no mapa.</li>
+    <li>🤝 <strong>Preparação para Raids:</strong> Monte times fortes e vença batalhas.</li>
+  </ul>
+  
+  <!-- Corrigido: Adicionado o atributo "download" e removida a tag </a> extra -->
+  <a class="apk-download" href="https://github.com/rodrigoluiz1990/MewName/releases/download/v1.0.18/MewName-v1.0.18.apk" download="MewName-v1.0.18.apk" rel="noopener noreferrer">
+    <i class="fa-solid fa-download" aria-hidden="true"></i>
+    Baixar última versão
+  </a>
+  
+    <p class="apk-help">Se o download não iniciar automaticamente, verifique as permissões do seu navegador.</p>
+  </aside>
 
   <script src="news.js"></script>
   <script src="notificacoes.js"></script>

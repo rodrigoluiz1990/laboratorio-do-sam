@@ -412,58 +412,113 @@ header p {
   color: #ccc;
 }
 
-/* Modal PIX */
-.pix-modal {
+/* Modal de download do aplicativo */
+.apk-modal {
   position: fixed;
   bottom: 20px;
   right: 20px;
   margin: 0;
   background: #1c1c1c;
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 14px;
-  padding: 10px;
-  padding-top: 10px;  /* espaço para o botão */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 16px;
+  padding: 24px 20px; /* Mais respiro interno */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   text-align: center;
   color: #fff;
-  font-family: Arial, sans-serif;
-  max-width: 240px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; /* Fontes nativas mais modernas */
+  width: min(300px, calc(100vw - 40px));
+  z-index: 1000;
 }
 
-.pix-close {
+/* Botão de fechar integrado de forma moderna no canto superior direito */
+.apk-close {
   position: absolute;
-  top: -30px;  /* sobe para sobrepor a borda */
-  right: -1px;
-  background: #1c1c1c;  /* mesma cor do modal para cobrir a borda */
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  border-radius: 4px;
-  width: 30px;
-  height: 30px;
-  color: #fff;
-  font-size: 13px;
-  cursor: pointer;  display: flex;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  width: 28px;
+  height: 28px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1; /* substitui o line-height antigo */
-  text-align: center;
-  z-index: 2;  /* fica acima da borda */
-  transition: background 0.2s, border-color 0.2s;
+  transition: color 0.2s, background-color 0.2s;
+  border-radius: 50px;
 }
 
-.pix-close:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.3);
+.apk-close:hover {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.pix-text {
-  margin: 0 0 10px 0;
-  font-size: 14px;
-  line-height: 1.4;
-}
-
-.pix-img {
+.apk-icon {
+  display: block;
+  margin: 0 auto 16px;
   width: 100%;
-  border-radius: 0;
+  max-width: 56px; /* Leve aumento para destacar seu logo */
+  height: auto;
+  object-fit: contain;
+}
+
+.apk-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: -0.3px;
+}
+
+/* Lista de funcionalidades com o contraste corrigido para o tema escuro */
+.apk-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px;
+  text-align: left;
+}
+
+.apk-features li {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: #b3b3b3; /* Cor clara para leitura perfeita no fundo escuro */
+}
+
+.apk-features li strong {
+  color: #ffffff; /* Destaque totalmente branco para os títulos dos tópicos */
+  font-weight: 600;
+}
+
+.apk-download {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: 10px;
+  background: #a4c639;
+  color: #121805;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.apk-download:hover {
+  background: #b5da45;
+  transform: translateY(-1px);
+}
+
+.apk-download:active {
+  transform: translateY(0);
+}
+
+.apk-help {
+  margin: 12px 0 0;
+  color: #888; /* Tom discreto para não brigar com o botão principal */
+  font-size: 11px;
+  line-height: 1.4;
 }
 
 
