@@ -132,6 +132,7 @@
     {"primal_groudon":{"titulo":"Primal Raid: Groudon","link":"https://pokebattler.com/raids/GROUDON_PRIMAL","img":"../Assets/icon-raid-primal.png"}}
   ],
   "raid_mega_super": [
+    {"mega_starmie":{"titulo":"Super Mega Raid: Starmie","link":"https://pokebattler.com/raids/STARMIE_MEGA"}},
     {"mega_raichu_x":{"titulo":"Super Mega Raid: Raichu X","link":"https://pokebattler.com/raids/RAICHU_MEGA_X"}},
     {"mega_raichu_y":{"titulo":"Super Mega Raid: Raichu Y","link":"https://pokebattler.com/raids/RAICHU_MEGA_Y"}},
     {"mega_mewtwo_x":{"titulo":"Super Mega Raid: Mewtwo X","link":"https://pokebattler.com/raids/MEWTWO_MEGA_X"}},
@@ -163,7 +164,9 @@
     {"shadow_regigigas":{"titulo":"Raid Sombrosa: Regigigas","link":"https://www.pokebattler.com/raids/REGIGIGAS_SHADOW_FORM"}},
     {"shadow_darkrai":{"titulo":"Raid Sombrosa: Darkrai","link":"https://www.pokebattler.com/raids/DARKRAI_SHADOW_FORM"}},
     {"shadow_cresselia":{"titulo":"Raid Sombrosa: Cresselia","link":"https://www.pokebattler.com/raids/CRESSELIA_SHADOW_FORM"}},
-    {"shadow_dialga":{"titulo":"Raid Sombrosa: Dialga","link":"https://www.pokebattler.com/raids/DIALGA_SHADOW_FORM"}}
+    {"shadow_dialga":{"titulo":"Raid Sombrosa: Dialga","link":"https://www.pokebattler.com/raids/DIALGA_SHADOW_FORM"}},
+    {"shadow_palkia":{"titulo":"Raid Sombrosa: Palkia","link":"https://www.pokebattler.com/raids/PALKIA_SHADOW_FORM"}},
+    {"shadow_giratina":{"titulo":"Raid Sombrosa: Giratina","link":"https://www.pokebattler.com/raids/GIRATINA_SHADOW_FORM"}}
   ],
   "dynamax": [
     {"dmax_eevee":{"titulo":"Dynamax: Eevee","link":"https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX"}},
