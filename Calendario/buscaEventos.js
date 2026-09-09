@@ -97,6 +97,7 @@ document.getElementById("buscaEvento").addEventListener("input", (e) => {
   if (e.target.value.trim() === "") {
     termoBuscaGlobal = "";
     dataAtual = new Date(); // volta para mês atual
+    dataAtual.setDate(1);
     carregarEvents();
   }
 });
@@ -224,9 +225,7 @@ inputBusca.addEventListener("input", async () => {
   `;
 
     item.addEventListener("click", () => {
-      dataAtual.setFullYear(ev.ano);
-      dataAtual.setMonth(ev.mes);
-      dataAtual.setDate(1);
+      dataAtual.setFullYear(ev.ano, ev.mes, 1);
 
       atualizarTextoMesAno(dataAtual);
       carregarEvents();

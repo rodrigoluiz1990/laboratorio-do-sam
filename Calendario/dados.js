@@ -237,7 +237,7 @@ async function carregarEvents() {
         divTicket.style.display = "inline-block";
 
         const conteudo = `
-          <img src="${ticket.img}" alt="">
+          <img src="${ticket.img || '../Assets/gopass.png'}" alt="" onerror="this.onerror = null; this.src = '../Assets/gopass.png';">
           <strong>${ticket.titulo}</strong><br>
           <span class="horario">
             (${formatarData(ticket.inicio)} – ${formatarData(ticket.fim)})
@@ -385,9 +385,7 @@ async function carregarEvents() {
     console.log("Eventos carregados:", events);
     renderizarCalendario();
 
-    if (notificacoesEstaoAtivas() && Notification.permission === "granted") {
-      agendarNotificacaoProximoEvento(dadosGlobais);
-    }
+    // As notificações têm carregamento próprio, independente da navegação e da busca.
 
   } catch (erro) {
     console.error("Erro ao carregar eventos:", erro);

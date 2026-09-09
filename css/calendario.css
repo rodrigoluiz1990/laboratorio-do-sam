@@ -1,6 +1,7 @@
 /* Calendario do cabeçalho */
 .calendar-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 8px;
@@ -148,6 +149,12 @@ header p {
   height: 140px;  /* altura fixa para imagem */
   border-radius: 6px;
   margin-bottom: 6px;
+}
+
+#go_pass img {
+  max-width: 100%;
+  object-fit: contain;
+  object-position: center;
 }
 
 /* Texto do horário dentro do destaque, menor e com cor clara */
@@ -323,6 +330,7 @@ header p {
 .week-labels {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
   max-width: 1000px;  /* Alinha com o calendário */
   margin: 10px auto 0 auto;
   padding: 0 20px;
@@ -521,120 +529,214 @@ header p {
   line-height: 1.4;
 }
 
+.calendar-wrapper {
+  max-width: 100%;
+  overflow-x: auto;
+}
 
+.calendar-scroll-hint {
+  display: none;
+}
 
-/***** RESPONSIVO PARA MOBILE *****/
+.layout-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 16px;
+}
+
+.layout-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 8px;
+  border: none;
+  border-radius: 10px;
+  background: #333;
+  color: #fff;
+}
+
+.layout-button svg {
+  width: 18px;
+  height: 18px;
+}
+
+.layout-button[aria-pressed="true"] {
+  background: #4caf50;
+  color: #fff;
+}
+
+.layout-button:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+
 @media (max-width: 1200px) {
-  html {
-    font-size: 24px;
-    /* aumenta a base */
+  .calendar-header {
+    flex-wrap: wrap;
   }
 
-  /* Estilo das caixas de destaque (temporada e ticket) */
-  .evento-destaque {
-    width: 260px;
-    /* Mesma largura fixa para ambas */
-    height: 250px;
-    /* Mesma altura fixa para ambas */
+  .calendar-select, .search-input, .search-button, .controls button {
+    font-size: 16px;
+    min-height: 44px;
   }
 
-  /* Texto do horário dentro do destaque, menor e com cor clara */
-  .evento-destaque .horario {
-    font-size: 18px;
+  .layout-button {
+    width: 40px;
+    height: 44px;
   }
 
-  .controls button {
-    font-size: 18px;
-  }
-
-  .filtro-item img {
-    width: 38px;
-    height: 38px;
-    transition: opacity 0.3s;
-  }
-
-  /* Busca de evento */
-
-  .search-input {
-    font-size: 20px;
-  }
-
-  .search-button {
-    font-size: 20px;
-  }
-
-  /* Envolve os dois em uma div com overflow */
-  .calendar-wrapper {
-    overflow-x: auto;
-    padding: 0 10px;
-  }
-
-  /* Remove os labels da semana, já que não fazem sentido em lista */
-  .week-labels {
-    display: none;
-    width: max-content;
-    margin-bottom: 10px;
-  }
-
-  /* Transforma o grid em lista */
-  .grid-container {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    padding-bottom: 10px;
-    width: auto;
-    overflow-x: auto;
-  }
-
-  /* Cada dia ocupa a largura total */
-  .day-cell {
-    min-height: auto;
-    min-width: auto;
-    padding: 10px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-  }
-
-  /* Número do dia fica à esquerda */
-  .day-label {
-    font-size: 26px;
-    margin: 0;
-    color: #ffcb05;
-    /* opcional: destacar */
+  .switch {
     flex-shrink: 0;
   }
 
-  /* Eventos ao lado do número */
-  .event {
-    flex: 1;
-    font-size: 19px;
-    text-align: center;
-    min-width: 100px;
-    /* largura mínima para manter legível */
-    max-width: auto;
-    min-height: 125px;
-    /* altura mínima para igualar */
-    display: block;
-    /* facilita alinhamento */
-    align-items: center;
-    /* centraliza verticalmente */
-    padding: 6px 8px;
-    /* um pouco de espaço interno */
-    box-sizing: border-box;
+  .search-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
   }
 
-  .event img {
-    width: 38px;
-    height: 38px;
-    display: block;
-    margin: 2px auto 2px auto;
+  .search-input {
+    width: min(370px, 100%);
+    min-width: 0;
+    flex-shrink: 1;
+  }
+
+  #listboxBusca {
+    left: 50%;
+  }
+
+  .listbox-item {
+    grid-template-columns: 28px minmax(0, 1fr) auto;
+    gap: 6px;
+  }
+
+  .listbox-conteudo {
+    min-width: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .week-labels, .grid-container {
+    min-width: 840px;
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .day-cell {
+    min-width: 0;
+  }
+
+  .event {
+    font-size: 14px;
+    overflow-wrap: anywhere;
   }
 
   .event-time {
-    font-size: 16px;
-    color: #ccc;
+    font-size: 12px;
   }
 
+  .evento-destaque {
+    height: auto;
+    min-height: 220px;
+    max-width: calc(100% - 20px);
+  }
+
+  .evento-destaque img {
+    max-width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media (max-width: 839px) {
+  .calendar-scroll-hint {
+    display: block;
+    margin: 8px 12px;
+    text-align: center;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .controls {
+    flex-basis: 100%;
+    gap: 6px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+
+  .apk-modal {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    margin: 16px auto;
+    width: min(340px, calc(100% - 24px));
+    z-index: auto;
+  }
+
+  .apk-close {
+    width: 44px;
+    height: 44px;
+    top: 0;
+    right: 0;
+  }
+}
+
+/* A escolha do usuário prevalece sobre a largura da tela. */
+.calendar-wrapper[data-layout="linhas"] .week-labels,
+.calendar-wrapper[data-layout="linhas"] .calendar-scroll-hint,
+.calendar-wrapper[data-layout="linhas"] .grid-container > div:not(.day-cell) {
+  display: none;
+}
+
+.calendar-wrapper[data-layout="linhas"] .grid-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  width: 100%;
+  padding: 0 10px;
+  gap: 6px;
+}
+
+.calendar-wrapper[data-layout="linhas"] .day-cell {
+  flex-direction: row;
+  align-items: stretch;
+  gap: 8px;
+  min-width: 0;
+  min-height: 0;
+  padding: 6px;
+  overflow-x: auto;
+}
+
+.calendar-wrapper[data-layout="linhas"] .day-label {
+  flex-shrink: 0;
+  align-self: flex-start;
+  min-width: 24px;
+  font-size: 20px;
+  margin: 0;
+  color: #ffcb05;
+}
+
+.calendar-wrapper[data-layout="linhas"] .event {
+  flex: 0 0 160px;
+  width: 160px;
+  min-height: 0;
+  margin: 2px 0;
+  padding: 4px 6px;
+  font-size: 14px;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+
+.calendar-wrapper[data-layout="linhas"] .event img {
+  height: 24px;
+}
+
+.calendar-wrapper[data-layout="linhas"] .event-time {
+  font-size: 12px;
 }

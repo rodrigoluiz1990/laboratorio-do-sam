@@ -4,6 +4,29 @@ const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponen
 const track = document.getElementById('news-track');
 const loadingMsg = document.getElementById('loading-msg');
 
+function criarLinkNoticia(item) {
+  if (!item || typeof item.title !== 'string' || !item.title.trim() || typeof item.link !== 'string') {
+    return null;
+  }
+
+  let url;
+  try {
+    url = new URL(item.link);
+  } catch {
+    return null;
+  }
+  if (url.protocol !== 'http:' && url.protocol !== 'https:') return null;
+
+  const link = document.createElement('a');
+  link.textContent = item.title;
+  link.href = url.href;
+  link.target = '_blank';
+  link.rel = 'noopener noreferrer';
+  link.style.color = '#ffcc00';
+  link.style.textDecoration = 'none';
+  return link;
+}
+
 // placeholder inicial
 track.style.transform = 'translateX(0px)';
 
@@ -30,26 +53,30 @@ requestAnimationFrame(animate);
 
 // busca notícias
 fetch(apiUrl)
-  .then(res => res.json())
+  .then(res => {
+    if (!res.ok) throw new Error(`Erro HTTP ${res.status} ao carregar notícias`);
+    return res.json();
+  })
   .then(data => {
-    if (!data.items || data.items.length === 0) {
+    const links = (Array.isArray(data?.items) ? data.items : [])
+      .map(criarLinkNoticia)
+      .filter(Boolean);
+    if (links.length === 0) {
       loadingMsg.textContent = 'Nenhuma notícia encontrada.';
       return;
     }
 
     // limpa placeholder
-    track.innerHTML = '';
-
-    const items = data.items;
+    track.replaceChildren();
 
     // cria elementos
     const elements = [];
-    items.forEach((item, index) => {
+    links.forEach((link, index) => {
       const span = document.createElement('span');
-      span.innerHTML = `<a href="${item.link}" target="_blank" style="color:#ffcc00; text-decoration:none;">${item.title}</a>`;
+      span.appendChild(link);
       elements.push(span);
 
-      if (index < items.length - 1) {
+      if (index < links.length - 1) {
         const icon = document.createElement('img');
         icon.src = '../Assets/logo-gs2.png';
         icon.alt = 'Pokébola';

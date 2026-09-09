@@ -1,4 +1,31 @@
 /* modal-global.css */
+#gameModal {
+  z-index: 1100;
+}
+
+#gameModal .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 1;
+  width: 32px;
+  height: 32px;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  line-height: 1;
+}
+
+#gameModalTitle {
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0 26px 16px;
+}
+
+#gameModalTitle::after {
+  display: none;
+}
+
 .modal {
   display: none;
   position: fixed;

@@ -258,6 +258,7 @@
       }
     }
   </style>
+  <script src="../componentes.js" defer></script>
 </head>
 
 <body>
@@ -366,39 +367,6 @@
       </div>
     </div>
   </div>
-
-  <!-- Script para carregar o menu -->
-  <script>
-    fetch('../menu.html')
-      .then(response => response.text())
-      .then(html => {
-        // Inserir menu no DOM
-        document.getElementById('menu').innerHTML = html;
-
-        // Inicializar modal
-        const modal = document.getElementById("gameModal");
-        const btn = document.getElementById("puzzleIcon");
-        const span = modal?.querySelector(".close");
-
-        if (btn) btn.onclick = () => modal.style.display = "block";
-        if (span) span.onclick = () => modal.style.display = "none";
-
-        window.onclick = (event) => {
-          if (event.target == modal) modal.style.display = "none";
-        };
-      })
-      .catch(err => console.error("Erro ao carregar o menu:", err));
-  </script>
-
-  <!-- Script para carregar o rodapé -->
-  <script>
-    fetch("../footer.html")
-      .then(res => res.text())
-      .then(data => {
-        document.body.insertAdjacentHTML("beforeend", data);
-      })
-      .catch(err => console.error("Erro ao carregar o rodapé:", err));
-  </script>
 
   <!-- Script de avaliação (mantido do original) -->
   <script type="text/javascript">

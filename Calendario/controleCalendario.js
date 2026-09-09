@@ -12,7 +12,9 @@ function atualizarTextoMesAno(dataAtual) {
 }
 
 // Inicializa selects e eventos do calendário (usa dataAtual global)
-function inicializarControleCalendario(dataAtual, carregarEvents) {
+// Consulta a variável global também nos listeners: a busca pode substituir a Date.
+function inicializarControleCalendario(carregarEvents) {
+  dataAtual.setDate(1);
   const selectMes = document.getElementById("selectMes");
   const selectAno = document.getElementById("selectAno");
   const btnHoje = document.getElementById("btnHoje");
@@ -36,7 +38,7 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
   // Evento para mudança de mês
   selectMes.addEventListener("change", () => {
     const novoMes = parseInt(selectMes.value, 10) - 1;
-    dataAtual.setMonth(novoMes);
+    dataAtual.setMonth(novoMes, 1);
     atualizarTextoMesAno(dataAtual);
     carregarEvents();
   });
@@ -44,7 +46,7 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
   // Evento para mudança de ano
   selectAno.addEventListener("change", () => {
     const novoAno = parseInt(selectAno.value, 10);
-    dataAtual.setFullYear(novoAno);
+    dataAtual.setFullYear(novoAno, dataAtual.getMonth(), 1);
     atualizarTextoMesAno(dataAtual);
     carregarEvents();
   });
@@ -67,9 +69,7 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
     const hoje = new Date();
 
     // 🔒 Normaliza para o 1º dia do mês
-    dataAtual.setFullYear(hoje.getFullYear());
-    dataAtual.setMonth(hoje.getMonth());
-    dataAtual.setDate(1);
+    dataAtual.setFullYear(hoje.getFullYear(), hoje.getMonth(), 1);
 
     // 🔁 Sincroniza os selects
     selectMes.value = hoje.getMonth() + 1;
@@ -84,7 +84,8 @@ function inicializarControleCalendario(dataAtual, carregarEvents) {
 
 // Função para mudar mês, atualiza selects, texto e recarrega eventos
 function mudarMes(delta) {
-  dataAtual.setMonth(dataAtual.getMonth() + delta);
+  // Define o dia junto com o mês para não transbordar em meses mais curtos.
+  dataAtual.setMonth(dataAtual.getMonth() + delta, 1);
 
   // Limites
   const anoMin = 2016;
@@ -117,7 +118,7 @@ function mudarMes(delta) {
 
 // Função para mudar ano, atualiza selects, texto e recarrega eventos
 function mudarAno(delta) {
-  dataAtual.setFullYear(dataAtual.getFullYear() + delta);
+  dataAtual.setFullYear(dataAtual.getFullYear() + delta, dataAtual.getMonth(), 1);
 
   // Limites
   const anoMin = 2016;

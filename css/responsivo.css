@@ -1,0 +1,67 @@
+/* Compartilhado pelas páginas de calendário e raids. */
+@media (max-width: 1200px) {
+  html {
+    font-size: 16px;
+  }
+
+  .navbar {
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .navbar .logo {
+    font-size: 22px;
+    white-space: normal;
+    text-align: center;
+  }
+
+  .navbar img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .navbar > ul {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .navbar ul li a {
+    min-height: 44px;
+    padding: 8px;
+    gap: 6px;
+  }
+
+  .dropdown-menu {
+    width: min(260px, calc(100vw - 24px));
+    min-width: 0;
+    max-height: 60vh;
+    overflow-y: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .dropdown-menu li a {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .dropdown:focus-within .dropdown-menu {
+    display: flex;
+  }
+
+  .modal {
+    z-index: 1100;
+  }
+
+  .modal-content {
+    max-height: 85vh;
+    overflow-y: auto;
+  }
+
+  .modal-content button {
+    max-width: calc(100% - 20px);
+  }
+}

@@ -128,10 +128,19 @@
     {"mega_garchomp":{"titulo":"Mega Raid: Garchomp","link":"https://pokebattler.com/raids/GARCHOMP_MEGA"}},
     {"mega_lucario":{"titulo":"Mega Raid: Lucario","link":"https://pokebattler.com/raids/LUCARIO_MEGA"}},
     {"mega_abomasnow":{"titulo":"Mega Raid: Abomasnow","link":"https://pokebattler.com/raids/ABOMASNOW_MEGA"}},
+    {"mega_malamar":{"titulo":"Mega Raid: Malamar","link":"https://pokebattler.com/raids/MALAMAR_MEGA"}},
+    {"mega_victreebel":{"titulo":"Mega Raid: Victreebel","link":"https://pokebattler.com/raids/VICTREEBEL_MEGA"}},
     {"primal_kyogre":{"titulo":"Primal Raid: Kyogre","link":"https://pokebattler.com/raids/KYOGRE_PRIMAL","img":"../Assets/icon-raid-primal.png"}},
-    {"primal_groudon":{"titulo":"Primal Raid: Groudon","link":"https://pokebattler.com/raids/GROUDON_PRIMAL","img":"../Assets/icon-raid-primal.png"}}
+    {"primal_groudon":{"titulo":"Primal Raid: Groudon","link":"https://pokebattler.com/raids/GROUDON_PRIMAL","img":"../Assets/icon-raid-primal.png"}},
+    {"mega_raichu_x":{"titulo":"Mega Raid: Raichu X","link":"https://pokebattler.com/raids/RAICHU_MEGA_X"}},
+    {"mega_raichu_y":{"titulo":"Mega Raid: Raichu Y","link":"https://pokebattler.com/raids/RAICHU_MEGA_Y"}},
+    {"mega_starmie":{"titulo":"Mega Raid: Starmie","link":"https://pokebattler.com/raids/STARMIE_MEGA"}},
+    {"mega_skarmory":{"titulo":"Mega Raid: Skarmory","link":"https://pokebattler.com/raids/SKARMORY_MEGA"}},
+    {"mega_falinks":{"titulo":"Mega Raid: Falinks","link":"https://pokebattler.com/raids/FALINKS_MEGA"}},
+    {"mega_dragonite":{"titulo":"Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}}
   ],
   "raid_mega_super": [
+    {"mega_staraptor":{"titulo":"Super Mega Raid: Staraptor","link":"https://pokebattler.com/raids/STARAPTOR_MEGA"}},
     {"mega_starmie":{"titulo":"Super Mega Raid: Starmie","link":"https://pokebattler.com/raids/STARMIE_MEGA"}},
     {"mega_raichu_x":{"titulo":"Super Mega Raid: Raichu X","link":"https://pokebattler.com/raids/RAICHU_MEGA_X"}},
     {"mega_raichu_y":{"titulo":"Super Mega Raid: Raichu Y","link":"https://pokebattler.com/raids/RAICHU_MEGA_Y"}},
@@ -166,7 +175,8 @@
     {"shadow_cresselia":{"titulo":"Raid Sombrosa: Cresselia","link":"https://www.pokebattler.com/raids/CRESSELIA_SHADOW_FORM"}},
     {"shadow_dialga":{"titulo":"Raid Sombrosa: Dialga","link":"https://www.pokebattler.com/raids/DIALGA_SHADOW_FORM"}},
     {"shadow_palkia":{"titulo":"Raid Sombrosa: Palkia","link":"https://www.pokebattler.com/raids/PALKIA_SHADOW_FORM"}},
-    {"shadow_giratina":{"titulo":"Raid Sombrosa: Giratina","link":"https://www.pokebattler.com/raids/GIRATINA_SHADOW_FORM"}}
+    {"shadow_giratina":{"titulo":"Raid Sombrosa: Giratina","link":"https://www.pokebattler.com/raids/GIRATINA_SHADOW_FORM"}},
+    {"shadow_thundurus":{"titulo":"Raid Sombrosa: Thundurus","link":"https://www.pokebattler.com/raids/THUNDURUS_SHADOW_FORM"}}
   ],
   "dynamax": [
     {"dmax_eevee":{"titulo":"Dynamax: Eevee","link":"https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX"}},
@@ -189,7 +199,10 @@
     {"dmax_cottonee":{"titulo":"Dynamax: Cottonee","link":"https://www.pokebattler.com/raids/COTTONEE/RAID_LEVEL_1_MAX"}},
     {"dmax_growlithe":{"titulo":"Dynamax: Growlithe","link":"https://www.pokebattler.com/raids/GROWLITHE/RAID_LEVEL_1_MAX"}},
     {"dmax_registeel":{"titulo":"Dynamax: Registeel","link":"https://www.pokebattler.com/raids/REGISTEEL/RAID_LEVEL_5_MAX"}},
-    {"dmax_combee":{"titulo":"Dynamax: Combee","link":"https://www.pokebattler.com/raids/COMBEE/RAID_LEVEL_1_MAX"}}
+    {"dmax_combee":{"titulo":"Dynamax: Combee","link":"https://www.pokebattler.com/raids/COMBEE/RAID_LEVEL_1_MAX"}},
+    {"dmax_ralts":{"titulo":"Dynamax: Ralts","link":"https://www.pokebattler.com/raids/RALTS/RAID_LEVEL_1_MAX"}},
+    {"dmax_rhyhorn":{"titulo":"Dynamax: Rhyhorn","link":""}},
+    {"dmax_sobble":{"titulo":"Dynamax: Sobble","link":""}}
   ],
   "gigantamax": [
     {"gmax_venusaur":{"titulo":"Gigantamax: Venusaur","link":"https://www.pokebattler.com/raids/VENUSAUR_GIGANTAMAX"}},

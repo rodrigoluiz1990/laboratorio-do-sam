@@ -21,33 +21,12 @@
   <meta charset="UTF-8">
   <link rel="icon" href="../Assets/logo-gs2.png" type="image/png">
   <title>Puzzle Pokémon</title>
+  <script src="../componentes.js" defer></script>
 </head>
 
 <body>
   <!-- Menu carregado dinamicamente -->
   <div id="menu"></div>
-
-  <!-- Script para carregar o menu -->
-  <script>
-    fetch('../menu.html')
-      .then(response => response.text())
-      .then(html => {
-        // Inserir menu no DOM
-        document.getElementById('menu').innerHTML = html;
-
-        // Inicializar modal
-        const modal = document.getElementById("gameModal");
-        const btn = document.getElementById("puzzleIcon");
-        const span = modal.querySelector(".close");
-
-        if (btn) btn.onclick = () => modal.style.display = "block";
-        if (span) span.onclick = () => modal.style.display = "none";
-
-        window.onclick = (event) => {
-          if (event.target == modal) modal.style.display = "none";
-        };
-      }); 
-  </script>
 
   <div class="puzzle-container"></div>
   <header>
@@ -94,14 +73,7 @@
     </div>
   </div>
 
-  <script>
-    fetch("../footer.html")  // ajuste o caminho se necessário
-      .then(res => res.text())
-      .then(data => {
-        document.body.insertAdjacentHTML("beforeend", data);
-      })
-      .catch(err => console.error("Erro ao carregar o rodapé:", err));
-  </script>
+
 </body>
 
 </html>
