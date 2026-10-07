@@ -7,3 +7,7 @@ dist/
 *.cache
 .DS_Store
 Thumbs.db
+/Calendario/importacoes/
+/.arquivo-local/
+/md/importacoes/
+/md/arquivo-local/

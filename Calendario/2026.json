@@ -9,7 +9,7 @@
     "go_pass": [
       {"titulo":"Passe Go: Dezembro","inicio":"2026-12-02T10:00:00","fim":"2027-01-08T10:00:00","img":"../Assets/gopass-2026-12.jpg","link":"https://pokemongohub.net/"},
       {"titulo":"Passe Go: Novembro","inicio":"2026-11-04T10:00:00","fim":"2026-12-02T10:00:00","img":"../Assets/gopass-2026-11.jpg","link":"https://pokemongohub.net/"},
-      {"titulo":"Passe Go: Outubro","inicio":"2026-10-07T10:00:00","fim":"2026-11-04T10:00:00","img":"../Assets/gopass-2026-10.jpg","link":"https://pokemongohub.net/"},
+      {"titulo":"Passe Go: Outubro","inicio":"2026-10-07T10:00:00","fim":"2026-11-04T10:00:00","img":"../Assets/gopass-2026-10.jpg","link":"https://pokemongohub.net/post/guide/october-2026-go-pass-tasks-rewards-bonuses/"},
       {"titulo":"Passe Go: Setembro","inicio":"2026-09-02T10:00:00","fim":"2026-10-07T10:00:00","img":"../Assets/gopass-2026-09.jpg","link":"https://pokemongohub.net/post/guide/september-2026-go-pass/"},
       {"titulo":"Passe Go: Agosto","inicio":"2026-08-04T10:00:00","fim":"2026-09-08T10:00:00","img":"../Assets/gopass-2026-08.jpg","link":"https://pokemongohub.net/post/guide/go-pass-august-2026-latias-bonuses-and-lucky-trinket-returns/"},
       {"titulo":"Passe Go: Julho","inicio":"2026-07-07T10:00:00","fim":"2026-08-04T10:00:00","img":"../Assets/gopass-2026-07.jpg","link":"https://pokemongohub.net/post/news/go-pass-june-2026/"},
@@ -21,6 +21,12 @@
       {"titulo":"Passe Go: Janeiro","inicio":"2026-01-08T10:00:00","fim":"2026-02-03T20:10:00","img":"../Assets/gopass-2026-01.jpg","link":"https://pokemongohub.net/post/article/go-pass-january-2026-dialga-and-the-lucky-trinket-return/"}
     ],
     "events": [
+      {"titulo":"Dia de Super Megarreides","inicio":"2026-10-31T14:00:00","fim":"2026-10-31T17:00:00","link":"https://pokemongohub.net/"},
+      {"titulo":"Halloween 2026 — Parte 1","inicio":"2026-10-27T10:00:00","fim":"2026-11-01T10:00:00","link":"https://pokemongohub.net/post/event/halloween-2026-part-one/"},
+      {"titulo":"Chuva de Meteoros: Orionídeas — Minior","inicio":"2026-10-19T17:00:00","fim":"2026-10-24T23:59:00","link":"https://pokemongohub.net/post/guide/minior-showers/"},
+      {"titulo":"Maratona de outono","inicio":"2026-10-13T10:00:00","fim":"2026-10-19T20:00:00","link":"https://pokemongohub.net/post/event/fall-marathon-buddy-trek/"},
+      {"titulo":"Semana Mundial do Espaço","inicio":"2026-10-04T00:00:00","fim":"2026-10-10T23:59:00","link":"https://pokemongohub.net/post/event/world-space-week-2026/"},
+      {"titulo":"Invasão GO Rocket — Festival da Colheita","inicio":"2026-10-02T00:00:00","fim":"2026-10-05T20:00:00","link":"https://pokemongohub.net/post/event/harvest-festival-taken-over-shadow-zekrom-debut/"},
       {"titulo":"Festival da Colheita","inicio":"2026-09-29T10:00:00","fim":"2026-10-05T20:00:00","link":"https://pokemongohub.net/post/event/harvest-festival-2026-applin-picking/"},
       {"titulo":"Evento de Celebração Pokémon Horizontes","inicio":"2026-09-16T10:00:00","fim":"2026-09-22T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-horizons-the-series-celebration-event-september-2026/"},
       {"titulo":"Mega Squad","inicio":"2026-09-08T10:00:00","fim":"2026-09-14T20:00:00","link":"https://pokemongohub.net/post/event/pokemon-go-mega-squads-event-guide/"},
@@ -69,13 +75,15 @@
       {"titulo":"Pinça Perfeita","inicio":"2026-01-06T10:00:00","fim":"2026-01-11T20:00:00","link":"https://pokemongohub.net/post/event/pinch-perfect-event-pokemon-go/"}
     ],
     "research": [
-      {"titulo":"Mestre da Captura","inicio":"2026-09-26T10:00:00","fim":"2026-09-26T20:00:00","link":""},
+      {"titulo":"Dia de Chocar Ovos: Sandile","inicio":"2026-10-17T11:00:00","fim":"2026-10-17T17:00:00","link":"https://pokemongohub.net/post/event/sandile-hatch-day/"},
+      {"titulo":"Mestre da Captura: Phantump","inicio":"2026-09-26T10:00:00","fim":"2026-09-26T20:00:00","link":"https://pokemongohub.net/post/event/catch-mastery-phantump/"},
       {"titulo":"Dia de Chocar Ovos: Fogo e Gelo","inicio":"2026-08-08T10:00:00","fim":"2026-08-08T20:00:00","link":"https://pokemongohub.net/post/event/fire-and-ice-hatch-day/","img":"../Assets/icon-incubator.png"},
       {"titulo":"Dia de Chocar Ovos: Riolu","inicio":"2026-04-18T11:00:00","fim":"2026-04-18T17:00:00","link":"https://leekduck.com/events/replay-riolu-hatch-day-2026/","img":"../Assets/icon-incubator.png"},
       {"titulo":"Replay: Dia de Pesquisa de Água","inicio":"2026-03-29T14:00:00","fim":"2026-03-29T17:00:00","link":"https://pokemongohub.net/post/event/replay-water-research-day/"},
       {"titulo":"Mestre da Captura: Oricorio","inicio":"2026-02-07T10:00:00","fim":"2026-02-07T20:00:00","link":"https://pokemongohub.net/post/event/catch-mastery-oricorio/"}
     ],
     "community_day": [
+      {"titulo":"Dia da Comunidade: Zorua","inicio":"2026-10-10T14:00:00","fim":"2026-10-10T17:00:00","link":"https://pokemongohub.net/post/event/zorua-community-day-october-2026/"},
       {"titulo":"Dia da Comunidade Clássico: Gible","inicio":"2026-09-12T14:00:00","fim":"2026-09-12T17:00:00","link":"https://pokemongohub.net/post/event/gible-community-day-classic-september-2026/"},
       {"titulo":"Dia da Comunidade: Nickit","inicio":"2026-08-16T14:00:00","fim":"2026-08-16T17:00:00","link":"https://pokemongohub.net/post/event/nickit-community-day-august-2026/"},
       {"titulo":"Dia da Comunidade: Sobble","inicio":"2026-07-04T14:00:00","fim":"2026-07-04T17:00:00","link":"https://pokemongohub.net/post/event/sobble-community-day-july-2026/"},
@@ -89,6 +97,10 @@
       {"titulo":"Dia da Comunidade Clássico: Piplup","inicio":"2026-01-04T14:00:00","fim":"2026-01-04T17:00:00","link":"https://pokemongohub.net/post/event/piplup-community-day-classic-january-2026/"}
     ],
     "raid": [
+      {"ref":"raid_giratina_origem","inicio":"2026-10-28T06:00:00","fim":"2026-11-03T22:00:00"},
+      {"ref":"raid_palkia","inicio":"2026-10-21T06:00:00","fim":"2026-10-27T22:00:00"},
+      {"ref":"raid_dialga","inicio":"2026-10-14T06:00:00","fim":"2026-10-20T22:00:00"},
+      {"ref":"raid_yveltal","inicio":"2026-10-07T06:00:00","fim":"2026-10-13T22:00:00"},
       {"ref":"raid_xerneas","inicio":"2026-09-30T10:00:00","fim":"2026-10-06T10:00:00"},
       {"ref":"raid_xurkitree","inicio":"2026-09-23T10:00:00","fim":"2026-09-29T10:00:00","titulo_alt":"Raid: Xurkitree (Ásia-Pacífico)"},
       {"ref":"raid_pheromosa","inicio":"2026-09-23T10:00:00","fim":"2026-09-29T10:00:00","titulo_alt":"Raid: Pheromosa (Europa, Oriente Médio, África e Índia)"},
@@ -162,6 +174,10 @@
       {"ref":"raid_blacephalon","inicio":"2026-01-01T10:00:00","fim":"2026-01-05T10:00:00"}
     ],
     "raid_hour": [
+      {"ref":"raid_giratina_origem","inicio":"2026-10-28T18:00:00","fim":"2026-10-28T19:00:00","titulo_alt":"Hora lendária: Giratina (Origem)"},
+      {"ref":"raid_palkia","inicio":"2026-10-21T18:00:00","fim":"2026-10-21T19:00:00","titulo_alt":"Hora lendária: Palkia"},
+      {"ref":"raid_dialga","inicio":"2026-10-14T18:00:00","fim":"2026-10-14T19:00:00","titulo_alt":"Hora lendária: Dialga"},
+      {"ref":"raid_yveltal","inicio":"2026-10-07T18:00:00","fim":"2026-10-07T19:00:00","titulo_alt":"Hora lendária: Yveltal"},
       {"ref":"raid_xerneas","inicio":"2026-09-30T18:00:00","fim":"2026-09-30T19:00:00","titulo_alt":"Hora lendária: Xerneas"},
       {"ref":"raid_xurkitree","inicio":"2026-09-23T18:00:00","fim":"2026-09-23T19:00:00","titulo_alt":"Hora lendária: Xurkitree (Ásia-Pacífico)"},
       {"ref":"raid_pheromosa","inicio":"2026-09-23T18:00:00","fim":"2026-09-23T19:00:00","titulo_alt":"Hora lendária: Pheromosa (Europa, Oriente Médio, África e Índia)"},
@@ -220,6 +236,11 @@
       {"ref":"raid_genesect_chill","inicio":"2026-01-07T18:00:00","fim":"2026-01-07T19:00:00","titulo_alt":"Hora lendária: Genesect (Criogênico)"}
     ],
     "raid_mega": [
+      {"ref":"mega_sableye","inicio":"2026-10-28T06:00:00","fim":"2026-11-03T22:00:00"},
+      {"ref":"mega_charizard_x","inicio":"2026-10-21T06:00:00","fim":"2026-10-27T22:00:00"},
+      {"ref":"mega_charizard_y","inicio":"2026-10-21T06:00:00","fim":"2026-10-27T22:00:00"},
+      {"ref":"mega_dragonite","inicio":"2026-10-14T06:00:00","fim":"2026-10-20T22:00:00"},
+      {"ref":"mega_blastoise","inicio":"2026-10-07T06:00:00","fim":"2026-10-13T22:00:00"},
       {"ref":"mega_victreebel","inicio":"2026-09-30T10:00:00","fim":"2026-10-06T10:00:00"},
       {"ref":"mega_malamar","inicio":"2026-09-23T10:00:00","fim":"2026-09-29T10:00:00"},
       {"ref":"mega_venusaur","inicio":"2026-09-16T10:00:00","fim":"2026-09-22T10:00:00"},
@@ -306,6 +327,7 @@
       {"ref":"mega_dragonite","inicio":"2026-02-28T10:00:00","fim":"2026-03-01T18:00:00"}
     ],
     "raid_shadow": [
+      {"ref":"shadow_landorus","inicio":"2026-10-07T06:00:00","fim":"2026-11-03T22:00:00"},
       {"ref":"shadow_thundurus","inicio":"2026-09-09T10:00:00","fim":"2026-10-06T10:00:00"},
       {"ref":"shadow_giratina","inicio":"2026-08-05T10:00:00","fim":"2026-09-08T10:00:00"},
       {"ref":"shadow_palkia","inicio":"2026-07-01T10:00:00","fim":"2026-08-05T10:00:00"},
@@ -321,6 +343,9 @@
       {"ref":"shadow_cresselia","inicio":"2026-01-02T10:00:00","fim":"2026-02-01T22:00:00"}
     ],
     "dynamax": [
+      {"ref":"dmax_uxie","inicio":"2026-10-24T14:00:00","fim":"2026-10-24T17:00:00"},
+      {"ref":"dmax_mesprit","inicio":"2026-10-24T14:00:00","fim":"2026-10-24T17:00:00"},
+      {"ref":"dmax_azelf","inicio":"2026-10-24T14:00:00","fim":"2026-10-24T17:00:00"},
       {"ref":"dmax_sobble","inicio":"2026-09-28T18:00:00","fim":"2026-10-04T21:00:00"},
       {"ref":"dmax_articuno","inicio":"2026-09-21T18:00:00","fim":"2026-09-27T21:00:00"},
       {"ref":"dmax_zapdos","inicio":"2026-09-21T18:00:00","fim":"2026-09-27T21:00:00"},
@@ -332,6 +357,7 @@
       {"ref":"dmax_ho_oh","inicio":"2026-01-31T06:00:00","fim":"2026-02-01T21:00:00"}
     ],
     "gigantamax": [
+      {"ref":"gmax_cinderace","inicio":"2026-10-03T14:00:00","fim":"2026-10-03T17:00:00"},
       {"ref":"gmax_rillaboom","inicio":"2026-08-01T14:00:00","fim":"2026-08-01T17:00:00"},
       {"ref":"gmax_blastoise","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
       {"ref":"gmax_gengar","inicio":"2026-04-25T14:00:00","fim":"2026-04-25T17:00:00"},
@@ -341,6 +367,10 @@
       {"ref":"gmax_meowth","inicio":"2026-02-15T14:00:00","fim":"2026-02-15T17:00:00"}
     ],
     "max_monday": [
+      {"titulo":"Segundas Max: Sableye","inicio":"2026-10-26T06:00:00","fim":"2026-10-26T21:00:00","link":"https://www.pokebattler.com/raids/SABLEYE/RAID_LEVEL_3_MAX"},
+      {"titulo":"Segundas Max: Sneasel","inicio":"2026-10-19T06:00:00","fim":"2026-10-19T21:00:00","link":"https://www.pokebattler.com/raids/SNEASEL/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Rookidee","inicio":"2026-10-12T06:00:00","fim":"2026-10-12T21:00:00","link":"https://www.pokebattler.com/raids/ROOKIDEE/RAID_LEVEL_1_MAX"},
+      {"titulo":"Segundas Max: Sizzlipede","inicio":"2026-10-05T06:00:00","fim":"2026-10-05T21:00:00","link":"https://www.pokebattler.com/raids/SIZZLIPEDE/RAID_LEVEL_1_MAX"},
       {"titulo":"Segundas Max: Sobble","inicio":"2026-09-28T18:00:00","fim":"2026-09-28T19:00:00","link":"https://www.pokebattler.com/raids/SOBBLE/RAID_LEVEL_1_MAX"},
       {"titulo":"Segundas Max: Articuno","inicio":"2026-09-21T18:00:00","fim":"2026-09-21T19:00:00","link":"https://www.pokebattler.com/raids/ARTICUNO/RAID_LEVEL_5_MAX"},
       {"titulo":"Segundas Max: Zapdos","inicio":"2026-09-21T18:00:00","fim":"2026-09-21T19:00:00","link":"https://www.pokebattler.com/raids/ZAPDOS/RAID_LEVEL_5_MAX"},
@@ -383,9 +413,14 @@
       {"titulo":"Segundas Max: Drampa","inicio":"2026-01-05T18:00:00","fim":"2026-01-05T19:00:00","link":"https://www.pokebattler.com/raids/DRAMPA/RAID_LEVEL_1_MAX"}
     ],
     "spotlights": [
-      {"titulo":"Hora do Holofote: Rattata","inicio":"2026-09-24T18:00:00","fim":"2026-09-24T19:00:00","link":""},
-      {"titulo":"Hora do Holofote: Surpresa","inicio":"2026-09-17T18:00:00","fim":"2026-09-17T19:00:00","link":""},
-      {"titulo":"Hora do Holofote: Família Houndour","inicio":"2026-09-13T18:00:00","fim":"2026-09-13T19:00:00","link":""},
+      {"titulo":"Hora do Holofote: Gastly","inicio":"2026-10-29T18:00:00","fim":"2026-10-29T19:00:00","link":"https://pokemongohub.net/"},
+      {"titulo":"Hora do Holofote: Morelull","inicio":"2026-10-22T18:00:00","fim":"2026-10-22T19:00:00","link":"https://pokemongohub.net/"},
+      {"titulo":"Hora do Holofote: Stufful","inicio":"2026-10-15T18:00:00","fim":"2026-10-15T19:00:00","link":"https://pokemongohub.net/"},
+      {"titulo":"Hora do Holofote: Elgyem","inicio":"2026-10-08T18:00:00","fim":"2026-10-08T19:00:00","link":"https://pokemongohub.net/post/tips-and-tricks/elgyem-spotlight-hour-october-2026-last-minute-guide/"},
+      {"titulo":"Hora do Holofote: Seedot","inicio":"2026-10-01T18:00:00","fim":"2026-10-01T19:00:00","link":"https://pokemongohub.net/post/event/october-2026-events/"},
+      {"titulo":"Hora do Holofote: Rattata","inicio":"2026-09-24T18:00:00","fim":"2026-09-24T19:00:00","link":"https://pokemongohub.net/post/tips-and-tricks/rattata-spotlight-hour-september-2026-last-minute-guide/"},
+      {"titulo":"Hora do Holofote: Charmander","inicio":"2026-09-17T18:00:00","fim":"2026-09-17T19:00:00","link":"https://pokemongohub.net/post/event/costumed-charmander-spotlight-hour-september-2026-last-minute-guide-to-major-stardust-gains/"},
+      {"titulo":"Hora do Holofote: Família Houndour","inicio":"2026-09-13T18:00:00","fim":"2026-09-13T19:00:00","link":"https://pokemongohub.net/post/article/houndour-and-houndoom-spotlight-hour-september-2026-last-minute-guide/"},
       {"titulo":"Hora do Holofote: Família Weedle","inicio":"2026-09-10T18:00:00","fim":"2026-09-10T19:00:00","link":"https://pokemongohub.net/post/tips-and-tricks/weedle-kakuna-and-beedrill-spotlight-hour-september-2026-last-minute-guide/"},
       {"titulo":"Hora de Holofote: Mankey","inicio":"2026-08-27T18:00:00","fim":"2026-08-27T19:00:00","link":"https://pokemongohub.net/post/tips-and-tricks/mankey-spotlight-hour-august-2026-last-minute-guide/"},
       {"titulo":"Hora de Holofote: Magikarp","inicio":"2026-08-20T18:00:00","fim":"2026-08-20T19:00:00","link":"https://pokemongohub.net/post/tips-and-tricks/magikarp-spotlight-hour-august-2026-last-minute-guide/"},

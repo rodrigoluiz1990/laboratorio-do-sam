@@ -176,7 +176,8 @@
     {"shadow_dialga":{"titulo":"Raid Sombrosa: Dialga","link":"https://www.pokebattler.com/raids/DIALGA_SHADOW_FORM"}},
     {"shadow_palkia":{"titulo":"Raid Sombrosa: Palkia","link":"https://www.pokebattler.com/raids/PALKIA_SHADOW_FORM"}},
     {"shadow_giratina":{"titulo":"Raid Sombrosa: Giratina","link":"https://www.pokebattler.com/raids/GIRATINA_SHADOW_FORM"}},
-    {"shadow_thundurus":{"titulo":"Raid Sombrosa: Thundurus","link":"https://www.pokebattler.com/raids/THUNDURUS_SHADOW_FORM"}}
+    {"shadow_thundurus":{"titulo":"Raid Sombrosa: Thundurus","link":"https://www.pokebattler.com/raids/THUNDURUS_SHADOW_FORM"}},
+    {"shadow_landorus":{"titulo":"Raid Sombrosa: Landorus","link":"https://www.pokebattler.com/raids/LANDORUS_SHADOW_FORM"}}
   ],
   "dynamax": [
     {"dmax_eevee":{"titulo":"Dynamax: Eevee","link":"https://www.pokebattler.com/raids/EEVEE/RAID_LEVEL_1_MAX"}},
@@ -202,7 +203,10 @@
     {"dmax_combee":{"titulo":"Dynamax: Combee","link":"https://www.pokebattler.com/raids/COMBEE/RAID_LEVEL_1_MAX"}},
     {"dmax_ralts":{"titulo":"Dynamax: Ralts","link":"https://www.pokebattler.com/raids/RALTS/RAID_LEVEL_1_MAX"}},
     {"dmax_rhyhorn":{"titulo":"Dynamax: Rhyhorn","link":""}},
-    {"dmax_sobble":{"titulo":"Dynamax: Sobble","link":""}}
+    {"dmax_sobble":{"titulo":"Dynamax: Sobble","link":""}},
+    {"dmax_uxie":{"titulo":"Dynamax: Uxie","link":"https://www.pokebattler.com/raids/UXIE/RAID_LEVEL_5_MAX"}},
+    {"dmax_mesprit":{"titulo":"Dynamax: Mesprit","link":"https://www.pokebattler.com/raids/MESPRIT/RAID_LEVEL_5_MAX"}},
+    {"dmax_azelf":{"titulo":"Dynamax: Azelf","link":"https://www.pokebattler.com/raids/AZELF/RAID_LEVEL_5_MAX"}}
   ],
   "gigantamax": [
     {"gmax_venusaur":{"titulo":"Gigantamax: Venusaur","link":"https://www.pokebattler.com/raids/VENUSAUR_GIGANTAMAX"}},
