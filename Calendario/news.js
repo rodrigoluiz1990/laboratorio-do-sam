@@ -1,4 +1,4 @@
-const rssUrl = 'https://pokemongohub.net/feed';
+const rssUrl = 'https://pokemongohub.net/feed/';
 const apiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
 
 const track = document.getElementById('news-track');
