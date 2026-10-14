@@ -140,6 +140,7 @@
     {"mega_dragonite":{"titulo":"Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}}
   ],
   "raid_mega_super": [
+    {"mega_chandelure":{"titulo":"Super Mega Raid: Chandelure","link":"https://pokebattler.com/raids/CHANDELURE_MEGA"}},
     {"mega_staraptor":{"titulo":"Super Mega Raid: Staraptor","link":"https://pokebattler.com/raids/STARAPTOR_MEGA"}},
     {"mega_starmie":{"titulo":"Super Mega Raid: Starmie","link":"https://pokebattler.com/raids/STARMIE_MEGA"}},
     {"mega_raichu_x":{"titulo":"Super Mega Raid: Raichu X","link":"https://pokebattler.com/raids/RAICHU_MEGA_X"}},

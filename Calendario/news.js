@@ -48,29 +48,32 @@ function animate() {
   requestAnimationFrame(animate);
 }
 
-// inicia animação imediatamente
-requestAnimationFrame(animate);
+const cacheNoticias = 'sam-noticias-v1';
+let mostrandoNoticias = false;
 
-// busca notícias
-fetch(apiUrl)
-  .then(res => {
-    if (!res.ok) throw new Error(`Erro HTTP ${res.status} ao carregar notícias`);
-    return res.json();
-  })
-  .then(data => {
+function mostrarNoticias(data, salvoEm) {
     const links = (Array.isArray(data?.items) ? data.items : [])
       .map(criarLinkNoticia)
       .filter(Boolean);
     if (links.length === 0) {
-      loadingMsg.textContent = 'Nenhuma notícia encontrada.';
-      return;
+      if (!mostrandoNoticias) loadingMsg.textContent = 'Nenhuma notícia encontrada.';
+      return false;
     }
 
     // limpa placeholder
+    const iniciarAnimacao = !mostrandoNoticias;
     track.replaceChildren();
+    track.dataset.offset = '0';
+    track.style.transform = 'translateX(0px)';
+    mostrandoNoticias = true;
 
     // cria elementos
     const elements = [];
+    if (salvoEm) {
+      const aviso = document.createElement('span');
+      aviso.textContent = `Notícias salvas em ${new Date(salvoEm).toLocaleString('pt-BR')} — `;
+      elements.push(aviso);
+    }
     links.forEach((link, index) => {
       const span = document.createElement('span');
       span.appendChild(link);
@@ -96,13 +99,49 @@ fetch(apiUrl)
       });
     }
 
+    // Mensagens ficam paradas; a animação só começa ao exibir notícias.
+    if (iniciarAnimacao) requestAnimationFrame(animate);
+
     // reduz velocidade após alguns segundos
     setTimeout(() => {
       speed = 1; // velocidade lenta para leitura
     }, 100);
 
-  })
-  .catch(err => {
+    return true;
+}
+
+// O cache é local ao navegador e nunca é apresentado como atualização ao vivo.
+try {
+  const salvo = JSON.parse(localStorage.getItem(cacheNoticias));
+  const idade = Date.now() - salvo?.salvoEm;
+  if (Number.isFinite(idade) && idade >= 0 && idade < 7 * 86400000) {
+    mostrarNoticias(salvo, salvo.salvoEm);
+  }
+} catch { /* Armazenamento indisponível ou cache inválido: consulta normal. */ }
+
+async function carregarNoticias(tentativa = 0) {
+  try {
+    const res = await fetch(apiUrl, { signal: AbortSignal.timeout(12000) });
+    if (!res.ok) throw new Error(`Erro HTTP ${res.status} ao carregar notícias`);
+    const data = await res.json();
+    if (data?.status === 'error') throw new Error(data.message || 'Feed indisponível');
+    if (!mostrarNoticias(data)) return;
+    try {
+      const items = data.items.filter(item => criarLinkNoticia(item))
+        .slice(0,30).map(({title,link}) => ({title,link}));
+      localStorage.setItem(cacheNoticias, JSON.stringify({salvoEm:Date.now(),items}));
+    } catch { /* A falha ao salvar não impede a exibição das notícias. */ }
+  } catch (err) {
     console.error('Erro ao carregar notícias:', err);
-    loadingMsg.textContent = 'Erro ao carregar notícias.';
-  });
+    if (!mostrandoNoticias) {
+      loadingMsg.textContent = tentativa < 2
+        ? 'Notícias temporariamente indisponíveis. Tentando novamente… '
+        : 'Notícias temporariamente indisponíveis. ';
+      const acesso = criarLinkNoticia({title:'Ler no GO Hub',link:'https://pokemongohub.net/'});
+      track.replaceChildren(loadingMsg, acesso);
+    }
+    if (tentativa < 2) setTimeout(() => carregarNoticias(tentativa + 1), tentativa === 0 ? 3000 : 10000);
+  }
+}
+
+carregarNoticias();

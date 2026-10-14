@@ -23,27 +23,33 @@ class Elemento {
   }
 }
 
-async function carregar(data, { ok = true, falha = false } = {}) {
+async function carregar(data, { ok = true, falha = false, cache = null, sequencia = null } = {}) {
   const track = new Elemento('div');
   const loading = new Elemento('span');
   track.appendChild(loading);
+  const timers = [];
+  let chamadas = 0, gravado;
   const contexto = vm.createContext({
     URL,
+    AbortSignal,
+    localStorage: { getItem:()=>cache, setItem:(chave,valor)=>{gravado=valor;} },
     document: {
       getElementById: id => id === 'news-track' ? track : loading,
       createElement: tag => new Elemento(tag),
     },
     window: { innerWidth: 100 },
-    requestAnimationFrame() {}, setTimeout() {},
+    requestAnimationFrame() {}, setTimeout(fn,ms) { timers.push({fn,ms}); },
     console: { error() {} },
     async fetch() {
+      chamadas++;
+      if (sequencia) return sequencia(chamadas);
       if (falha) throw new Error('Sem conexão');
       return { ok, status: 503, json: async () => data };
     },
   });
   vm.runInContext(fs.readFileSync(path.join(__dirname, '../Calendario/news.js'), 'utf8'), contexto);
   await new Promise(resolve => setImmediate(resolve));
-  return { track, loading };
+  return { track, loading, timers, chamadas:()=>chamadas, gravado:()=>gravado };
 }
 
 function links(track) {
@@ -109,7 +115,35 @@ test('feed vazio, malformado ou sem links permitidos mostra mensagem', async () 
 test('erro HTTP ou de conexão mostra mensagem de falha', async () => {
   for (const opcoes of [{ ok: false }, { falha: true }]) {
     const { track, loading } = await carregar({}, opcoes);
-    assert.equal(loading.textContent, 'Erro ao carregar notícias.');
+    assert.equal(loading.textContent, 'Notícias temporariamente indisponíveis. Tentando novamente… ');
     assert.equal(track.children[0], loading);
   }
+});
+
+test('falha mantém cache recente identificado e descarta cache expirado', async()=>{
+  const items=[{title:'Notícia anterior',link:'https://example.com/noticia'}];
+  const salvoEm=Date.now()-60000;
+  const r=await carregar({}, {falha:true,cache:JSON.stringify({salvoEm,items})});
+  assert.ok(links(r.track).some(l=>l.textContent==='Notícia anterior'));
+  assert.ok(r.track.children.some(e=>e.textContent.startsWith('Notícias salvas em')));
+  const expirado=await carregar({}, {falha:true,cache:JSON.stringify({salvoEm:Date.now()-8*86400000,items})});
+  assert.equal(links(expirado.track).length,0);
+});
+
+test('erro do serviço tenta até três vezes e oferece link direto', async()=>{
+  const r=await carregar({status:'error',message:'This feed is being processed, please wait'});
+  while(r.timers.length){const t=r.timers.shift();await t.fn();}
+  assert.equal(r.chamadas(),3);
+  assert.equal(r.loading.textContent,'Notícias temporariamente indisponíveis. ');
+  assert.ok(r.track.children.some(e=>e.href==='https://pokemongohub.net/'));
+});
+
+test('nova tentativa bem-sucedida substitui aviso e salva notícias', async()=>{
+  const items=[{title:'Atualizada',link:'https://example.com/atual'}];
+  const r=await carregar(null,{sequencia:n=>({ok:n>1,status:500,json:async()=>({items})})});
+  await r.timers.shift().fn();
+  assert.equal(r.chamadas(),2);
+  assert.ok(links(r.track).every(l=>l.textContent==='Atualizada'));
+  assert.deepEqual(JSON.parse(r.gravado()).items,items);
+  assert.equal(r.track.children.includes(r.loading),false);
 });
