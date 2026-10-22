@@ -154,6 +154,7 @@
     {"mega_dragonite":{"titulo":"Super Mega Raid: Dragonite","link":"https://pokebattler.com/raids/DRAGONITE_MEGA"}}
   ],
   "raid_shadow": [
+    {"shadow_tornadus":{"titulo":"Raid Sombrosa: Tornadus","link":"https://www.pokebattler.com/raids/TORNADUS_SHADOW_FORM"}},
     {"shadow_articuno":{"titulo":"Raid Sombrosa: Articuno","link":"https://www.pokebattler.com/raids/ARTICUNO_SHADOW_FORM"}},
     {"shadow_zapdos":{"titulo":"Raid Sombrosa: Zapdos","link":"https://www.pokebattler.com/raids/ZAPDOS_SHADOW_FORM"}},
     {"shadow_moltres":{"titulo":"Raid Sombrosa: Moltres","link":"https://www.pokebattler.com/raids/MOLTRES_SHADOW_FORM"}},
